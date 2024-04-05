@@ -1,17 +1,17 @@
-var shellElements = getElementById("shellRow").body.children;
+var shellElements = document.getElementById("shellRow").body.children;
 
-var secondaryText = getElementById("secondaryText");
-var secondarySelectors = getElementById("secondarySelectors");
+var secondaryText = document.getElementById("secondaryText");
+var secondarySelectors = document.getElementById("secondarySelectors");
 
-var liveSelector = getElementById("liveSelector");
-var blankSelector = getElementById("blankSelector");
+var liveSelector = document.getElementById("liveSelector");
+var blankSelector = document.getElementById("blankSelector");
 liveSelector.addEventListener("click",(evt) => SetNextShellType(true));
 blankSelector.addEventListener("click",(evt) => SetNextShellType(false));
 
 var liveBurnerPhoneSelector = getElementById("liveBurnerPhoneSelector");
 var blankBurnerPhoneSelector = getElementById("blankBurnerPhoneSelector");
 
-var resetButton = getElementById("resetButton");
+var resetButton = document.getElementById("resetButton");
 resetButton.addEventListener("click",(evt) => Reset());
 
 var shellsHovered = 0;
@@ -30,7 +30,7 @@ var burnerPhoneBlankCount = 0;
 
 Reset();
 
-getElementById("resetButton").addEventListener("click",(evt) => Reset());
+document.getElementById("resetButton").addEventListener("click",(evt) => Reset());
 
 function ChooseShellCount(hoveredShellCount){
     totalShellCount = hoveredShellCount;
