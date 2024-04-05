@@ -100,22 +100,9 @@
                 visibility: hidden;
                 position: absolute;
             }
-            .resetButtonUpper
+            .resetButton
             {
-                top: -10vw;
-                margin: 0px;
-            }
-            .resetButtonLower
-            {
-                visibility: hidden;
-                position: absolute;
-            }
-        }
-        @media screen and (min-height: 521px) {
-            .resetButtonUpper
-            {
-                visibility: hidden;
-                position: absolute;
+                margin: auto auto 0px auto;
             }
         }
     </style>
@@ -150,12 +137,11 @@
                 <div class="secondaryDiv" id="secondaryDiv">
                     <img src="images/burnerPhone.png" draggable="true" class="burnerPhoneSelector" id="liveBurnerPhoneSelector">
                     <img src="images/live.png" class="shellSelector" id="liveSelector">
-                    <button id="resetButtonUpper" class="resetButton resetButtonUpper">Reset</button>
                     <img src="images/blank.png" class="shellSelector" id="blankSelector">
                     <img src="images/burnerPhone.png" draggable="true" class="burnerPhoneSelector" id="blankBurnerPhoneSelector">
                 </div>
                 <div>
-                    <button id="resetButtonLower" class="resetButton resetButtonLower">Reset</button>
+                    <button id="resetButton" class="resetButton">Reset</button>
                 </div>
             </div>
             <h1 id="secondaryText"></h1>

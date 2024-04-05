@@ -29,10 +29,8 @@ AddPhoneMovementFunctionality(blankBurnerPhoneSelector, "blank", liveBurnerPhone
 
 var draggedShellType = "";
 
-var resetButtons = document.getElementsByClassName("resetButton");
-for (let i = 0; i < resetButtons.length; i++){
-    resetButtons[i].addEventListener("click", (evt) => Reset());
-}
+var resetButton = document.getElementById("resetButton");
+resetButton.addEventListener("click", (evt) => Reset());
 Reset();
 
 var shellsHovered = 0;
