@@ -60,13 +60,14 @@ for (let i = 0; i < roundShellElements.length; i++){
         false,
     );
     roundShellElements[i].addEventListener("drop", (evt) => Drop(evt, i));
-    roundShellElements[i].addEventListener("touchstart", function(){
-        if (draggedShellType == ""){
+    roundShellElements[i].addEventListener("touchstart", (evt) => ShellTouchPhone(i));
+}
+
+function ShellTouchPhone(index){
+    if (draggedShellType == ""){
             return;
         }
-        const index = i;
-        SetBurnerPhoneShell(index);
-    });
+    SetBurnerPhoneShell(index);
 }
 
 for (let i = 1; i < countShellElements.length; i++){
@@ -103,29 +104,31 @@ function AddMouseHoverSecondaryText(element, textContent){
 function AddPhoneMovementFunctionality(element, shellType, otherElement){
     element.addEventListener("dragstart", (evt) => Drag(shellType));
     element.addEventListener("dragend", Dragend);
-    liveBurnerPhoneSelector.addEventListener("touchstart", function() {
-        if (element.classList.contains("unselectable")){
-            return;
-        }
-        if (draggedShellType == shellType){
-            draggedShellType = "";
-            CheckNextMoveLegality();
-            secondaryText.innerText = "";
-            return;
-        }
-        draggedShellType = shellType;
-        liveSelector.classList.add("unselectable");
-        blankSelector.classList.add("unselectable");
-        otherElement.classList.add("unselectable");
-        secondaryText.innerText = "Touch a shell to convert it to a ";
-        if (shellType == "live")
-        {
-            secondaryText.innerText += "live round";
-        } 
-        else{
-            secondaryText.innerText = "blank";
-        }
-    });
+    liveBurnerPhoneSelector.addEventListener("touchstart", (evt) => PhoneTouch(element, shellType));
+}
+
+function PhoneTouch(element, shellType){
+    if (element.classList.contains("unselectable")){
+        return;
+    }
+    if (draggedShellType == shellType){
+        draggedShellType = "";
+        CheckNextMoveLegality();
+        secondaryText.innerText = "";
+        return;
+    }
+    draggedShellType = shellType;
+    liveSelector.classList.add("unselectable");
+    blankSelector.classList.add("unselectable");
+    otherElement.classList.add("unselectable");
+    secondaryText.innerText = "Touch a shell to convert it to a ";
+    if (shellType == "live")
+    {
+        secondaryText.innerText += "live round";
+    } 
+    else{
+        secondaryText.innerText = "blank";
+    }
 }
 
 function ChooseShellCount(hoveredShellCount){
