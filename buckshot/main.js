@@ -11,27 +11,13 @@ var secondaryDiv = document.getElementById("secondaryDiv");
 
 var liveSelector = document.getElementById("liveSelector");
 var blankSelector = document.getElementById("blankSelector");
-liveSelector.addEventListener("click", (evt) => SetNextShellType(true));
-blankSelector.addEventListener("click", (evt) => SetNextShellType(false));
-AddMouseHoverOpacity(liveSelector);
-AddMouseHoverOpacity(blankSelector);
-AddMouseHoverSecondaryText(liveSelector, "-1 Live round");
-AddMouseHoverSecondaryText(blankSelector, "-1 Blank");
 
 var liveBurnerPhoneSelector = document.getElementById("liveBurnerPhoneSelector");
 var blankBurnerPhoneSelector = document.getElementById("blankBurnerPhoneSelector");
-AddMouseHoverOpacity(liveBurnerPhoneSelector);
-AddMouseHoverOpacity(blankBurnerPhoneSelector);
-AddMouseHoverSecondaryText(liveBurnerPhoneSelector, "Drag to the correct shell (live round)");
-AddMouseHoverSecondaryText(blankBurnerPhoneSelector, "Drag to the correct shell (blank)");
-AddPhoneMovementFunctionality(liveBurnerPhoneSelector, "live", blankBurnerPhoneSelector);
-AddPhoneMovementFunctionality(blankBurnerPhoneSelector, "blank", liveBurnerPhoneSelector);
 
 var draggedShellType = "";
 
 var resetButton = document.getElementById("resetButton");
-resetButton.addEventListener("click", (evt) => Reset());
-Reset();
 
 var shellsHovered = 0;
 
@@ -39,17 +25,50 @@ var shellOrder = [];
 
 var totalShellCount = 0;
 
-var liveCount = 0;
-var blankCount = 0;
-function CurrentShellCount()
+
+function ShellTypeData(shellType, selector, burnerPhone, shellCount, burnerPhoneCount, imageSrc)
 {
-    return liveCount + blankCount;
+    this.shellType = shellType;
+    this.selector = selector;
+    this.burnerPhone = burnerPhone;
+    this.shellCount = shellCount;
+    this.burnerPhoneCount = burnerPhoneCount;
+    this.imageSrc = imageSrc;
 }
 
-var burnerPhoneLiveCount = 0;
-var burnerPhoneBlankCount = 0;
-var burnerPhoneLivePositions = []
-var burnerPhoneBlankPositions = []
+const liveShellData = new ShellTypeData("live", liveSelector, liveBurnerPhoneSelector, 0, 0, "images/live.png");
+const blankShellData = new ShellTypeData("blank", blankSelector, blankBurnerPhoneSelector, 0, 0, "images/blank.png")
+const shellTypeDatas = 
+{
+    liveShellData,
+    blankShellData
+}
+
+var currentShellTypeData;
+var otherShellTypeData;
+
+function CurrentShellCount()
+{
+    return shellTypeDatas.liveShellData.shellCount + shellTypeDatas.blankShellData.shellCount;
+}
+
+resetButton.addEventListener("click", (evt) => Reset());
+
+liveSelector.addEventListener("click", (evt) => SetNextShellType(true));
+blankSelector.addEventListener("click", (evt) => SetNextShellType(false));
+AddMouseHoverOpacity(liveSelector);
+AddMouseHoverOpacity(blankSelector);
+AddMouseHoverSecondaryText(liveSelector, "-1 Live round");
+AddMouseHoverSecondaryText(blankSelector, "-1 Blank");
+
+AddMouseHoverOpacity(liveBurnerPhoneSelector);
+AddMouseHoverOpacity(blankBurnerPhoneSelector);
+AddMouseHoverSecondaryText(liveBurnerPhoneSelector, "Drag to the correct shell (live round)");
+AddMouseHoverSecondaryText(blankBurnerPhoneSelector, "Drag to the correct shell (blank)");
+AddPhoneMovementFunctionality(liveBurnerPhoneSelector, "live");
+AddPhoneMovementFunctionality(blankBurnerPhoneSelector, "blank");
+
+Reset();
 
 for (let i = 0; i < roundShellElements.length; i++){
     roundShellElements[i].addEventListener("dragover", (evt) => {
@@ -91,7 +110,7 @@ function AddMouseHoverSecondaryText(element, textContent){
     });
 }
 
-function AddPhoneMovementFunctionality(element, shellType, otherElement){
+function AddPhoneMovementFunctionality(element, shellType){
     element.addEventListener("dragstart", (evt) => Drag(shellType));
     element.addEventListener("dragend", Dragend);
 }
@@ -116,26 +135,26 @@ function ChooseShellCount(hoveredShellCount){
     secondaryText.textContent = "";
 
     if (totalShellCount % 2 == 0){
-        liveCount = totalShellCount / 2;
-        blankCount = liveCount;
+        shellTypeDatas.liveShellData.shellCount = totalShellCount / 2;
+        shellTypeDatas.blankShellData.shellCount = shellTypeDatas.liveShellData.shellCount;
     } else{
-        liveCount = Math.floor(totalShellCount / 2);
-        blankCount = liveCount + 1;
+        shellTypeDatas.liveShellData.shellCount = Math.floor(totalShellCount / 2);
+        shellTypeDatas.blankShellData.shellCount = shellTypeDatas.liveShellData.shellCount + 1;
     }
 
     DisplayShellCountMainText();
 }
 
 function DisplayShellCountMainText(){
-    var result = liveCount.toString();
-    if (burnerPhoneLiveCount > 0)
+    var result = shellTypeDatas.liveShellData.shellCount.toString();
+    if (shellTypeDatas.liveShellData.burnerPhoneCount > 0)
     {
-        result += " (" + -burnerPhoneLiveCount.toString() + ")";
+        result += " (" + -shellTypeDatas.liveShellData.burnerPhoneCount.toString() + ")";
     }
-    result += " live rounds, " + blankCount.toString();
-    if (burnerPhoneBlankCount > 0)
+    result += " live rounds, " + shellTypeDatas.blankShellData.shellCount.toString();
+    if (shellTypeDatas.blankShellData.burnerPhoneCount > 0)
     {
-        result += " (" + -burnerPhoneBlankCount.toString() + ")";
+        result += " (" + -shellTypeDatas.blankShellData.burnerPhoneCount.toString() + ")";
     }
     result += " blanks.";
     mainText.innerText = result;
@@ -166,34 +185,25 @@ function HoverLeaveShellCount(){
 
 function SetNextShellType(isLive)
 {
-    if (isLive == true){
-        if (liveSelector.classList.contains("unselectable")){
-            return;
-        }
-        if (shellOrder[totalShellCount - CurrentShellCount()] == "live"){
-            liveCount--;
-            burnerPhoneLiveCount--;
-        } 
-        else{
-            shellOrder[totalShellCount - CurrentShellCount()] = "live";
-            liveCount--;
-            roundShellElements[totalShellCount - CurrentShellCount() - 1].src = "images/live.png";
-        }
+    if (isLive){
+        currentShellTypeData = shellTypeDatas.liveShellData;
+        otherShellTypeData = shellTypeDatas.blankShellData;
     } 
     else{
-        if (blankSelector.classList.contains("unselectable")){
-            return;
-        }
-
-        if (shellOrder[totalShellCount - CurrentShellCount()] == "blank"){
-            blankCount--;
-            burnerPhoneBlankCount--;
-        } 
-        else{
-            shellOrder[totalShellCount - CurrentShellCount()] = "blank";
-            blankCount--;
-            roundShellElements[totalShellCount - CurrentShellCount() - 1].src = "images/blank.png";
-        }
+        currentShellTypeData = shellTypeDatas.blankShellData;
+        otherShellTypeData = shellTypeDatas.liveShellData;
+    }
+    if (currentShellTypeData.selector.classList.contains("unselectable")){
+        return;
+    }
+    if (shellOrder[totalShellCount - CurrentShellCount()] == currentShellTypeData.shellType){
+        currentShellTypeData.shellCount--;
+        currentShellTypeData.burnerPhoneCount--;
+    } 
+    else{
+        shellOrder[totalShellCount - CurrentShellCount()] = currentShellTypeData.shellType;
+        currentShellTypeData.shellCount--;
+        roundShellElements[totalShellCount - CurrentShellCount() - 1].src = currentShellTypeData.imageSrc;
     }
 
     CheckNextMoveLegality();
@@ -225,18 +235,18 @@ function SetShellBorder(index){
 }
 
 function CheckIfRoomForMoreShells(){
-    if (liveCount <= 0){
+    if (shellTypeDatas.liveShellData.shellCount <= 0){
         liveSelector.classList.add("unselectable");
     }
-    if (blankCount <= 0){
+    if (shellTypeDatas.blankShellData.shellCount <= 0){
         blankSelector.classList.add("unselectable");
     }
 
-    if (liveCount <= burnerPhoneLiveCount){
+    if (shellTypeDatas.liveShellData.shellCount <= shellTypeDatas.liveShellData.burnerPhoneCount){
         liveSelector.classList.add("unselectable");
         liveBurnerPhoneSelector.classList.add("unselectable");
     }
-    if (blankCount <= burnerPhoneBlankCount){
+    if (shellTypeDatas.blankShellData.shellCount <= shellTypeDatas.blankShellData.burnerPhoneCount){
         blankSelector.classList.add("unselectable");
         blankBurnerPhoneSelector.classList.add("unselectable");
     }
@@ -273,43 +283,28 @@ function SetBurnerPhoneShell(shellIndex){
     if (totalShellCount - CurrentShellCount() >= shellIndex){
         return;
     }
-    switch (draggedShellType){
-    case "live":
-        if (liveBurnerPhoneSelector.classList.contains("unselectable")){
-            return;
-        }
+    if (draggedShellType == "live"){
+        currentShellTypeData = shellTypeDatas.liveShellData;
+        otherShellTypeData = shellTypeDatas.blankShellData;
+    } else{
+        currentShellTypeData = shellTypeDatas.blankShellData;
+        otherShellTypeData = shellTypeDatas.liveShellData;
+    }
+    if (currentShellTypeData.burnerPhone.classList.contains("unselectable")){
+        return;
+    }
 
-        if (shellOrder[shellIndex] == "undefined"){
-            burnerPhoneLiveCount++;
-            shellOrder[shellIndex] = "live";
-            roundShellElements[shellIndex].src = "images/live.png";
-        } 
-        else if (shellOrder[shellIndex] == "blank")
-        {
-            burnerPhoneLiveCount++;
-            shellOrder[shellIndex] = "live";
-            roundShellElements[shellIndex].src = "images/live.png";
-            burnerPhoneBlankCount--;
-        }
-        break;
-    case "blank":
-        if (blankBurnerPhoneSelector.classList.contains("unselectable")){
-            return;
-        }
-        
-        if (shellOrder[shellIndex] == "undefined"){
-            burnerPhoneBlankCount++;
-            shellOrder[shellIndex] = "blank";
-            roundShellElements[shellIndex].src = "images/blank.png";
-        } 
-        else if (shellOrder[shellIndex] == "live")
-        {
-            burnerPhoneBlankCount++;
-            shellOrder[shellIndex] = "blank";
-            roundShellElements[shellIndex].src = "images/blank.png";
-            burnerPhoneLiveCount--;
-        }
-        break;
+    if (shellOrder[shellIndex] == "undefined"){
+        currentShellTypeData.burnerPhoneCount++;
+        shellOrder[shellIndex] = currentShellTypeData.shellType;
+        roundShellElements[shellIndex].src = currentShellTypeData.imageSrc;
+    } 
+    else if (shellOrder[shellIndex] == otherShellTypeData.shellType)
+    {
+        currentShellTypeData.burnerPhoneCount++;
+        shellOrder[shellIndex] = currentShellTypeData.shellType;
+        roundShellElements[shellIndex].src = currentShellTypeData.imageSrc;
+        otherShellTypeData.burnerPhoneCount--;
     }
 
     CheckNextMoveLegality();
@@ -344,11 +339,11 @@ function Reset(){
     totalShellCount = 0;
     shellsHovered = 0;
     
-    liveCount = 0;
-    blankCount = 0;
+    shellTypeDatas.liveShellData.shellCount = 0;
+    shellTypeDatas.blankShellData.shellCount = 0;
 
-    burnerPhoneLiveCount = 0;
-    burnerPhoneBlankCount = 0;
+    shellTypeDatas.liveShellData.burnerPhoneCount = 0;
+    shellTypeDatas.blankShellData.burnerPhoneCount = 0;
 
     mainText.innerText = "How many shells?";
 }
