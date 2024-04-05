@@ -26,19 +26,10 @@
             text-align: center;
             display:inline-flex;
         }
-        .countShell
+        .countShell, .roundShell
         {
             width: 4vw;
-            height: auto;
-            margin: 1.2vw;
-            border-top: 4px solid;
-            border-right: 4px solid;
-            border-left: 4px solid;
-            border-bottom: 4px solid;
-        }
-        .roundShell
-        {
-            width: 4vw;
+            min-width: 40px;
             height: auto;
             margin: 1.2vw;
             border-top: 4px solid;
@@ -53,12 +44,14 @@
         .shellSelector
         {
             width: 5vw;
+            min-width: 40px;
             height: auto;
             margin: 1vw 3vw;
         }
         .burnerPhoneSelector
         {
             width: 3vw;
+            min-width: 25px;
             height: auto;
             margin: 1vw;
         }
@@ -68,13 +61,21 @@
         }
         .resetButton
         {
-            width: 4vw;
-            height: 2vw;
+            width: 8vw;
+            max-width: 130px;
+            min-width: 80px;
+            height: 4vw;
+            max-height: 70px;
+            min-height: 40px;
             margin: 0.5vw;
         }
         .mouseOverElement
         {
             opacity: 0.7;
+        }
+        .touchScreenDragged
+        {
+            position: absolute;
         }
         .unselectable
         {
@@ -84,11 +85,48 @@
             visibility: hidden;
             position: absolute;
         }
+
+        @media screen and (max-width: 750px) {
+            h3
+            {
+                visibility: hidden;
+                position: absolute;
+            }
+            h1
+            {
+                font-size: 3vw;
+            }
+        }
+
+        @media screen and (max-height: 520px) {
+            h3
+            {
+                visibility: hidden;
+                position: absolute;
+            }
+            .resetButtonUpper
+            {
+                top: -10vw;
+                margin: 0px;
+            }
+            .resetButtonLower
+            {
+                visibility: hidden;
+                position: absolute;
+            }
+        }
+        @media screen and (min-height: 521px) {
+            .resetButtonUpper
+            {
+                visibility: hidden;
+                position: absolute;
+            }
+        }
     </style>
     </head>
     <h3>Buckshot Roulette helper</h3>
     <body>
-        <div>
+        <div class="mainTextDiv">
             <h1 id="mainText">How many shells?</h1>
         </div>
         <div class="shellRow" id="countShellRow">
@@ -116,11 +154,12 @@
                 <div class="secondaryDiv" id="secondaryDiv">
                     <img src="images/burnerPhone.png" draggable="true" class="burnerPhoneSelector" id="liveBurnerPhoneSelector">
                     <img src="images/live.png" class="shellSelector" id="liveSelector">
+                    <button id="resetButtonUpper" class="resetButton resetButtonUpper">Reset</button>
                     <img src="images/blank.png" class="shellSelector" id="blankSelector">
                     <img src="images/burnerPhone.png" draggable="true" class="burnerPhoneSelector" id="blankBurnerPhoneSelector">
                 </div>
                 <div>
-                    <button id="resetButton" class="resetButton">Reset</button>
+                    <button id="resetButtonLower" class="resetButton resetButtonLower">Reset</button>
                 </div>
             </div>
             <h1 id="secondaryText"></h1>

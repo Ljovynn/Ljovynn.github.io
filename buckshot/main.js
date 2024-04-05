@@ -30,8 +30,11 @@ liveBurnerPhoneSelector.addEventListener("dragend", Dragend);
 blankBurnerPhoneSelector.addEventListener("dragend", Dragend);
 var draggedShellType = "";
 
-var resetButton = document.getElementById("resetButton");
-resetButton.addEventListener("click", (evt) => Reset());
+var resetButtons = document.getElementsByClassName("resetButton");
+for (let i = 0; i < resetButtons.length; i++){
+    resetButtons[i].addEventListener("click", (evt) => Reset());
+}
+Reset();
 
 var shellsHovered = 0;
 
@@ -73,10 +76,6 @@ for (let i = 1; i < countShellElements.length; i++){
     roundShellElements[i].addEventListener("drop", (evt) => Drop(evt, i));
 }
 
-Reset();
-
-document.getElementById("resetButton").addEventListener("click",(evt) => Reset());
-
 function AddMouseHoverOpacity(element){
     element.addEventListener("mouseenter", function(){
         element.classList.add("mouseOverElement");
@@ -93,6 +92,27 @@ function AddMouseHoverSecondaryText(element, textContent){
     element.addEventListener("mouseleave", function(){
         secondaryText.innerText = "";
     });
+}
+
+function AddPhoneMovementFunctionality(element, shellType){
+    element.addEventListener("dragstart", (evt) => Drag(shellType));
+    element.addEventListener("dragend", Dragend);
+
+    element.addEventListener('touchmove', function(e) {
+    // grab the location of touch
+    var touchLocation = e.targetTouches[0];
+    element.classList.add("touchScreenDragged");
+    
+    // assign box new coordinates based on the touch.
+    element.style.left = touchLocation.pageX + 'px';
+    element.style.top = touchLocation.pageY + 'px';
+
+    element.addEventListener('touchend', function(e) {
+    // current box position.
+    var x = parseInt(box.style.left);
+    var y = parseInt(box.style.top);
+  })
+  })
 }
 
 function ChooseShellCount(hoveredShellCount){
