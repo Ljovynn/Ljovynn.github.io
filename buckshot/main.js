@@ -51,20 +51,26 @@ var burnerPhoneBlankCount = 0;
 var burnerPhoneLivePositions = []
 var burnerPhoneBlankPositions = []
 
-for (let i = 1; i < roundShellElements.length; i++){
-    roundShellElements[i].addEventListener("dragover", (evt) => {
+roundShellElements[0].classList.add("currentRoundShell");
+roundShellElements[0].addEventListener("dragover", (evt) => {
             evt.preventDefault();
         },
         false,
     );
-    roundShellElements[i].addEventListener("drop", (evt) => Drop(evt, i));
-}
+roundShellElements[0].addEventListener("drop", (evt) => Drop(evt, i));
 
 for (let i = 1; i < countShellElements.length; i++){
     countShellElements[i].addEventListener("click",(evt) => ChooseShellCount(i + 1));
     countShellElements[i].addEventListener("mouseenter", (evt) => HoverShellCount(i + 1));
     countShellElements[i].addEventListener("mouseleave", (evt) => HoverLeaveShellCount());
     AddMouseHoverOpacity(countShellElements[i]);
+    roundShellElements[i].classList.remove("currentRoundShell");
+    roundShellElements[i].addEventListener("dragover", (evt) => {
+            evt.preventDefault();
+        },
+        false,
+    );
+    roundShellElements[i].addEventListener("drop", (evt) => Drop(evt, i));
 }
 
 Reset();
@@ -201,6 +207,16 @@ function SetNextShellType(isLive)
     }
 
     DisplayShellCountMainText();
+    SetShellBorder(totalShellCount - CurrentShellCount());
+}
+
+function SetShellBorder(index){
+    if (index != 0){
+        roundShellElements[index - 1].classList.remove("currentRoundShell");
+    } 
+    if (index < totalShellCount){
+        roundShellElements[index].classList.add("currentRoundShell");
+    }
 }
 
 function CheckIfRoomForMoreShells(){
