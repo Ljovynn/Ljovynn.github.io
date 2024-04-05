@@ -51,20 +51,20 @@ var burnerPhoneBlankCount = 0;
 var burnerPhoneLivePositions = []
 var burnerPhoneBlankPositions = []
 
-roundShellElements[0].classList.add("currentRoundShell");
-roundShellElements[0].addEventListener("dragover", (evt) => {
+for (let i = 0; i < roundShellElements.length; i++){
+    roundShellElements[i].addEventListener("dragover", (evt) => {
             evt.preventDefault();
         },
         false,
     );
-roundShellElements[0].addEventListener("drop", (evt) => Drop(evt, i));
+    roundShellElements[i].addEventListener("drop", (evt) => Drop(evt, i));
+}
 
 for (let i = 1; i < countShellElements.length; i++){
     countShellElements[i].addEventListener("click",(evt) => ChooseShellCount(i + 1));
     countShellElements[i].addEventListener("mouseenter", (evt) => HoverShellCount(i + 1));
     countShellElements[i].addEventListener("mouseleave", (evt) => HoverLeaveShellCount());
     AddMouseHoverOpacity(countShellElements[i]);
-    roundShellElements[i].classList.remove("currentRoundShell");
     roundShellElements[i].addEventListener("dragover", (evt) => {
             evt.preventDefault();
         },
@@ -318,7 +318,9 @@ function Reset(){
         roundShellElements[i].classList.remove("hideElement");
         countShellElements[i].src = "images/undefined.png";
         countShellElements[i].classList.remove("hideElement");
+        roundShellElements[i].classList.remove("currentRoundShell");
     }
+    roundShellElements[0].classList.add("currentRoundShell");
 
     countShellRow.classList.remove("hideElement");
     roundShellRow.classList.add("hideElement");
