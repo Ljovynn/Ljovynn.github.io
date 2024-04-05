@@ -40,6 +40,10 @@ function ChooseShellCount(hoveredShellCount){
         shellElements[i].removeEventListener("mouseenter",(evt) => HoverShellCount(i + 1));
         shellElements[i].removeEventListener("mouseleave",(evt) => HoverLeaveShellCount());
         shellElements[i].src = "images/undefined.png";
+
+        if (i >= totalShellCount){
+            shellElements[i].classList.add("hideElement");
+        }
     }
     secondaryText.classList.add("hideElement");
     secondarySelectors.classList.remove("hideElement");
