@@ -24,29 +24,8 @@ AddMouseHoverOpacity(liveBurnerPhoneSelector);
 AddMouseHoverOpacity(blankBurnerPhoneSelector);
 AddMouseHoverSecondaryText(liveBurnerPhoneSelector, "Drag to the correct shell (live round)");
 AddMouseHoverSecondaryText(blankBurnerPhoneSelector, "Drag to the correct shell (blank)");
-AddPhoneMovementFunctionality(liveBurnerPhoneSelector, "live");
-AddPhoneMovementFunctionality(blankBurnerPhoneSelector, "blank");
-
-var burnerPhoneTouchDraggable = document.getElementById("burnerPhoneTouchDraggable");
-burnerPhoneTouchDraggable.addEventListener('touchmove', function(evt) {
-    // grab the location of touch
-    var touchLocation = evt.targetTouches[0];
-    
-    // assign box new coordinates based on the touch.
-    box.style.left = touchLocation.pageX + 'px';
-    box.style.top = touchLocation.pageY + 'px';
-  })
-
-burnerPhoneTouchDraggable.addEventListener('touchend', function(evt) {
-    
-    for (let i = 0; i < totalShellCount; i++){
-        if (detectOverlap(burnerPhoneTouchDraggable, roundShellElements[i])){
-            SetBurnerPhoneShell(i);
-            break;
-        }
-    }
-    burnerPhoneTouchDraggable.classList.add("hideElement");
-});
+AddPhoneMovementFunctionality(liveBurnerPhoneSelector, "live", blankBurnerPhoneSelector);
+AddPhoneMovementFunctionality(blankBurnerPhoneSelector, "blank", liveBurnerPhoneSelector);
 
 var draggedShellType = "";
 
@@ -81,6 +60,13 @@ for (let i = 0; i < roundShellElements.length; i++){
         false,
     );
     roundShellElements[i].addEventListener("drop", (evt) => Drop(evt, i));
+    roundShellElements[i].addEventListener("touchstart", function(){
+        if (draggedShellType == ""){
+            return;
+        }
+        const index = i;
+        SetBurnerPhoneShell(index);
+    });
 }
 
 for (let i = 1; i < countShellElements.length; i++){
@@ -114,19 +100,32 @@ function AddMouseHoverSecondaryText(element, textContent){
     });
 }
 
-function AddPhoneMovementFunctionality(element, shellType){
+function AddPhoneMovementFunctionality(element, shellType, otherElement){
     element.addEventListener("dragstart", (evt) => Drag(shellType));
     element.addEventListener("dragend", Dragend);
-
-    element.addEventListener('touchstart', function(e) {
-
-    draggedShellType = shellType;
-    var touchLocation = e.targetTouches[0];
-    burnerPhoneTouchDraggable.classList.remove("hideElement");
-
-    burnerPhoneTouchDraggable.style.left = touchLocation.pageX + 'px';
-    burnerPhoneTouchDraggable.style.top = touchLocation.pageY + 'px';
-    })
+    liveBurnerPhoneSelector.addEventListener("touchstart", function() {
+        if (element.classList.contains("unselectable")){
+            return;
+        }
+        if (draggedShellType == shellType){
+            draggedShellType = "";
+            CheckNextMoveLegality();
+            secondaryText.innerText = "";
+            return;
+        }
+        draggedShellType = shellType;
+        liveSelector.classList.add("unselectable");
+        blankSelector.classList.add("unselectable");
+        otherElement.classList.add("unselectable");
+        secondaryText.innerText = "Touch a shell to convert it to a ";
+        if (shellType == "live")
+        {
+            secondaryText.innerText += "live round";
+        } 
+        else{
+            secondaryText.innerText = "blank";
+        }
+    });
 }
 
 function ChooseShellCount(hoveredShellCount){
@@ -229,12 +228,7 @@ function SetNextShellType(isLive)
         }
     }
 
-    liveSelector.classList.remove("unselectable");
-    blankSelector.classList.remove("unselectable");
-
-    CheckIfRoomForMoreShells();
-
-    CheckIfNextShellKnown();
+    CheckNextMoveLegality();
 
     if (CurrentShellCount() <= 0){
         secondaryDiv.classList.add("hideElement");
@@ -242,6 +236,15 @@ function SetNextShellType(isLive)
 
     DisplayShellCountMainText();
     SetShellBorder(totalShellCount - CurrentShellCount());
+}
+
+function CheckNextMoveLegality(){
+    liveSelector.classList.remove("unselectable");
+    blankSelector.classList.remove("unselectable");
+
+    CheckIfRoomForMoreShells();
+
+    CheckIfNextShellKnown();
 }
 
 function SetShellBorder(index){
@@ -319,7 +322,6 @@ function SetBurnerPhoneShell(shellIndex){
             shellOrder[shellIndex] = "live";
             roundShellElements[shellIndex].src = "images/live.png";
             burnerPhoneBlankCount--;
-            blankBurnerPhoneSelector.classList.remove("unselectable");
         }
         break;
     case "blank":
@@ -338,14 +340,11 @@ function SetBurnerPhoneShell(shellIndex){
             shellOrder[shellIndex] = "blank";
             roundShellElements[shellIndex].src = "images/blank.png";
             burnerPhoneLiveCount--;
-            liveBurnerPhoneSelector.classList.remove("unselectable");
         }
         break;
     }
 
-    CheckIfRoomForMoreShells();
-
-    CheckIfNextShellKnown();
+    CheckNextMoveLegality();
 
     DisplayShellCountMainText();
 }
@@ -385,28 +384,3 @@ function Reset(){
 
     mainText.innerText = "How many shells?";
 }
-
-var detectOverlap = (function () {
-    function getPositions(elem) {
-        var pos = elem.getBoundingClientRect();
-        return [[pos.left, pos.right], [pos.top, pos.bottom]];
-    }
-
-    function comparePositions(p1, p2) {
-        var r1, r2;
-        if (p1[0] < p2[0]) {
-          r1 = p1;
-          r2 = p2;
-        } else {
-          r1 = p2;
-          r2 = p1;
-        }
-        return r1[1] > r2[0] || r1[0] === r2[0];
-    }
-
-    return function (a, b) {
-        var pos1 = getPositions(a),
-            pos2 = getPositions(b);
-        return comparePositions(pos1[0], pos2[0]) && comparePositions(pos1[1], pos2[1]);
-    };
-})();
