@@ -286,9 +286,13 @@ function SetBurnerPhoneShell(shellIndex){
     if (draggedShellType == "live"){
         currentShellTypeData = shellTypeDatas.liveShellData;
         otherShellTypeData = shellTypeDatas.blankShellData;
-    } else{
+    } 
+    else if (draggedShellType == "blank"){
         currentShellTypeData = shellTypeDatas.blankShellData;
         otherShellTypeData = shellTypeDatas.liveShellData;
+    } 
+    else{
+    return;
     }
     if (currentShellTypeData.burnerPhone.classList.contains("unselectable")){
         return;
