@@ -151,12 +151,23 @@ function DisplayShellCountMainText(){
     {
         result += " (" + -shellTypeDatas.liveShellData.burnerPhoneCount.toString() + ")";
     }
-    result += " live rounds, " + shellTypeDatas.blankShellData.shellCount.toString();
+    if (shellTypeDatas.liveShellData.shellCount == 1){
+        result += " live round, ";
+    }
+    else{
+        result += " live rounds, ";
+    }
+    result += shellTypeDatas.blankShellData.shellCount.toString();
     if (shellTypeDatas.blankShellData.burnerPhoneCount > 0)
     {
         result += " (" + -shellTypeDatas.blankShellData.burnerPhoneCount.toString() + ")";
     }
-    result += " blanks";
+    if (shellTypeDatas.blankShellData.shellCount == 1){
+        result += " blank";
+    }
+    else{
+        result += " blanks";
+    }
     mainText.innerText = result;
 }
 
