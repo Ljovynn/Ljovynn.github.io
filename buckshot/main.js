@@ -156,7 +156,7 @@ function DisplayShellCountMainText(){
     {
         result += " (" + -shellTypeDatas.blankShellData.burnerPhoneCount.toString() + ")";
     }
-    result += " blanks.";
+    result += " blanks";
     mainText.innerText = result;
 }
 
