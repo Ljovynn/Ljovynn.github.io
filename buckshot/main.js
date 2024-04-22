@@ -175,7 +175,11 @@ function HoverShellCount(hoveredShellCount){
     shellsHovered++;
     for (let i = 0; i < countShellElements.length; i++){
         if (i < hoveredShellCount){
-            countShellElements[i].src = "images/live.png";
+            if (i >= hoveredShellCount / 2){
+                countShellElements[i].src = "images/live.png";
+            } else {
+                countShellElements[i].src = "images/blank.png";
+            }
         } else{
             countShellElements[i].src = "images/undefined.png";
         }
