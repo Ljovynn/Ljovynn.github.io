@@ -19,8 +19,6 @@ var draggedShellType = "";
 
 var resetButton = document.getElementById("resetButton");
 
-var shellsHovered = 0;
-
 var shellOrder = [];
 
 var totalShellCount = 0;
@@ -172,7 +170,6 @@ function DisplayShellCountMainText(){
 }
 
 function HoverShellCount(hoveredShellCount){
-    shellsHovered++;
     for (let i = 0; i < countShellElements.length; i++){
         if (i < hoveredShellCount){
             if (i >= hoveredShellCount / 2){
@@ -188,10 +185,6 @@ function HoverShellCount(hoveredShellCount){
 }
 
 function HoverLeaveShellCount(){
-    shellsHovered--;
-    if (shellsHovered > 0){
-        return;
-    }
     for (let i = 0; i < countShellElements.length; i++){
         countShellElements[i].src = "images/undefined.png";
     }
@@ -318,8 +311,7 @@ function SetBurnerPhoneShell(shellIndex){
         shellOrder[shellIndex] = currentShellTypeData.shellType;
         roundShellElements[shellIndex].src = currentShellTypeData.imageSrc;
     } 
-    else if (shellOrder[shellIndex] == otherShellTypeData.shellType)
-    {
+    else if (shellOrder[shellIndex] == otherShellTypeData.shellType){
         currentShellTypeData.burnerPhoneCount++;
         shellOrder[shellIndex] = currentShellTypeData.shellType;
         roundShellElements[shellIndex].src = currentShellTypeData.imageSrc;
@@ -356,7 +348,6 @@ function Reset(){
     shellOrder = [];
 
     totalShellCount = 0;
-    shellsHovered = 0;
     
     shellTypeDatas.liveShellData.shellCount = 0;
     shellTypeDatas.blankShellData.shellCount = 0;
