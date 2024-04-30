@@ -116,7 +116,7 @@ function AddItem(gridItem, spawnOrder){
 
 function CheckNewSpawnOrders(itemArray, removedItemSpawnOrder, shouldCheckDealerGroups){
     if (shouldCheckDealerGroups){
-        if (CheckIfDealerHasItemsInGroup(itemArray, removedItemSpawnOrder)){
+        if (CheckIfDealerHasItemsInGroup(removedItemSpawnOrder)){
             return;
         }
         if (currentDealerGroup != 1){
@@ -150,16 +150,16 @@ function AdvanceDealerGroup(){
 }
 
 function CheckIfNextGroupAllowed(){
-    if (CheckIfDealerHasItemsInGroup(dealerGridItems, currentDealerGroup) && currentDealerGroup < 8){
+    if (CheckIfDealerHasItemsInGroup(currentDealerGroup) && currentDealerGroup < 8){
         nextGroupButton.disabled = false;
     } else{
         nextGroupButton.disabled = true;
     }
 }
 
-function CheckIfDealerHasItemsInGroup(itemArray, group){
-    for (let i = 0; i < itemArray.length; i++){
-        if (itemArray[i].spawnOrder == group){
+function CheckIfDealerHasItemsInGroup(group){
+    for (let i = 0; i < dealerGridItems.length; i++){
+        if (dealerGridItems[i].spawnOrder == group){
             return true;
         }
     }
