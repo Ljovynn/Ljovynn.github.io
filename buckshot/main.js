@@ -1,8 +1,4 @@
-var countShellRow = document.getElementById("countShellRow");
-var roundShellRow = document.getElementById("roundShellRow");
-
-var countShellElements = countShellRow.getElementsByTagName("*");
-var roundShellElements = roundShellRow.getElementsByTagName("*");
+var shellElements = document.getElementById("shellRow").getElementsByTagName("*");
 
 var mainText = document.getElementById("mainText");
 var secondaryText = document.getElementById("secondaryText");
@@ -17,11 +13,11 @@ var blankBurnerPhoneSelector = document.getElementById("blankBurnerPhoneSelector
 
 var draggedShellType = "";
 
-var resetButton = document.getElementById("resetButton");
-
 var shellOrder = [];
 
 var totalShellCount = 0;
+
+var inRound = false;
 
 
 function ShellTypeData(shellType, selector, burnerPhone, shellCount, burnerPhoneCount, imageSrc)
@@ -50,44 +46,39 @@ function CurrentShellCount()
     return shellTypeDatas.liveShellData.shellCount + shellTypeDatas.blankShellData.shellCount;
 }
 
-resetButton.addEventListener("click", (evt) => Reset());
+Setup();
 
-liveSelector.addEventListener("click", (evt) => SetNextShellType(true));
-blankSelector.addEventListener("click", (evt) => SetNextShellType(false));
-AddMouseHoverOpacity(liveSelector);
-AddMouseHoverOpacity(blankSelector);
-AddMouseHoverSecondaryText(liveSelector, "-1 Live round");
-AddMouseHoverSecondaryText(blankSelector, "-1 Blank");
+function Setup(){
+    document.getElementById("resetButton").addEventListener("click", Reset);
 
-AddMouseHoverOpacity(liveBurnerPhoneSelector);
-AddMouseHoverOpacity(blankBurnerPhoneSelector);
-AddMouseHoverSecondaryText(liveBurnerPhoneSelector, "Drag to the correct shell (live round)");
-AddMouseHoverSecondaryText(blankBurnerPhoneSelector, "Drag to the correct shell (blank)");
-AddPhoneMovementFunctionality(liveBurnerPhoneSelector, "live");
-AddPhoneMovementFunctionality(blankBurnerPhoneSelector, "blank");
+    liveSelector.addEventListener("click", (evt) => SetNextShellType(true));
+    blankSelector.addEventListener("click", (evt) => SetNextShellType(false));
+    AddMouseHoverOpacity(liveSelector);
+    AddMouseHoverOpacity(blankSelector);
+    AddMouseHoverSecondaryText(liveSelector, "-1 Live round");
+    AddMouseHoverSecondaryText(blankSelector, "-1 Blank");
 
-Reset();
+    AddMouseHoverOpacity(liveBurnerPhoneSelector);
+    AddMouseHoverOpacity(blankBurnerPhoneSelector);
+    AddMouseHoverSecondaryText(liveBurnerPhoneSelector, "Drag to the correct shell (live round)");
+    AddMouseHoverSecondaryText(blankBurnerPhoneSelector, "Drag to the correct shell (blank)");
+    AddPhoneMovementFunctionality(liveBurnerPhoneSelector, "live");
+    AddPhoneMovementFunctionality(blankBurnerPhoneSelector, "blank");
 
-for (let i = 0; i < roundShellElements.length; i++){
-    roundShellElements[i].addEventListener("dragover", (evt) => {
-            evt.preventDefault();
-        },
-        false,
-    );
-    roundShellElements[i].addEventListener("drop", (evt) => Drop(evt, i));
-}
 
-for (let i = 1; i < countShellElements.length; i++){
-    countShellElements[i].addEventListener("click",(evt) => ChooseShellCount(i + 1));
-    countShellElements[i].addEventListener("mouseenter", (evt) => HoverShellCount(i + 1));
-    countShellElements[i].addEventListener("mouseleave", (evt) => HoverLeaveShellCount());
-    AddMouseHoverOpacity(countShellElements[i]);
-    roundShellElements[i].addEventListener("dragover", (evt) => {
-            evt.preventDefault();
-        },
-        false,
-    );
-    roundShellElements[i].addEventListener("drop", (evt) => Drop(evt, i));
+    for (let i = 1; i < shellElements.length; i++){
+        shellElements[i].addEventListener("click",(evt) => ChooseShellCount(i + 1));
+        shellElements[i].addEventListener("mouseenter", (evt) => HoverShellCount(i + 1));
+        shellElements[i].addEventListener("mouseleave", (evt) => HoverLeaveShellCount());
+        shellElements[i].addEventListener("drop", (evt) => Drop(evt, i));
+        shellElements[i].addEventListener("dragover", (evt) => {
+                evt.preventDefault();
+                },
+            false,
+        );
+    }
+
+    Reset();
 }
 
 function AddMouseHoverOpacity(element){
@@ -114,20 +105,25 @@ function AddPhoneMovementFunctionality(element, shellType){
 }
 
 function ChooseShellCount(hoveredShellCount){
+    if (inRound){
+        return;
+    }
     totalShellCount = hoveredShellCount;
-    for (let i = 0; i < roundShellElements.length; i++){
-        roundShellElements[i].src = "images/undefined.png";
+    for (let i = 0; i < shellElements.length; i++){
+        shellElements[i].src = "images/undefined.png";
 
         if (i >= totalShellCount){
-            roundShellElements[i].classList.add("hideElement");
+            shellElements[i].classList.add("hideElement");
         }
     }
+
+    inRound = true;
+    shellElements[0].classList.add("currentRoundShell");
+
     shellOrder = []
     for (let i = 0; i < totalShellCount; i++){
         shellOrder[i] = "undefined";
     }
-    countShellRow.classList.add("hideElement");
-    roundShellRow.classList.remove("hideElement");
 
     secondarySelectors.classList.remove("hideElement");
     secondaryText.textContent = "";
@@ -170,23 +166,29 @@ function DisplayShellCountMainText(){
 }
 
 function HoverShellCount(hoveredShellCount){
-    for (let i = 0; i < countShellElements.length; i++){
+    if (inRound){
+        return;
+    }
+    for (let i = 0; i < shellElements.length; i++){
         if (i < hoveredShellCount){
             if (i >= hoveredShellCount / 2){
-                countShellElements[i].src = "images/live.png";
+                shellElements[i].src = "images/live.png";
             } else {
-                countShellElements[i].src = "images/blank.png";
+                shellElements[i].src = "images/blank.png";
             }
         } else{
-            countShellElements[i].src = "images/undefined.png";
+            shellElements[i].src = "images/undefined.png";
         }
     }
     secondaryText.textContent = hoveredShellCount.toString();
 }
 
 function HoverLeaveShellCount(){
-    for (let i = 0; i < countShellElements.length; i++){
-        countShellElements[i].src = "images/undefined.png";
+    if (inRound){
+        return;
+    }
+    for (let i = 0; i < shellElements.length; i++){
+        shellElements[i].src = "images/undefined.png";
     }
     secondaryText.textContent = "";
 }
@@ -211,7 +213,7 @@ function SetNextShellType(isLive)
     else{
         shellOrder[totalShellCount - CurrentShellCount()] = currentShellTypeData.shellType;
         currentShellTypeData.shellCount--;
-        roundShellElements[totalShellCount - CurrentShellCount() - 1].src = currentShellTypeData.imageSrc;
+        shellElements[totalShellCount - CurrentShellCount() - 1].src = currentShellTypeData.imageSrc;
     }
 
     CheckNextMoveLegality();
@@ -235,10 +237,10 @@ function CheckNextMoveLegality(){
 
 function SetShellBorder(index){
     if (index != 0){
-        roundShellElements[index - 1].classList.remove("currentRoundShell");
+        shellElements[index - 1].classList.remove("currentRoundShell");
     } 
     if (index < totalShellCount){
-        roundShellElements[index].classList.add("currentRoundShell");
+        shellElements[index].classList.add("currentRoundShell");
     }
 }
 
@@ -284,7 +286,9 @@ function Dragend(){
 
 function Drop(evt, shellIndex) {
     evt.preventDefault();
-    SetBurnerPhoneShell(shellIndex);
+    if (inRound){
+        SetBurnerPhoneShell(shellIndex);
+    }
 }
 
 function SetBurnerPhoneShell(shellIndex){
@@ -309,12 +313,12 @@ function SetBurnerPhoneShell(shellIndex){
     if (shellOrder[shellIndex] == "undefined"){
         currentShellTypeData.burnerPhoneCount++;
         shellOrder[shellIndex] = currentShellTypeData.shellType;
-        roundShellElements[shellIndex].src = currentShellTypeData.imageSrc;
+        shellElements[shellIndex].src = currentShellTypeData.imageSrc;
     } 
     else if (shellOrder[shellIndex] == otherShellTypeData.shellType){
         currentShellTypeData.burnerPhoneCount++;
         shellOrder[shellIndex] = currentShellTypeData.shellType;
-        roundShellElements[shellIndex].src = currentShellTypeData.imageSrc;
+        shellElements[shellIndex].src = currentShellTypeData.imageSrc;
         otherShellTypeData.burnerPhoneCount--;
     }
 
@@ -325,16 +329,13 @@ function SetBurnerPhoneShell(shellIndex){
 
 
 function Reset(){
-    for (let i = 0; i < countShellElements.length; i++){
-        roundShellElements[i].classList.remove("hideElement");
-        countShellElements[i].src = "images/undefined.png";
-        countShellElements[i].classList.remove("hideElement");
-        roundShellElements[i].classList.remove("currentRoundShell");
+    for (let i = 0; i < shellElements.length; i++){
+        shellElements[i].classList.remove("hideElement");
+        shellElements[i].src = "images/undefined.png";
+        shellElements[i].classList.remove("currentRoundShell");
     }
-    roundShellElements[0].classList.add("currentRoundShell");
 
-    countShellRow.classList.remove("hideElement");
-    roundShellRow.classList.add("hideElement");
+    inRound = false;
 
     secondaryText.innerText = "";
     secondarySelectors.classList.add("hideElement");
