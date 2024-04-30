@@ -62,7 +62,12 @@ function Setup(){
 
     Reset();
 
-    itemTrackerMainDiv.classList.add("hideElement");
+    var storedOpenTracker = localStorage['trackerOpen'] || '0'; 
+    if (+storedOpenTracker == '1'){
+        openButton.classList.add("hideElement");
+    } else{
+        itemTrackerMainDiv.classList.add("hideElement");
+    }
 }
 
 function AddMouseHoverOpacity(element){
@@ -129,11 +134,13 @@ function CheckNewSpawnOrders(itemArray, removedItemSpawnOrder, shouldCheckDealer
 function OpenItemTracker(){
     itemTrackerMainDiv.classList.remove("hideElement");
     openButton.classList.add("hideElement");
+    localStorage['trackerOpen'] = '1';
 }
 
 function CloseItemTracker(){
     itemTrackerMainDiv.classList.add("hideElement");
     openButton.classList.remove("hideElement");
+    localStorage['trackerOpen'] = '0';
 }
 
 function AdvanceDealerGroup(){
