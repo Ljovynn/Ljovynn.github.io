@@ -26,9 +26,9 @@ const colors =
     '#F6FF5E',
     '#FF9C1C',
     '#FF3200',
-    '#FF005D',
-    '#A500FF',
-    '#330051'
+    '#72002B',
+    '#8600D3',
+    '#4D007C'
 ]
 
 var resetTrackerButton = document.getElementById("resetItemsButton");
@@ -177,5 +177,6 @@ function Reset(){
     playerItemAmount = 0;
     currentDealerGroup = 1;
 
+    nextGroupButton.disabled = true;
     SetDealerGroupElements();
 }
