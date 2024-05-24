@@ -42,10 +42,10 @@ function Setup(){
     var playerGridItemsElements = document.getElementById("playerGridContainer").getElementsByClassName("gridItem");
     var dealerGridItemsElements = document.getElementById("dealerGridContainer").getElementsByClassName("gridItem");
 
-    resetTrackerButton.addEventListener("click", Reset);
-    openButton.addEventListener("click", OpenItemTracker);
-    closeButton.addEventListener("click", CloseItemTracker);
-    nextGroupButton.addEventListener("click", AdvanceDealerGroup);
+    resetTrackerButton.addEventListener("mousedown", Reset);
+    openButton.addEventListener("mousedown", OpenItemTracker);
+    closeButton.addEventListener("mousedown", CloseItemTracker);
+    nextGroupButton.addEventListener("mousedown", AdvanceDealerGroup);
 
     for (let i = 0; i < playerGridItemsElements.length; i++){
     var playerGI = new gridItem(playerGridItemsElements[i], playerGridItemsElements[i].firstChild, 0);
@@ -56,8 +56,8 @@ function Setup(){
 
     AddMouseHoverOpacity(playerGridItems[i].element);
     AddMouseHoverOpacity(dealerGridItems[i].element);
-    playerGridItems[i].element.addEventListener("click", (evt) => PlayerItemClicked(i));
-    dealerGridItems[i].element.addEventListener("click", (evt) => DealerItemClicked(i));
+    playerGridItems[i].element.addEventListener("mousedown", (evt) => PlayerItemClicked(i));
+    dealerGridItems[i].element.addEventListener("mousedown", (evt) => DealerItemClicked(i));
     }
 
     Reset();

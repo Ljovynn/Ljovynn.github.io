@@ -49,10 +49,10 @@ function CurrentShellCount()
 Setup();
 
 function Setup(){
-    document.getElementById("resetButton").addEventListener("click", Reset);
+    document.getElementById("resetButton").addEventListener("mousedown", Reset);
 
-    liveSelector.addEventListener("click", (evt) => SetNextShellType(true));
-    blankSelector.addEventListener("click", (evt) => SetNextShellType(false));
+    liveSelector.addEventListener("mousedown", (evt) => SetNextShellType(true));
+    blankSelector.addEventListener("mousedown", (evt) => SetNextShellType(false));
     AddMouseHoverOpacity(liveSelector);
     AddMouseHoverOpacity(blankSelector);
     AddMouseHoverSecondaryText(liveSelector, "-1 Live round");
@@ -67,7 +67,7 @@ function Setup(){
 
 
     for (let i = 1; i < shellElements.length; i++){
-        shellElements[i].addEventListener("click",(evt) => ChooseShellCount(i + 1));
+        shellElements[i].addEventListener("mousedown",(evt) => ChooseShellCount(i + 1));
         shellElements[i].addEventListener("mouseenter", (evt) => HoverShellCount(i + 1));
         shellElements[i].addEventListener("mouseleave", (evt) => HoverLeaveShellCount());
         shellElements[i].addEventListener("drop", (evt) => Drop(evt, i));
