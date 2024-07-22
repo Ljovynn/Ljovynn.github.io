@@ -229,6 +229,8 @@ function SetNextShellType(isLive)
 function CheckNextMoveLegality(){
     liveSelector.classList.remove("unselectable");
     blankSelector.classList.remove("unselectable");
+    liveBurnerPhoneSelector.classList.remove("unselectable");
+    blankBurnerPhoneSelector.classList.remove("unselectable");
 
     CheckIfRoomForMoreShells();
 
