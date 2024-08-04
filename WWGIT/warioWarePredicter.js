@@ -43,7 +43,7 @@ mainMenuStoryButton.addEventListener("mousedown", (evt) => {
 async function LoadJSON() {
     const response = await fetch("./stages.json");
     const json = await response.json();
-    console.log(json);
+    return json;
 }
 
 for(let i = 0; i < 11; i++){
