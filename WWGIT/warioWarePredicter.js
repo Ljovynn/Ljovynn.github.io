@@ -21,7 +21,7 @@ const gameStates =
     ingame: 1
 }
 
-const stageDataJson;
+const stageDataJson = LoadJSON();
 
 var gameState = gameStates.menu;
 var level = 1;
@@ -39,8 +39,6 @@ mainMenuStoryButton.addEventListener("mousedown", (evt) => {
     mainMenuDocument.classList.add("hidden");
     storyMenuDocument.classList.remove("hidden");
 });
-
-//LoadJSON();
 
 async function LoadJSON() {
     const response = await fetch("./stages.json");
