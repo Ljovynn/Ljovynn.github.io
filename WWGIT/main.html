@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Warioware GiT Predicter</title>
+        <meta name="title" property="og:title" content="Warioware Get it Together Predicter"/>
+		<meta name="description" property="og:description" content="Microgame prediction helper"/>
+    <style>
+        @font-face { font-family: WariowareBlockyNormal; src: url("./Fonts/WARIOWAREBLOCKY.TTF"); } 
+        body
+        {
+            background-color: antiquewhite;
+            font-family: WariowareBlockyNormal;
+        }
+        .hidden
+        {
+            visibility: hidden;
+        }
+        .ingameHeader
+        {
+            text-align: center;
+        }
+        .microgamesGrid
+        {
+            display: -ms-inline-grid;
+        }
+        .microgameImage
+        {
+            max-width: 20vw;
+            height: auto;
+        }
+        .mainMenuButton
+        {
+            margin: 2vw;
+        }
+    </style>
+    </head>
+    <body>
+        <div id="menu">
+            <div id="mainMenu" style="text-align: center;">
+                <img src="./images/MenuIcons/Title.png" style="max-width: 60vw; height: auto;">
+                <br>This is a work in progress!<br>
+                <div style="display:inline-flex;">
+                    <div>
+                        <button id="mainMenuStoryButton" class="mainMenuButton"><img src="./images/MenuIcons/Story.png"></button>
+                        <br>Story
+                    </div>
+                    <div>
+                        <button id="mainMenuTowersButton" class="mainMenuButton"><img src="./images/MenuIcons/Towers.png"></button>
+                        <br>Towers & Misc
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div>
+                        <button id="mainMenuWarioCupButton" class="mainMenuButton"><img src="./images/MenuIcons/WarioCups.png"></button>
+                        <br>Wario Cups
+                    </div>
+                </div>
+            </div>
+            <div id="storyMenu" class="hidden">
+
+            </div>
+            <div id="towersMenu" class="hidden">
+
+            </div>
+            <div id="warioCupMenu" class="hidden">
+            
+            </div>
+        </div>
+        <div id="ingame" class="hidden">
+            <div class="ingameHeader">
+                Äckelpäckel
+            </div>
+            <div id="mainMicrogamesArea">
+                <div class="microgamesGrid">
+                    <img class="microgameImage" src="./images/Microgames/ABigFan.png">
+                    <img class="microgameImage" src="./images/Microgames/ABigFan.png">
+                    <img class="microgameImage" src="./images/Microgames/AlienTrap.png">
+                    <img class="microgameImage" src="./images/Microgames/AlienTrap.png">
+                    <img class="microgameImage" src="./images/Microgames/AlienTrap.png">
+                    <img class="microgameImage" src="./images/Microgames/AlienTrap.png">
+                    <img class="microgameImage" src="./images/Microgames/AlienTrap.png">
+                    <img class="microgameImage" src="./images/Microgames/AlienTrap.png">
+                    <img class="microgameImage" src="./images/Microgames/AlienTrap.png">
+                    <img class="microgameImage" src="./images/Microgames/AlienTrap.png">
+                    <img class="microgameImage" src="./images/Microgames/AlienTrap.png">
+                    <img class="microgameImage" src="./images/Microgames/AlienTrap.png">
+                    <img class="microgameImage" src="./images/Microgames/AlienTrap.png">
+                </div>
+            </div>
+        </div>
+    <script src="warioWarePredicter.js" type="module"></script>
+    </body>
+</html>

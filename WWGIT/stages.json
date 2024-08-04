@@ -1,0 +1,10303 @@
+[
+	{
+		"title": "Intro Games",
+		"endPoint": 999,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"TreasureHunt",
+					"TummyTrouble",
+					"SleepClinic",
+					"RocketRush"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"Wanted",
+					"SeeingStars",
+					"EyeExam",
+					"FleeTheFlashlight"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"StrikeGold",
+					"LandInTheSand",
+					"DefendTheFlowers",
+					"Swordplay"
+				]
+			},
+			{
+				"id": "Boss",
+				"microgames": [
+					"SpikyWario"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Boss"
+		]
+	},
+	{
+		"title": "That's Life",
+		"endPoint": 999,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"DontWasteThePaste",
+					"TheCleaners",
+					"GoodTimes",
+					"AppealingMask",
+					"HideAndSeek",
+					"FoggyGlasses",
+					"GarbageDay",
+					"WaywardWater",
+					"IsAnyoneHome"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"GoldDigger",
+					"TheToothHurts",
+					"MissingRemote",
+					"ACallToFall",
+					"SanitationStation",
+					"RockABye",
+					"FaceWash",
+					"HostingHustle"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"HitTheSwitch",
+					"MusicMischief",
+					"BreakTheBank",
+					"NailTheNail",
+					"StopTheStopper"
+				]
+			},
+			{
+				"id": "Boss",
+				"microgames": [
+					"DeliveryCenter"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Boss"
+		]
+	},
+	{
+		"title": "Fantasy",
+		"endPoint": 999,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"MushroomDoom",
+					"TheresAMonsterBehindYou",
+					"WeirdWindmill",
+					"ABigFan",
+					"SortItOut",
+					"UFBs",
+					"TheVampireArose",
+					"PitStop"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"NightmareFuel",
+					"DragonsReign",
+					"BubbleCount",
+					"WaterYouWaitingFor",
+					"SwingAndAKiss",
+					"MeanMagic",
+					"MermaidTears",
+					"AlienTrap",
+					"GimmeFive"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"UmbrellaBrothers",
+					"FishyFelines",
+					"SeesawSpaceRace",
+					"WitchWhich",
+					"SlimeTime"
+				]
+			},
+			{
+				"id": "Boss",
+				"microgames": [
+					"Poseidon"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Boss"
+		]
+	},
+	{
+		"title": "High Tech",
+		"endPoint": 999,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"GreatEscape",
+					"ChooChooChoose",
+					"ShutterSpeed",
+					"CollisionCourse",
+					"CircuitOfLight",
+					"BlockPuzzle",
+					"ManicMechanic",
+					"BareNecessities"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"ReadyToLaunch",
+					"ThePowerOfMagnets",
+					"FactoryTour",
+					"ReadySetWarp",
+					"GondolaLift",
+					"LikeItOrLeaveIt",
+					"CrashCourse",
+					"HotSpot",
+					"YouCanLeadARobotToWater"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"WaywardCyborg",
+					"LaserLabyrinth",
+					"VirusBuster",
+					"PopUpPatrol",
+					"WindUpPup"
+				]
+			},
+			{
+				"id": "Boss",
+				"microgames": [
+					"RideTheLine"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Boss"
+		]
+	},
+	{
+		"title": "Nintendo Classics",
+		"endPoint": 999,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"SuperMarioLand",
+					"AnimalCrossingNewLeaf",
+					"IceClimber",
+					"DonkeyKongCountryReturns",
+					"WarioWare",
+					"DestinyGame",
+					"Splatoon2",
+					"LuigisMansion"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"NewSuperMarioBrosU",
+					"SuperMetroid",
+					"NintendoBadgeArcade",
+					"BigBrainAcademy",
+					"SuperMarioBros",
+					"TheLegendOfZeldaBreathOfTheWild",
+					"CaptainToadTreasureTracker",
+					"EleCongaAutoplayer",
+					"WarioWareTwisted"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"Pikmin2",
+					"FireEmblemThreeHouses",
+					"DevilWorld",
+					"GameWatchJudge",
+					"YoshisStory"
+				]
+			},
+			{
+				"id": "Boss",
+				"microgames": [
+					"SuperMarioWorld"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Boss"
+		]
+	},
+	{
+		"title": "Nature",
+		"endPoint": 999,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"ShooFly",
+					"TurtleTipper",
+					"Peekaboo",
+					"KittyBusiness",
+					"ChompyChirpers",
+					"WebSurfer",
+					"OceanHero",
+					"FluffItOut"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"StickToIt",
+					"CloudyWithAChanceOfSun",
+					"FamilyReunion",
+					"DoggoneThirsty",
+					"MonochromeCreatures",
+					"WheelYouOrWontYou",
+					"BreakTheIce",
+					"SayonaraSnakes"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"EggItOn",
+					"CrayfishCrash",
+					"RollCall",
+					"DropZone",
+					"LookBothWays",
+					"DoFeedTheGiraffe"
+				]
+			},
+			{
+				"id": "Boss",
+				"microgames": [
+					"SafariTour"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Boss"
+		]
+	},
+	{
+		"title": "Sports",
+		"endPoint": 999,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"PumpItUp",
+					"BasketAndBall",
+					"PerilChute",
+					"KeepingTrack",
+					"GymnAssist",
+					"WiggleDancing",
+					"BasicallyWaterPolo"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"BounceBack",
+					"ReelEmIn",
+					"PleaseReefCycle",
+					"ShotBlocker",
+					"ArcherAssist",
+					"SpokeTooSoon",
+					"WobbleBoxing",
+					"MoleInOne",
+					"BaseballBreakIn"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"YogaMan",
+					"GetSwole",
+					"ShadowSports",
+					"SandTrapScoop",
+					"BoxingCowards",
+					"StrokeOfGenius"
+				]
+			},
+			{
+				"id": "Boss",
+				"microgames": [
+					"RockClimber"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Boss"
+		]
+	},
+	{
+		"title": "Food",
+		"endPoint": 999,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"RockCandy",
+					"BottleBall",
+					"AWeightyMatter",
+					"CornCleaner",
+					"IceCreamLean",
+					"BadVegetables",
+					"TheWaiterAwaits"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"AppleDrop",
+					"BlendedSplendid",
+					"StoveSlider",
+					"AlphabetFruit",
+					"RollCake",
+					"MouthsToFeed",
+					"BurstYourBottle",
+					"SlatheredInKetchup",
+					"BareBanana"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"TakeASeat",
+					"DessertDefender",
+					"VeggieOut",
+					"FeastYourEyesOnThis",
+					"SoKneady",
+					"LightTheCake"
+				]
+			},
+			{
+				"id": "Boss",
+				"microgames": [
+					"GreatJuice"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Boss"
+		]
+	},
+	{
+		"title": "Culture",
+		"endPoint": 999,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"BambooFalls",
+					"HotAirHeroics",
+					"HotHoops",
+					"MatchyMatryoshka",
+					"GardenSecrets",
+					"PerfectPercussion",
+					"SnowmanAssembly"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"BalanceTheScales",
+					"WeddingBells",
+					"StarLight",
+					"RockOn",
+					"MannekenPis",
+					"HiddenHolidays",
+					"BlowYourHorn",
+					"MatchingMasks",
+					"FireWorks"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"Spotlight",
+					"MagicTrickery",
+					"DigIt",
+					"TempestInATeapot",
+					"HideAndGoNinja",
+					"AMovingExperience"
+				]
+			},
+			{
+				"id": "Boss",
+				"microgames": [
+					"DrawbridgeDilemma"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Boss"
+		]
+	},
+	{
+		"title": "Anything Goes",
+		"endPoint": 999,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"WhereGoesTheNose",
+					"PiggyPluck",
+					"MuscleOut",
+					"PopGoesTheParty",
+					"RoShamBo",
+					"GarlicCatch",
+					"MystifyingMirror",
+					"UnlockMe"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"BoxedUp",
+					"PipeMaze",
+					"InsideTheStorm",
+					"Gifted",
+					"CheekyBeaker",
+					"PushedToTheEdge",
+					"GetAwayGhost",
+					"WhatAHaul"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"AnswerMe",
+					"NoteAbleArt",
+					"StopThief",
+					"FallForYou",
+					"BugOut",
+					"SameButDifferent",
+					"FlammableGoods",
+					"CautionSlippery"
+				]
+			},
+			{
+				"id": "Boss",
+				"microgames": [
+					"PottyPursuit"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Boss"
+		]
+	},
+	{
+		"title": "Remix",
+		"endPoint": 999,
+		"groups":
+		[
+			{
+				"id": "Fantasy 1",
+				"microgames": [
+					"MushroomDoom",
+					"TheresAMonsterBehindYou",
+					"WeirdWindmill",
+					"ABigFan",
+					"SortItOut",
+					"UFBs",
+					"TheVampireArose",
+					"PitStop"
+				]
+			},
+			{
+				"id": "Fantasy 2",
+				"microgames": [
+					"NightmareFuel",
+					"DragonsReign",
+					"BubbleCount",
+					"WaterYouWaitingFor",
+					"SwingAndAKiss",
+					"MeanMagic",
+					"MermaidTears",
+					"AlienTrap",
+					"GimmeFive"
+				]
+			},
+			{
+				"id": "Fantasy 3",
+				"microgames": [
+					"UmbrellaBrothers",
+					"FishyFelines",
+					"SeesawSpaceRace",
+					"WitchWhich",
+					"SlimeTime"
+				]
+			},
+			{
+				"id": "High Tech 1",
+				"microgames": [
+					"GreatEscape",
+					"ChooChooChoose",
+					"ShutterSpeed",
+					"CollisionCourse",
+					"CircuitOfLight",
+					"BlockPuzzle",
+					"ManicMechanic",
+					"BareNecessities"
+				]
+			},
+			{
+				"id": "High Tech 2",
+				"microgames": [
+					"ReadyToLaunch",
+					"ThePowerOfMagnets",
+					"FactoryTour",
+					"ReadySetWarp",
+					"GondolaLift",
+					"LikeItOrLeaveIt",
+					"CrashCourse",
+					"HotSpot",
+					"YouCanLeadARobotToWater"
+				]
+			},
+			{
+				"id": "High Tech 3",
+				"microgames": [
+					"WaywardCyborg",
+					"LaserLabyrinth",
+					"VirusBuster",
+					"PopUpPatrol",
+					"WindUpPup"
+				]
+			},
+			{
+				"id": "Nintendo Classics 1",
+				"microgames": [
+					"SuperMarioLand",
+					"AnimalCrossingNewLeaf",
+					"IceClimber",
+					"DonkeyKongCountryReturns",
+					"WarioWare",
+					"DestinyGame",
+					"Splatoon2",
+					"LuigisMansion"
+				]
+			},
+			{
+				"id": "Nintendo Classics 2",
+				"microgames": [
+					"NewSuperMarioBrosU",
+					"SuperMetroid",
+					"NintendoBadgeArcade",
+					"BigBrainAcademy",
+					"SuperMarioBros",
+					"TheLegendOfZeldaBreathOfTheWild",
+					"CaptainToadTreasureTracker",
+					"EleCongaAutoplayer",
+					"WarioWareTwisted"
+				]
+			},
+			{
+				"id": "Nintendo Classics 3",
+				"microgames": [
+					"Pikmin2",
+					"FireEmblemThreeHouses",
+					"DevilWorld",
+					"GameWatchJudge",
+					"YoshisStory"
+				]
+			},
+			{
+				"id": "That's Life 1",
+				"microgames": [
+					"DontWasteThePaste",
+					"TheCleaners",
+					"GoodTimes",
+					"AppealingMask",
+					"HideAndSeek",
+					"FoggyGlasses",
+					"GarbageDay",
+					"WaywardWater",
+					"IsAnyoneHome"
+				]
+			},
+			{
+				"id": "That's Life 2",
+				"microgames": [
+					"GoldDigger",
+					"TheToothHurts",
+					"MissingRemote",
+					"ACallToFall",
+					"SanitationStation",
+					"RockABye",
+					"FaceWash",
+					"HostingHustle"
+				]
+			},
+			{
+				"id": "That's Life 3",
+				"microgames": [
+					"HitTheSwitch",
+					"MusicMischief",
+					"BreakTheBank",
+					"NailTheNail",
+					"StopTheStopper"
+				]
+			},
+			{
+				"id": "Delivery Center",
+				"microgames": [
+					"DeliveryCenter"
+				]
+			},
+			{
+				"id": "Poseidon",
+				"microgames": [
+					"Poseidon"
+				]
+			},
+			{
+				"id": "Ride the Line",
+				"microgames": [
+					"RideTheLine"
+				]
+			},
+			{
+				"id": "Super Mario World",
+				"microgames": [
+					"SuperMarioWorld"
+				]
+			}
+		],
+		"levels":
+		[
+			"Fantasy 1",
+			"High Tech 1",
+			"That's Life 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Super Mario World",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Ride the Line",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Poseidon",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Delivery Center",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Super Mario World",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Ride the Line",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Poseidon",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Delivery Center",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Super Mario World",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Ride the Line",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Poseidon",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Delivery Center",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Super Mario World",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Ride the Line",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Poseidon",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Delivery Center",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Super Mario World",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Ride the Line",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Poseidon",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Delivery Center",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Super Mario World",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Ride the Line",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Poseidon",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Delivery Center",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Super Mario World",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Ride the Line",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Poseidon",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Delivery Center",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Super Mario World",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Ride the Line",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Poseidon",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Delivery Center",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Super Mario World",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Ride the Line",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Poseidon",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Delivery Center",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Super Mario World",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Ride the Line",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Poseidon",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Delivery Center",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Super Mario World",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Ride the Line",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Poseidon",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Delivery Center",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Super Mario World",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Ride the Line",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Poseidon",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Delivery Center",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Super Mario World",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Ride the Line",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Poseidon",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Delivery Center",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Super Mario World",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Ride the Line",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Poseidon",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Delivery Center",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Super Mario World",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"That's Life 3",
+			"Nintendo Classics 3",
+			"Ride the Line",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"That's Life 1",
+			"Fantasy 1",
+			"High Tech 2",
+			"Nintendo Classics 2",
+			"Fantasy 2",
+			"That's Life 2",
+			"High Tech 2",
+			"Nintendo Classics 3",
+			"Fantasy 3"
+		]
+	},
+	{
+		"title": "Remix 2.0",
+		"endPoint": 999,
+		"groups":
+		[
+			{
+				"id": "Culture 1",
+				"microgames": [
+					"BambooFalls",
+					"HotAirHeroics",
+					"HotHoops",
+					"MatchyMatryoshka",
+					"GardenSecrets",
+					"PerfectPercussion",
+					"SnowmanAssembly"
+				]
+			},
+			{
+				"id": "Culture 2",
+				"microgames": [
+					"BalanceTheScales",
+					"WeddingBells",
+					"StarLight",
+					"RockOn",
+					"MannekenPis",
+					"HiddenHolidays",
+					"BlowYourHorn",
+					"MatchingMasks",
+					"FireWorks"
+				]
+			},
+			{
+				"id": "Culture 3",
+				"microgames": [
+					"Spotlight",
+					"MagicTrickery",
+					"DigIt",
+					"TempestInATeapot",
+					"HideAndGoNinja",
+					"AMovingExperience"
+				]
+			},
+			{
+				"id": "Food 1",
+				"microgames": [
+					"RockCandy",
+					"BottleBall",
+					"AWeightyMatter",
+					"CornCleaner",
+					"IceCreamLean",
+					"BadVegetables",
+					"TheWaiterAwaits"
+				]
+			},
+			{
+				"id": "Food 2",
+				"microgames": [
+					"AppleDrop",
+					"BlendedSplendid",
+					"StoveSlider",
+					"AlphabetFruit",
+					"RollCake",
+					"MouthsToFeed",
+					"BurstYourBottle",
+					"SlatheredInKetchup",
+					"BareBanana"
+				]
+			},
+			{
+				"id": "Food 3",
+				"microgames": [
+					"TakeASeat",
+					"DessertDefender",
+					"VeggieOut",
+					"FeastYourEyesOnThis",
+					"SoKneady",
+					"LightTheCake"
+				]
+			},
+			{
+				"id": "Nature 1",
+				"microgames": [
+					"ShooFly",
+					"TurtleTipper",
+					"Peekaboo",
+					"KittyBusiness",
+					"ChompyChirpers",
+					"WebSurfer",
+					"OceanHero",
+					"FluffItOut"
+				]
+			},
+			{
+				"id": "Nature 2",
+				"microgames": [
+					"StickToIt",
+					"CloudyWithAChanceOfSun",
+					"FamilyReunion",
+					"DoggoneThirsty",
+					"MonochromeCreatures",
+					"WheelYouOrWontYou",
+					"BreakTheIce",
+					"SayonaraSnakes"
+				]
+			},
+			{
+				"id": "Nature 3",
+				"microgames": [
+					"EggItOn",
+					"CrayfishCrash",
+					"RollCall",
+					"DropZone",
+					"LookBothWays",
+					"DoFeedTheGiraffe"
+				]
+			},
+			{
+				"id": "Sports 1",
+				"microgames": [
+					"PumpItUp",
+					"BasketAndBall",
+					"PerilChute",
+					"KeepingTrack",
+					"GymnAssist",
+					"WiggleDancing",
+					"BasicallyWaterPolo"
+				]
+			},
+			{
+				"id": "Sports 2",
+				"microgames": [
+					"BounceBack",
+					"ReelEmIn",
+					"PleaseReefCycle",
+					"ShotBlocker",
+					"ArcherAssist",
+					"SpokeTooSoon",
+					"WobbleBoxing",
+					"MoleInOne",
+					"BaseballBreakIn"
+				]
+			},
+			{
+				"id": "Sports 3",
+				"microgames": [
+					"YogaMan",
+					"GetSwole",
+					"ShadowSports",
+					"SandTrapScoop",
+					"BoxingCowards",
+					"StrokeOfGenius"
+				]
+			},
+			{
+				"id": "Safari Tour",
+				"microgames": [
+					"SafariTour"
+				]
+			},
+			{
+				"id": "Rock Climber",
+				"microgames": [
+					"RockClimber"
+				]
+			},
+			{
+				"id": "Great Juice",
+				"microgames": [
+					"GreatJuice"
+				]
+			},
+			{
+				"id": "Drawbridge Dilemma",
+				"microgames": [
+					"DrawbridgeDilemma"
+				]
+			}
+		],
+		"levels":
+		[
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Nature 1",
+			"Food 1",
+			"Sports 2",
+			"Culture 2",
+			"Food 2",
+			"Nature 2",
+			"Sports 2",
+			"Culture 2",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Great Juice",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Culture 2",
+			"Food 2",
+			"Sports 2",
+			"Nature 2",
+			"Culture 2",
+			"Food 2",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Safari Tour",
+			"Nature 1",
+			"Food 1",
+			"Sports 1",
+			"Culture 1",
+			"Nature 1",
+			"Food 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Nature 3",
+			"Sports 3",
+			"Food 3",
+			"Culture 3",
+			"Nature 3",
+			"Rock Climber",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Drawbridge Dilemma",
+			"Nature 1",
+			"Culture 1",
+			"Sports 1",
+			"Food 1",
+			"Nature 1",
+			"Culture 1",
+			"Sports 2",
+			"Culture 2",
+			"Food 2",
+			"Nature 2",
+			"Sports 2",
+			"Culture 2",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Great Juice",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Culture 2",
+			"Food 2",
+			"Sports 2",
+			"Nature 2",
+			"Culture 2",
+			"Food 2",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Safari Tour",
+			"Nature 1",
+			"Food 1",
+			"Sports 1",
+			"Culture 1",
+			"Nature 1",
+			"Food 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Nature 3",
+			"Sports 3",
+			"Food 3",
+			"Culture 3",
+			"Nature 3",
+			"Rock Climber",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Drawbridge Dilemma",
+			"Nature 1",
+			"Culture 1",
+			"Sports 1",
+			"Food 1",
+			"Nature 1",
+			"Culture 1",
+			"Sports 2",
+			"Culture 2",
+			"Food 2",
+			"Nature 2",
+			"Sports 2",
+			"Culture 2",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Great Juice",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Culture 2",
+			"Food 2",
+			"Sports 2",
+			"Nature 2",
+			"Culture 2",
+			"Food 2",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Safari Tour",
+			"Nature 1",
+			"Food 1",
+			"Sports 1",
+			"Culture 1",
+			"Nature 1",
+			"Food 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Nature 3",
+			"Sports 3",
+			"Food 3",
+			"Culture 3",
+			"Nature 3",
+			"Rock Climber",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Drawbridge Dilemma",
+			"Nature 1",
+			"Culture 1",
+			"Sports 1",
+			"Food 1",
+			"Nature 1",
+			"Culture 1",
+			"Sports 2",
+			"Culture 2",
+			"Food 2",
+			"Nature 2",
+			"Sports 2",
+			"Culture 2",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Great Juice",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Culture 2",
+			"Food 2",
+			"Sports 2",
+			"Nature 2",
+			"Culture 2",
+			"Food 2",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Safari Tour",
+			"Nature 1",
+			"Food 1",
+			"Sports 1",
+			"Culture 1",
+			"Nature 1",
+			"Food 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Nature 3",
+			"Sports 3",
+			"Food 3",
+			"Culture 3",
+			"Nature 3",
+			"Rock Climber",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Drawbridge Dilemma",
+			"Nature 1",
+			"Culture 1",
+			"Sports 1",
+			"Food 1",
+			"Nature 1",
+			"Culture 1",
+			"Sports 2",
+			"Culture 2",
+			"Food 2",
+			"Nature 2",
+			"Sports 2",
+			"Culture 2",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Great Juice",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Culture 2",
+			"Food 2",
+			"Sports 2",
+			"Nature 2",
+			"Culture 2",
+			"Food 2",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Safari Tour",
+			"Nature 1",
+			"Food 1",
+			"Sports 1",
+			"Culture 1",
+			"Nature 1",
+			"Food 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Nature 3",
+			"Sports 3",
+			"Food 3",
+			"Culture 3",
+			"Nature 3",
+			"Rock Climber",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Drawbridge Dilemma",
+			"Nature 1",
+			"Culture 1",
+			"Sports 1",
+			"Food 1",
+			"Nature 1",
+			"Culture 1",
+			"Sports 2",
+			"Culture 2",
+			"Food 2",
+			"Nature 2",
+			"Sports 2",
+			"Culture 2",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Great Juice",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Culture 2",
+			"Food 2",
+			"Sports 2",
+			"Nature 2",
+			"Culture 2",
+			"Food 2",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Safari Tour",
+			"Nature 1",
+			"Food 1",
+			"Sports 1",
+			"Culture 1",
+			"Nature 1",
+			"Food 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Nature 3",
+			"Sports 3",
+			"Food 3",
+			"Culture 3",
+			"Nature 3",
+			"Rock Climber",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Drawbridge Dilemma",
+			"Nature 1",
+			"Culture 1",
+			"Sports 1",
+			"Food 1",
+			"Nature 1",
+			"Culture 1",
+			"Sports 2",
+			"Culture 2",
+			"Food 2",
+			"Nature 2",
+			"Sports 2",
+			"Culture 2",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Great Juice",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Culture 2",
+			"Food 2",
+			"Sports 2",
+			"Nature 2",
+			"Culture 2",
+			"Food 2",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Safari Tour",
+			"Nature 1",
+			"Food 1",
+			"Sports 1",
+			"Culture 1",
+			"Nature 1",
+			"Food 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Nature 3",
+			"Sports 3",
+			"Food 3",
+			"Culture 3",
+			"Nature 3",
+			"Rock Climber",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Drawbridge Dilemma",
+			"Nature 1",
+			"Culture 1",
+			"Sports 1",
+			"Food 1",
+			"Nature 1",
+			"Culture 1",
+			"Sports 2",
+			"Culture 2",
+			"Food 2",
+			"Nature 2",
+			"Sports 2",
+			"Culture 2",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Great Juice",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Culture 2",
+			"Food 2",
+			"Sports 2",
+			"Nature 2",
+			"Culture 2",
+			"Food 2",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Safari Tour",
+			"Nature 1",
+			"Food 1",
+			"Sports 1",
+			"Culture 1",
+			"Nature 1",
+			"Food 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Nature 3",
+			"Sports 3",
+			"Food 3",
+			"Culture 3",
+			"Nature 3",
+			"Rock Climber",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Drawbridge Dilemma",
+			"Nature 1",
+			"Culture 1",
+			"Sports 1",
+			"Food 1",
+			"Nature 1",
+			"Culture 1",
+			"Sports 2",
+			"Culture 2",
+			"Food 2",
+			"Nature 2",
+			"Sports 2",
+			"Culture 2",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Great Juice",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Culture 2",
+			"Food 2",
+			"Sports 2",
+			"Nature 2",
+			"Culture 2",
+			"Food 2",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Safari Tour",
+			"Nature 1",
+			"Food 1",
+			"Sports 1",
+			"Culture 1",
+			"Nature 1",
+			"Food 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Nature 3",
+			"Sports 3",
+			"Food 3",
+			"Culture 3",
+			"Nature 3",
+			"Rock Climber",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Drawbridge Dilemma",
+			"Nature 1",
+			"Culture 1",
+			"Sports 1",
+			"Food 1",
+			"Nature 1",
+			"Culture 1",
+			"Sports 2",
+			"Culture 2",
+			"Food 2",
+			"Nature 2",
+			"Sports 2",
+			"Culture 2",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Great Juice",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Culture 2",
+			"Food 2",
+			"Sports 2",
+			"Nature 2",
+			"Culture 2",
+			"Food 2",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Safari Tour",
+			"Nature 1",
+			"Food 1",
+			"Sports 1",
+			"Culture 1",
+			"Nature 1",
+			"Food 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Nature 3",
+			"Sports 3",
+			"Food 3",
+			"Culture 3",
+			"Nature 3",
+			"Rock Climber",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Drawbridge Dilemma",
+			"Nature 1",
+			"Culture 1",
+			"Sports 1",
+			"Food 1",
+			"Nature 1",
+			"Culture 1",
+			"Sports 2",
+			"Culture 2",
+			"Food 2",
+			"Nature 2",
+			"Sports 2",
+			"Culture 2",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Great Juice",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Culture 2",
+			"Food 2",
+			"Sports 2",
+			"Nature 2",
+			"Culture 2",
+			"Food 2",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Safari Tour",
+			"Nature 1",
+			"Food 1",
+			"Sports 1",
+			"Culture 1",
+			"Nature 1",
+			"Food 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Nature 3",
+			"Sports 3",
+			"Food 3",
+			"Culture 3",
+			"Nature 3",
+			"Rock Climber",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Drawbridge Dilemma",
+			"Nature 1",
+			"Culture 1",
+			"Sports 1",
+			"Food 1",
+			"Nature 1",
+			"Culture 1",
+			"Sports 2",
+			"Culture 2",
+			"Food 2",
+			"Nature 2",
+			"Sports 2",
+			"Culture 2",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Great Juice",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Culture 2",
+			"Food 2",
+			"Sports 2",
+			"Nature 2",
+			"Culture 2",
+			"Food 2",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Safari Tour",
+			"Nature 1",
+			"Food 1",
+			"Sports 1",
+			"Culture 1",
+			"Nature 1",
+			"Food 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Nature 3",
+			"Sports 3",
+			"Food 3",
+			"Culture 3",
+			"Nature 3",
+			"Rock Climber",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Drawbridge Dilemma",
+			"Nature 1",
+			"Culture 1",
+			"Sports 1",
+			"Food 1",
+			"Nature 1",
+			"Culture 1",
+			"Sports 2",
+			"Culture 2",
+			"Food 2",
+			"Nature 2",
+			"Sports 2",
+			"Culture 2",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Great Juice",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Culture 2",
+			"Food 2",
+			"Sports 2",
+			"Nature 2",
+			"Culture 2",
+			"Food 2",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Safari Tour",
+			"Nature 1",
+			"Food 1",
+			"Sports 1",
+			"Culture 1",
+			"Nature 1",
+			"Food 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Nature 3",
+			"Sports 3",
+			"Food 3",
+			"Culture 3",
+			"Nature 3",
+			"Rock Climber",
+			"Nature 1",
+			"Sports 1",
+			"Culture 1",
+			"Food 1",
+			"Nature 1",
+			"Sports 1",
+			"Food 2",
+			"Sports 2",
+			"Culture 2",
+			"Nature 2",
+			"Food 2",
+			"Sports 2",
+			"Culture 3",
+			"Food 3",
+			"Nature 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Drawbridge Dilemma",
+			"Nature 1",
+			"Culture 1",
+			"Sports 1",
+			"Food 1",
+			"Nature 1",
+			"Culture 1",
+			"Sports 2",
+			"Culture 2",
+			"Food 2",
+			"Nature 2",
+			"Sports 2"
+		]
+	},
+	{
+		"title": "All Mixed Up",
+		"endPoint": 999,
+		"groups":
+		[
+			{
+				"id": "Anything Goes 1",
+                "cycle": "Front",
+				"microgames": [
+					"WhereGoesTheNose",
+					"PiggyPluck",
+					"MuscleOut",
+					"PopGoesTheParty",
+					"RoShamBo",
+					"GarlicCatch",
+					"MystifyingMirror",
+					"UnlockMe"
+				]
+			},
+			{
+				"id": "Anything Goes 2",
+                "cycle": "Front/mid",
+				"microgames": [
+					"BoxedUp",
+					"PipeMaze",
+					"InsideTheStorm",
+					"Gifted",
+					"CheekyBeaker",
+					"PushedToTheEdge",
+					"GetAwayGhost",
+					"WhatAHaul"
+				]
+			},
+			{
+				"id": "Anything Goes 3",
+                "cycle": "Back",
+				"microgames": [
+					"AnswerMe",
+					"NoteAbleArt",
+					"StopThief",
+					"FallForYou",
+					"BugOut",
+					"SameButDifferent",
+					"FlammableGoods",
+					"CautionSlippery"
+				]
+			},
+			{
+				"id": "Culture 1",
+                "cycle": "Front",
+				"microgames": [
+					"BambooFalls",
+					"HotAirHeroics",
+					"HotHoops",
+					"MatchyMatryoshka",
+					"GardenSecrets",
+					"PerfectPercussion",
+					"SnowmanAssembly"
+				]
+			},
+			{
+				"id": "Culture 2",
+                "cycle": "Front/mid",
+				"microgames": [
+					"BalanceTheScales",
+					"WeddingBells",
+					"StarLight",
+					"RockOn",
+					"MannekenPis",
+					"HiddenHolidays",
+					"BlowYourHorn",
+					"MatchingMasks",
+					"FireWorks"
+				]
+			},
+			{
+				"id": "Culture 3",
+                "cycle": "Back",
+				"microgames": [
+					"Spotlight",
+					"MagicTrickery",
+					"DigIt",
+					"TempestInATeapot",
+					"HideAndGoNinja",
+					"AMovingExperience"
+				]
+			},
+			{
+				"id": "Food 1",
+                "cycle": "Front",
+				"microgames": [
+					"RockCandy",
+					"BottleBall",
+					"AWeightyMatter",
+					"CornCleaner",
+					"IceCreamLean",
+					"BadVegetables",
+					"TheWaiterAwaits"
+				]
+			},
+			{
+				"id": "Food 2",
+                "cycle": "Mid/back",
+				"microgames": [
+					"AppleDrop",
+					"BlendedSplendid",
+					"StoveSlider",
+					"AlphabetFruit",
+					"RollCake",
+					"MouthsToFeed",
+					"BurstYourBottle",
+					"SlatheredInKetchup",
+					"BareBanana"
+				]
+			},
+			{
+				"id": "Food 3",
+                "cycle": "Back",
+				"microgames": [
+					"TakeASeat",
+					"DessertDefender",
+					"VeggieOut",
+					"FeastYourEyesOnThis",
+					"SoKneady",
+					"LightTheCake"
+				]
+			},
+			{
+				"id": "Fantasy 1",
+                "cycle": "Front/mid",
+				"microgames": [
+					"MushroomDoom",
+					"TheresAMonsterBehindYou",
+					"WeirdWindmill",
+					"ABigFan",
+					"SortItOut",
+					"UFBs",
+					"TheVampireArose",
+					"PitStop"
+				]
+			},
+			{
+				"id": "Fantasy 2",
+                "cycle": "Mid/back",
+				"microgames": [
+					"NightmareFuel",
+					"DragonsReign",
+					"BubbleCount",
+					"WaterYouWaitingFor",
+					"SwingAndAKiss",
+					"MeanMagic",
+					"MermaidTears",
+					"AlienTrap",
+					"GimmeFive"
+				]
+			},
+			{
+				"id": "Fantasy 3",
+                "cycle": "Back",
+				"microgames": [
+					"UmbrellaBrothers",
+					"FishyFelines",
+					"SeesawSpaceRace",
+					"WitchWhich",
+					"SlimeTime"
+				]
+			},
+			{
+				"id": "High Tech 1",
+                "cycle": "Front",
+				"microgames": [
+					"GreatEscape",
+					"ChooChooChoose",
+					"ShutterSpeed",
+					"CollisionCourse",
+					"CircuitOfLight",
+					"BlockPuzzle",
+					"ManicMechanic",
+					"BareNecessities"
+				]
+			},
+			{
+				"id": "High Tech 2",
+                "cycle": "Mid/back",
+				"microgames": [
+					"ReadyToLaunch",
+					"ThePowerOfMagnets",
+					"FactoryTour",
+					"ReadySetWarp",
+					"GondolaLift",
+					"LikeItOrLeaveIt",
+					"CrashCourse",
+					"HotSpot",
+					"YouCanLeadARobotToWater"
+				]
+			},
+			{
+				"id": "High Tech 3",
+                "cycle": "Back",
+				"microgames": [
+					"WaywardCyborg",
+					"LaserLabyrinth",
+					"VirusBuster",
+					"PopUpPatrol",
+					"WindUpPup"
+				]
+			},
+			{
+				"id": "Intro Games 1",
+                "cycle": "Front",
+				"microgames": [
+					"TreasureHunt",
+					"TummyTrouble",
+					"SleepClinic",
+					"RocketRush"
+				]
+			},
+			{
+				"id": "Intro Games 2",
+                "cycle": "Mid",
+				"microgames": [
+					"Wanted",
+					"SeeingStars",
+					"EyeExam",
+					"FleeTheFlashlight"
+				]
+			},
+			{
+				"id": "Intro Games 3",
+                "cycle": "Back",
+				"microgames": [
+					"StrikeGold",
+					"LandInTheSand",
+					"DefendTheFlowers",
+					"Swordplay"
+				]
+			},
+			{
+				"id": "Nintendo Classics 1",
+                "cycle": "Front",
+				"microgames": [
+					"SuperMarioLand",
+					"AnimalCrossingNewLeaf",
+					"IceClimber",
+					"DonkeyKongCountryReturns",
+					"WarioWare",
+					"DestinyGame",
+					"Splatoon2",
+					"LuigisMansion"
+				]
+			},
+			{
+				"id": "Nintendo Classics 2",
+                "cycle": "Front/mid",
+				"microgames": [
+					"NewSuperMarioBrosU",
+					"SuperMetroid",
+					"NintendoBadgeArcade",
+					"BigBrainAcademy",
+					"SuperMarioBros",
+					"TheLegendOfZeldaBreathOfTheWild",
+					"CaptainToadTreasureTracker",
+					"EleCongaAutoplayer",
+					"WarioWareTwisted"
+				]
+			},
+			{
+				"id": "Nintendo Classics 3",
+                "cycle": "Back",
+				"microgames": [
+					"Pikmin2",
+					"FireEmblemThreeHouses",
+					"DevilWorld",
+					"GameWatchJudge",
+					"YoshisStory"
+				]
+			},
+			{
+				"id": "Nature 1",
+                "cycle": "Front",
+				"microgames": [
+					"ShooFly",
+					"TurtleTipper",
+					"Peekaboo",
+					"KittyBusiness",
+					"ChompyChirpers",
+					"WebSurfer",
+					"OceanHero",
+					"FluffItOut"
+				]
+			},
+			{
+				"id": "Nature 2",
+                "cycle": "Front/mid",
+				"microgames": [
+					"StickToIt",
+					"CloudyWithAChanceOfSun",
+					"FamilyReunion",
+					"DoggoneThirsty",
+					"MonochromeCreatures",
+					"WheelYouOrWontYou",
+					"BreakTheIce",
+					"SayonaraSnakes"
+				]
+			},
+			{
+				"id": "Nature 3",
+                "cycle": "Mid/back",
+				"microgames": [
+					"EggItOn",
+					"CrayfishCrash",
+					"RollCall",
+					"DropZone",
+					"LookBothWays",
+					"DoFeedTheGiraffe"
+				]
+			},
+			{
+				"id": "Sports 1",
+                "cycle": "Front/mid",
+				"microgames": [
+					"PumpItUp",
+					"BasketAndBall",
+					"PerilChute",
+					"KeepingTrack",
+					"GymnAssist",
+					"WiggleDancing",
+					"BasicallyWaterPolo"
+				]
+			},
+			{
+				"id": "Sports 2",
+                "cycle": "Mid/back",
+				"microgames": [
+					"BounceBack",
+					"ReelEmIn",
+					"PleaseReefCycle",
+					"ShotBlocker",
+					"ArcherAssist",
+					"SpokeTooSoon",
+					"WobbleBoxing",
+					"MoleInOne",
+					"BaseballBreakIn"
+				]
+			},
+			{
+				"id": "Sports 3",
+                "cycle": "Back",
+				"microgames": [
+					"YogaMan",
+					"GetSwole",
+					"ShadowSports",
+					"SandTrapScoop",
+					"BoxingCowards",
+					"StrokeOfGenius"
+				]
+			},
+			{
+				"id": "That's Life 1",
+                "cycle": "Front",
+				"microgames": [
+					"DontWasteThePaste",
+					"TheCleaners",
+					"GoodTimes",
+					"AppealingMask",
+					"HideAndSeek",
+					"FoggyGlasses",
+					"GarbageDay",
+					"WaywardWater",
+					"IsAnyoneHome"
+				]
+			},
+			{
+				"id": "That's Life 2",
+                "cycle": "Front/mid",
+				"microgames": [
+					"GoldDigger",
+					"TheToothHurts",
+					"MissingRemote",
+					"ACallToFall",
+					"SanitationStation",
+					"RockABye",
+					"FaceWash",
+					"HostingHustle"
+				]
+			},
+			{
+				"id": "That's Life 3",
+                "cycle": "Back",
+				"microgames": [
+					"HitTheSwitch",
+					"MusicMischief",
+					"BreakTheBank",
+					"NailTheNail",
+					"StopTheStopper"
+				]
+			}
+		],
+		"levels":
+		[
+			"Intro Games 1",
+			"Food 1",
+			"High Tech 1",
+			"That's Life 1",
+			"Nature 1",
+			"Fantasy 1",
+			"That's Life 2",
+			"Nature 2",
+			"Nintendo Classics 2",
+			"Sports 1",
+			"Food 2",
+			"Fantasy 2",
+			"High Tech 2",
+			"Sports 2",
+			"Culture 3",
+			"Anything Goes 3",
+			"Intro Games 3",
+			"Food 3",
+			"Nintendo Classics 1",
+			"Culture 1",
+			"Anything Goes 1",
+			"High Tech 1",
+			"That's Life 1",
+			"Nintendo Classics 2",
+			"Culture 2",
+			"Anything Goes 2",
+			"Intro Games 2",
+			"Fantasy 1",
+			"Food 2",
+			"Fantasy 2",
+			"High Tech 2",
+			"Sports 2",
+			"Sports 3",
+			"Anything Goes 3",
+			"Intro Games 3",
+			"Nintendo Classics 3",
+			"That's Life 1",
+			"Nature 1",
+			"Nintendo Classics 1",
+			"Anything Goes 1",
+			"Culture 1",
+			"Nature 2",
+			"That's Life 2",
+			"Nintendo Classics 2",
+			"Culture 2",
+			"Anything Goes 2",
+			"Food 2",
+			"Fantasy 2",
+			"High Tech 2",
+			"Sports 2",
+			"Food 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"Sports 3",
+			"That's Life 1",
+			"Nature 1",
+			"Food 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"Nature 2",
+			"Culture 2",
+			"Fantasy 1",
+			"That's Life 2",
+			"Nintendo Classics 2",
+			"Food 2",
+			"Fantasy 2",
+			"High Tech 2",
+			"Nature 3",
+			"Culture 3",
+			"Anything Goes 3",
+			"Intro Games 3",
+			"Sports 3",
+			"That's Life 1",
+			"Nature 1",
+			"Culture 1",
+			"Anything Goes 1",
+			"Food 1",
+			"Sports 1",
+			"Culture 2",
+			"Anything Goes 2",
+			"Intro Games 2",
+			"Fantasy 1",
+			"Sports 2",
+			"High Tech 2",
+			"That's Life 3",
+			"Nature 3",
+			"Food 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"Nintendo Classics 3",
+			"Nintendo Classics 1",
+			"Anything Goes 1",
+			"High Tech 1",
+			"Intro Games 1",
+			"That's Life 1",
+			"Nature 2",
+			"Sports 1",
+			"Culture 2",
+			"That's Life 2",
+			"Nintendo Classics 2",
+			"Food 2",
+			"Fantasy 2",
+			"Sports 2",
+			"Nature 3",
+			"Culture 3",
+			"Anything Goes 3",
+			"Intro Games 3",
+			"Food 3",
+			"High Tech 1",
+			"Nature 1",
+			"Nintendo Classics 1",
+			"Culture 1",
+			"Anything Goes 1",
+			"Fantasy 1",
+			"That's Life 2",
+			"Sports 1",
+			"Nature 2",
+			"Nintendo Classics 2",
+			"Food 2",
+			"Fantasy 2",
+			"High Tech 2",
+			"That's Life 3",
+			"Anything Goes 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Food 1",
+			"Intro Games 1",
+			"High Tech 1",
+			"That's Life 1",
+			"Nature 1",
+			"Culture 2",
+			"Anything Goes 2",
+			"Intro Games 2",
+			"Fantasy 1",
+			"Nintendo Classics 2",
+			"Sports 2",
+			"Fantasy 2",
+			"High Tech 2",
+			"That's Life 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"Nintendo Classics 3",
+			"Anything Goes 3",
+			"Food 1",
+			"Nintendo Classics 1",
+			"Culture 1",
+			"Anything Goes 1",
+			"Intro Games 1",
+			"That's Life 2",
+			"Nature 2",
+			"Sports 1",
+			"Culture 2",
+			"Anything Goes 2",
+			"Nature 3",
+			"Sports 2",
+			"Food 2",
+			"Fantasy 2",
+			"Fantasy 3",
+			"High Tech 3",
+			"Nintendo Classics 3",
+			"Sports 3",
+			"That's Life 1",
+			"Nature 1",
+			"Culture 1",
+			"Food 1",
+			"High Tech 1",
+			"Anything Goes 2",
+			"Intro Games 2",
+			"That's Life 2",
+			"Nature 2",
+			"Nintendo Classics 2",
+			"Sports 2",
+			"Food 2",
+			"High Tech 2",
+			"That's Life 3",
+			"Culture 3",
+			"Anything Goes 3",
+			"Fantasy 3",
+			"Nintendo Classics 3",
+			"Nintendo Classics 1",
+			"Anything Goes 1",
+			"Nature 1",
+			"Culture 1",
+			"Food 1",
+			"Fantasy 1",
+			"Sports 1",
+			"Culture 2",
+			"Anything Goes 2",
+			"That's Life 2",
+			"Nature 3",
+			"High Tech 2",
+			"Sports 2",
+			"Food 2",
+			"High Tech 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"That's Life 1",
+			"Nintendo Classics 1",
+			"High Tech 1",
+			"Anything Goes 1",
+			"High Tech 1",
+			"Fantasy 1",
+			"Nature 2",
+			"Nintendo Classics 2",
+			"Sports 1",
+			"Culture 2",
+			"Fantasy 2",
+			"That's Life 3",
+			"Nature 3",
+			"Fantasy 2",
+			"Anything Goes 3",
+			"Food 3",
+			"Sports 3",
+			"Culture 3",
+			"That's Life 1",
+			"Nature 1",
+			"Nintendo Classics 1",
+			"Anything Goes 1",
+			"Intro Games 1",
+			"Anything Goes 1",
+			"Fantasy 1",
+			"That's Life 2",
+			"Nature 2",
+			"Nintendo Classics 2",
+			"Food 2",
+			"High Tech 2",
+			"Sports 2",
+			"Fantasy 2",
+			"Anything Goes 3",
+			"Intro Games 3",
+			"Culture 3",
+			"Food 3",
+			"Food 1",
+			"High Tech 1",
+			"That's Life 1",
+			"Nature 1",
+			"Nintendo Classics 1",
+			"Nintendo Classics 2",
+			"Culture 2",
+			"Anything Goes 2",
+			"Intro Games 2",
+			"Sports 1",
+			"High Tech 2",
+			"Sports 2",
+			"Food 2",
+			"Fantasy 2",
+			"Fantasy 3",
+			"High Tech 3",
+			"Nintendo Classics 3",
+			"Sports 3",
+			"That's Life 1",
+			"Culture 1",
+			"Anything Goes 1",
+			"Intro Games 1",
+			"Nature 1",
+			"Fantasy 1",
+			"That's Life 2",
+			"Nature 2",
+			"Nintendo Classics 2",
+			"Culture 2",
+			"Food 2",
+			"High Tech 2",
+			"Sports 2",
+			"That's Life 3",
+			"Anything Goes 3",
+			"Intro Games 3",
+			"Culture 3",
+			"Food 3",
+			"Food 1",
+			"High Tech 1",
+			"That's Life 1",
+			"Nintendo Classics 1",
+			"Culture 1",
+			"Nature 2",
+			"Fantasy 1",
+			"That's Life 2",
+			"Nintendo Classics 2",
+			"Sports 1",
+			"Fantasy 2",
+			"High Tech 2",
+			"Nature 3",
+			"Sports 2",
+			"Anything Goes 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"Nintendo Classics 3",
+			"Nature 1",
+			"Culture 1",
+			"Food 1",
+			"High Tech 1",
+			"That's Life 1",
+			"Culture 2",
+			"Anything Goes 2",
+			"Intro Games 2",
+			"Nature 2",
+			"Sports 1",
+			"Food 2",
+			"Fantasy 2",
+			"That's Life 3",
+			"Nature 3",
+			"Sports 3",
+			"Anything Goes 3",
+			"Intro Games 3",
+			"Nintendo Classics 3",
+			"Nintendo Classics 1",
+			"Anything Goes 1",
+			"Intro Games 1",
+			"Culture 1",
+			"Food 1",
+			"Fantasy 1",
+			"That's Life 2",
+			"Nintendo Classics 2",
+			"Culture 2",
+			"Anything Goes 2",
+			"Food 2",
+			"High Tech 2",
+			"Sports 2",
+			"Nature 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"Sports 3",
+			"Culture 3",
+			"That's Life 1",
+			"Nature 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"Anything Goes 1",
+			"Culture 2",
+			"Anything Goes 2",
+			"Intro Games 2",
+			"Fantasy 1",
+			"That's Life 2",
+			"Food 2",
+			"Fantasy 2",
+			"High Tech 2",
+			"Sports 2",
+			"Food 3",
+			"Anything Goes 3",
+			"Intro Games 3",
+			"Nintendo Classics 3",
+			"That's Life 1",
+			"Nature 1",
+			"Culture 1",
+			"Food 1",
+			"High Tech 1",
+			"Nature 2",
+			"Sports 1",
+			"Nintendo Classics 2",
+			"Culture 2",
+			"Anything Goes 2",
+			"Fantasy 2",
+			"That's Life 3",
+			"Nature 3",
+			"Sports 2",
+			"Anything Goes 3",
+			"Food 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"Nintendo Classics 1",
+			"Anything Goes 1",
+			"Intro Games 1",
+			"That's Life 1",
+			"Nature 1",
+			"Sports 1",
+			"Culture 2",
+			"Fantasy 1",
+			"That's Life 2",
+			"Nature 2",
+			"Food 2",
+			"High Tech 2",
+			"Sports 2",
+			"Fantasy 2",
+			"Sports 3",
+			"Culture 3",
+			"Anything Goes 3",
+			"Nintendo Classics 3",
+			"Anything Goes 1",
+			"Food 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"Culture 1",
+			"Nintendo Classics 2",
+			"Anything Goes 2",
+			"Intro Games 2",
+			"That's Life 2",
+			"Nature 2",
+			"Food 2",
+			"High Tech 2",
+			"That's Life 3",
+			"Nature 3",
+			"Fantasy 3",
+			"Sports 3",
+			"Culture 3",
+			"Food 3",
+			"Anything Goes 1",
+			"High Tech 1",
+			"That's Life 1",
+			"Nature 1",
+			"Nintendo Classics 1",
+			"Fantasy 1",
+			"Sports 1",
+			"Culture 2",
+			"Nintendo Classics 2",
+			"Anything Goes 2",
+			"Food 2",
+			"Fantasy 2",
+			"High Tech 2",
+			"That's Life 3",
+			"High Tech 3",
+			"Anything Goes 3",
+			"Food 3",
+			"Sports 3",
+			"Culture 1",
+			"Food 1",
+			"Anything Goes 1",
+			"That's Life 1",
+			"Nature 1",
+			"Fantasy 1",
+			"Nature 2",
+			"Nintendo Classics 2",
+			"Sports 1",
+			"Culture 2",
+			"Nature 3",
+			"Sports 2",
+			"Food 2",
+			"Fantasy 2",
+			"Culture 3",
+			"Anything Goes 3",
+			"Intro Games 3",
+			"High Tech 3",
+			"High Tech 1",
+			"That's Life 1",
+			"Nintendo Classics 1",
+			"Anything Goes 1",
+			"Intro Games 1",
+			"That's Life 2",
+			"Anything Goes 2",
+			"Fantasy 1",
+			"Nature 2",
+			"Nintendo Classics 2",
+			"Sports 2",
+			"Food 2",
+			"Fantasy 2",
+			"High Tech 2",
+			"Culture 3",
+			"Food 3",
+			"Fantasy 3",
+			"Nintendo Classics 3",
+			"High Tech 1",
+			"That's Life 1",
+			"Nature 1",
+			"Nintendo Classics 1",
+			"Culture 1",
+			"That's Life 2",
+			"Culture 2",
+			"Nintendo Classics 2",
+			"Anything Goes 2",
+			"Intro Games 2",
+			"Sports 2",
+			"Food 2",
+			"Fantasy 2",
+			"High Tech 2",
+			"Sports 3",
+			"Anything Goes 3",
+			"Intro Games 3",
+			"Culture 3",
+			"Nature 1",
+			"Food 1",
+			"High Tech 1",
+			"That's Life 1",
+			"Nintendo Classics 1",
+			"Fantasy 1",
+			"That's Life 2",
+			"Nature 2",
+			"Sports 1",
+			"Culture 2",
+			"Sports 2",
+			"High Tech 2",
+			"Nature 3",
+			"Food 2",
+			"Food 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"Nintendo Classics 3",
+			"Culture 1",
+			"Food 1",
+			"Anything Goes 1",
+			"Intro Games 1",
+			"That's Life 1",
+			"Nintendo Classics 2",
+			"Culture 2",
+			"Anything Goes 2",
+			"Intro Games 2",
+			"Nature 2",
+			"Fantasy 2",
+			"Sports 2",
+			"High Tech 2",
+			"That's Life 3",
+			"Sports 3",
+			"Anything Goes 3",
+			"Intro Games 3",
+			"Fantasy 3",
+			"Nature 1",
+			"Food 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"Culture 1",
+			"Fantasy 1",
+			"That's Life 2",
+			"Nintendo Classics 2",
+			"Sports 1",
+			"Culture 2",
+			"Nature 3",
+			"Sports 2",
+			"Food 2",
+			"Fantasy 2",
+			"Anything Goes 3",
+			"Food 3",
+			"High Tech 3",
+			"Nintendo Classics 3",
+			"Anything Goes 1",
+			"Intro Games 1",
+			"That's Life 1",
+			"Nature 1",
+			"Culture 1",
+			"Fantasy 1",
+			"That's Life 2",
+			"Nature 2",
+			"Nintendo Classics 2",
+			"Sports 1",
+			"High Tech 2",
+			"That's Life 3",
+			"Nature 3",
+			"Sports 2",
+			"Culture 3",
+			"Sports 3",
+			"Anything Goes 3",
+			"Intro Games 3",
+			"Food 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"Anything Goes 1",
+			"Intro Games 1",
+			"Culture 2",
+			"Anything Goes 2",
+			"Intro Games 2",
+			"Fantasy 1",
+			"That's Life 2",
+			"Food 2",
+			"Fantasy 2",
+			"High Tech 2",
+			"Nature 3",
+			"Anything Goes 3",
+			"Nintendo Classics 3",
+			"Sports 3",
+			"Culture 3",
+			"Anything Goes 1",
+			"That's Life 1",
+			"Nature 1",
+			"Food 1",
+			"High Tech 1",
+			"Nature 2",
+			"Nintendo Classics 2",
+			"Sports 1",
+			"Culture 2",
+			"Anything Goes 2",
+			"Food 2",
+			"Fantasy 2",
+			"High Tech 2",
+			"That's Life 3",
+			"Fantasy 3",
+			"Food 3",
+			"High Tech 3",
+			"Anything Goes 3",
+			"Nintendo Classics 1",
+			"Culture 1",
+			"Anything Goes 1",
+			"That's Life 1",
+			"Nature 1",
+			"Sports 1",
+			"Fantasy 1",
+			"That's Life 2",
+			"Nature 2",
+			"Nintendo Classics 2",
+			"Sports 2",
+			"Food 2",
+			"Fantasy 2",
+			"High Tech 2",
+			"Culture 3",
+			"Nintendo Classics 3",
+			"Sports 3",
+			"Food 3",
+			"Culture 1",
+			"Food 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"Anything Goes 1",
+			"Culture 2",
+			"Anything Goes 2",
+			"Intro Games 2",
+			"That's Life 2",
+			"Nature 2",
+			"That's Life 3",
+			"Nature 3",
+			"Sports 2",
+			"Fantasy 2",
+			"Fantasy 3",
+			"High Tech 3",
+			"Anything Goes 3",
+			"Sports 3",
+			"That's Life 1",
+			"Nature 1",
+			"Nintendo Classics 1",
+			"Culture 1",
+			"Food 1",
+			"Anything Goes 2",
+			"Fantasy 1",
+			"Nintendo Classics 2",
+			"Sports 1",
+			"Culture 2",
+			"High Tech 2",
+			"That's Life 3",
+			"Nature 3",
+			"Food 2",
+			"Culture 3",
+			"Food 3",
+			"Anything Goes 3",
+			"Intro Games 3",
+			"High Tech 1",
+			"Anything Goes 1",
+			"That's Life 1",
+			"Nature 1",
+			"Nintendo Classics 1",
+			"Anything Goes 2",
+			"Fantasy 1",
+			"Sports 1",
+			"That's Life 2",
+			"Nature 2",
+			"Sports 2",
+			"Food 2",
+			"Fantasy 2",
+			"High Tech 2",
+			"Anything Goes 3",
+			"Intro Games 3",
+			"Nintendo Classics 3",
+			"Culture 3",
+			"High Tech 1",
+			"That's Life 1",
+			"Anything Goes 1",
+			"Intro Games 1",
+			"Nature 1",
+			"Nintendo Classics 2",
+			"Culture 2",
+			"Anything Goes 2",
+			"Fantasy 1",
+			"Nintendo Classics 2",
+			"Sports 2",
+			"Food 2",
+			"Fantasy 2",
+			"High Tech 2",
+			"Food 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"Sports 3",
+			"That's Life 1",
+			"Nintendo Classics 1",
+			"Culture 1",
+			"Food 1",
+			"High Tech 1",
+			"That's Life 2",
+			"Nature 2",
+			"Culture 2",
+			"Nintendo Classics 2",
+			"Anything Goes 2",
+			"Sports 2",
+			"Food 2",
+			"Fantasy 2",
+			"High Tech 2",
+			"Anything Goes 3",
+			"Intro Games 3",
+			"Sports 3",
+			"Culture 3",
+			"Nature 1",
+			"That's Life 1",
+			"Nintendo Classics 1",
+			"Culture 1",
+			"Food 1",
+			"Fantasy 1",
+			"That's Life 2",
+			"Nature 2",
+			"Sports 1",
+			"Nintendo Classics 2",
+			"Sports 2",
+			"Nature 3",
+			"Fantasy 2",
+			"High Tech 2",
+			"Food 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"Nintendo Classics 3",
+			"High Tech 1",
+			"Anything Goes 1",
+			"Intro Games 1",
+			"That's Life 1",
+			"Nature 1",
+			"Culture 2",
+			"Anything Goes 2",
+			"Intro Games 2",
+			"That's Life 2",
+			"Nature 2",
+			"Sports 2",
+			"Food 2",
+			"Fantasy 2",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"Food 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"Culture 1",
+			"Anything Goes 1",
+			"Fantasy 1",
+			"Sports 1",
+			"Culture 2",
+			"Nintendo Classics 2",
+			"Anything Goes 2",
+			"Nature 3",
+			"Sports 2",
+			"Food 2",
+			"High Tech 2",
+			"Food 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"Sports 3",
+			"That's Life 1",
+			"Nature 1",
+			"Nintendo Classics 1",
+			"Culture 1",
+			"Food 1",
+			"Fantasy 1",
+			"That's Life 2",
+			"Nature 2",
+			"Sports 1",
+			"Culture 2",
+			"That's Life 3",
+			"Nature 3",
+			"Fantasy 2",
+			"High Tech 2",
+			"Anything Goes 3",
+			"Nintendo Classics 3",
+			"Sports 3",
+			"Culture 3",
+			"High Tech 1",
+			"Anything Goes 1",
+			"Intro Games 1",
+			"That's Life 1",
+			"Nature 1",
+			"Nintendo Classics 2",
+			"Culture 2",
+			"Anything Goes 2",
+			"Intro Games 2",
+			"Fantasy 1",
+			"Food 2",
+			"Sports 2",
+			"That's Life 3",
+			"Nature 3",
+			"Anything Goes 3",
+			"Food 3",
+			"Fantasy 3",
+			"High Tech 3",
+			"Food 1",
+			"High Tech 1",
+			"Nintendo Classics 1",
+			"Culture 1",
+			"Anything Goes 1",
+			"That's Life 2",
+			"Nature 2",
+			"Nintendo Classics 2",
+			"Sports 1",
+			"Culture 2",
+			"Fantasy 2",
+			"Sports 2",
+			"Food 2",
+			"High Tech 2",
+			"Anything Goes 3",
+			"Fantasy 3",
+			"Nintendo Classics 3",
+			"Sports 3",
+			"Anything Goes 1",
+			"Intro Games 1",
+			"That's Life 1",
+			"Nature 1",
+			"Culture 1",
+			"Anything Goes 2",
+			"Intro Games 2",
+			"That's Life 2",
+			"Nature 2",
+			"Fantasy 1",
+			"Food 2",
+			"High Tech 2",
+			"That's Life 3",
+			"Nature 3",
+			"Culture 3",
+			"Food 3",
+			"High Tech 3",
+			"Anything Goes 3",
+			"Nintendo Classics 1",
+			"Food 1",
+			"High Tech 1",
+			"Anything Goes 1",
+			"That's Life 1",
+			"Sports 1",
+			"Nintendo Classics 2",
+			"Culture 2",
+			"Anything Goes 2",
+			"Intro Games 2",
+			"Fantasy 2",
+			"Sports 2",
+			"Nature 3",
+			"That's Life 3",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"Fantasy 3",
+			"Nintendo Classics 3",
+			"Anything Goes 1",
+			"That's Life 1",
+			"Nature 1",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"Food 1",
+			"Anything Goes 1",
+			"Fantasy 1",
+			"That's Life 2",
+			"Nature 2",
+			"Sports 1"
+		]
+	},
+	{
+		"title": "Super Hard / Thrill Ride",
+		"endPoint": 999,
+		"groups":
+		[
+			{
+				"id": "Anything Goes",
+				"microgames": [
+					"BoxedUp",
+					"PipeMaze",
+					"WhereGoesTheNose",
+					"InsideTheStorm",
+					"AnswerMe",
+					"Gifted",
+					"PiggyPluck",
+					"MuscleOut",
+					"CheekyBeaker",
+					"NoteAbleArt",
+					"PopGoesTheParty",
+					"RoShamBo",
+					"StopThief",
+					"PushedToTheEdge",
+					"GarlicCatch",
+					"GetAwayGhost",
+					"WhatAHaul",
+					"FallForYou",
+					"BugOut",
+					"MystifyingMirror",
+					"SameButDifferent",
+					"FlammableGoods",
+					"UnlockMe",
+					"CautionSlippery"
+				]
+			},
+			{
+				"id": "Culture",
+				"microgames": [
+					"BalanceTheScales",
+					"WeddingBells",
+					"BambooFalls",
+					"Spotlight",
+					"MagicTrickery",
+					"DigIt",
+					"HotAirHeroics",
+					"TempestInATeapot",
+					"HideAndGoNinja",
+					"AMovingExperience",
+					"HotHoops",
+					"MatchyMatryoshka",
+					"StarLight",
+					"RockOn",
+					"MannekenPis",
+					"HiddenHolidays",
+					"GardenSecrets",
+					"BlowYourHorn",
+					"MatchingMasks",
+					"FireWorks",
+					"PerfectPercussion",
+					"SnowmanAssembly"
+				]
+			},
+			{
+				"id": "Food",
+				"microgames": [
+					"AppleDrop",
+					"RockCandy",
+					"TakeASeat",
+					"BlendedSplendid",
+					"StoveSlider",
+					"AlphabetFruit",
+					"DessertDefender",
+					"VeggieOut",
+					"BottleBall",
+					"RollCake",
+					"AWeightyMatter",
+					"FeastYourEyesOnThis",
+					"CornCleaner",
+					"MouthsToFeed",
+					"BurstYourBottle",
+					"SoKneady",
+					"IceCreamLean",
+					"BadVegetables",
+					"TheWaiterAwaits",
+					"SlatheredInKetchup",
+					"LightTheCake",
+					"BareBanana"
+				]
+			},
+			{
+				"id": "Fantasy",
+				"microgames": [
+					"MushroomDoom",
+					"NightmareFuel",
+					"DragonsReign",
+					"BubbleCount",
+					"TheresAMonsterBehindYou",
+					"UmbrellaBrothers",
+					"WeirdWindmill",
+					"FishyFelines",
+					"ABigFan",
+					"WaterYouWaitingFor",
+					"SwingAndAKiss",
+					"MeanMagic",
+					"SortItOut",
+					"UFBs",
+					"TheVampireArose",
+					"SeesawSpaceRace",
+					"PitStop",
+					"WitchWhich",
+					"SlimeTime",
+					"MermaidTears",
+					"AlienTrap",
+					"GimmeFive"
+				]
+			},
+			{
+				"id": "High Tech",
+				"microgames": [
+					"GreatEscape",
+					"ReadyToLaunch",
+					"WaywardCyborg",
+					"ChooChooChoose",
+					"ShutterSpeed",
+					"LaserLabyrinth",
+					"ThePowerOfMagnets",
+					"CollisionCourse",
+					"CircuitOfLight",
+					"VirusBuster",
+					"FactoryTour",
+					"PopUpPatrol",
+					"ReadySetWarp",
+					"GondolaLift",
+					"LikeItOrLeaveIt",
+					"CrashCourse",
+					"HotSpot",
+					"WindUpPup",
+					"BlockPuzzle",
+					"ManicMechanic",
+					"YouCanLeadARobotToWater",
+					"BareNecessities"
+				]
+			},
+			{
+				"id": "Intro Games",
+				"microgames": [
+					"TreasureHunt",
+					"TummyTrouble",
+					"StrikeGold",
+					"Wanted",
+					"SleepClinic",
+					"SeeingStars",
+					"RocketRush",
+					"LandInTheSand",
+					"EyeExam",
+					"DefendTheFlowers",
+					"FleeTheFlashlight",
+					"Swordplay"
+				]
+			},
+			{
+				"id": "Nintendo Classics",
+				"microgames": [
+					"NewSuperMarioBrosU",
+					"SuperMarioLand",
+					"SuperMetroid",
+					"AnimalCrossingNewLeaf",
+					"NintendoBadgeArcade",
+					"Pikmin2",
+					"BigBrainAcademy",
+					"SuperMarioBros",
+					"FireEmblemThreeHouses",
+					"IceClimber",
+					"DonkeyKongCountryReturns",
+					"WarioWare",
+					"DestinyGame",
+					"Splatoon2",
+					"DevilWorld",
+					"TheLegendOfZeldaBreathOfTheWild",
+					"LuigisMansion",
+					"CaptainToadTreasureTracker",
+					"EleCongaAutoplayer",
+					"GameWatchJudge",
+					"WarioWareTwisted",
+					"YoshisStory"
+				]
+			},
+			{
+				"id": "Nature",
+				"microgames": [
+					"StickToIt",
+					"ShooFly",
+					"EggItOn",
+					"CrayfishCrash",
+					"TurtleTipper",
+					"RollCall",
+					"CloudyWithAChanceOfSun",
+					"DropZone",
+					"LookBothWays",
+					"FamilyReunion",
+					"Peekaboo",
+					"DoggoneThirsty",
+					"MonochromeCreatures",
+					"WheelYouOrWontYou",
+					"KittyBusiness",
+					"DoFeedTheGiraffe",
+					"BreakTheIce",
+					"ChompyChirpers",
+					"WebSurfer",
+					"SayonaraSnakes",
+					"OceanHero",
+					"FluffItOut"
+				]
+			},
+			{
+				"id": "Sports",
+				"microgames": [
+					"PumpItUp",
+					"BounceBack",
+					"ReelEmIn",
+					"PleaseReefCycle",
+					"YogaMan",
+					"BasketAndBall",
+					"PerilChute",
+					"KeepingTrack",
+					"GymnAssist",
+					"ShotBlocker",
+					"WiggleDancing",
+					"GetSwole",
+					"ArcherAssist",
+					"ShadowSports",
+					"BasicallyWaterPolo",
+					"SandTrapScoop",
+					"SpokeTooSoon",
+					"WobbleBoxing",
+					"MoleInOne",
+					"BoxingCowards",
+					"StrokeOfGenius",
+					"BaseballBreakIn"
+				]
+			},
+			{
+				"id": "That's Life",
+				"microgames": [
+					"DontWasteThePaste",
+					"GoldDigger",
+					"TheCleaners",
+					"GoodTimes",
+					"AppealingMask",
+					"HideAndSeek",
+					"TheToothHurts",
+					"MissingRemote",
+					"FoggyGlasses",
+					"ACallToFall",
+					"SanitationStation",
+					"HitTheSwitch",
+					"MusicMischief",
+					"BreakTheBank",
+					"GarbageDay",
+					"RockABye",
+					"WaywardWater",
+					"FaceWash",
+					"NailTheNail",
+					"HostingHustle",
+					"IsAnyoneHome",
+					"StopTheStopper"
+				]
+			}
+		],
+		"levels":
+		[
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Intro Games",
+			"Anything Goes",
+			"Culture",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Intro Games",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Culture",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Culture",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Culture",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Culture",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Culture",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Anything Goes",
+			"Intro Games",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Intro Games",
+			"Anything Goes",
+			"That's Life",
+			"Nature",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"That's Life",
+			"Nature",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"That's Life",
+			"Nature",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"That's Life",
+			"Nature",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"That's Life",
+			"Nature",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"That's Life",
+			"Nature",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"That's Life",
+			"Nature",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"That's Life",
+			"Nature",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Nature",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Intro Games",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"Culture",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"Culture",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"Culture",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"Culture",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"Culture",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"Culture",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Anything Goes",
+			"Intro Games",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"Culture",
+			"Anything Goes",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Fantasy",
+			"High Tech",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"High Tech",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Fantasy",
+			"High Tech",
+			"Food",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Intro Games",
+			"Anything Goes",
+			"Fantasy",
+			"High Tech",
+			"Food",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Fantasy",
+			"High Tech",
+			"Food",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Fantasy",
+			"High Tech",
+			"Food",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Fantasy",
+			"High Tech",
+			"Food",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Fantasy",
+			"High Tech",
+			"Food",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Fantasy",
+			"High Tech",
+			"Food",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Fantasy",
+			"High Tech",
+			"Food",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Fantasy",
+			"High Tech",
+			"Food",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Fantasy",
+			"High Tech",
+			"Food",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Fantasy",
+			"High Tech",
+			"Food",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Fantasy",
+			"High Tech",
+			"Food",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Intro Games",
+			"Fantasy",
+			"High Tech",
+			"Anything Goes",
+			"Food",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Fantasy",
+			"High Tech",
+			"Anything Goes",
+			"Food",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Fantasy",
+			"High Tech",
+			"Food",
+			"That's Life",
+			"Nature",
+			"Nintendo Classics",
+			"Sports",
+			"Culture",
+			"Anything Goes",
+			"Food",
+			"Fantasy",
+			"High Tech"
+		]
+	},
+	{
+		"title": "Penny's Mix",
+		"endPoint": 999,
+		"groups":
+		[
+			{
+				"id": "Short 1",
+				"microgames": [
+					"DontWasteThePaste",
+					"FoggyGlasses",
+					"SanitationStation",
+					"HostingHustle",
+					"IsAnyoneHome",
+					"PitStop",
+					"GondolaLift",
+					"ShooFly",
+					"TurtleTipper",
+					"GetSwole",
+					"BasicallyWaterPolo",
+					"WobbleBoxing",
+					"BaseballBreakIn",
+					"StoveSlider",
+					"RollCake",
+					"AWeightyMatter",
+					"CornCleaner",
+					"SoKneady",
+					"TempestInATeapot",
+					"MatchyMatryoshka",
+					"RockOn",
+					"FireWorks",
+					"FallForYou",
+					"FlammableGoods"
+				]
+			},
+			{
+				"id": "Long 1",
+				"microgames": [
+					"WeirdWindmill",
+					"SlimeTime",
+					"MermaidTears",
+					"LaserLabyrinth",
+					"ThePowerOfMagnets",
+					"FactoryTour",
+					"HotSpot",
+					"WindUpPup",
+					"LookBothWays",
+					"WeddingBells",
+					"MannekenPis",
+					"GetAwayGhost"
+				]
+			},
+			{
+				"id": "Short 2",
+				"microgames": [
+					"StrikeGold",
+					"SeeingStars",
+					"Swordplay",
+					"GoldDigger",
+					"ACallToFall",
+					"HitTheSwitch",
+					"NailTheNail",
+					"NightmareFuel",
+					"TheVampireArose",
+					"CollisionCourse",
+					"AnimalCrossingNewLeaf",
+					"LuigisMansion",
+					"WheelYouOrWontYou",
+					"DoFeedTheGiraffe",
+					"WebSurfer",
+					"SayonaraSnakes",
+					"BoxingCowards",
+					"BlendedSplendid",
+					"MouthsToFeed",
+					"Spotlight",
+					"HotHoops",
+					"WhereGoesTheNose",
+					"MuscleOut",
+					"PushedToTheEdge"
+				]
+			},
+			{
+				"id": "Long 2",
+				"microgames": [
+					"TummyTrouble",
+					"TheCleaners",
+					"StopTheStopper",
+					"TheresAMonsterBehindYou",
+					"GreatEscape",
+					"ChooChooChoose",
+					"DoggoneThirsty",
+					"KittyBusiness",
+					"ShadowSports",
+					"RockCandy",
+					"BalanceTheScales",
+					"BambooFalls"
+				]
+			},
+			{
+				"id": "Short 3",
+				"microgames": [
+					"AppealingMask",
+					"BreakTheBank",
+					"WaterYouWaitingFor",
+					"WaywardCyborg",
+					"ShutterSpeed",
+					"NewSuperMarioBrosU",
+					"SuperMarioLand",
+					"DonkeyKongCountryReturns",
+					"DevilWorld",
+					"ShotBlocker",
+					"TakeASeat",
+					"BadVegetables"
+				]
+			},
+			{
+				"id": "Long 3",
+				"microgames": [
+					"SleepClinic",
+					"SuperMetroid",
+					"PumpItUp",
+					"AMovingExperience",
+					"WhatAHaul",
+					"UnlockMe"
+				]
+			}
+		],
+		"levels":
+		[
+			"Short 1",
+			"Short 1",
+			"Long 1",
+			"Short 1",
+			"Short 1",
+			"Long 1",
+			"Short 2",
+			"Short 2",
+			"Long 2",
+			"Short 2",
+			"Short 2",
+			"Long 2",
+			"Short 3",
+			"Short 3",
+			"Long 3"
+		]
+	},
+	{
+		"title": "Speed Skater",
+        "type": "Score",
+		"endPoint": 34,
+		"groups":
+		[
+			{
+				"id": "Super Mario Land",
+				"microgames": [
+					"SuperMarioLand"
+				]
+			},
+			{
+				"id": "Dig It",
+				"microgames": [
+					"DigIt"
+				]
+			},
+			{
+				"id": "Dragon's Reign",
+				"microgames": [
+					"DragonsReign"
+				]
+			},
+			{
+				"id": "The Legend of Zelda: Breath of the Wild",
+				"microgames": [
+					"TheLegendOfZeldaBreathOfTheWild"
+				]
+			},
+			{
+				"id": "Peril-Chute",
+				"microgames": [
+					"PerilChute"
+				]
+			},
+			{
+				"id": "Donkey Kong Country Returns",
+				"microgames": [
+					"DonkeyKongCountryReturns"
+				]
+			},
+			{
+				"id": "Blow Your Horn",
+				"microgames": [
+					"BlowYourHorn"
+				]
+			},
+			{
+				"id": "Roll Call",
+				"microgames": [
+					"RollCall"
+				]
+			},
+			{
+				"id": "Garden Secrets",
+				"microgames": [
+					"GardenSecrets"
+				]
+			},
+			{
+				"id": "Animal Crossing: New Leaf",
+				"microgames": [
+					"AnimalCrossingNewLeaf"
+				]
+			},
+			{
+				"id": "New Super Mario Bros. U",
+				"microgames": [
+					"NewSuperMarioBrosU"
+				]
+			},
+			{
+				"id": "Seeing Stars",
+				"microgames": [
+					"SeeingStars"
+				]
+			},
+			{
+				"id": "Pikmin 2",
+				"microgames": [
+					"Pikmin2"
+				]
+			},
+			{
+				"id": "Web Surfer",
+				"microgames": [
+					"WebSurfer"
+				]
+			},
+			{
+				"id": "Nail the Nail",
+				"microgames": [
+					"NailTheNail"
+				]
+			},
+			{
+				"id": "The Vampire Arose",
+				"microgames": [
+					"TheVampireArose"
+				]
+			},
+			{
+				"id": "Bug Out",
+				"microgames": [
+					"BugOut"
+				]
+			},
+			{
+				"id": "Captain Toad: Treasure Tracker",
+				"microgames": [
+					"CaptainToadTreasureTracker"
+				]
+			},
+			{
+				"id": "Appealing Mask",
+				"microgames": [
+					"AppealingMask"
+				]
+			},
+			{
+				"id": "Star Light",
+				"microgames": [
+					"StarLight"
+				]
+			},
+			{
+				"id": "Flee the Flashlight",
+				"microgames": [
+					"FleeTheFlashlight"
+				]
+			},
+			{
+				"id": "Fall for You",
+				"microgames": [
+					"FallForYou"
+				]
+			},
+			{
+				"id": "Pit Stop",
+				"microgames": [
+					"PitStop"
+				]
+			},
+			{
+				"id": "A Call to Fall",
+				"microgames": [
+					"ACallToFall"
+				]
+			},
+			{
+				"id": "Pipe Maze",
+				"microgames": [
+					"PipeMaze"
+				]
+			},
+			{
+				"id": "Yoshi's Story",
+				"microgames": [
+					"YoshisStory"
+				]
+			},
+			{
+				"id": "Egg It On",
+				"microgames": [
+					"EggItOn"
+				]
+			},
+			{
+				"id": "Take a Seat",
+				"microgames": [
+					"TakeASeat"
+				]
+			},
+			{
+				"id": "Gold Digger",
+				"microgames": [
+					"GoldDigger"
+				]
+			},
+			{
+				"id": "Peekaboo",
+				"microgames": [
+					"Peekaboo"
+				]
+			},
+			{
+				"id": "Nightmare Fuel",
+				"microgames": [
+					"NightmareFuel"
+				]
+			},
+			{
+				"id": "Hit the Switch",
+				"microgames": [
+					"HitTheSwitch"
+				]
+			},
+			{
+				"id": "Strike Gold",
+				"microgames": [
+					"StrikeGold"
+				]
+			},
+			{
+				"id": "UFBs",
+				"microgames": [
+					"UFBs"
+				]
+			}
+		],
+		"levels":
+		[
+			"Super Mario Land",
+			"Dig It",
+			"Dragon's Reign",
+			"The Legend of Zelda: Breath of the Wild",
+			"Peril-Chute",
+			"Donkey Kong Country Returns",
+			"Blow Your Horn",
+			"Roll Call",
+			"Garden Secrets",
+			"Animal Crossing: New Leaf",
+			"New Super Mario Bros. U",
+			"Seeing Stars",
+			"Pikmin 2",
+			"Web Surfer",
+			"Nail the Nail",
+			"The Vampire Arose",
+			"Bug Out",
+			"Captain Toad: Treasure Tracker",
+			"Appealing Mask",
+			"Star Light",
+			"Flee the Flashlight",
+			"Fall for You",
+			"Pit Stop",
+			"A Call to Fall",
+			"Pipe Maze",
+			"Yoshi's Story",
+			"Egg It On",
+			"Take a Seat",
+			"Gold Digger",
+			"Peekaboo",
+			"Nightmare Fuel",
+			"Hit the Switch",
+			"Strike Gold",
+			"UFBs"
+		]
+	},
+	{
+		"title": "Survival Training",
+        "type": "Score",
+		"endPoint": 10000,
+		"groups":
+		[
+			{
+				"id": "Anything Goes",
+				"microgames": [
+					"BoxedUp",
+					"PipeMaze",
+					"WhereGoesTheNose",
+					"InsideTheStorm",
+					"AnswerMe",
+					"Gifted",
+					"PiggyPluck",
+					"MuscleOut",
+					"CheekyBeaker",
+					"NoteAbleArt",
+					"PopGoesTheParty",
+					"RoShamBo",
+					"StopThief",
+					"PushedToTheEdge",
+					"GarlicCatch",
+					"GetAwayGhost",
+					"WhatAHaul",
+					"FallForYou",
+					"BugOut",
+					"MystifyingMirror",
+					"SameButDifferent",
+					"FlammableGoods",
+					"UnlockMe",
+					"CautionSlippery"
+				]
+			},
+			{
+				"id": "Culture",
+				"microgames": [
+					"BalanceTheScales",
+					"WeddingBells",
+					"BambooFalls",
+					"Spotlight",
+					"MagicTrickery",
+					"DigIt",
+					"HotAirHeroics",
+					"TempestInATeapot",
+					"HideAndGoNinja",
+					"AMovingExperience",
+					"HotHoops",
+					"MatchyMatryoshka",
+					"StarLight",
+					"RockOn",
+					"MannekenPis",
+					"HiddenHolidays",
+					"GardenSecrets",
+					"BlowYourHorn",
+					"MatchingMasks",
+					"FireWorks",
+					"PerfectPercussion",
+					"SnowmanAssembly"
+				]
+			},
+			{
+				"id": "Food",
+				"microgames": [
+					"AppleDrop",
+					"RockCandy",
+					"TakeASeat",
+					"BlendedSplendid",
+					"StoveSlider",
+					"AlphabetFruit",
+					"DessertDefender",
+					"VeggieOut",
+					"BottleBall",
+					"RollCake",
+					"AWeightyMatter",
+					"FeastYourEyesOnThis",
+					"CornCleaner",
+					"MouthsToFeed",
+					"BurstYourBottle",
+					"SoKneady",
+					"IceCreamLean",
+					"BadVegetables",
+					"TheWaiterAwaits",
+					"SlatheredInKetchup",
+					"LightTheCake",
+					"BareBanana"
+				]
+			},
+			{
+				"id": "Fantasy",
+				"microgames": [
+					"MushroomDoom",
+					"NightmareFuel",
+					"DragonsReign",
+					"BubbleCount",
+					"TheresAMonsterBehindYou",
+					"UmbrellaBrothers",
+					"WeirdWindmill",
+					"FishyFelines",
+					"ABigFan",
+					"WaterYouWaitingFor",
+					"SwingAndAKiss",
+					"MeanMagic",
+					"SortItOut",
+					"UFBs",
+					"TheVampireArose",
+					"SeesawSpaceRace",
+					"PitStop",
+					"WitchWhich",
+					"SlimeTime",
+					"MermaidTears",
+					"AlienTrap",
+					"GimmeFive"
+				]
+			},
+			{
+				"id": "High Tech",
+				"microgames": [
+					"GreatEscape",
+					"ReadyToLaunch",
+					"WaywardCyborg",
+					"ChooChooChoose",
+					"ShutterSpeed",
+					"LaserLabyrinth",
+					"ThePowerOfMagnets",
+					"CollisionCourse",
+					"CircuitOfLight",
+					"VirusBuster",
+					"FactoryTour",
+					"PopUpPatrol",
+					"ReadySetWarp",
+					"GondolaLift",
+					"LikeItOrLeaveIt",
+					"CrashCourse",
+					"HotSpot",
+					"WindUpPup",
+					"BlockPuzzle",
+					"ManicMechanic",
+					"YouCanLeadARobotToWater",
+					"BareNecessities"
+				]
+			},
+			{
+				"id": "Intro Games",
+				"microgames": [
+					"TreasureHunt",
+					"TummyTrouble",
+					"StrikeGold",
+					"Wanted",
+					"SleepClinic",
+					"SeeingStars",
+					"RocketRush",
+					"LandInTheSand",
+					"EyeExam",
+					"DefendTheFlowers",
+					"FleeTheFlashlight",
+					"Swordplay"
+				]
+			},
+			{
+				"id": "Nintendo Classics",
+				"microgames": [
+					"NewSuperMarioBrosU",
+					"SuperMarioLand",
+					"SuperMetroid",
+					"AnimalCrossingNewLeaf",
+					"NintendoBadgeArcade",
+					"Pikmin2",
+					"BigBrainAcademy",
+					"SuperMarioBros",
+					"FireEmblemThreeHouses",
+					"IceClimber",
+					"DonkeyKongCountryReturns",
+					"WarioWare",
+					"DestinyGame",
+					"Splatoon2",
+					"DevilWorld",
+					"TheLegendOfZeldaBreathOfTheWild",
+					"LuigisMansion",
+					"CaptainToadTreasureTracker",
+					"EleCongaAutoplayer",
+					"GameWatchJudge",
+					"WarioWareTwisted",
+					"YoshisStory"
+				]
+			},
+			{
+				"id": "Nature",
+				"microgames": [
+					"StickToIt",
+					"ShooFly",
+					"EggItOn",
+					"CrayfishCrash",
+					"TurtleTipper",
+					"RollCall",
+					"CloudyWithAChanceOfSun",
+					"DropZone",
+					"LookBothWays",
+					"FamilyReunion",
+					"Peekaboo",
+					"DoggoneThirsty",
+					"MonochromeCreatures",
+					"WheelYouOrWontYou",
+					"KittyBusiness",
+					"DoFeedTheGiraffe",
+					"BreakTheIce",
+					"ChompyChirpers",
+					"WebSurfer",
+					"SayonaraSnakes",
+					"OceanHero",
+					"FluffItOut"
+				]
+			},
+			{
+				"id": "Sports",
+				"microgames": [
+					"PumpItUp",
+					"BounceBack",
+					"ReelEmIn",
+					"PleaseReefCycle",
+					"YogaMan",
+					"BasketAndBall",
+					"PerilChute",
+					"KeepingTrack",
+					"GymnAssist",
+					"ShotBlocker",
+					"WiggleDancing",
+					"GetSwole",
+					"ArcherAssist",
+					"ShadowSports",
+					"BasicallyWaterPolo",
+					"SandTrapScoop",
+					"SpokeTooSoon",
+					"WobbleBoxing",
+					"MoleInOne",
+					"BoxingCowards",
+					"StrokeOfGenius",
+					"BaseballBreakIn"
+				]
+			},
+			{
+				"id": "That's Life",
+				"microgames": [
+					"DontWasteThePaste",
+					"GoldDigger",
+					"TheCleaners",
+					"GoodTimes",
+					"AppealingMask",
+					"HideAndSeek",
+					"TheToothHurts",
+					"MissingRemote",
+					"FoggyGlasses",
+					"ACallToFall",
+					"SanitationStation",
+					"HitTheSwitch",
+					"MusicMischief",
+					"BreakTheBank",
+					"GarbageDay",
+					"RockABye",
+					"WaywardWater",
+					"FaceWash",
+					"NailTheNail",
+					"HostingHustle",
+					"IsAnyoneHome",
+					"StopTheStopper"
+				]
+			}
+		],
+		"levels":
+		[
+			"Intro Games",
+			"Intro Games",
+			"Intro Games",
+			"Intro Games",
+			"That's Life",
+			"That's Life",
+			"That's Life",
+			"That's Life",
+			"Fantasy",
+			"Fantasy",
+			"Fantasy",
+			"Fantasy",
+			"High Tech",
+			"High Tech",
+			"High Tech",
+			"High Tech",
+			"Nintendo Classics",
+			"Nintendo Classics",
+			"Nintendo Classics",
+			"Nintendo Classics",
+			"Nature",
+			"Nature",
+			"Nature",
+			"Nature",
+			"Sports",
+			"Sports",
+			"Sports",
+			"Sports",
+			"Food",
+			"Food",
+			"Food",
+			"Food",
+			"Culture",
+			"Culture",
+			"Culture",
+			"Culture",
+			"Anything Goes",
+			"Anything Goes",
+			"Anything Goes",
+			"Anything Goes"
+		]
+	},
+	{
+		"title": "Timed IQ Test-o-rama",
+        "type": "Timed",
+		"endPoint": 15,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"GoodTimes",
+					"WaywardWater",
+					"GameWatchJudge",
+					"FeastYourEyesOnThis",
+					"WhereGoesTheNose"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"Wanted",
+					"WitchWhich",
+					"BigBrainAcademy",
+					"DestinyGame",
+					"TheWaiterAwaits"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"ReadyToLaunch",
+					"CircuitOfLight",
+					"AlphabetFruit",
+					"SnowmanAssembly",
+					"UnlockMe"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3"
+		]
+	},
+	{
+		"title": "Fire and Ice",
+        "type": "Score",
+		"endPoint": 14,
+		"groups":
+		[
+			{
+				"id": "Fire Works",
+				"microgames": [
+					"FireWorks"
+				]
+			},
+			{
+				"id": "Snowman Assembly",
+				"microgames": [
+					"SnowmanAssembly"
+				]
+			},
+			{
+				"id": "Manneken Pis",
+				"microgames": [
+					"MannekenPis"
+				]
+			},
+			{
+				"id": "Break the Ice",
+				"microgames": [
+					"BreakTheIce"
+				]
+			},
+			{
+				"id": "Hot Hoops",
+				"microgames": [
+					"HotHoops"
+				]
+			},
+			{
+				"id": "Pikmin 2",
+				"microgames": [
+					"Pikmin2"
+				]
+			},
+			{
+				"id": "Stove Slider",
+				"microgames": [
+					"StoveSlider"
+				]
+			},
+			{
+				"id": "Ice-Cream Lean",
+				"microgames": [
+					"IceCreamLean"
+				]
+			},
+			{
+				"id": "Flammable Goods",
+				"microgames": [
+					"FlammableGoods"
+				]
+			},
+			{
+				"id": "Weird Windmill",
+				"microgames": [
+					"WeirdWindmill"
+				]
+			},
+			{
+				"id": "Light the Cake",
+				"microgames": [
+					"LightTheCake"
+				]
+			},
+			{
+				"id": "Star Light",
+				"microgames": [
+					"StarLight"
+				]
+			},
+			{
+				"id": "Super Mario Bros.",
+				"microgames": [
+					"SuperMarioBros"
+				]
+			},
+			{
+				"id": "Ice Climber",
+				"microgames": [
+					"IceClimber"
+				]
+			}
+		],
+		"levels":
+		[
+			"Fire Works",
+			"Snowman Assembly",
+			"Manneken Pis",
+			"Break the Ice",
+			"Hot Hoops",
+			"Pikmin 2",
+			"Stove Slider",
+			"Ice-Cream Lean",
+			"Flammable Goods",
+			"Weird Windmill",
+			"Light the Cake",
+			"Star Light",
+			"Super Mario Bros.",
+			"Ice Climber"
+		]
+	},
+	{
+		"title": "Pyoro, Pyoro!",
+        "type": "Score",
+		"endPoint": 10000,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"DefendTheFlowers",
+					"ACallToFall",
+					"Swordplay",
+					"PitStop",
+					"VirusBuster",
+					"LuigisMansion",
+					"CloudyWithAChanceOfSun",
+					"BambooFalls",
+					"WhatAHaul"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"MermaidTears",
+					"DropZone",
+					"BounceBack",
+					"BoxingCowards"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"TummyTrouble",
+					"SortItOut",
+					"HotSpot",
+					"SuperMetroid",
+					"Peekaboo",
+					"SayonaraSnakes",
+					"SandTrapScoop",
+					"MatchingMasks",
+					"BoxedUp",
+					"GetAwayGhost",
+					"CautionSlippery"
+				]
+			},
+			{
+				"id": "Group 4",
+				"microgames": [
+					"WaywardWater",
+					"GreatEscape",
+					"CircuitOfLight",
+					"WindUpPup",
+					"DevilWorld",
+					"TakeASeat",
+					"RockCandy",
+					"IceCreamLean"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 2",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Group 2"
+		]
+	},
+	{
+		"title": "Odd Ones Out",
+        "type": "Timed",
+		"endPoint": 16,
+		"groups":
+		[
+			{
+				"id": "Missing Remote",
+				"microgames": [
+					"MissingRemote"
+				]
+			},
+			{
+				"id": "Flee the Flashlight",
+				"microgames": [
+					"FleeTheFlashlight"
+				]
+			},
+			{
+				"id": "Factory Tour",
+				"microgames": [
+					"FactoryTour"
+				]
+			},
+			{
+				"id": "Yoshi's Story",
+				"microgames": [
+					"YoshisStory"
+				]
+			},
+			{
+				"id": "Get Away Ghost!",
+				"microgames": [
+					"GetAwayGhost"
+				]
+			},
+			{
+				"id": "New Super Mario Bros. U",
+				"microgames": [
+					"NewSuperMarioBrosU"
+				]
+			},
+			{
+				"id": "Look Both Ways",
+				"microgames": [
+					"LookBothWays"
+				]
+			},
+			{
+				"id": "Corn Cleaner",
+				"microgames": [
+					"CornCleaner"
+				]
+			},
+			{
+				"id": "Take a Seat",
+				"microgames": [
+					"TakeASeat"
+				]
+			},
+			{
+				"id": "Gold Digger",
+				"microgames": [
+					"GoldDigger"
+				]
+			},
+			{
+				"id": "Super Mario Bros.",
+				"microgames": [
+					"SuperMarioBros"
+				]
+			},
+			{
+				"id": "Appealing Mask",
+				"microgames": [
+					"AppealingMask"
+				]
+			},
+			{
+				"id": "Pipe Maze",
+				"microgames": [
+					"PipeMaze"
+				]
+			},
+			{
+				"id": "Is Anyone Home?",
+				"microgames": [
+					"IsAnyoneHome"
+				]
+			},
+			{
+				"id": "Great Escape",
+				"microgames": [
+					"GreatEscape"
+				]
+			},
+			{
+				"id": "Garden Secrets",
+				"microgames": [
+					"GardenSecrets"
+				]
+			}
+		],
+		"levels":
+		[
+			"Missing Remote",
+			"Flee the Flashlight",
+			"Factory Tour",
+			"Yoshi's Story",
+			"Get Away Ghost!",
+			"New Super Mario Bros. U",
+			"Look Both Ways",
+			"Corn Cleaner",
+			"Take a Seat",
+			"Gold Digger",
+			"Super Mario Bros.",
+			"Appealing Mask",
+			"Pipe Maze",
+			"Is Anyone Home?",
+			"Great Escape",
+			"Garden Secrets"
+		]
+	},
+	{
+		"title": "Disc Jockey",
+        "type": "Score",
+		"endPoint": 10000,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"DefendTheFlowers",
+					"TheCleaners",
+					"TheresAMonsterBehindYou",
+					"SeesawSpaceRace",
+					"BounceBack",
+					"MouthsToFeed",
+					"BambooFalls"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"BreakTheBank",
+					"ThePowerOfMagnets",
+					"OceanHero",
+					"BasicallyWaterPolo",
+					"RockCandy",
+					"DessertDefender",
+					"WhatAHaul"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"MeanMagic",
+					"SlimeTime",
+					"FluffItOut",
+					"ShotBlocker",
+					"BaseballBreakIn",
+					"AWeightyMatter",
+					"SlatheredInKetchup",
+					"FlammableGoods"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3"
+		]
+	},
+	{
+		"title": "High Speed IQ Test-o-rama",
+        "type": "Score",
+		"endPoint": 24,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"GoodTimes",
+					"ReadyToLaunch",
+					"FireEmblemThreeHouses",
+					"Splatoon2",
+					"KeepingTrack",
+					"WhereGoesTheNose"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"SortItOut",
+					"AlphabetFruit",
+					"MatchyMatryoshka",
+					"PerfectPercussion",
+					"RoShamBo",
+					"UnlockMe"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"Wanted",
+					"WaywardWater",
+					"GameWatchJudge",
+					"ShadowSports",
+					"TheWaiterAwaits",
+					"MatchingMasks"
+				]
+			},
+			{
+				"id": "Group 4",
+				"microgames": [
+					"EyeExam",
+					"ChooChooChoose",
+					"LikeItOrLeaveIt",
+					"DestinyGame",
+					"MonochromeCreatures",
+					"PipeMaze"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Group 4"
+		]
+	},
+	{
+		"title": "All Hail the Taxi Drivers",
+        "type": "Timed",
+		"endPoint": 16,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"NewSuperMarioBrosU",
+					"WiggleDancing",
+					"AppleDrop"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"MusicMischief",
+					"SlimeTime",
+					"RockCandy",
+					"SoKneady"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"EggItOn",
+					"RollCall",
+					"WheelYouOrWontYou"
+				]
+			},
+			{
+				"id": "Group 4",
+				"microgames": [
+					"GoldDigger",
+					"MermaidTears",
+					"HotSpot",
+					"CaptainToadTreasureTracker",
+					"GetAwayGhost"
+				]
+			},
+			{
+				"id": "Alphabet Fruit",
+				"microgames": [
+					"AlphabetFruit"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Group 3",
+			"Alphabet Fruit",
+			"Group 3"
+		]
+	},
+	{
+		"title": "Time Out",
+        "type": "Score",
+		"endPoint": 10000,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"ChooChooChoose",
+					"BlockPuzzle",
+					"AnimalCrossingNewLeaf",
+					"LookBothWays",
+					"StopThief"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"DefendTheFlowers",
+					"AlienTrap",
+					"PerilChute",
+					"GymnAssist",
+					"MatchyMatryoshka"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"FleeTheFlashlight",
+					"UFBs",
+					"SuperMarioBros",
+					"MatchingMasks",
+					"BoxedUp",
+					"UnlockMe"
+				]
+			},
+			{
+				"id": "Group 4",
+				"microgames": [
+					"GoldDigger",
+					"RockABye",
+					"WaywardCyborg",
+					"BounceBack",
+					"DessertDefender",
+					"HotHoops",
+					"PerfectPercussion"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 4",
+			"Group 4",
+			"Group 4"
+		]
+	},
+	{
+		"title": "Speed Trap",
+        "type": "Score",
+		"endPoint": 14,
+		"groups":
+		[
+			{
+				"id": "Laser Labyrinth",
+				"microgames": [
+					"LaserLabyrinth"
+				]
+			},
+			{
+				"id": "The Tooth Hurts",
+				"microgames": [
+					"TheToothHurts"
+				]
+			},
+			{
+				"id": "Boxing Cowards",
+				"microgames": [
+					"BoxingCowards"
+				]
+			},
+			{
+				"id": "The Cleaners",
+				"microgames": [
+					"TheCleaners"
+				]
+			},
+			{
+				"id": "Fall for You",
+				"microgames": [
+					"FallForYou"
+				]
+			},
+			{
+				"id": "Mean Magic",
+				"microgames": [
+					"MeanMagic"
+				]
+			},
+			{
+				"id": "Bad Vegetables",
+				"microgames": [
+					"BadVegetables"
+				]
+			},
+			{
+				"id": "Look Both Ways",
+				"microgames": [
+					"LookBothWays"
+				]
+			},
+			{
+				"id": "Boxed Up",
+				"microgames": [
+					"BoxedUp"
+				]
+			},
+			{
+				"id": "Hide-and-Seek",
+				"microgames": [
+					"HideAndSeek"
+				]
+			},
+			{
+				"id": "Wayward Cyborg",
+				"microgames": [
+					"WaywardCyborg"
+				]
+			},
+			{
+				"id": "Drop Zone",
+				"microgames": [
+					"DropZone"
+				]
+			},
+			{
+				"id": "Nintendo Badge Arcade",
+				"microgames": [
+					"NintendoBadgeArcade"
+				]
+			},
+			{
+				"id": "Collision Course",
+				"microgames": [
+					"CollisionCourse"
+				]
+			}
+		],
+		"levels":
+		[
+			"Laser Labyrinth",
+			"The Tooth Hurts",
+			"Boxing Cowards",
+			"The Cleaners",
+			"Fall for You",
+			"Mean Magic",
+			"Bad Vegetables",
+			"Look Both Ways",
+			"Boxed Up",
+			"Hide-and-Seek",
+			"Wayward Cyborg",
+			"Drop Zone",
+			"Nintendo Badge Arcade",
+			"Collision Course"
+		]
+	},
+	{
+		"title": "Opposable Fun",
+        "type": "Timed",
+		"endPoint": 16,
+		"groups":
+		[
+			{
+				"id": "Crash Course",
+				"microgames": [
+					"CrashCourse"
+				]
+			},
+			{
+				"id": "Tummy Trouble",
+				"microgames": [
+					"TummyTrouble"
+				]
+			},
+			{
+				"id": "Swordplay",
+				"microgames": [
+					"Swordplay"
+				]
+			},
+			{
+				"id": "Land in the Sand",
+				"microgames": [
+					"LandInTheSand"
+				]
+			},
+			{
+				"id": "Peekaboo",
+				"microgames": [
+					"Peekaboo"
+				]
+			},
+			{
+				"id": "Inside the Storm",
+				"microgames": [
+					"InsideTheStorm"
+				]
+			},
+			{
+				"id": "Turtle Tipper",
+				"microgames": [
+					"TurtleTipper"
+				]
+			},
+			{
+				"id": "Seeing Stars",
+				"microgames": [
+					"SeeingStars"
+				]
+			},
+			{
+				"id": "Treasure Hunt",
+				"microgames": [
+					"TreasureHunt"
+				]
+			},
+			{
+				"id": "Nightmare Fuel",
+				"microgames": [
+					"NightmareFuel"
+				]
+			},
+			{
+				"id": "Slime Time",
+				"microgames": [
+					"SlimeTime"
+				]
+			},
+			{
+				"id": "Mermaid Tears",
+				"microgames": [
+					"MermaidTears"
+				]
+			},
+			{
+				"id": "Family Reunion",
+				"microgames": [
+					"FamilyReunion"
+				]
+			},
+			{
+				"id": "Gondola Lift",
+				"microgames": [
+					"GondolaLift"
+				]
+			},
+			{
+				"id": "Roll Call",
+				"microgames": [
+					"RollCall"
+				]
+			},
+			{
+				"id": "Star Light",
+				"microgames": [
+					"StarLight"
+				]
+			}
+		],
+		"levels":
+		[
+			"Crash Course",
+			"Tummy Trouble",
+			"Swordplay",
+			"Land in the Sand",
+			"Peekaboo",
+			"Inside the Storm",
+			"Turtle Tipper",
+			"Seeing Stars",
+			"Treasure Hunt",
+			"Nightmare Fuel",
+			"Slime Time",
+			"Mermaid Tears",
+			"Family Reunion",
+			"Gondola Lift",
+			"Roll Call",
+			"Star Light"
+		]
+	},
+	{
+		"title": "Intro to Gravity",
+        "type": "Score",
+		"endPoint": 15,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"SeesawSpaceRace",
+					"GondolaLift",
+					"ChompyChirpers",
+					"AppleDrop",
+					"MuscleOut"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"LandInTheSand",
+					"KittyBusiness",
+					"BasicallyWaterPolo",
+					"SlatheredInKetchup",
+					"CheekyBeaker"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"StopTheStopper",
+					"TurtleTipper",
+					"MoleInOne",
+					"BaseballBreakIn",
+					"PiggyPluck"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3"
+		]
+	},
+	{
+		"title": "Mother and Son",
+        "type": "Score",
+		"endPoint": 10000,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"DontWasteThePaste",
+					"TheCleaners",
+					"GoodTimes",
+					"AppealingMask",
+					"HideAndSeek",
+					"GarbageDay",
+					"WaywardWater",
+					"IsAnyoneHome"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"GoldDigger",
+					"TheToothHurts",
+					"ACallToFall",
+					"SanitationStation",
+					"RockABye",
+					"FaceWash",
+					"HostingHustle",
+					"GoldDigger"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"FoggyGlasses",
+					"HitTheSwitch",
+					"MusicMischief",
+					"BreakTheBank",
+					"NailTheNail",
+					"StopTheStopper",
+					"BareNecessities"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3"
+		]
+	},
+	{
+		"title": "Kick it Up a Notch",
+        "type": "Score",
+		"endPoint": 15,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"FleeTheFlashlight",
+					"NailTheNail",
+					"NewSuperMarioBrosU",
+					"TheLegendOfZeldaBreathOfTheWild",
+					"BambooFalls"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"GoldDigger",
+					"DragonsReign",
+					"BlendedSplendid",
+					"CornCleaner",
+					"StopThief"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"TreasureHunt",
+					"HitTheSwitch",
+					"SuperMarioLand",
+					"AnimalCrossingNewLeaf",
+					"RockOn"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3"
+		]
+	},
+	{
+		"title": "Super Mario World Marathon",
+        "type": "Timed",
+		"endPoint": 3,
+		"groups":
+		[
+			{
+				"id": "Super Mario World",
+				"microgames": [
+					"SuperMarioWorld"
+				]
+			}
+		],
+		"levels":
+		[
+			"Super Mario World"
+		]
+	},
+	{
+		"title": "Wario's IQ Test-o-rama",
+        "type": "Score",
+		"endPoint": 10000,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"GoodTimes",
+					"ReadyToLaunch",
+					"FireEmblemThreeHouses",
+					"Splatoon2",
+					"KeepingTrack"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"SortItOut",
+					"AlphabetFruit",
+					"MatchyMatryoshka",
+					"PerfectPercussion",
+					"RoShamBo",
+					"UnlockMe"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"Wanted",
+					"GameWatchJudge",
+					"ShadowSports",
+					"TheWaiterAwaits",
+					"MatchingMasks",
+					"WhereGoesTheNose"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3"
+		]
+	},
+	{
+		"title": "More Pyoro?",
+        "type": "Timed",
+		"endPoint": 16,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"NewSuperMarioBrosU",
+					"ShooFly",
+					"WheelYouOrWontYou"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"RockABye",
+					"SpokeTooSoon",
+					"BottleBall",
+					"LightTheCake"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"StrikeGold",
+					"GoldDigger",
+					"FaceWash",
+					"CrashCourse"
+				]
+			},
+			{
+				"id": "Group 4",
+				"microgames": [
+					"NightmareFuel",
+					"AppleDrop",
+					"BurstYourBottle",
+					"WeddingBells"
+				]
+			},
+			{
+				"id": "Break the Bank",
+				"microgames": [
+					"BreakTheBank"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 1",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 1",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Break the Bank"
+		]
+	},
+	{
+		"title": "The Most Dangerous Games",
+        "type": "Score",
+		"endPoint": 15,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"LookBothWays",
+					"BreakTheIce"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"TheresAMonsterBehindYou",
+					"PerilChute",
+					"MannekenPis"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"StickToIt",
+					"FlammableGoods"
+				]
+			},
+			{
+				"id": "Group 4",
+				"microgames": [
+					"MushroomDoom",
+					"SuperMarioBros",
+					"IceClimber"
+				]
+			},
+			{
+				"id": "Group 5",
+				"microgames": [
+					"MissingRemote",
+					"HotHoops"
+				]
+			},
+			{
+				"id": "Group 6",
+				"microgames": [
+					"FactoryTour",
+					"NewSuperMarioBrosU",
+					"LightTheCake"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Group 5",
+			"Group 5",
+			"Group 6",
+			"Group 6",
+			"Group 6"
+		]
+	},
+	{
+		"title": "Let the Music Move You",
+        "type": "Score",
+		"endPoint": 10000,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"RocketRush",
+					"GreatEscape",
+					"LaserLabyrinth",
+					"LookBothWays",
+					"FamilyReunion",
+					"BoxingCowards",
+					"MystifyingMirror"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"TummyTrouble",
+					"TheresAMonsterBehindYou",
+					"FactoryTour",
+					"IceClimber",
+					"LightTheCake",
+					"PipeMaze",
+					"GetAwayGhost"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"MissingRemote",
+					"MermaidTears",
+					"HotSpot",
+					"DevilWorld",
+					"HotHoops",
+					"InsideTheStorm",
+					"PopGoesTheParty"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3"
+		]
+	},
+	{
+		"title": "Best Day Ever",
+        "type": "Timed",
+		"endPoint": 18,
+		"groups":
+		[
+			{
+				"id": "Rocket Rush",
+				"microgames": [
+					"RocketRush"
+				]
+			},
+			{
+				"id": "Great Escape",
+				"microgames": [
+					"GreatEscape"
+				]
+			},
+			{
+				"id": "Laser Labyrinth",
+				"microgames": [
+					"LaserLabyrinth"
+				]
+			},
+			{
+				"id": "Look Both Ways",
+				"microgames": [
+					"LookBothWays"
+				]
+			},
+			{
+				"id": "Family Reunion",
+				"microgames": [
+					"FamilyReunion"
+				]
+			},
+			{
+				"id": "Boxing Cowards",
+				"microgames": [
+					"BoxingCowards"
+				]
+			},
+			{
+				"id": "Mystifying Mirror",
+				"microgames": [
+					"MystifyingMirror"
+				]
+			},
+			{
+				"id": "Tummy Trouble",
+				"microgames": [
+					"TummyTrouble"
+				]
+			},
+			{
+				"id": "There's a Monster Behind You!",
+				"microgames": [
+					"TheresAMonsterBehindYou"
+				]
+			},
+			{
+				"id": "Factory Tour",
+				"microgames": [
+					"FactoryTour"
+				]
+			},
+			{
+				"id": "Ice Climber",
+				"microgames": [
+					"IceClimber"
+				]
+			},
+			{
+				"id": "Light the Cake",
+				"microgames": [
+					"LightTheCake"
+				]
+			},
+			{
+				"id": "Pipe Maze",
+				"microgames": [
+					"PipeMaze"
+				]
+			},
+			{
+				"id": "Get Away Ghost!",
+				"microgames": [
+					"GetAwayGhost"
+				]
+			},
+			{
+				"id": "Missing Remote",
+				"microgames": [
+					"MissingRemote"
+				]
+			},
+			{
+				"id": "Mermaid Tears",
+				"microgames": [
+					"MermaidTears"
+				]
+			},
+			{
+				"id": "Hot Spot",
+				"microgames": [
+					"HotSpot"
+				]
+			},
+			{
+				"id": "Devil World",
+				"microgames": [
+					"DevilWorld"
+				]
+			},
+			{
+				"id": "Hot Hoops",
+				"microgames": [
+					"HotHoops"
+				]
+			},
+			{
+				"id": "Inside the Storm",
+				"microgames": [
+					"InsideTheStorm"
+				]
+			},
+			{
+				"id": "Pop Goes the Party",
+				"microgames": [
+					"PopGoesTheParty"
+				]
+			}
+		],
+		"levels":
+		[
+			"Rocket Rush",
+			"Great Escape",
+			"Laser Labyrinth",
+			"Look Both Ways",
+			"Family Reunion",
+			"Boxing Cowards",
+			"Mystifying Mirror",
+			"Tummy Trouble",
+			"There's a Monster Behind You!",
+			"Factory Tour",
+			"Ice Climber",
+			"Light the Cake",
+			"Pipe Maze",
+			"Get Away, Ghost!",
+			"Missing Remote",
+			"Mermaid Tears",
+			"Hot Spot",
+			"Devil World",
+			"Hot Hoops",
+			"Inside the Storm",
+			"Pop Goes the Party"
+		]
+	},
+	{
+		"title": "Better with Age",
+        "type": "Score",
+		"endPoint": 18,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"FoggyGlasses",
+					"WarioWareTwisted",
+					"BaseballBreakIn"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"ReelEmIn",
+					"BoxingCowards",
+					"StarLight"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"FaceWash",
+					"PitStop",
+					"GetSwole"
+				]
+			},
+			{
+				"id": "Group 4",
+				"microgames": [
+					"MeanMagic",
+					"VirusBuster",
+					"StopThief"
+				]
+			},
+			{
+				"id": "Group 5",
+				"microgames": [
+					"AppealingMask",
+					"BalanceTheScales",
+					"MagicTrickery"
+				]
+			},
+			{
+				"id": "Group 6",
+				"microgames": [
+					"EggItOn",
+					"SayonaraSnakes",
+					"InsideTheStorm"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Group 5",
+			"Group 5",
+			"Group 5",
+			"Group 6",
+			"Group 6",
+			"Group 6"
+		]
+	},
+	{
+		"title": "Look Both Ways",
+        "type": "Score",
+		"endPoint": 10000,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"FishyFelines",
+					"OceanHero"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"BareBanana",
+					"MuscleOut"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"BigBrainAcademy",
+					"MatchingMasks"
+				]
+			},
+			{
+				"id": "Group 4",
+				"microgames": [
+					"DefendTheFlowers",
+					"CrayfishCrash"
+				]
+			},
+			{
+				"id": "Group 5",
+				"microgames": [
+					"SlimeTime",
+					"SayonaraSnakes"
+				]
+			},
+			{
+				"id": "Group 6",
+				"microgames": [
+					"MissingRemote",
+					"BreakTheBank"
+				]
+			},
+			{
+				"id": "Group 7",
+				"microgames": [
+					"SanitationStation",
+					"SnowmanAssembly"
+				]
+			},
+			{
+				"id": "Group 8",
+				"microgames": [
+					"EggItOn",
+					"BounceBack"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 2",
+			"Group 1",
+			"Group 2",
+			"Group 3",
+			"Group 4",
+			"Group 3",
+			"Group 4",
+			"Group 5",
+			"Group 6",
+			"Group 5",
+			"Group 6",
+			"Group 7",
+			"Group 8",
+			"Group 7",
+			"Group 8"
+		]
+	},
+	{
+		"title": "My Worst Nightmares",
+        "type": "Timed",
+		"endPoint": 15,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"TummyTrouble",
+					"SanitationStation",
+					"FaceWash",
+					"CrayfishCrash",
+					"KittyBusiness"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"NightmareFuel",
+					"PopUpPatrol",
+					"ShooFly",
+					"OceanHero",
+					"NoteAbleArt"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"PitStop",
+					"VirusBuster",
+					"CrashCourse",
+					"DonkeyKongCountryReturns",
+					"GardenSecrets"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3"
+		]
+	},
+	{
+		"title": "Cute to Boot",
+        "type": "Score",
+		"endPoint": 10000,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"SeeingStars",
+					"SortItOut",
+					"CircuitOfLight",
+					"BasketAndBall",
+					"BottleBall",
+					"PopGoesTheParty"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"MusicMischief",
+					"StopTheStopper",
+					"YouCanLeadARobotToWater",
+					"WheelYouOrWontYou",
+					"SoKneady",
+					"SlatheredInKetchup"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"DontWasteThePaste",
+					"MermaidTears",
+					"HotSpot",
+					"FamilyReunion",
+					"RollCake"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3"
+		]
+	},
+	{
+		"title": "High to Low",
+        "type": "Timed",
+		"endPoint": 18,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"FleeTheFlashlight",
+					"FireWorks"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"MissingRemote",
+					"CrashCourse"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"FaceWash",
+					"IsAnyoneHome",
+					"BlendedSplendid"
+				]
+			},
+			{
+				"id": "Group 4",
+				"microgames": [
+					"NailTheNail",
+					"VirusBuster",
+					"BlowYourHorn"
+				]
+			},
+			{
+				"id": "Group 5",
+				"microgames": [
+					"IceClimber",
+					"TakeASeat",
+					"MuscleOut",
+					"PopGoesTheParty"
+				]
+			},
+			{
+				"id": "Group 6",
+				"microgames": [
+					"BasicallyWaterPolo",
+					"MagicTrickery"
+				]
+			},
+			{
+				"id": "Corn Cleaner",
+				"microgames": [
+					"CornCleaner"
+				]
+			},
+			{
+				"id": "Snowman Assembly",
+				"microgames": [
+					"SnowmanAssembly"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 2",
+			"Group 1",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Corn Cleaner",
+			"Group 5",
+			"Group 5",
+			"Group 5",
+			"Group 5",
+			"Snowman Assembly",
+			"Group 6",
+			"Group 6"
+		]
+	},
+	{
+		"title": "You Break, You Buy",
+        "type": "Score",
+		"endPoint": 15,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"BreakTheIce",
+					"PerilChute",
+					"BlendedSplendid",
+					"DigIt",
+					"GardenSecrets"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"SuperMetroid",
+					"WebSurfer",
+					"RockCandy",
+					"BurstYourBottle",
+					"BalanceTheScales"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"GarbageDay",
+					"TheresAMonsterBehindYou",
+					"CrashCourse",
+					"YouCanLeadARobotToWater",
+					"EggItOn"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3"
+		]
+	},
+	{
+		"title": "Non-stop Ninjas",
+        "type": "Score",
+		"endPoint": 10000,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"TreasureHunt",
+					"StrikeGold",
+					"SeeingStars",
+					"HostingHustle",
+					"StarLight"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"GreatEscape",
+					"HotSpot",
+					"IceClimber",
+					"FamilyReunion",
+					"DoFeedTheGiraffe"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"SwingAndAKiss",
+					"ThePowerOfMagnets",
+					"CircuitOfLight",
+					"PerilChute",
+					"MatchyMatryoshka",
+					"PerfectPercussion"
+				]
+			},
+			{
+				"id": "Group 4",
+				"microgames": [
+					"GoodTimes",
+					"MushroomDoom",
+					"GameWatchJudge",
+					"ChompyChirpers",
+					"OceanHero",
+					"BounceBack",
+					"ArcherAssist",
+					"BlowYourHorn"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 2",
+			"Group 3",
+			"Group 4"
+		]
+	},
+	{
+		"title": "Yo-yo Time",
+        "type": "Timed",
+		"endPoint": 18,
+		"groups":
+		[
+			{
+				"id": "Mouths to Feed",
+				"microgames": [
+					"MouthsToFeed"
+				]
+			},
+			{
+				"id": "Bamboo Falls",
+				"microgames": [
+					"BambooFalls"
+				]
+			},
+			{
+				"id": "Rock Candy",
+				"microgames": [
+					"RockCandy"
+				]
+			},
+			{
+				"id": "What a Haul!",
+				"microgames": [
+					"WhatAHaul"
+				]
+			},
+			{
+				"id": "Rock-a-Bye",
+				"microgames": [
+					"RockABye"
+				]
+			},
+			{
+				"id": "Muscle Out",
+				"microgames": [
+					"MuscleOut"
+				]
+			},
+			{
+				"id": "Ocean Hero",
+				"microgames": [
+					"OceanHero"
+				]
+			},
+			{
+				"id": "Face Wash",
+				"microgames": [
+					"FaceWash"
+				]
+			},
+			{
+				"id": "Fluff It Out",
+				"microgames": [
+					"FluffItOut"
+				]
+			},
+			{
+				"id": "A Moving Experience",
+				"microgames": [
+					"AMovingExperience"
+				]
+			},
+			{
+				"id": "Music Mischief",
+				"microgames": [
+					"MusicMischief"
+				]
+			},
+			{
+				"id": "Baseball Break-In",
+				"microgames": [
+					"BaseballBreakIn"
+				]
+			},
+			{
+				"id": "Slime Time",
+				"microgames": [
+					"SlimeTime"
+				]
+			},
+			{
+				"id": "Cloudy with a Chance of Sun",
+				"microgames": [
+					"CloudyWithAChanceOfSun"
+				]
+			},
+			{
+				"id": "Water You Waiting For?",
+				"microgames": [
+					"WaterYouWaitingFor"
+				]
+			},
+			{
+				"id": "Wheel You or Won't You?",
+				"microgames": [
+					"WheelYouOrWontYou"
+				]
+			},
+			{
+				"id": "Tummy Trouble",
+				"microgames": [
+					"TummyTrouble"
+				]
+			},
+			{
+				"id": "Web Surfer",
+				"microgames": [
+					"WebSurfer"
+				]
+			}
+		],
+		"levels":
+		[
+			"Mouths to Feed",
+			"Bamboo Falls",
+			"Rock Candy",
+			"What a Haul!",
+			"Rock-a-Bye",
+			"Muscle Out",
+			"Ocean Hero",
+			"Face Wash",
+			"Fluff It Out",
+			"A Moving Experience",
+			"Music Mischief",
+			"Baseball Break-In",
+			"Slime Time",
+			"Cloudy with a Chance of Sun",
+			"Water You Waiting For?",
+			"Wheel You or Won't You?",
+			"Tummy Trouble",
+			"Web Surfer"
+		]
+	},
+	{
+		"title": "Carry On",
+        "type": "Score",
+		"endPoint": 17,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"GondolaLift",
+					"WhatAHaul"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"ABigFan",
+					"SuperMetroid",
+					"Spotlight"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"AnimalCrossingNewLeaf",
+					"BasketAndBall"
+				]
+			},
+			{
+				"id": "Group 4",
+				"microgames": [
+					"DoFeedTheGiraffe",
+					"MouthsToFeed",
+					"TheWaiterAwaits",
+					"HotAirHeroics"
+				]
+			},
+			{
+				"id": "Group 5",
+				"microgames": [
+					"FoggyGlasses",
+					"BlowYourHorn"
+				]
+			},
+			{
+				"id": "Group 6",
+				"microgames": [
+					"FamilyReunion",
+					"SandTrapScoop",
+					"RollCake",
+					"AMovingExperience"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Group 5",
+			"Group 5",
+			"Group 6",
+			"Group 6",
+			"Group 6",
+			"Group 6"
+		]
+	},
+	{
+		"title": "Twice as Nice",
+        "type": "Score",
+		"endPoint": 10000,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"LaserLabyrinth",
+					"NintendoBadgeArcade",
+					"LookBothWays",
+					"BoxingCowards"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"MeanMagic",
+					"BurstYourBottle",
+					"BoxedUp",
+					"InsideTheStorm"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"GarbageDay",
+					"WaywardCyborg",
+					"FactoryTour",
+					"GetAwayGhost"
+				]
+			},
+			{
+				"id": "Group 4",
+				"microgames": [
+					"HideAndSeek",
+					"UmbrellaBrothers",
+					"GreatEscape",
+					"DevilWorld"
+				]
+			},
+			{
+				"id": "Group 5",
+				"microgames": [
+					"ChooChooChoose",
+					"IceClimber",
+					"TakeASeat",
+					"BadVegetables"
+				]
+			},
+			{
+				"id": "Group 6",
+				"microgames": [
+					"TheToothHurts",
+					"TheresAMonsterBehindYou",
+					"MatchingMasks",
+					"FallForYou"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Group 5",
+			"Group 5",
+			"Group 5",
+			"Group 5",
+			"Group 6",
+			"Group 6",
+			"Group 6",
+			"Group 6"
+		]
+	},
+	{
+		"title": "Starring Penny",
+        "type": "Timed",
+		"endPoint": 16,
+		"groups":
+		[
+			{
+				"id": "Look Both Ways",
+				"microgames": [
+					"LookBothWays"
+				]
+			},
+			{
+				"id": "Tummy Trouble",
+				"microgames": [
+					"TummyTrouble"
+				]
+			},
+			{
+				"id": "Factory Tour",
+				"microgames": [
+					"FactoryTour"
+				]
+			},
+			{
+				"id": "Pipe Maze",
+				"microgames": [
+					"PipeMaze"
+				]
+			},
+			{
+				"id": "Mystifying Mirror",
+				"microgames": [
+					"MystifyingMirror"
+				]
+			},
+			{
+				"id": "Take a Seat",
+				"microgames": [
+					"TakeASeat"
+				]
+			},
+			{
+				"id": "Family Reunion",
+				"microgames": [
+					"FamilyReunion"
+				]
+			},
+			{
+				"id": "Game & Watch Judge",
+				"microgames": [
+					"GameWatchJudge"
+				]
+			},
+			{
+				"id": "Great Escape",
+				"microgames": [
+					"GreatEscape"
+				]
+			},
+			{
+				"id": "Pop Goes the Party",
+				"microgames": [
+					"PopGoesTheParty"
+				]
+			},
+			{
+				"id": "What a Haul!",
+				"microgames": [
+					"WhatAHaul"
+				]
+			},
+			{
+				"id": "Get Away Ghost!",
+				"microgames": [
+					"GetAwayGhost"
+				]
+			},
+			{
+				"id": "Light the Cake",
+				"microgames": [
+					"LightTheCake"
+				]
+			},
+			{
+				"id": "Ice Climber",
+				"microgames": [
+					"IceClimber"
+				]
+			},
+			{
+				"id": "Hot Spot",
+				"microgames": [
+					"HotSpot"
+				]
+			},
+			{
+				"id": "Missing Remote",
+				"microgames": [
+					"MissingRemote"
+				]
+			}
+		],
+		"levels":
+		[
+			"Look Both Ways",
+			"Tummy Trouble",
+			"Factory Tour",
+			"Pipe Maze",
+			"Mystifying Mirror",
+			"Take a Seat",
+			"Family Reunion",
+			"Game & Watch Judge",
+			"Great Escape",
+			"Pop Goes the Party",
+			"What a Haul!",
+			"Get Away Ghost!",
+			"Light the Cake",
+			"Ice Climber",
+			"Hot Spot",
+			"Missing Remote"
+		]
+	},
+	{
+		"title": "Money, Money, Money!",
+        "type": "Score",
+		"endPoint": 15,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"Wanted",
+					"BreakTheBank",
+					"DigIt",
+					"FlammableGoods"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"DragonsReign",
+					"MermaidTears",
+					"PipeMaze"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"StrikeGold",
+					"PiggyPluck",
+					"WhatAHaul",
+					"UnlockMe"
+				]
+			},
+			{
+				"id": "Group 4",
+				"microgames": [
+					"TreasureHunt",
+					"MushroomDoom",
+					"NewSuperMarioBrosU",
+					"BugOut"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Group 4"
+		]
+	},
+	{
+		"title": "IQ Test-o-rama",
+        "type": "Score",
+		"endPoint": 10000,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"EyeExam",
+					"ChooChooChoose",
+					"LikeItOrLeaveIt",
+					"DestinyGame",
+					"MonochromeCreatures",
+					"PipeMaze"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"WaywardWater",
+					"BubbleCount",
+					"FishyFelines",
+					"CircuitOfLight",
+					"HiddenHolidays",
+					"SameButDifferent"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"BlockPuzzle",
+					"BigBrainAcademy",
+					"FeastYourEyesOnThis",
+					"BalanceTheScales",
+					"SnowmanAssembly",
+					"AnswerMe"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3"
+		]
+	},
+	{
+		"title": "A Surprising Combination",
+        "type": "Timed",
+		"endPoint": 15,
+		"groups":
+		[
+			{
+				"id": "Bare Banana",
+				"microgames": [
+					"BareBanana"
+				]
+			},
+			{
+				"id": "Pit Stop",
+				"microgames": [
+					"PitStop"
+				]
+			},
+			{
+				"id": "Pop-Up Patrol",
+				"microgames": [
+					"PopUpPatrol"
+				]
+			},
+			{
+				"id": "Slime Time",
+				"microgames": [
+					"SlimeTime"
+				]
+			},
+			{
+				"id": "Mermaid Tears",
+				"microgames": [
+					"MermaidTears"
+				]
+			},
+			{
+				"id": "Seeing Stars",
+				"microgames": [
+					"SeeingStars"
+				]
+			},
+			{
+				"id": "Ice Climber",
+				"microgames": [
+					"IceClimber"
+				]
+			},
+			{
+				"id": "Cheeky Beaker",
+				"microgames": [
+					"CheekyBeaker"
+				]
+			},
+			{
+				"id": "Corn Cleaner",
+				"microgames": [
+					"CornCleaner"
+				]
+			},
+			{
+				"id": "Great Escape",
+				"microgames": [
+					"GreatEscape"
+				]
+			},
+			{
+				"id": "Ocean Hero",
+				"microgames": [
+					"OceanHero"
+				]
+			},
+			{
+				"id": "Peekaboo",
+				"microgames": [
+					"Peekaboo"
+				]
+			},
+			{
+				"id": "Blended? Splendid!",
+				"microgames": [
+					"BlendedSplendid"
+				]
+			},
+			{
+				"id": "Chompy Chirpers",
+				"microgames": [
+					"ChompyChirpers"
+				]
+			},
+			{
+				"id": "Baseball Break-In",
+				"microgames": [
+					"BaseballBreakIn"
+				]
+			}
+		],
+		"levels":
+		[
+			"Bare Banana",
+			"Pit Stop",
+			"Pop-Up Patrol",
+			"Slime Time",
+			"Mermaid Tears",
+			"Seeing Stars",
+			"Ice Climber",
+			"Cheeky Beaker",
+			"Corn Cleaner",
+			"Great Escape",
+			"Ocean Hero",
+			"Peekaboo",
+			"Blended? Splendid!",
+			"Chompy Chirpers",
+			"Baseball Break-In"
+		]
+	},
+	{
+		"title": "Bring a Towel",
+        "type": "Score",
+		"endPoint": 15,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"SanitationStation",
+					"CrayfishCrash",
+					"BasicallyWaterPolo",
+					"BurstYourBottle",
+					"BambooFalls"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"FaceWash",
+					"StopTheStopper",
+					"PleaseReefCycle",
+					"StrokeOfGenius",
+					"CheekyBeaker"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"WaterYouWaitingFor",
+					"DoggoneThirsty",
+					"OceanHero",
+					"ReelEmIn",
+					"BlendedSplendid"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3"
+		]
+	},
+	{
+		"title": "Tough to Master",
+        "type": "Score",
+		"endPoint": 10000,
+		"groups":
+		[
+			{
+				"id": "Fishy Felines",
+				"microgames": [
+					"FishyFelines"
+				]
+			},
+			{
+				"id": "The Waiter Awaits",
+				"microgames": [
+					"TheWaiterAwaits"
+				]
+			},
+			{
+				"id": "Ro-sham-bo",
+				"microgames": [
+					"RoShamBo"
+				]
+			},
+			{
+				"id": "Perfect Percussion",
+				"microgames": [
+					"PerfectPercussion"
+				]
+			},
+			{
+				"id": "Yoshi's Story",
+				"microgames": [
+					"YoshisStory"
+				]
+			},
+			{
+				"id": "Stick to It",
+				"microgames": [
+					"StickToIt"
+				]
+			},
+			{
+				"id": "Fire Works",
+				"microgames": [
+					"FireWorks"
+				]
+			},
+			{
+				"id": "You Can Lead a Robot to Water...",
+				"microgames": [
+					"YouCanLeadARobotToWater"
+				]
+			},
+			{
+				"id": "Mushroom Doom",
+				"microgames": [
+					"MushroomDoom"
+				]
+			},
+			{
+				"id": "Rock On!",
+				"microgames": [
+					"RockOn"
+				]
+			},
+			{
+				"id": "Shutter Speed",
+				"microgames": [
+					"ShutterSpeed"
+				]
+			},
+			{
+				"id": "Flee the Flashlight",
+				"microgames": [
+					"FleeTheFlashlight"
+				]
+			},
+			{
+				"id": "WarioWare",
+				"microgames": [
+					"WarioWare"
+				]
+			},
+			{
+				"id": "Sayonara Snakes",
+				"microgames": [
+					"SayonaraSnakes"
+				]
+			},
+			{
+				"id": "Bug Out",
+				"microgames": [
+					"BugOut"
+				]
+			},
+			{
+				"id": "Ready to Launch",
+				"microgames": [
+					"ReadyToLaunch"
+				]
+			},
+			{
+				"id": "Bubble Count",
+				"microgames": [
+					"BubbleCount"
+				]
+			},
+			{
+				"id": "Game & Watch Judge",
+				"microgames": [
+					"GameWatchJudge"
+				]
+			},
+			{
+				"id": "Unlock Me",
+				"microgames": [
+					"UnlockMe"
+				]
+			},
+			{
+				"id": "Shoo Fly!",
+				"microgames": [
+					"ShooFly"
+				]
+			},
+			{
+				"id": "Drop Zone",
+				"microgames": [
+					"DropZone"
+				]
+			},
+			{
+				"id": "Flammable Goods",
+				"microgames": [
+					"FlammableGoods"
+				]
+			},
+			{
+				"id": "Bad Vegetables",
+				"microgames": [
+					"BadVegetables"
+				]
+			},
+			{
+				"id": "Boxing Cowards",
+				"microgames": [
+					"BoxingCowards"
+				]
+			},
+			{
+				"id": "Roll Call",
+				"microgames": [
+					"RollCall"
+				]
+			},
+			{
+				"id": "Laser Labyrinth",
+				"microgames": [
+					"LaserLabyrinth"
+				]
+			},
+			{
+				"id": "Fall for You",
+				"microgames": [
+					"FallForYou"
+				]
+			},
+			{
+				"id": "Same but Different",
+				"microgames": [
+					"SameButDifferent"
+				]
+			},
+			{
+				"id": "Choo-Choo Choose",
+				"microgames": [
+					"ChooChooChoose"
+				]
+			},
+			{
+				"id": "Dragon's Reign",
+				"microgames": [
+					"DragonsReign"
+				]
+			}
+		],
+		"levels":
+		[
+			"Fishy Felines",
+			"The Waiter Awaits",
+			"Ro-sham-bo",
+			"Perfect Percussion",
+			"Yoshi's Story",
+			"Stick to It",
+			"Fire Works",
+			"You Can Lead a Robot to Water...",
+			"Mushroom Doom",
+			"Rock On!",
+			"Shutter Speed",
+			"Flee the Flashlight",
+			"WarioWare",
+			"Sayonara, Snakes",
+			"Bug Out",
+			"Ready to Launch",
+			"Bubble Count",
+			"Game & Watch Judge",
+			"Unlock Me",
+			"Shoo, Fly!",
+			"Drop Zone",
+			"Flammable Goods",
+			"Bad Vegetables",
+			"Boxing Cowards",
+			"Roll Call",
+			"Laser Labyrinth",
+			"Fall for You",
+			"Same but Different",
+			"Choo-Choo Choose",
+			"Dragon's Reign"
+		]
+	},
+	{
+		"title": "Fun with Projectiles",
+        "type": "Timed",
+		"endPoint": 18,
+		"groups":
+		[
+			{
+				"id": "Sleep Clinic",
+				"microgames": [
+					"SleepClinic"
+				]
+			},
+			{
+				"id": "Burst Your Bottle",
+				"microgames": [
+					"BurstYourBottle"
+				]
+			},
+			{
+				"id": "Face Wash",
+				"microgames": [
+					"FaceWash"
+				]
+			},
+			{
+				"id": "Nightmare Fuel",
+				"microgames": [
+					"NightmareFuel"
+				]
+			},
+			{
+				"id": "Crash Course",
+				"microgames": [
+					"CrashCourse"
+				]
+			},
+			{
+				"id": "Wheel You or Won't You?",
+				"microgames": [
+					"WheelYouOrWontYou"
+				]
+			},
+			{
+				"id": "The Power of Magnets!",
+				"microgames": [
+					"ThePowerOfMagnets"
+				]
+			},
+			{
+				"id": "So Kneady",
+				"microgames": [
+					"SoKneady"
+				]
+			},
+			{
+				"id": "Spoke Too Soon",
+				"microgames": [
+					"SpokeTooSoon"
+				]
+			},
+			{
+				"id": "Weird Windmill",
+				"microgames": [
+					"WeirdWindmill"
+				]
+			},
+			{
+				"id": "The Legend of Zelda: Breath of the Wild",
+				"microgames": [
+					"TheLegendOfZeldaBreathOfTheWild"
+				]
+			},
+			{
+				"id": "Note-Able Art",
+				"microgames": [
+					"NoteAbleArt"
+				]
+			},
+			{
+				"id": "Strike Gold",
+				"microgames": [
+					"StrikeGold"
+				]
+			},
+			{
+				"id": "Egg It On",
+				"microgames": [
+					"EggItOn"
+				]
+			},
+			{
+				"id": "Garbage Day",
+				"microgames": [
+					"GarbageDay"
+				]
+			},
+			{
+				"id": "Pushed to the Edge",
+				"microgames": [
+					"PushedToTheEdge"
+				]
+			},
+			{
+				"id": "Stop the Stopper",
+				"microgames": [
+					"StopTheStopper"
+				]
+			},
+			{
+				"id": "Sanitation Station",
+				"microgames": [
+					"SanitationStation"
+				]
+			}
+		],
+		"levels":
+		[
+			"Sleep Clinic",
+			"Burst Your Bottle",
+			"Face Wash",
+			"Nightmare Fuel",
+			"Crash Course",
+			"Wheel You or Won't You?",
+			"The Power of Magnets!",
+			"So Kneady",
+			"Spoke Too Soon",
+			"Weird Windmill",
+			"The Legend of Zelda: Breath of the Wild",
+			"Note-Able Art",
+			"Strike Gold",
+			"Egg It On",
+			"Garbage Day",
+			"Pushed to the Edge",
+			"Stop the Stopper",
+			"Sanitation Station"
+		]
+	},
+	{
+		"title": "Enough with the Heroics",
+        "type": "Score",
+		"endPoint": 16,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"UFBs",
+					"VirusBuster"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"HostingHustle",
+					"TheVampireArose",
+					"ShotBlocker"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"BareNecessities",
+					"FlammableGoods"
+				]
+			},
+			{
+				"id": "Group 4",
+				"microgames": [
+					"WarioWare",
+					"StopThief",
+					"CautionSlippery"
+				]
+			},
+			{
+				"id": "Group 5",
+				"microgames": [
+					"ABigFan",
+					"DessertDefender"
+				]
+			},
+			{
+				"id": "Group 6",
+				"microgames": [
+					"TummyTrouble",
+					"WebSurfer",
+					"PerilChute",
+					"IceCreamLean"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Group 5",
+			"Group 5",
+			"Group 6",
+			"Group 6",
+			"Group 6",
+			"Group 6"
+		]
+	},
+	{
+		"title": "27-Volt",
+        "type": "Score",
+		"endPoint": 10000,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"TheCleaners",
+					"BasketAndBall",
+					"RockCandy",
+					"MouthsToFeed",
+					"WhatAHaul"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"DefendTheFlowers",
+					"SlimeTime",
+					"BounceBack",
+					"DessertDefender",
+					"AMovingExperience"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"TheToothHurts",
+					"WaywardCyborg",
+					"ShutterSpeed",
+					"IceClimber",
+					"CloudyWithAChanceOfSun"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3"
+		]
+	},
+	{
+		"title": "That's Pushing it",
+        "type": "Score",
+		"endPoint": 16,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"ReadySetWarp",
+					"YogaMan"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"IsAnyoneHome",
+					"PumpItUp",
+					"GymnAssist"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"DontWasteThePaste",
+					"MagicTrickery"
+				]
+			},
+			{
+				"id": "Group 4",
+				"microgames": [
+					"StoveSlider",
+					"IceCreamLean",
+					"AnswerMe"
+				]
+			},
+			{
+				"id": "Group 5",
+				"microgames": [
+					"ArcherAssist",
+					"HotAirHeroics"
+				]
+			},
+			{
+				"id": "Group 6",
+				"microgames": [
+					"CaptainToadTreasureTracker",
+					"KeepingTrack",
+					"WobbleBoxing",
+					"MuscleOut"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Group 5",
+			"Group 5",
+			"Group 6",
+			"Group 6",
+			"Group 6",
+			"Group 6"
+		]
+	},
+	{
+		"title": "Magic Formula",
+        "type": "Score",
+		"endPoint": 10000,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"TheresAMonsterBehindYou",
+					"GimmeFive",
+					"GreatEscape",
+					"TakeASeat",
+					"InsideTheStorm"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"TummyTrouble",
+					"NailTheNail",
+					"HotSpot",
+					"BareNecessities",
+					"SuperMarioLand",
+					"DigIt",
+					"PopGoesTheParty"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"RocketRush",
+					"GameWatchJudge",
+					"PipeMaze",
+					"MystifyingMirror"
+				]
+			},
+			{
+				"id": "Group 4",
+				"microgames": [
+					"FleeTheFlashlight",
+					"GoldDigger",
+					"FactoryTour",
+					"NewSuperMarioBrosU",
+					"SuperMarioBros",
+					"IceClimber",
+					"LookBothWays",
+					"LightTheCake",
+					"MatchingMasks",
+					"GetAwayGhost"
+				]
+			},
+			{
+				"id": "Group 5",
+				"microgames": [
+					"MissingRemote",
+					"MermaidTears",
+					"SuperMetroid",
+					"FamilyReunion",
+					"BasketAndBall",
+					"WhatAHaul"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Group 5",
+			"Group 5",
+			"Group 5",
+			"Group 5"
+		]
+	},
+	{
+		"title": "On Repeat",
+        "type": "Timed",
+		"endPoint": 16,
+		"groups":
+		[
+			{
+				"id": "Sand-Trap Scoop",
+				"microgames": [
+					"SandTrapScoop"
+				]
+			},
+			{
+				"id": "Don't Waste the Paste",
+				"microgames": [
+					"DontWasteThePaste"
+				]
+			},
+			{
+				"id": "Wobble Boxing",
+				"microgames": [
+					"WobbleBoxing"
+				]
+			},
+			{
+				"id": "Ocean Hero",
+				"microgames": [
+					"OceanHero"
+				]
+			},
+			{
+				"id": "Doggone Thirsty",
+				"microgames": [
+					"DoggoneThirsty"
+				]
+			},
+			{
+				"id": "Slime Time",
+				"microgames": [
+					"SlimeTime"
+				]
+			},
+			{
+				"id": "Gifted",
+				"microgames": [
+					"Gifted"
+				]
+			},
+			{
+				"id": "Kitty Business",
+				"microgames": [
+					"KittyBusiness"
+				]
+			},
+			{
+				"id": "Bottle Ball",
+				"microgames": [
+					"BottleBall"
+				]
+			},
+			{
+				"id": "Land in the Sand",
+				"microgames": [
+					"LandInTheSand"
+				]
+			},
+			{
+				"id": "The Power of Magnets!",
+				"microgames": [
+					"ThePowerOfMagnets"
+				]
+			},
+			{
+				"id": "Stop the Stopper",
+				"microgames": [
+					"StopTheStopper"
+				]
+			},
+			{
+				"id": "Egg It On",
+				"microgames": [
+					"EggItOn"
+				]
+			},
+			{
+				"id": "Turtle Tipper",
+				"microgames": [
+					"TurtleTipper"
+				]
+			},
+			{
+				"id": "Super Mario Land",
+				"microgames": [
+					"SuperMarioLand"
+				]
+			},
+			{
+				"id": "Strike Gold",
+				"microgames": [
+					"StrikeGold"
+				]
+			}
+		],
+		"levels":
+		[
+			"Sand-Trap Scoop",
+			"Don't Waste the Paste",
+			"Wobble Boxing",
+			"Ocean Hero",
+			"Doggone Thirsty",
+			"Slime Time",
+			"Gifted",
+			"Kitty Business",
+			"Bottle Ball",
+			"Land in the Sand",
+			"The Power of Magnets!",
+			"Stop the Stopper",
+			"Egg It On",
+			"Turtle Tipper",
+			"Super Mario Land",
+			"Strike Gold"
+		]
+	},
+	{
+		"title": "Expect to Collect",
+        "type": "Score",
+		"endPoint": 16,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"AppleDrop",
+					"GarlicCatch"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"FishyFelines",
+					"MatchingMasks",
+					"WhereGoesTheNose"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"OceanHero",
+					"ReelEmIn"
+				]
+			},
+			{
+				"id": "Group 4",
+				"microgames": [
+					"FleeTheFlashlight",
+					"Pikmin2",
+					"HotAirHeroics"
+				]
+			},
+			{
+				"id": "Group 5",
+				"microgames": [
+					"SlimeTime",
+					"AlienTrap",
+					"YoshisStory"
+				]
+			},
+			{
+				"id": "Group 6",
+				"microgames": [
+					"MissingRemote",
+					"SuperMarioLand",
+					"CornCleaner"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 4",
+			"Group 4",
+			"Group 4",
+			"Group 5",
+			"Group 5",
+			"Group 5",
+			"Group 6",
+			"Group 6",
+			"Group 6"
+		]
+	},
+	{
+		"title": "Wise Guys",
+        "type": "Score",
+		"endPoint": 10000,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"Swordplay",
+					"StopTheStopper",
+					"UFBs",
+					"WitchWhich",
+					"MermaidTears",
+					"SuperMarioBros",
+					"BounceBack",
+					"BasketAndBall",
+					"PerilChute",
+					"ShadowSports",
+					"SameButDifferent"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"RocketRush",
+					"TheresAMonsterBehindYou",
+					"FactoryTour",
+					"DevilWorld",
+					"InsideTheStorm"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"TheCleaners",
+					"HideAndSeek",
+					"TheToothHurts",
+					"WaywardCyborg",
+					"BoxingCowards",
+					"BoxedUp"
+				]
+			},
+			{
+				"id": "Group 4",
+				"microgames": [
+					"DefendTheFlowers",
+					"MatchingMasks",
+					"GetAwayGhost"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 3",
+			"Group 2",
+			"Group 3",
+			"Group 2",
+			"Group 3",
+			"Group 2",
+			"Group 3",
+			"Group 2",
+			"Group 3",
+			"Group 4"
+		]
+	},
+	{
+		"title": "The Ringers",
+        "type": "Timed",
+		"endPoint": 15,
+		"groups":
+		[
+			{
+				"id": "Factory Tour",
+				"microgames": [
+					"FactoryTour"
+				]
+			},
+			{
+				"id": "Super Mario Bros.",
+				"microgames": [
+					"SuperMarioBros"
+				]
+			},
+			{
+				"id": "Mermaid Tears",
+				"microgames": [
+					"MermaidTears"
+				]
+			},
+			{
+				"id": "Look Both Ways",
+				"microgames": [
+					"LookBothWays"
+				]
+			},
+			{
+				"id": "Appealing Mask",
+				"microgames": [
+					"AppealingMask"
+				]
+			},
+			{
+				"id": "Great Escape",
+				"microgames": [
+					"GreatEscape"
+				]
+			},
+			{
+				"id": "Light the Cake",
+				"microgames": [
+					"LightTheCake"
+				]
+			},
+			{
+				"id": "Pop Goes the Party",
+				"microgames": [
+					"PopGoesTheParty"
+				]
+			},
+			{
+				"id": "Take a Seat",
+				"microgames": [
+					"TakeASeat"
+				]
+			},
+			{
+				"id": "Ice Climber",
+				"microgames": [
+					"IceClimber"
+				]
+			},
+			{
+				"id": "Family Reunion",
+				"microgames": [
+					"FamilyReunion"
+				]
+			},
+			{
+				"id": "Mystifying Mirror",
+				"microgames": [
+					"MystifyingMirror"
+				]
+			},
+			{
+				"id": "Pipe Maze",
+				"microgames": [
+					"PipeMaze"
+				]
+			},
+			{
+				"id": "Missing Remote",
+				"microgames": [
+					"MissingRemote"
+				]
+			},
+			{
+				"id": "Inside the Storm",
+				"microgames": [
+					"InsideTheStorm"
+				]
+			}
+		],
+		"levels":
+		[
+			"Factory Tour",
+			"Super Mario Bros.",
+			"Mermaid Tears",
+			"Look Both Ways",
+			"Appealing Mask",
+			"Great Escape",
+			"Light the Cake",
+			"Pop Goes the Party",
+			"Take a Seat",
+			"Ice Climber",
+			"Family Reunion",
+			"Mystifying Mirror",
+			"Pipe Maze",
+			"Missing Remote",
+			"Inside the Storm"
+		]
+	},
+	{
+		"title": "Shake Well",
+        "type": "Score",
+		"endPoint": 15,
+		"groups":
+		[
+			{
+				"id": "Spoke Too Soon",
+				"microgames": [
+					"SpokeTooSoon"
+				]
+			},
+			{
+				"id": "Doggone Thirsty",
+				"microgames": [
+					"DoggoneThirsty"
+				]
+			},
+			{
+				"id": "Water You Waiting For?",
+				"microgames": [
+					"WaterYouWaitingFor"
+				]
+			},
+			{
+				"id": "Ele-Conga & Autoplayer",
+				"microgames": [
+					"EleCongaAutoplayer"
+				]
+			},
+			{
+				"id": "Swing and a Kiss",
+				"microgames": [
+					"SwingAndAKiss"
+				]
+			},
+			{
+				"id": "Bottle Ball",
+				"microgames": [
+					"BottleBall"
+				]
+			},
+			{
+				"id": "Hidden Holidays",
+				"microgames": [
+					"HiddenHolidays"
+				]
+			},
+			{
+				"id": "WarioWare: Twisted!",
+				"microgames": [
+					"WarioWareTwisted"
+				]
+			},
+			{
+				"id": "Garlic Catch",
+				"microgames": [
+					"GarlicCatch"
+				]
+			},
+			{
+				"id": "Caution: Slippery",
+				"microgames": [
+					"CautionSlippery"
+				]
+			},
+			{
+				"id": "A Moving Experience",
+				"microgames": [
+					"AMovingExperience"
+				]
+			},
+			{
+				"id": "Weird Windmill",
+				"microgames": [
+					"WeirdWindmill"
+				]
+			},
+			{
+				"id": "Wedding Bells",
+				"microgames": [
+					"WeddingBells"
+				]
+			},
+			{
+				"id": "Wind-Up Pup",
+				"microgames": [
+					"WindUpPup"
+				]
+			},
+			{
+				"id": "Sleep Clinic",
+				"microgames": [
+					"SleepClinic"
+				]
+			}
+		],
+		"levels":
+		[
+			"Spoke Too Soon",
+			"Doggone Thirsty",
+			"Water You Waiting For?",
+			"Ele-Conga & Autoplayer",
+			"Swing and a Kiss",
+			"Bottle Ball",
+			"Hidden Holidays",
+			"WarioWare: Twisted!",
+			"Garlic Catch",
+			"Caution: Slippery",
+			"A Moving Experience",
+			"Weird Windmill",
+			"Wedding Bells",
+			"Wind-Up Pup",
+			"Sleep Clinic"
+		]
+	},
+	{
+		"title": "Lights Out",
+        "type": "Score",
+		"endPoint": 10000,
+		"groups":
+		[
+			{
+				"id": "Group 1",
+				"microgames": [
+					"HitTheSwitch",
+					"ReadyToLaunch",
+					"BlockPuzzle",
+					"EggItOn",
+					"ShadowSports",
+					"LightTheCake",
+					"MagicTrickery",
+					"HotHoops"
+				]
+			},
+			{
+				"id": "Group 2",
+				"microgames": [
+					"StrikeGold",
+					"SeeingStars",
+					"MeanMagic",
+					"GreatEscape",
+					"IceClimber",
+					"LuigisMansion",
+					"FireWorks",
+					"PerfectPercussion"
+				]
+			},
+			{
+				"id": "Group 3",
+				"microgames": [
+					"FleeTheFlashlight",
+					"TheVampireArose",
+					"SuperMarioBros",
+					"MonochromeCreatures",
+					"BaseballBreakIn",
+					"Spotlight",
+					"StarLight",
+					"AnswerMe"
+				]
+			}
+		],
+		"levels":
+		[
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 1",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 2",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3",
+			"Group 3"
+		]
+	}
+]
