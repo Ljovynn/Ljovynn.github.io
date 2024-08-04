@@ -117,7 +117,7 @@ async function setup(){
 }
 
 async function LoadJSON() {
-    const response = await fetch("https://ljovynn.github.io/WWGIT/stages.json");
+    const response = await fetch("./stages.json");
     const json = await response.json();
     return json;
 }
