@@ -152,7 +152,6 @@ function NextGroup(skipAmount = 1){
     let loopsSkipped = Math.floor((levelInLoop - 1) / levels.length);
     levelInLoop -= levels.length * loopsSkipped;
 
-    ClearLevelDisplay();
     DisplayCurrentLevel();
 }
 
@@ -164,7 +163,6 @@ function Back(){
     levelInLoop--;
     if (levelInLoop == 0) levelInLoop = levels.length;
 
-    ClearLevelDisplay();
     DisplayCurrentLevel();
 }
 
@@ -174,7 +172,6 @@ function Reset(){
     level = 1;
     levelInLoop = 1;
 
-    ClearLevelDisplay();
     DisplayCurrentLevel();
 }
 
@@ -200,14 +197,11 @@ function DisplayCurrentLevel(){
         microgamesGridDocument.children[i].src = "./images/microgames/" + group.microgames[i] + ".png";
         microgamesGridDocument.children[i].classList.remove("hidden");
     }
-    groupTextDocument.innerText = group.id;
-    cycleTextDocument.innerText = (group.cycle) ? group.cycle : "";
-}
-
-function ClearLevelDisplay(){
-    for (let i = 0; i < microgamesGridDocument.childElementCount; i++){
+    for (let i = group.microgames.length; i < microgamesGridDocument.childElementCount; i++){
         microgamesGridDocument.children[i].classList.add("hidden");
     }
+    groupTextDocument.innerText = group.id;
+    cycleTextDocument.innerText = (group.cycle) ? group.cycle : "";
 }
 
 function ToMainMenu(){
