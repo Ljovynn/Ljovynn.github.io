@@ -14,6 +14,7 @@
         .hidden
         {
             visibility: hidden;
+            position: absolute;
         }
         .ingameHeader
         {
@@ -30,7 +31,31 @@
         }
         .mainMenuButton
         {
+            width: 15vw;
+            max-width: 200px;
+            height: auto;
             margin: 2vw;
+        }
+        .storyMenuStageButton
+        {
+            width: 20vw;
+            padding: 0.7vw;
+            height: auto;
+        }
+        #storyStageButtonsDiv
+        {
+            margin: auto;
+            width: 80vw;
+            grid-auto-flow: dense;
+            padding: 3vh;
+            text-align: center;
+            row-gap: 3vh;
+            column-gap: 1vw;
+        }
+        .backButtonMainMenu
+        {
+            width: 12vw;
+            height: 8vh;
         }
     </style>
     </head>
@@ -41,30 +66,44 @@
                 <br>This is a work in progress!<br>
                 <div style="display:inline-flex;">
                     <div>
-                        <button id="mainMenuStoryButton" class="mainMenuButton"><img src="./images/MenuIcons/Story.png"></button>
+                        <img id="mainMenuStoryButton" class="mainMenuButton" src="./images/MenuIcons/Story.png">
                         <br>Story
                     </div>
                     <div>
-                        <button id="mainMenuTowersButton" class="mainMenuButton"><img src="./images/MenuIcons/Towers.png"></button>
+                        <img id="mainMenuTowersButton" class="mainMenuButton" src="./images/MenuIcons/Towers.png">
                         <br>Towers & Misc
                     </div>
                     <br>
                     <br>
                     <br>
                     <div>
-                        <button id="mainMenuWarioCupButton" class="mainMenuButton"><img src="./images/MenuIcons/WarioCups.png"></button>
+                        <img id="mainMenuTowersButton" class="mainMenuButton" src="./images/MenuIcons/WarioCups.png">
                         <br>Wario Cups
                     </div>
                 </div>
             </div>
-            <div id="storyMenu" class="hidden">
-
+            <div id="storyMenu" class="hidden" style="text-align: center;">
+                <div id="storyStageButtonsDiv">
+                    <img class="storyMenuStageButton" src="./images/MenuIcons/IntroGames.png">
+                    <img class="storyMenuStageButton" src="./images/MenuIcons/ThatsLife.png">
+                    <img class="storyMenuStageButton" src="./images/MenuIcons/Fantasy.png">
+                    <img class="storyMenuStageButton" src="./images/MenuIcons/HighTech.png">
+                    <img class="storyMenuStageButton" src="./images/MenuIcons/NintendoClassics.png">
+                    <img class="storyMenuStageButton" src="./images/MenuIcons/Nature.png">
+                    <img class="storyMenuStageButton" src="./images/MenuIcons/Sports.png">
+                    <img class="storyMenuStageButton" src="./images/MenuIcons/Food.png">
+                    <img class="storyMenuStageButton" src="./images/MenuIcons/Culture.png">
+                    <img class="storyMenuStageButton" src="./images/MenuIcons/AnythingGoes.png">
+                </div>
+                <button class="backButtonMainMenu">Back</button>
             </div>
             <div id="towersMenu" class="hidden">
-
+                <div id="towerStageButtonsDiv">
+                </div>
             </div>
             <div id="warioCupMenu" class="hidden">
-            
+                <div id="warioCupStageButtonsDiv">
+                </div>
             </div>
         </div>
         <div id="ingame" class="hidden">
@@ -89,6 +128,6 @@
                 </div>
             </div>
         </div>
-    <script src="warioWarePredicter.js" type="module"></script>
+    <script src="warioWarePredicter.js"></script>
     </body>
 </html>

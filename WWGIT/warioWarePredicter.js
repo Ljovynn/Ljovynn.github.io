@@ -2,11 +2,18 @@ const microgamesAreaDocument = document.getElementById("mainMicrogamesArea");
 
 const menuDocument = document.getElementById("menu");
 const ingameDocument = document.getElementById("ingame");
+const backButtons = document.getElementsByClassName("backButtonMainMenu");
 
 const mainMenuDocument = document.getElementById("mainMenu");
 const storyMenuDocument = document.getElementById("storyMenu");
 const towersMenuDocument = document.getElementById("towersMenu");
 const warioCupMenuDocument = document.getElementById("warioCupMenu");
+
+const mainMenuStoryButton = document.getElementById("mainMenuStoryButton");
+const mainMenuTowersButton = document.getElementById("mainMenuTowersButton");
+const mainMenuWarioCupButton = document.getElementById("mainMenuWarioCupButton");
+
+const storyButtons = document.getElementsByClassName("storyMenuStageButton");
 
 const gameStates = 
 {
@@ -14,24 +21,7 @@ const gameStates =
     ingame: 1
 }
 
-const stages =
-{
-    introGames: 'Intro Games',
-    thatsLife: 'That\'s Life',
-    fantasy: 'Fantasy',
-    highTech: 'High Tech',
-    nintendoClassics: 'Nintendo Classics',
-    nature: 'Nature',
-    sports: 'Sports',
-    food: 'Food',
-    culture: 'Culture',
-    anythingGoes: 'Anything Goes',
-    remix: 'Remix',
-    remix2: 'Remix 2.0',
-    allMixedUp: 'All Mixed Up',
-    superHard: 'Super Hard / Thrill Ride',
-    pennysMix: 'Penny\'s Mix',
-}
+const stageDataJson;
 
 var gameState = gameStates.menu;
 var level = 1;
@@ -45,12 +35,21 @@ var endPoint = 999;
 document.addEventListener("keydown", (evt) => KeyPress(evt));
 microgamesAreaDocument.addEventListener("mousedown", NextGroup);
 
-LoadJSON();
+mainMenuStoryButton.addEventListener("mousedown", (evt) => {
+    mainMenuDocument.classList.add("hidden");
+    storyMenuDocument.classList.remove("hidden");
+});
+
+//LoadJSON();
 
 async function LoadJSON() {
     const response = await fetch("./stages.json");
     const json = await response.json();
     console.log(json);
+}
+
+for(let i = 0; i < 11; i++){
+    storyButtons[i].addEventListener("mousedown", EnterGame(stageDataJson[i]));
 }
 
 function KeyPress(evt){
@@ -102,6 +101,6 @@ function ToMainMenu(){
     warioCupMenuDocument.classList.add("hidden");
 }
 
-function EnterGame(stageId){
-
+function EnterGame(stageTitle){
+    console.log(stageTitle);
 }
