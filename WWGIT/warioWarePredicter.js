@@ -1,6 +1,3 @@
-import stagesJson from './stages.json' assert { type: 'json' };
-console.log(stagesJson);
-
 const microgamesAreaDocument = document.getElementById("mainMicrogamesArea");
 
 const menuDocument = document.getElementById("menu");
@@ -50,7 +47,10 @@ microgamesAreaDocument.addEventListener("mousedown", NextGroup);
 
 LoadJSON();
 
-function LoadJSON(){
+async function LoadJSON() {
+    const response = await fetch("./stages.json");
+    const json = await response.json();
+    console.log(json);
 }
 
 function KeyPress(evt){
