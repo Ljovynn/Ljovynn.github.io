@@ -164,6 +164,7 @@ function Back(){
     levelInLoop--;
     if (levelInLoop == 0) levelInLoop = levels.length;
 
+    ClearLevelDisplay();
     DisplayCurrentLevel();
 }
 
