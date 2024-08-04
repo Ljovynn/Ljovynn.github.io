@@ -173,6 +173,7 @@ function Reset(){
     level = 1;
     levelInLoop = 1;
 
+    ClearLevelDisplay();
     DisplayCurrentLevel();
 }
 
