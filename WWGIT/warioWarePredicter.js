@@ -187,6 +187,9 @@ function DisplayCurrentLevel(){
 
     if (levels[levelInLoop - 1] === ""){
         groupTextDocument.innerText = "N/A";
+        for (let i = 0; i < microgamesGridDocument.childElementCount; i++){
+            microgamesGridDocument.children[i].classList.add("hidden");
+        }
         return;
     }
 
