@@ -39,8 +39,8 @@ var nextGroupButton = document.getElementById("nextGroup");
 Setup();
 
 function Setup(){
-    var playerGridItemsElements = document.getElementById("playerGridContainer").getElementsByClassName("gridItem");
-    var dealerGridItemsElements = document.getElementById("dealerGridContainer").getElementsByClassName("gridItem");
+    let playerGridItemsElements = document.getElementById("playerGridContainer").getElementsByClassName("gridItem");
+    let dealerGridItemsElements = document.getElementById("dealerGridContainer").getElementsByClassName("gridItem");
 
     resetTrackerButton.addEventListener("mousedown", ResetItemTracker);
     openButton.addEventListener("mousedown", OpenItemTracker);
@@ -48,10 +48,10 @@ function Setup(){
     nextGroupButton.addEventListener("mousedown", AdvanceDealerGroup);
 
     for (let i = 0; i < playerGridItemsElements.length; i++){
-    var playerGI = new gridItem(playerGridItemsElements[i], playerGridItemsElements[i].firstChild, 0);
+    let playerGI = new gridItem(playerGridItemsElements[i], playerGridItemsElements[i].firstChild, 0);
     playerGridItems.push(playerGI);
 
-    var dealerGI = new gridItem(dealerGridItemsElements[i], dealerGridItemsElements[i].firstChild, 0);
+    let dealerGI = new gridItem(dealerGridItemsElements[i], dealerGridItemsElements[i].firstChild, 0);
     dealerGridItems.push(dealerGI);
 
     AddMouseHoverOpacity(playerGridItems[i].element);
@@ -62,7 +62,7 @@ function Setup(){
 
     ResetItemTracker();
 
-    var storedOpenTracker = localStorage['trackerOpen'] || '0'; 
+    let storedOpenTracker = localStorage['trackerOpen'] || '0'; 
     if (+storedOpenTracker == '1'){
         openButton.classList.add("hideElement");
     } else{
