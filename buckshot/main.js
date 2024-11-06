@@ -138,6 +138,13 @@ function Setup(){
         );
     }
 
+    let storedMode = localStorage['mode'] || 'singleplayer'; 
+    if (storedMode == 'singleplayer'){
+        mode = modes.singleplayer;
+    } else{
+        mode = modes.multiplayer;
+    }
+
     Reset();
 }
 
@@ -441,9 +448,11 @@ function ChangeMode(){
     if (mode == modes.singleplayer){
         mode = modes.multiplayer;
         modeSwitchButton.innerText = "Singleplayer mode";
+        localStorage['mode'] = 'multiplayer';
     } else if (mode == modes.multiplayer){
         mode = modes.singleplayer;
         modeSwitchButton.innerText = "Multiplayer mode";
+        localStorage['mode'] = 'singleplayer';
     }
     Reset();
 }
