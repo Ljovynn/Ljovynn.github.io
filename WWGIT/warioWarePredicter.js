@@ -136,7 +136,7 @@ function KeyPress(evt){
         break;
         case 'r':
         case 'R':
-            Reset();
+            ResetWW();
         break;
         case 'Escape':
             ExitGame();
@@ -166,7 +166,7 @@ function Back(){
     DisplayCurrentLevel();
 }
 
-function Reset(){
+function ResetWW(){
     if (gameState !== gameStates.ingame) return;
 
     level = 1;

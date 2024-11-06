@@ -32,7 +32,7 @@ const colors =
 ]
 
 var resetTrackerButton = document.getElementById("resetItemsButton");
-var openButton = document.getElementById("openItemTracker");
+var openButton = document.getElementById("openItemTrackerButton");
 var closeButton = document.getElementById("closeItemTracker");
 var nextGroupButton = document.getElementById("nextGroup");
 
@@ -42,7 +42,7 @@ function Setup(){
     var playerGridItemsElements = document.getElementById("playerGridContainer").getElementsByClassName("gridItem");
     var dealerGridItemsElements = document.getElementById("dealerGridContainer").getElementsByClassName("gridItem");
 
-    resetTrackerButton.addEventListener("mousedown", Reset);
+    resetTrackerButton.addEventListener("mousedown", ResetItemTracker);
     openButton.addEventListener("mousedown", OpenItemTracker);
     closeButton.addEventListener("mousedown", CloseItemTracker);
     nextGroupButton.addEventListener("mousedown", AdvanceDealerGroup);
@@ -60,7 +60,7 @@ function Setup(){
     dealerGridItems[i].element.addEventListener("mousedown", (evt) => DealerItemClicked(i));
     }
 
-    Reset();
+    ResetItemTracker();
 
     var storedOpenTracker = localStorage['trackerOpen'] || '0'; 
     if (+storedOpenTracker == '1'){
@@ -175,7 +175,7 @@ function SetDealerGroupElements(){
     }
 }
 
-function Reset(){
+function ResetItemTracker(){
     for (let i = 0; i < playerGridItems.length; i++){
         RemoveItem(playerGridItems[i]);
         RemoveItem(dealerGridItems[i]);
