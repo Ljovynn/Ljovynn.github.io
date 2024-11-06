@@ -1,4 +1,5 @@
 var shellElements = document.getElementById("shellRow").getElementsByTagName("*");
+var modeSwitchButton = document.getElementById("modeSwitchButton");
 
 var mainText = document.getElementById("mainText");
 var secondaryText = document.getElementById("secondaryText");
@@ -15,10 +16,24 @@ var draggedShellType = "";
 
 var shellOrder = [];
 
+var singleplayerMaxTotalShells = 8;
+var multiplayerMaxShellsOfOneType = 5;
+
 var totalShellCount = 0;
 
-var inRound = false;
+const states = {
+    shellChoosing: 1,
+    liveChoosing: 2,
+    blankChoosing: 3,
+    ingame: 4,
+}
+var state = states.shellChoosing;
 
+const modes = {
+    singleplayer: 1,
+    multiplayer: 2,
+}
+var mode = modes.singleplayer;
 
 function ShellTypeData(shellType, selector, burnerPhone, shellCount, burnerPhoneCount, imageSrc)
 {
@@ -46,13 +61,58 @@ function CurrentShellCount()
     return shellTypeDatas.liveShellData.shellCount + shellTypeDatas.blankShellData.shellCount;
 }
 
+const Reset = () => {
+    console.log("yeasss");
+    let visibleShellCount = (mode == modes.multiplayer) ? multiplayerMaxShellsOfOneType : singleplayerMaxTotalShells;
+    for (let i = 0; i < visibleShellCount; i++){
+        console.log("yeah");
+        shellElements[i].classList.remove("hideElement");
+        shellElements[i].src = "images/undefined.png";
+        shellElements[i].classList.remove("currentRoundShell");
+    }
+    for (let i = visibleShellCount; i < shellElements.length; i++){
+        console.log("oof");
+        shellElements[i].classList.add("hideElement");
+        shellElements[i].src = "images/undefined.png";
+        shellElements[i].classList.remove("currentRoundShell");
+    }
+
+    if (mode == modes.multiplayer){
+        state = states.liveChoosing;
+        mainText.innerText = "How many live shells?";
+    } else{
+        state = states.shellChoosing;
+        mainText.innerText = "How many shells?";
+    }
+
+    secondaryText.innerText = "";
+    secondarySelectors.classList.add("hideElement");
+    secondaryDiv.classList.remove("hideElement");
+
+    liveSelector.classList.remove("unselectable");
+    blankSelector.classList.remove("unselectable");
+    liveBurnerPhoneSelector.classList.remove("unselectable");
+    blankBurnerPhoneSelector.classList.remove("unselectable");
+
+    shellOrder = [];
+
+    totalShellCount = 0;
+    
+    shellTypeDatas.liveShellData.shellCount = 0;
+    shellTypeDatas.blankShellData.shellCount = 0;
+
+    shellTypeDatas.liveShellData.burnerPhoneCount = 0;
+    shellTypeDatas.blankShellData.burnerPhoneCount = 0;
+}
+
 Setup();
 
 function Setup(){
     document.getElementById("resetButton").addEventListener("mousedown", Reset);
+    modeSwitchButton.addEventListener("mousedown", ChangeMode);
 
-    liveSelector.addEventListener("mousedown", (evt) => SetNextShellType(true));
-    blankSelector.addEventListener("mousedown", (evt) => SetNextShellType(false));
+    liveSelector.addEventListener("mousedown", () => SetNextShellType(true));
+    blankSelector.addEventListener("mousedown", () => SetNextShellType(false));
     AddMouseHoverOpacity(liveSelector);
     AddMouseHoverOpacity(blankSelector);
     AddMouseHoverSecondaryText(liveSelector, "-1 Live round");
@@ -66,10 +126,10 @@ function Setup(){
     AddPhoneMovementFunctionality(blankBurnerPhoneSelector, "blank");
 
 
-    for (let i = 1; i < shellElements.length; i++){
-        shellElements[i].addEventListener("mousedown",(evt) => ChooseShellCount(i + 1));
-        shellElements[i].addEventListener("mouseenter", (evt) => HoverShellCount(i + 1));
-        shellElements[i].addEventListener("mouseleave", (evt) => HoverLeaveShellCount());
+    for (let i = 0; i < shellElements.length; i++){
+        shellElements[i].addEventListener("mousedown",() => ChooseShellCount(i + 1));
+        shellElements[i].addEventListener("mouseenter", () => HoverShellCount(i + 1));
+        shellElements[i].addEventListener("mouseleave", () => HoverLeaveShellCount());
         shellElements[i].addEventListener("drop", (evt) => Drop(evt, i));
         shellElements[i].addEventListener("dragover", (evt) => {
                 evt.preventDefault();
@@ -105,19 +165,53 @@ function AddPhoneMovementFunctionality(element, shellType){
 }
 
 function ChooseShellCount(hoveredShellCount){
-    if (inRound){
-        return;
+    switch (state){
+        case states.shellChoosing:
+            if (hoveredShellCount == 1) return;
+            totalShellCount = hoveredShellCount;
+            if (totalShellCount % 2 == 0){
+                shellTypeDatas.liveShellData.shellCount = totalShellCount / 2;
+                shellTypeDatas.blankShellData.shellCount = shellTypeDatas.liveShellData.shellCount;
+            } else{
+                shellTypeDatas.liveShellData.shellCount = Math.floor(totalShellCount / 2);
+                shellTypeDatas.blankShellData.shellCount = shellTypeDatas.liveShellData.shellCount + 1;
+            }
+            StartRound();
+            break;
+        case states.liveChoosing:
+            shellTypeDatas.liveShellData.shellCount = hoveredShellCount;
+            state = states.blankChoosing;
+            mainText.innerText = "How many blanks?";
+            for (let i = 0; i < multiplayerMaxShellsOfOneType; i++){
+                if (i < hoveredShellCount){
+                    shellElements[i].src = "images/blank.png";
+                } else{
+                    shellElements[i].src = "images/undefined.png";
+                }
+            }
+            break;
+        case states.blankChoosing:
+            shellTypeDatas.blankShellData.shellCount = hoveredShellCount;
+            totalShellCount = shellTypeDatas.liveShellData.shellCount + shellTypeDatas.blankShellData.shellCount;
+            StartRound();
+            break;
+        default:
+            return;
     }
-    totalShellCount = hoveredShellCount;
-    for (let i = 0; i < shellElements.length; i++){
+}
+
+function StartRound(){
+    state = states.ingame;
+
+    for (let i = 0; i < totalShellCount; i++){
         shellElements[i].src = "images/undefined.png";
-
-        if (i >= totalShellCount){
-            shellElements[i].classList.add("hideElement");
-        }
+        shellElements[i].classList.remove("hideElement");
+    }
+    for (let i = totalShellCount; i < shellElements.length; i++){
+        shellElements[i].src = "images/undefined.png";
+        shellElements[i].classList.add("hideElement");
     }
 
-    inRound = true;
     shellElements[0].classList.add("currentRoundShell");
 
     shellOrder = []
@@ -127,14 +221,6 @@ function ChooseShellCount(hoveredShellCount){
 
     secondarySelectors.classList.remove("hideElement");
     secondaryText.textContent = "";
-
-    if (totalShellCount % 2 == 0){
-        shellTypeDatas.liveShellData.shellCount = totalShellCount / 2;
-        shellTypeDatas.blankShellData.shellCount = shellTypeDatas.liveShellData.shellCount;
-    } else{
-        shellTypeDatas.liveShellData.shellCount = Math.floor(totalShellCount / 2);
-        shellTypeDatas.blankShellData.shellCount = shellTypeDatas.liveShellData.shellCount + 1;
-    }
 
     DisplayShellCountMainText();
 }
@@ -166,25 +252,47 @@ function DisplayShellCountMainText(){
 }
 
 function HoverShellCount(hoveredShellCount){
-    if (inRound){
-        return;
-    }
-    for (let i = 0; i < shellElements.length; i++){
-        if (i < hoveredShellCount){
-            if (i >= hoveredShellCount / 2){
-                shellElements[i].src = "images/live.png";
-            } else {
-                shellElements[i].src = "images/blank.png";
+    switch (state){
+        case states.shellChoosing:
+            if (hoveredShellCount == 1) return;
+            for (let i = 0; i < singleplayerMaxTotalShells; i++){
+                if (i < hoveredShellCount){
+                    if (i >= hoveredShellCount / 2){
+                        shellElements[i].src = "images/live.png";
+                    } else {
+                        shellElements[i].src = "images/blank.png";
+                    }
+                } else{
+                    shellElements[i].src = "images/undefined.png";
+                }
             }
-        } else{
-            shellElements[i].src = "images/undefined.png";
-        }
+            break;
+        case states.liveChoosing:
+            for (let i = 0; i < multiplayerMaxShellsOfOneType; i++){
+                if (i < hoveredShellCount){
+                    shellElements[i].src = "images/live.png";
+                } else{
+                    shellElements[i].src = "images/undefined.png";
+                }
+            }
+            break;
+        case states.blankChoosing:
+            for (let i = 0; i < multiplayerMaxShellsOfOneType; i++){
+                if (i < hoveredShellCount){
+                    shellElements[i].src = "images/blank.png";
+                } else{
+                    shellElements[i].src = "images/undefined.png";
+                }
+            }
+            break;
+        default:
+            return;
     }
     secondaryText.textContent = hoveredShellCount.toString();
 }
 
 function HoverLeaveShellCount(){
-    if (inRound){
+    if (state == states.ingame){
         return;
     }
     for (let i = 0; i < shellElements.length; i++){
@@ -288,7 +396,7 @@ function Dragend(){
 
 function Drop(evt, shellIndex) {
     evt.preventDefault();
-    if (inRound){
+    if (state == states.ingame){
         SetBurnerPhoneShell(shellIndex);
     }
 }
@@ -329,34 +437,13 @@ function SetBurnerPhoneShell(shellIndex){
     DisplayShellCountMainText();
 }
 
-
-function Reset(){
-    for (let i = 0; i < shellElements.length; i++){
-        shellElements[i].classList.remove("hideElement");
-        shellElements[i].src = "images/undefined.png";
-        shellElements[i].classList.remove("currentRoundShell");
+function ChangeMode(){
+    if (mode == modes.singleplayer){
+        mode = modes.multiplayer;
+        modeSwitchButton.innerText = "Singleplayer mode";
+    } else if (mode == modes.multiplayer){
+        mode = modes.singleplayer;
+        modeSwitchButton.innerText = "Multiplayer mode";
     }
-
-    inRound = false;
-
-    secondaryText.innerText = "";
-    secondarySelectors.classList.add("hideElement");
-    secondaryDiv.classList.remove("hideElement");
-
-    liveSelector.classList.remove("unselectable");
-    blankSelector.classList.remove("unselectable");
-    liveBurnerPhoneSelector.classList.remove("unselectable");
-    blankBurnerPhoneSelector.classList.remove("unselectable");
-
-    shellOrder = [];
-
-    totalShellCount = 0;
-    
-    shellTypeDatas.liveShellData.shellCount = 0;
-    shellTypeDatas.blankShellData.shellCount = 0;
-
-    shellTypeDatas.liveShellData.burnerPhoneCount = 0;
-    shellTypeDatas.blankShellData.burnerPhoneCount = 0;
-
-    mainText.innerText = "How many shells?";
+    Reset();
 }
