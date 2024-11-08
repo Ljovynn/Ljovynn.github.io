@@ -141,8 +141,10 @@ function Setup(){
     let storedMode = localStorage['mode'] || 'singleplayer'; 
     if (storedMode == 'singleplayer'){
         mode = modes.singleplayer;
+        modeSwitchButton.innerText = "Multiplayer mode";
     } else{
         mode = modes.multiplayer;
+        modeSwitchButton.innerText = "Singleplayer mode";
     }
 
     Reset();
