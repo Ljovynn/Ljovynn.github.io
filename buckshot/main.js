@@ -188,12 +188,8 @@ function ChooseShellCount(hoveredShellCount){
             shellTypeDatas.liveShellData.shellCount = hoveredShellCount;
             state = states.blankChoosing;
             mainText.innerText = "How many blanks?";
-            for (let i = 0; i < multiplayerMaxShellsOfOneType; i++){
-                if (i < hoveredShellCount){
-                    shellElements[i].src = "images/blank.png";
-                } else{
-                    shellElements[i].src = "images/undefined.png";
-                }
+            for (let i = 0; i < hoveredShellCount; i++){
+                shellElements[i].src = "images/blank.png";
             }
             break;
         case states.blankChoosing:
