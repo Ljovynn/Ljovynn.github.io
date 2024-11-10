@@ -79,7 +79,7 @@ const Reset = () => {
 
     if (mode == modes.multiplayer){
         state = states.liveChoosing;
-        mainText.innerText = "How many live shells?";
+        mainText.innerText = "How many live rounds?";
     } else{
         state = states.shellChoosing;
         mainText.innerText = "How many shells?";
