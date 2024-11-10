@@ -62,16 +62,13 @@ function CurrentShellCount()
 }
 
 const Reset = () => {
-    console.log("yeasss");
     let visibleShellCount = (mode == modes.multiplayer) ? multiplayerMaxShellsOfOneType : singleplayerMaxTotalShells;
     for (let i = 0; i < visibleShellCount; i++){
-        console.log("yeah");
         shellElements[i].classList.remove("hideElement");
         shellElements[i].src = "images/undefined.png";
         shellElements[i].classList.remove("currentRoundShell");
     }
     for (let i = visibleShellCount; i < shellElements.length; i++){
-        console.log("oof");
         shellElements[i].classList.add("hideElement");
         shellElements[i].src = "images/undefined.png";
         shellElements[i].classList.remove("currentRoundShell");
