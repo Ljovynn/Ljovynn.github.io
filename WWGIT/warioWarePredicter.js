@@ -213,7 +213,7 @@ function DisplayCurrentLevel(){
 }
 
 function HandleQuizText(bufferSize){
-    for (let i = 0; i < bufferSize; i++){
+    for (let i = 1; i < bufferSize + 1; i++){
         if (level + i > endPoint) return "";
 
         let checkedLevelInLoop = levelInLoop + i;
