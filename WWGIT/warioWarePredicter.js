@@ -20,6 +20,7 @@ const warioCupButtonsDiv = document.getElementById("warioCupStageButtonsDiv");
 const microgamesGridDocument = document.getElementById("microgamesGrid");
 const levelTextDocument = document.getElementById("levelText");
 const groupTextDocument = document.getElementById("groupText");
+const quizTextDocument = document.getElementById("quizText");
 const cycleTextDocument = document.getElementById("cycleText");
 const exitButton = document.getElementById("exitButton");
 
@@ -28,6 +29,8 @@ const gameStates =
     menu: 0,
     ingame: 1
 }
+
+var quizWarningBuffer = 2;
 
 var stageDataJson;
 
@@ -205,6 +208,25 @@ function DisplayCurrentLevel(){
     }
     groupTextDocument.innerText = group.id;
     cycleTextDocument.innerText = (group.cycle) ? group.cycle : "";
+
+    quizTextDocument.innerText = HandleQuizText(quizWarningBuffer);
+}
+
+function HandleQuizText(bufferSize){
+    for (let i = 0; i < bufferSize; i++){
+        if (level + i > endPoint) return "";
+
+        let checkedLevelInLoop = levelInLoop + i;
+        let loopsSkipped = Math.floor((checkedLevelInLoop - 1) / levels.length);
+        checkedLevelInLoop -= levels.length * loopsSkipped;
+
+        const group = groupDefinitions.find((item) => {
+            return item.id == levels[checkedLevelInLoop - 1];
+        });
+
+        if (group.microgames.includes("AnswerMe")) return "Quiz in " + i;
+    }
+    return "";
 }
 
 function ToMainMenu(){
