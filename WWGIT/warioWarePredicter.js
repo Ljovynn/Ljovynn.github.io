@@ -224,7 +224,7 @@ function HandleQuizText(bufferSize){
             return item.id == levels[checkedLevelInLoop - 1];
         });
 
-        if (group.microgames.includes("AnswerMe")) return "Quiz in " + i;
+        if (group.microgames.includes("AnswerMe")) return "Quiz in " + (i + 1);
     }
     return "";
 }
