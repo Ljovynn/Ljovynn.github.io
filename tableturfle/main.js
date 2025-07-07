@@ -42,6 +42,7 @@ async function FullSetup(){
 function RestoreGameHistory(){
     let currentDateString = GetCurrentDate();
     let storedLatestValue = localStorage['latestDate'] || currentDateString;
+    //delete history if new day
     if (storedLatestValue != currentDateString){
         localStorage['latestDate'] = currentDateString;
         localStorage['guessHistory'] = JSON.stringify([]);
@@ -100,6 +101,7 @@ function AddNewGuess(guessedCard){
     gameStateHistory.push([]);
     guessedCardHistory.push(guessedCard.id);
 
+    //add all unique sections
     let nameSection = document.createElement('div');
     nameSection.className = 'guess-section';
     AddTextToGuessSection(nameSection, guessedCard.name);
