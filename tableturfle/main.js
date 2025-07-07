@@ -11,7 +11,9 @@ const cornerShareButton = document.getElementById('corner-share-button');
 var options = [];
 
 var won = false;
+
 var gameStateHistory = [];
+var guessedCardHistory = [];
 
 const guessConditions = {
     wrong: 0,
@@ -30,7 +32,27 @@ var cards = [];
 
 var dailyCard;
 
-SetupCards();
+FullSetup();
+
+async function FullSetup(){
+    await SetupCards();
+    RestoreGameHistory();
+}
+
+function RestoreGameHistory(){
+    let currentDateString = GetCurrentDate();
+    let storedLatestValue = localStorage['latestDate'] || currentDateString;
+    if (storedLatestValue != currentDateString){
+        localStorage['latestDate'] = currentDateString;
+        localStorage['guessHistory'] = JSON.stringify([]);
+        return;
+    }
+    let storedGameHistory = JSON.parse(localStorage['guessHistory'] || '[]');
+    for (let i = 0; i < storedGameHistory.length; i++){
+        const card = GetCardById(storedGameHistory[i])
+        AddNewGuess(card);
+    }
+}
 
 function showDropdown(items) {
     dropdown.innerHTML = '';
@@ -68,10 +90,15 @@ inputButton.addEventListener('click', () => {
     const guessedCard = GetCardByName(cardInput.value);
     if (!guessedCard) return; //TODO: UI feedback confirm
 
-    //add guesses to UI
+    AddNewGuess(guessedCard);
+    localStorage['guessHistory'] = JSON.stringify(guessedCardHistory);
+});
+
+function AddNewGuess(guessedCard){
     let newGuess = document.createElement('div');
     newGuess.className = 'guess';
     gameStateHistory.push([]);
+    guessedCardHistory.push(guessedCard.id);
 
     let nameSection = document.createElement('div');
     nameSection.className = 'guess-section';
@@ -152,7 +179,7 @@ inputButton.addEventListener('click', () => {
     guessArea.appendChild(newGuess);
 
     cardInput.value = "";
-});
+}
 
 shareButton.addEventListener('click', () => {
     CopyGameToClipboard();
@@ -216,9 +243,15 @@ function WinGame(){
     }
     document.getElementById('guessTotalText').innerText = guessText;
 
-    const now = new Date();
-    const utcDateString = now.toISOString().split("T")[0]; // "YYYY-MM-DD"
+    const utcDateString = GetCurrentDate();
     document.getElementById('dateText').innerText = utcDateString;
+}
+
+// "YYYY-MM-DD"
+function GetCurrentDate(){
+    const now = new Date();
+    const utcDateString = now.toISOString().split("T")[0];
+    return utcDateString;
 }
 
 function FilterOptions(input, max = 5){
@@ -241,8 +274,7 @@ function FilterOptions(input, max = 5){
 }
 
 function GetDailyNumber() {
-    const now = new Date();
-    const utcDateString = now.toISOString().split("T")[0]; // "YYYY-MM-DD"
+    const utcDateString = GetCurrentDate();
 
     // FNV-1a hash (32-bit)
     let hash = 0x811c9dc5;
