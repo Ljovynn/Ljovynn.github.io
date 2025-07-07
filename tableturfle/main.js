@@ -232,7 +232,9 @@ function FilterOptions(input, max = 5){
     }
 
     for (let i = 0; i < cards.length; i++){
-        if (cards[i].sanitizedName.search(sanitizedInput) != -1) filteredChoices.push(cards[i].name);
+        if (cards[i].sanitizedName.includes(sanitizedInput)){
+            filteredChoices.push(cards[i].name);
+        }
     }
     filteredChoices = filteredChoices.slice(0, max);
     return filteredChoices;
@@ -255,8 +257,59 @@ function GetDailyNumber() {
 
 async function SetupCards(){
     let cardsJSON = await LoadJSON();
+    /*let cardsJSON = [
+        {
+		"id": "193",
+		"name": "Fred Crumbs",
+		"size": "11",
+		"spend": "4",
+		"category": "NPC",
+		"date": "2023-03-01"
+	},
+	{
+		"id": "194",
+		"name": "Spyke",
+		"size": "13",
+		"spend": "5",
+		"category": "NPC",
+		"date": "2023-03-01"
+	},
+	{
+		"id": "195",
+		"name": "The Eel Deal - Frye",
+		"size": "14",
+		"spend": "5",
+		"category": "NPC",
+		"date": "2023-03-01"
+	},
+	{
+		"id": "196",
+		"name": "The Cold-Blooded Bandit - Shiver",
+		"size": "14",
+		"spend": "5",
+		"category": "NPC",
+		"date": "2023-03-01"
+	},
+	{
+		"id": "197",
+		"name": "Manta Storm - Big Man",
+		"size": "14",
+		"spend": "5",
+		"category": "NPC",
+		"date": "2023-03-01"
+	},
+	{
+		"id": "198",
+		"name": "Z+F",
+		"size": "11",
+		"spend": "4",
+		"category": "Brand",
+		"date": "2023-03-01"
+	}
+    ]*/
 
     let i = GetDailyNumber() - 1;
+    //let i = 1;
     dailyCard = {
         id: cardsJSON[i].id,
         name: cardsJSON[i].name,
