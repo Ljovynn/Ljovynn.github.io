@@ -1499,7 +1499,7 @@
 		"id": "188",
 		"name": "Kraken Royale",
 		"size": "12",
-		"spend": "5",
+		"spend": "3",
 		"category": "Special weapon",
 		"date": "2023-03-01"
 	},
@@ -1515,7 +1515,7 @@
 		"id": "190",
 		"name": "Shelly & Donny",
 		"size": "12",
-		"spend": "3",
+		"spend": "5",
 		"category": "NPC",
 		"date": "2023-03-01"
 	},
