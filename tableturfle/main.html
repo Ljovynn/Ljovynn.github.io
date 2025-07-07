@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tableturfle</title>
+    <style>
+    body {
+      text-align: center;
+      background-color: #3A3A3A;
+      font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    h1
+    {
+      color: #f5f854;
+      text-align: center;
+      font-size: 2vw;
+    }
+    h3
+    {
+      color: lightcyan;
+      font-size: 1.3vw;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 8px;
+      border-radius: 0.3vw;
+      box-sizing: border-box;
+      display: inline-flex;
+    }
+    .main-area{
+      width: 80vw;
+      text-align: center;
+      display: inline-block;
+      justify-content: center;
+    }
+    .search-area{
+      width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      margin: 1vw 0 4vw 0;
+    }
+    .dropdown-list {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      border: 1px solid #ccc;
+      background: #fff;
+      max-height: 160px; /* 5 items * ~32px per item */
+      overflow-y: auto;
+      display: none;
+      z-index: 10;
+    }
+    .dropdown-container {
+      position: relative;
+      text-align: left;
+      width: 300px;
+      display: inline-flex;
+    }
+    .dropdown-item {
+      padding: 8px;
+      cursor: pointer;
+    }
+    .dropdown-item:hover {
+      display: inline-flex;
+      background-color: #f0f0f0;
+    }
+    .guess-area {
+      width: 90%;
+      display: grid;
+    }
+    .guess {
+      width: 100%;
+      height: 7vw;
+      border: 1px #f5f854;
+      border-style: none none solid none;
+      grid-template-columns: 2.5fr 0.7fr 1fr 1.2fr 2fr 1.5fr;
+      display: grid;
+      text-align: center;
+    }
+    .top-guess{
+      background-color: #492860;
+      border-radius: 1.5vw;
+      border: 2px #f5f854;
+      border-style: none solid none solid;
+    }
+    .guess-section {
+      border-radius: 1.5vw;
+      margin-top: auto;
+      margin-bottom: auto;
+      padding: 1%;
+      display: inline;
+    }
+    .correct-value {
+      background-color: green;
+    }
+    .close-value {
+      background-color: #d58b00;
+    }
+    .wrong-value {
+      background-color: red;
+    }
+    .popup {
+      position: absolute;
+      background-color: #3a3a3ad8;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 1.5vw;
+      border: 1px solid #f5f854;
+      text-align: center;
+      visibility: hidden;
+    }
+    .corner-share-button {
+      visibility: hidden;
+      position: absolute;
+      top: 5%;
+      left: 89%;
+    }
+    .win-popup {
+      width: 40vw;
+    }
+    .info-popup {
+      width: 40vw;
+      height: 50vw;
+    }
+    .open-popup {
+      visibility: visible;
+    }
+  </style>
+</head>
+<body>
+<div class="main-area">
+  <div style="margin: auto;">
+    <h1>Tableturfle</h1>
+  </div>
+  <div class="search-area">
+    <div class="dropdown-container">
+      <input type="text" id="cardInput" placeholder="Choose a Tableturf card">
+      <div id="dropdownList" class="dropdown-list">
+      </div>
+      <button type="button" id="inputButton" style="margin-left: 10px;" disabled="true">Guess</button>
+    </div>
+  </div>
+  <div class="guess-area">
+    <div class="guess top-guess">
+      <div class="guess-section"><h3>Name</h3></div>
+      <div class="guess-section"><h3>ID</h3></div>
+      <div class="guess-section"><h3>Size</h3></div>
+      <div class="guess-section"><h3>Special Point spend</h3></div>
+      <div class="guess-section"><h3>Category</h3></div>
+      <div class="guess-section"><h3>Release date</h3></div>
+    </div>
+  </div>
+</div>
+<div class="popup win-popup">
+  <div style="margin: 2vw 0 4vw 0;">
+    <h1>Congratulations!</h1>
+  </div>
+  <div style="margin: 1vw 0 3vw 0;">
+    <h3 id="guessTotalText">You won in X guesses</h3>
+  </div>
+  <div style="margin: 1vw 0 3vw 0;">
+    <h3 id="dateText">Date</h3>
+  </div>
+  <div style="margin: 1vw 0 1vw 0;">
+    <button type="button" id="shareButton" style="margin-right: 5vw;">Share!</button>
+    <button type="button" id="closePopupButton" style="margin-left: 5vw;">Close</button>
+  </div>
+</div>
+<div class="popup info-popup">
+
+</div>
+<button type="button" id="corner-share-button" class="corner-share-button">Share!</button>
+
+<script src="main.js"></script>
+
+</body>
+</html>
