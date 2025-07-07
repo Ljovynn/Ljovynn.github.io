@@ -42,9 +42,9 @@ async function FullSetup(){
 function RestoreGameHistory(){
     let currentDateString = GetCurrentDate();
     let storedLatestValue = localStorage['latestDate'] || currentDateString;
+    localStorage['latestDate'] = currentDateString;
     //delete history if new day
     if (storedLatestValue != currentDateString){
-        localStorage['latestDate'] = currentDateString;
         localStorage['guessHistory'] = JSON.stringify([]);
         return;
     }
