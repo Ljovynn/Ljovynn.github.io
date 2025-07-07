@@ -147,7 +147,6 @@ function AddNewGuess(guessedCard){
     } else if (guessedCard.spend >= dailyCard.spend - spendCloseThreshold && guessedCard.spend <= dailyCard.spend + spendCloseThreshold){
         spendSection.classList.add('close-value');
         gameStateHistory[gameStateHistory.length - 1].push(guessConditions.close);
-        
     } else{
         spendSection.classList.add('wrong-value');
         gameStateHistory[gameStateHistory.length - 1].push(guessConditions.wrong);
@@ -293,50 +292,50 @@ async function SetupCards(){
     let cardsJSON = await LoadJSON();
     /*let cardsJSON = [
         {
-		"id": "193",
+		"id": 193,
 		"name": "Fred Crumbs",
-		"size": "11",
-		"spend": "4",
+		"size": 11,
+		"spend": 4,
 		"category": "NPC",
 		"date": "2023-03-01"
 	},
 	{
-		"id": "194",
+		"id": 194,
 		"name": "Spyke",
-		"size": "13",
-		"spend": "5",
+		"size": 13,
+		"spend": 5,
 		"category": "NPC",
 		"date": "2023-03-01"
 	},
 	{
-		"id": "195",
+		"id": 195,
 		"name": "The Eel Deal - Frye",
-		"size": "14",
-		"spend": "5",
+		"size": 14,
+		"spend": 5,
 		"category": "NPC",
 		"date": "2023-03-01"
 	},
 	{
-		"id": "196",
+		"id": 196,
 		"name": "The Cold-Blooded Bandit - Shiver",
-		"size": "14",
-		"spend": "5",
+		"size": 14,
+		"spend": 5,
 		"category": "NPC",
 		"date": "2023-03-01"
 	},
 	{
-		"id": "197",
+		"id": 197,
 		"name": "Manta Storm - Big Man",
-		"size": "14",
-		"spend": "5",
+		"size": 14,
+		"spend": 5,
 		"category": "NPC",
 		"date": "2023-03-01"
 	},
 	{
-		"id": "198",
+		"id": 198,
 		"name": "Z+F",
-		"size": "11",
-		"spend": "4",
+		"size": 11,
+		"spend": 4,
 		"category": "Brand",
 		"date": "2023-03-01"
 	}
