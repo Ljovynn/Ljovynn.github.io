@@ -31,6 +31,8 @@ const uniqueCards = 266;
 //alphabetically sorted
 var cards = [];
 
+const today = GetCurrentDate();
+
 var dailyCard;
 
 FullSetup();
@@ -41,11 +43,10 @@ async function FullSetup(){
 }
 
 function RestoreGameHistory(){
-    let currentDateString = GetCurrentDate();
-    let storedLatestValue = localStorage['latestDate'] || currentDateString;
-    localStorage['latestDate'] = currentDateString;
+    let storedLatestDate = localStorage['latestDate'] || today;
+    localStorage['latestDate'] = today;
     //delete history if new day
-    if (storedLatestValue != currentDateString){
+    if (storedLatestDate != today){
         localStorage['guessHistory'] = JSON.stringify([]);
         return;
     }
@@ -254,8 +255,7 @@ function WinGame(){
     }
     document.getElementById('guessTotalText').innerText = guessText;
 
-    const utcDateString = GetCurrentDate();
-    document.getElementById('dateText').innerText = utcDateString;
+    document.getElementById('dateText').innerText = today;
 }
 
 // "YYYY-MM-DD"
@@ -285,12 +285,10 @@ function FilterOptions(input, max = 10){
 }
 
 function GetDailyNumber() {
-    const utcDateString = GetCurrentDate();
-
     // FNV-1a hash (32-bit)
     let hash = 0x811c9dc5;
-    for (let i = 0; i < utcDateString.length; i++) {
-        hash ^= utcDateString.charCodeAt(i);
+    for (let i = 0; i < today.length; i++) {
+        hash ^= today.charCodeAt(i);
         hash = (hash * 0x01000193) >>> 0;
     }
 
