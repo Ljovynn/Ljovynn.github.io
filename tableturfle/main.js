@@ -2,11 +2,12 @@ const cardInput = document.getElementById('cardInput');
 const dropdown = document.getElementById('dropdownList');
 const guessArea = document.querySelector('.guess-area');
 const inputButton = document.getElementById('inputButton')
-const closePopupButton = document.getElementById('closePopupButton')
 const shareButton = document.getElementById('shareButton')
 const winPopup = document.querySelector('.win-popup');
 const infoPopup = document.querySelector('.info-popup');
-const cornerShareButton = document.getElementById('corner-share-button');
+const cornerShareButton = document.getElementById('cornerShareButton');
+const infoButton = document.getElementById('infoButton');
+const closePopupButtons = document.getElementsByClassName('close-popup-button');
 
 var options = [];
 
@@ -93,6 +94,11 @@ inputButton.addEventListener('click', () => {
 
     AddNewGuess(guessedCard);
     localStorage['guessHistory'] = JSON.stringify(guessedCardHistory);
+});
+
+infoButton.addEventListener('click', () => {
+    infoPopup.classList.add('open-popup');
+    infoButton.disabled = true;
 });
 
 function AddNewGuess(guessedCard){
@@ -218,10 +224,13 @@ function CopyGameToClipboard(){
     //confirm("Copied!");
 }
 
-closePopupButton.addEventListener('click', () => {
-    winPopup.classList.remove('open-popup')
-    infoPopup.classList.remove('open-popup')
-});
+for (let i = 0; i < closePopupButtons.length; i++){
+    closePopupButtons[i].addEventListener('click', () => {
+        winPopup.classList.remove('open-popup')
+        infoPopup.classList.remove('open-popup')
+        infoButton.disabled = false;
+    });
+}
 
 function AddTextToGuessSection(section, text){
     let header = document.createElement('h3');
@@ -235,6 +244,7 @@ function WinGame(){
     inputButton.disabled = true;
     cornerShareButton.classList.add('open-popup');
     winPopup.classList.add('open-popup');
+    infoButton.disabled = true;
     let guessText = "You won with " + gameStateHistory.length;
     document.getElementById('guessTotalText').innerText = "You won with " + gameStateHistory.length;
     if (gameStateHistory.length == 1){
@@ -255,7 +265,7 @@ function GetCurrentDate(){
     return utcDateString;
 }
 
-function FilterOptions(input, max = 5){
+function FilterOptions(input, max = 10){
     const sanitizedInput = SanitizeString(input);
     let filteredChoices = [];
     if (sanitizedInput == ""){
