@@ -220,7 +220,7 @@ function CopyGameToClipboard(){
             }
         }
     }
-    copyValue += "\n\nPlay at: https://ljovynn.github.io/tableturfle/main.html"
+    copyValue += "\n\n(" + today + ")\n Play at: https://ljovynn.github.io/tableturfle/main.html"
     navigator.clipboard.writeText(copyValue);
     //confirm("Copied!");
 }
