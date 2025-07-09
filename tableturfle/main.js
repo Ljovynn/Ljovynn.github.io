@@ -9,8 +9,6 @@ const cornerShareButton = document.getElementById('cornerShareButton');
 const infoButton = document.getElementById('infoButton');
 const closePopupButtons = document.getElementsByClassName('close-popup-button');
 
-var options = [];
-
 var won = false;
 
 var gameStateHistory = [];
@@ -22,9 +20,10 @@ const guessConditions = {
     correct: 2,
 }
 
-var idCloseThreshold = 25;
-var sizeCloseThreshold = 2;
-var spendCloseThreshold = 1;
+const idCloseThreshold = 20;
+const sizeCloseThreshold = 2;
+const spendCloseThreshold = 1;
+const lengthWidthThreshold = 1;
 
 const uniqueCards = 266;
 
@@ -160,6 +159,36 @@ function AddNewGuess(guessedCard){
     }
     newGuess.appendChild(spendSection);
 
+    let lengthSection = document.createElement('div');
+    lengthSection.className = 'guess-section';
+    AddTextToGuessSection(lengthSection, guessedCard.length);
+    if (guessedCard.length == dailyCard.length){
+        lengthSection.classList.add('correct-value');
+        gameStateHistory[gameStateHistory.length - 1].push(guessConditions.correct);
+    } else if (guessedCard.spend >= dailyCard.length - lengthWidthThreshold && guessedCard.length <= dailyCard.length + lengthWidthThreshold){
+        lengthSection.classList.add('close-value');
+        gameStateHistory[gameStateHistory.length - 1].push(guessConditions.close);
+    } else{
+        lengthSection.classList.add('wrong-value');
+        gameStateHistory[gameStateHistory.length - 1].push(guessConditions.wrong);
+    }
+    newGuess.appendChild(lengthSection);
+
+    let widhtSection = document.createElement('div');
+    widhtSection.className = 'guess-section';
+    AddTextToGuessSection(widhtSection, guessedCard.width);
+    if (guessedCard.width == dailyCard.width){
+        widhtSection.classList.add('correct-value');
+        gameStateHistory[gameStateHistory.length - 1].push(guessConditions.correct);
+    } else if (guessedCard.spend >= dailyCard.width - lengthWidthThreshold && guessedCard.width <= dailyCard.width + lengthWidthThreshold){
+        widhtSection.classList.add('close-value');
+        gameStateHistory[gameStateHistory.length - 1].push(guessConditions.close);
+    } else{
+        widhtSection.classList.add('wrong-value');
+        gameStateHistory[gameStateHistory.length - 1].push(guessConditions.wrong);
+    }
+    newGuess.appendChild(widhtSection);
+
     let categorySection = document.createElement('div');
     categorySection.className = 'guess-section';
     AddTextToGuessSection(categorySection, guessedCard.category);
@@ -265,7 +294,7 @@ function GetCurrentDate(){
     return utcDateString;
 }
 
-function FilterOptions(input, max = 10){
+function FilterOptions(input, max = 5){
     const sanitizedInput = SanitizeString(input);
     let filteredChoices = [];
     if (sanitizedInput == ""){
@@ -297,69 +326,81 @@ function GetDailyNumber() {
 }
 
 async function SetupCards(){
-    let cardsJSON = await LoadJSON();
-    /*let cardsJSON = [
-        {
-		"id": 193,
-		"name": "Fred Crumbs",
-		"size": 11,
-		"spend": 4,
-		"category": "NPC",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 194,
-		"name": "Spyke",
-		"size": 13,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 195,
-		"name": "The Eel Deal - Frye",
-		"size": 14,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 196,
-		"name": "The Cold-Blooded Bandit - Shiver",
-		"size": 14,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 197,
-		"name": "Manta Storm - Big Man",
-		"size": 14,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 198,
-		"name": "Z+F",
-		"size": 11,
-		"spend": 4,
-		"category": "Brand",
-		"date": "2023-03-01"
-	}
-    ]*/
+    const cardsJSON = await LoadJSON();
+    /*const cardsJSON = [{
+    "id": 3,
+    "name": "Splattershot Jr.",
+    "size": 4,
+    "spend": 2,
+    "length": 3,
+    "width": 2,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 4,
+    "name": "Splash-o-matic",
+    "size": 7,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 5,
+    "name": "Aerospray MG",
+    "size": 7,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 6,
+    "name": "Splattershot",
+    "size": 8,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 7,
+    "name": ".52 Gal",
+    "size": 7,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 8,
+    "name": "N-ZAP '85",
+    "size": 5,
+    "spend": 2,
+    "length": 4,
+    "width": 2,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 9,
+    "name": "Splattershot Pro",
+    "size": 9,
+    "spend": 4,
+    "length": 6,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  }]*/
 
     let i = GetDailyNumber() - 1;
-    //let i = 1;
-    dailyCard = {
-        id: cardsJSON[i].id,
-        name: cardsJSON[i].name,
-        sanitizedName: SanitizeString(cardsJSON[i].name),
-        size: cardsJSON[i].size,
-        spend: cardsJSON[i].spend,
-        category: cardsJSON[i].category,
-        date: cardsJSON[i].date,
-    }
+    //let i = 5;
+    dailyCard = cardsJSON[i];
 
     cardsJSON.sort((a, b) => a.name.localeCompare(b.name));
 
@@ -370,6 +411,8 @@ async function SetupCards(){
             sanitizedName: SanitizeString(cardsJSON[i].name),
             size: cardsJSON[i].size,
             spend: cardsJSON[i].spend,
+            length: cardsJSON[i].length,
+            width: cardsJSON[i].width,
             category: cardsJSON[i].category,
             date: cardsJSON[i].date,
         })

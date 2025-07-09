@@ -1,2130 +1,2662 @@
 [
-	{
-		"id": 1,
-		"name": "Hero Shot",
-		"size": 12,
-		"spend": 5,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 2,
-		"name": "Sploosh-o-matic",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 3,
-		"name": "Splattershot Jr.",
-		"size": 4,
-		"spend": 2,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 4,
-		"name": "Splash-o-matic",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 5,
-		"name": "Aerospray MG",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 6,
-		"name": "Splattershot",
-		"size": 8,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 7,
-		"name": ".52 Gal",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 8,
-		"name": "N-ZAP '85",
-		"size": 5,
-		"spend": 2,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 9,
-		"name": "Splattershot Pro",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 10,
-		"name": ".96 Gal",
-		"size": 10,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 11,
-		"name": "Jet Squelcher",
-		"size": 10,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 12,
-		"name": "Luna Blaster",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 13,
-		"name": "Blaster",
-		"size": 8,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 14,
-		"name": "Range Blaster",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 15,
-		"name": "Clash Blaster",
-		"size": 8,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 16,
-		"name": "Rapid Blaster",
-		"size": 8,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 17,
-		"name": "Rapid Blaster Pro",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 18,
-		"name": "L-3 Nozzlenose",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 19,
-		"name": "H-3 Nozzlenose",
-		"size": 8,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 20,
-		"name": "Squeezer",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 21,
-		"name": "Carbon Roller",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 22,
-		"name": "Splat Roller",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 23,
-		"name": "Dynamo Roller",
-		"size": 13,
-		"spend": 5,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 24,
-		"name": "Flingza Roller",
-		"size": 10,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 25,
-		"name": "Inkbrush",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 26,
-		"name": "Octobrush",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 27,
-		"name": "Classic Squiffer",
-		"size": 8,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 28,
-		"name": "Splat Charger",
-		"size": 8,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 29,
-		"name": "Splatterscope",
-		"size": 10,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 30,
-		"name": "E-liter 4K",
-		"size": 11,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 31,
-		"name": "E-liter 4K Scope",
-		"size": 13,
-		"spend": 5,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 32,
-		"name": "Bamboozler 14 Mk I",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 33,
-		"name": "Goo Tuber",
-		"size": 11,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 34,
-		"name": "Slosher",
-		"size": 6,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 35,
-		"name": "Tri-Slosher",
-		"size": 5,
-		"spend": 2,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 36,
-		"name": "Sloshing Machine",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 37,
-		"name": "Bloblobber",
-		"size": 10,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 38,
-		"name": "Explosher",
-		"size": 11,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 39,
-		"name": "Mini Splatling",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 40,
-		"name": "Heavy Splatling",
-		"size": 12,
-		"spend": 5,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 41,
-		"name": "Hydra Splatling",
-		"size": 13,
-		"spend": 5,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 42,
-		"name": "Ballpoint Splatling",
-		"size": 10,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 43,
-		"name": "Nautilus 47",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 44,
-		"name": "Dapple Dualies",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 45,
-		"name": "Splat Dualies",
-		"size": 8,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 46,
-		"name": "Glooga Dualies",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 47,
-		"name": "Dualie Squelchers",
-		"size": 10,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 48,
-		"name": "Dark Tetra Dualies",
-		"size": 8,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 49,
-		"name": "Splat Brella",
-		"size": 11,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 50,
-		"name": "Tenta Brella",
-		"size": 12,
-		"spend": 5,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 51,
-		"name": "Undercover Brella",
-		"size": 8,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 52,
-		"name": "Tri-Stringer",
-		"size": 11,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 53,
-		"name": "REEF-LUX 450",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 54,
-		"name": "Splatana Stamper",
-		"size": 6,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 55,
-		"name": "Splatana Wiper",
-		"size": 5,
-		"spend": 2,
-		"category": "Weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 56,
-		"name": "Splat Bomb",
-		"size": 3,
-		"spend": 1,
-		"category": "Sub weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 57,
-		"name": "Suction Bomb",
-		"size": 3,
-		"spend": 1,
-		"category": "Sub weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 58,
-		"name": "Burst Bomb",
-		"size": 1,
-		"spend": 1,
-		"category": "Sub weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 59,
-		"name": "Sprinkler",
-		"size": 3,
-		"spend": 1,
-		"category": "Sub weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 60,
-		"name": "Splash Wall",
-		"size": 5,
-		"spend": 2,
-		"category": "Sub weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 61,
-		"name": "Fizzy Bomb",
-		"size": 3,
-		"spend": 1,
-		"category": "Sub weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 62,
-		"name": "Curling Bomb",
-		"size": 4,
-		"spend": 2,
-		"category": "Sub weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 63,
-		"name": "Autobomb",
-		"size": 6,
-		"spend": 3,
-		"category": "Sub weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 64,
-		"name": "Squid Beakon",
-		"size": 9,
-		"spend": 4,
-		"category": "Sub weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 65,
-		"name": "Point Sensor",
-		"size": 5,
-		"spend": 2,
-		"category": "Sub weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 66,
-		"name": "Ink Mine",
-		"size": 4,
-		"spend": 2,
-		"category": "Sub weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 67,
-		"name": "Toxic Mist",
-		"size": 5,
-		"spend": 2,
-		"category": "Sub weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 68,
-		"name": "Angle Shooter",
-		"size": 5,
-		"spend": 2,
-		"category": "Sub weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 69,
-		"name": "Torpedo",
-		"size": 4,
-		"spend": 2,
-		"category": "Sub weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 70,
-		"name": "Trizooka",
-		"size": 12,
-		"spend": 3,
-		"category": "Special weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 71,
-		"name": "Big Bubbler",
-		"size": 12,
-		"spend": 3,
-		"category": "Special weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 72,
-		"name": "Zipcaster",
-		"size": 12,
-		"spend": 3,
-		"category": "Special weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 73,
-		"name": "Tenta Missiles",
-		"size": 12,
-		"spend": 3,
-		"category": "Special weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 74,
-		"name": "Ink Storm",
-		"size": 12,
-		"spend": 3,
-		"category": "Special weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 75,
-		"name": "Booyah Bomb",
-		"size": 12,
-		"spend": 3,
-		"category": "Special weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 76,
-		"name": "Wave Breaker",
-		"size": 12,
-		"spend": 3,
-		"category": "Special weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 77,
-		"name": "Ink Vac",
-		"size": 12,
-		"spend": 3,
-		"category": "Special weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 78,
-		"name": "Killer Wail 5.1",
-		"size": 12,
-		"spend": 3,
-		"category": "Special weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 79,
-		"name": "Inkjet",
-		"size": 12,
-		"spend": 3,
-		"category": "Special weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 80,
-		"name": "Ultra Stamp",
-		"size": 12,
-		"spend": 3,
-		"category": "Special weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 81,
-		"name": "Crab Tank",
-		"size": 12,
-		"spend": 3,
-		"category": "Special weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 82,
-		"name": "Reefslider",
-		"size": 12,
-		"spend": 3,
-		"category": "Special weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 83,
-		"name": "Triple Inkstrike",
-		"size": 12,
-		"spend": 3,
-		"category": "Special weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 84,
-		"name": "Tacticooler",
-		"size": 12,
-		"spend": 3,
-		"category": "Special weapon",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 85,
-		"name": "Sheldon",
-		"size": 13,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 86,
-		"name": "Gnarly Eddy",
-		"size": 15,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 87,
-		"name": "Jel La Fleur",
-		"size": 12,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 88,
-		"name": "Mr. Coco",
-		"size": 15,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 89,
-		"name": "Harmony",
-		"size": 15,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 90,
-		"name": "Murch",
-		"size": 12,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 91,
-		"name": "Mr. Grizz",
-		"size": 14,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 92,
-		"name": "Marigold",
-		"size": 15,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 93,
-		"name": "Smallfry",
-		"size": 3,
-		"spend": 1,
-		"category": "NPC",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 94,
-		"name": "Cuttlefish",
-		"size": 14,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 95,
-		"name": "Captain",
-		"size": 16,
-		"spend": 6,
-		"category": "NPC",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 96,
-		"name": "Callie",
-		"size": 15,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 97,
-		"name": "Marie",
-		"size": 15,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 98,
-		"name": "Shiver",
-		"size": 17,
-		"spend": 6,
-		"category": "NPC",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 99,
-		"name": "Frye",
-		"size": 17,
-		"spend": 6,
-		"category": "NPC",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 100,
-		"name": "Big Man",
-		"size": 17,
-		"spend": 6,
-		"category": "NPC",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 101,
-		"name": "Judd",
-		"size": 14,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 102,
-		"name": "Li'l Judd",
-		"size": 8,
-		"spend": 3,
-		"category": "NPC",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 103,
-		"name": "SquidForce",
-		"size": 10,
-		"spend": 4,
-		"category": "Brand",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 104,
-		"name": "Zink",
-		"size": 14,
-		"spend": 5,
-		"category": "Brand",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 105,
-		"name": "Krak-On",
-		"size": 14,
-		"spend": 5,
-		"category": "Brand",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 106,
-		"name": "Rockenberg",
-		"size": 9,
-		"spend": 4,
-		"category": "Brand",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 107,
-		"name": "Zekko",
-		"size": 12,
-		"spend": 5,
-		"category": "Brand",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 108,
-		"name": "Forge",
-		"size": 9,
-		"spend": 4,
-		"category": "Brand",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 109,
-		"name": "Firefin",
-		"size": 9,
-		"spend": 4,
-		"category": "Brand",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 110,
-		"name": "Skalop",
-		"size": 14,
-		"spend": 5,
-		"category": "Brand",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 111,
-		"name": "Splash Mob",
-		"size": 10,
-		"spend": 4,
-		"category": "Brand",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 112,
-		"name": "Inkline",
-		"size": 11,
-		"spend": 4,
-		"category": "Brand",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 113,
-		"name": "Tentatek",
-		"size": 2,
-		"spend": 1,
-		"category": "Brand",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 114,
-		"name": "Takoroka",
-		"size": 13,
-		"spend": 5,
-		"category": "Brand",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 115,
-		"name": "Annaki",
-		"size": 12,
-		"spend": 5,
-		"category": "Brand",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 116,
-		"name": "Enperry",
-		"size": 13,
-		"spend": 5,
-		"category": "Brand",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 117,
-		"name": "Toni Kensa",
-		"size": 8,
-		"spend": 3,
-		"category": "Brand",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 118,
-		"name": "Barazushi",
-		"size": 9,
-		"spend": 4,
-		"category": "Brand",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 119,
-		"name": "Emberz",
-		"size": 9,
-		"spend": 4,
-		"category": "Brand",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 120,
-		"name": "Octotrooper",
-		"size": 8,
-		"spend": 3,
-		"category": "Octarian",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 121,
-		"name": "Shielded Octotrooper",
-		"size": 11,
-		"spend": 4,
-		"category": "Octarian",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 122,
-		"name": "Twintacle Octotrooper",
-		"size": 11,
-		"spend": 4,
-		"category": "Octarian",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 123,
-		"name": "Octohopper",
-		"size": 10,
-		"spend": 4,
-		"category": "Octarian",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 124,
-		"name": "Octocopter",
-		"size": 4,
-		"spend": 2,
-		"category": "Octarian",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 125,
-		"name": "Octobomber",
-		"size": 13,
-		"spend": 5,
-		"category": "Octarian",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 126,
-		"name": "Octodisco",
-		"size": 12,
-		"spend": 5,
-		"category": "Octarian",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 127,
-		"name": "Octopod",
-		"size": 2,
-		"spend": 1,
-		"category": "Octarian",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 128,
-		"name": "Oversized Octopod",
-		"size": 11,
-		"spend": 4,
-		"category": "Octarian",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 129,
-		"name": "Tentakook",
-		"size": 7,
-		"spend": 3,
-		"category": "Octarian",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 130,
-		"name": "Octosniper",
-		"size": 10,
-		"spend": 4,
-		"category": "Octarian",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 131,
-		"name": "Octocommander",
-		"size": 12,
-		"spend": 5,
-		"category": "Octarian",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 132,
-		"name": "Octomissile",
-		"size": 5,
-		"spend": 2,
-		"category": "Octarian",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 133,
-		"name": "Octozeppelin",
-		"size": 9,
-		"spend": 4,
-		"category": "Octarian",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 134,
-		"name": "Squee-G",
-		"size": 8,
-		"spend": 3,
-		"category": "Octarian",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 135,
-		"name": "Octostamp",
-		"size": 4,
-		"spend": 2,
-		"category": "Octarian",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 136,
-		"name": "Amped Octostamp",
-		"size": 9,
-		"spend": 4,
-		"category": "Octarian",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 137,
-		"name": "Flooder",
-		"size": 14,
-		"spend": 5,
-		"category": "Octarian",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 138,
-		"name": "Octoballer",
-		"size": 13,
-		"spend": 5,
-		"category": "Octarian",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 139,
-		"name": "Octoling",
-		"size": 11,
-		"spend": 4,
-		"category": "Octarian",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 140,
-		"name": "DJ Octavio",
-		"size": 17,
-		"spend": 6,
-		"category": "Octarian",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 141,
-		"name": "Chum",
-		"size": 5,
-		"spend": 2,
-		"category": "Salmonid",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 142,
-		"name": "Cohock",
-		"size": 9,
-		"spend": 4,
-		"category": "Salmonid",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 143,
-		"name": "Snatcher",
-		"size": 6,
-		"spend": 3,
-		"category": "Salmonid",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 144,
-		"name": "Steelhead",
-		"size": 12,
-		"spend": 5,
-		"category": "Salmonid",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 145,
-		"name": "Steel Eel",
-		"size": 10,
-		"spend": 4,
-		"category": "Salmonid",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 146,
-		"name": "Scrapper",
-		"size": 10,
-		"spend": 4,
-		"category": "Salmonid",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 147,
-		"name": "Stinger",
-		"size": 7,
-		"spend": 3,
-		"category": "Salmonid",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 148,
-		"name": "Maws",
-		"size": 12,
-		"spend": 5,
-		"category": "Salmonid",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 149,
-		"name": "Drizzler",
-		"size": 12,
-		"spend": 5,
-		"category": "Salmonid",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 150,
-		"name": "Flyfish",
-		"size": 13,
-		"spend": 5,
-		"category": "Salmonid",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 151,
-		"name": "Fish Stick",
-		"size": 9,
-		"spend": 4,
-		"category": "Salmonid",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 152,
-		"name": "Flipper-Flopper",
-		"size": 12,
-		"spend": 5,
-		"category": "Salmonid",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 153,
-		"name": "Slammin' Lid",
-		"size": 6,
-		"spend": 3,
-		"category": "Salmonid",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 154,
-		"name": "Big Shot",
-		"size": 13,
-		"spend": 5,
-		"category": "Salmonid",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 155,
-		"name": "Goldie",
-		"size": 12,
-		"spend": 5,
-		"category": "Salmonid",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 156,
-		"name": "Griller",
-		"size": 13,
-		"spend": 5,
-		"category": "Salmonid",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 157,
-		"name": "Mothership",
-		"size": 12,
-		"spend": 5,
-		"category": "Salmonid",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 158,
-		"name": "Mudmouth",
-		"size": 13,
-		"spend": 5,
-		"category": "Salmonid",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 159,
-		"name": "Zapfish",
-		"size": 9,
-		"spend": 4,
-		"category": "Mode objective",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 160,
-		"name": "Tower Control Tower",
-		"size": 13,
-		"spend": 5,
-		"category": "Mode objective",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 161,
-		"name": "Rainmaker",
-		"size": 12,
-		"spend": 5,
-		"category": "Mode objective",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 162,
-		"name": "Power Clam",
-		"size": 11,
-		"spend": 4,
-		"category": "Mode objective",
-		"date": "2022-09-02"
-	},
-	{
-		"id": 163,
-		"name": "Custom Splattershot Jr.",
-		"size": 4,
-		"spend": 2,
-		"category": "Weapon",
-		"date": "2022-12-01"
-	},
-	{
-		"id": 164,
-		"name": "Aerospray RG",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-12-01"
-	},
-	{
-		"id": 165,
-		"name": "Tentatek Splatteershot",
-		"size": 8,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-12-01"
-	},
-	{
-		"id": 166,
-		"name": "Forge Splattershot Pro",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-12-01"
-	},
-	{
-		"id": 167,
-		"name": "Splattershot Nova",
-		"size": 10,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-12-01"
-	},
-	{
-		"id": 168,
-		"name": "Luna Blaster Neo",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-12-01"
-	},
-	{
-		"id": 169,
-		"name": "Carbon Roller Deco",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-12-01"
-	},
-	{
-		"id": 170,
-		"name": "Big Swig Roller",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-12-01"
-	},
-	{
-		"id": 171,
-		"name": "Inkbrush Nouveau",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-12-01"
-	},
-	{
-		"id": 172,
-		"name": "Snipewriter 5H",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2022-12-01"
-	},
-	{
-		"id": 173,
-		"name": "Slosher Deco",
-		"size": 6,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-12-01"
-	},
-	{
-		"id": 174,
-		"name": "Zink Mini Splatling",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-12-01"
-	},
-	{
-		"id": 175,
-		"name": "Dapple Dualies Noueveau",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2022-12-01"
-	},
-	{
-		"id": 176,
-		"name": "Neo Sploosh-o-Matic",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 177,
-		"name": "Neo Splash-o-Matic",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 178,
-		"name": "N-ZAP '89",
-		"size": 5,
-		"spend": 2,
-		"category": "Weapon",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 179,
-		"name": ".96 Gal Deco",
-		"size": 10,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 180,
-		"name": "Custom Jet Squelcher",
-		"size": 10,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 181,
-		"name": "Clash Blaster Neo",
-		"size": 8,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 182,
-		"name": "Rapid Blaster Deco",
-		"size": 8,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 183,
-		"name": "L-3 Nozzlenose D",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 184,
-		"name": "Krak-On Splat Roller",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 185,
-		"name": "Z+F Splat Charger",
-		"size": 8,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 186,
-		"name": "Z+F Splatterscope",
-		"size": 10,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 187,
-		"name": "Tri-Slosher Nouveau",
-		"size": 5,
-		"spend": 2,
-		"category": "Weapon",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 188,
-		"name": "Kraken Royale",
-		"size": 12,
-		"spend": 3,
-		"category": "Special weapon",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 189,
-		"name": "Super Chump",
-		"size": 12,
-		"spend": 3,
-		"category": "Special weapon",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 190,
-		"name": "Shelly & Donny",
-		"size": 12,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 191,
-		"name": "Annie",
-		"size": 13,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 192,
-		"name": "Jelonzo",
-		"size": 12,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 193,
-		"name": "Fred Crumbs",
-		"size": 11,
-		"spend": 4,
-		"category": "NPC",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 194,
-		"name": "Spyke",
-		"size": 13,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 195,
-		"name": "The Eel Deal - Frye",
-		"size": 14,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 196,
-		"name": "The Cold-Blooded Bandit - Shiver",
-		"size": 14,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 197,
-		"name": "The Hype Manta Storm - Big Man",
-		"size": 14,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 198,
-		"name": "Z+F",
-		"size": 11,
-		"spend": 4,
-		"category": "Brand",
-		"date": "2023-03-01"
-	},
-	{
-		"id": 199,
-		"name": "Annaki Splattershot Nova",
-		"size": 10,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2023-06-01"
-	},
-	{
-		"id": 200,
-		"name": "Rapid Blaster Pro Deco",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2023-06-01"
-	},
-	{
-		"id": 201,
-		"name": "S-BLAST '92",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2023-06-01"
-	},
-	{
-		"id": 202,
-		"name": "H-3 Nozzlenose D",
-		"size": 8,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2023-06-01"
-	},
-	{
-		"id": 203,
-		"name": "Big Swig Roller Express",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2023-06-01"
-	},
-	{
-		"id": 204,
-		"name": "Painbrush",
-		"size": 10,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2023-06-01"
-	},
-	{
-		"id": 205,
-		"name": "Heavy Splatling Deco",
-		"size": 12,
-		"spend": 5,
-		"category": "Weapon",
-		"date": "2023-06-01"
-	},
-	{
-		"id": 206,
-		"name": "Custom Dualie Squelchers",
-		"size": 10,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2023-06-01"
-	},
-	{
-		"id": 207,
-		"name": "Light Tetra Dualies",
-		"size": 8,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2023-06-01"
-	},
-	{
-		"id": 208,
-		"name": "Tenta Sorella Brella",
-		"size": 12,
-		"spend": 5,
-		"category": "Weapon",
-		"date": "2023-06-01"
-	},
-	{
-		"id": 209,
-		"name": "Splatana Wiper Deco",
-		"size": 5,
-		"spend": 2,
-		"category": "Weapon",
-		"date": "2023-06-01"
-	},
-	{
-		"id": 210,
-		"name": "Gold Dynamo Roller",
-		"size": 13,
-		"spend": 5,
-		"category": "Weapon",
-		"date": "2023-09-01"
-	},
-	{
-		"id": 211,
-		"name": "Octobrush Nouveau",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2023-09-01"
-	},
-	{
-		"id": 212,
-		"name": "Custom Goo Tuber",
-		"size": 11,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2023-09-01"
-	},
-	{
-		"id": 213,
-		"name": "Sloshing Machine Neo",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2023-09-01"
-	},
-	{
-		"id": 214,
-		"name": "Bloblobber Deco",
-		"size": 10,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2023-09-01"
-	},
-	{
-		"id": 215,
-		"name": "Dread Wringer",
-		"size": 12,
-		"spend": 5,
-		"category": "Weapon",
-		"date": "2023-09-01"
-	},
-	{
-		"id": 216,
-		"name": "Ballpoint Splatling Nouveau",
-		"size": 10,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2023-09-01"
-	},
-	{
-		"id": 217,
-		"name": "Heavy Edit Splatling",
-		"size": 12,
-		"spend": 5,
-		"category": "Weapon",
-		"date": "2023-09-01"
-	},
-	{
-		"id": 218,
-		"name": "Sorella Brella",
-		"size": 11,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2023-09-01"
-	},
-	{
-		"id": 219,
-		"name": "Inkline Tri-Stringer",
-		"size": 11,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2023-09-01"
-	},
-	{
-		"id": 220,
-		"name": "Cohozuna",
-		"size": 17,
-		"spend": 6,
-		"category": "Salmonid",
-		"date": "2023-09-01"
-	},
-	{
-		"id": 221,
-		"name": "Horrorboros",
-		"size": 17,
-		"spend": 6,
-		"category": "Salmonid",
-		"date": "2023-09-01"
-	},
-	{
-		"id": 222,
-		"name": "Custom Blaster",
-		"size": 8,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2023-12-01"
-	},
-	{
-		"id": 223,
-		"name": "Foil Squeezer",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2023-12-01"
-	},
-	{
-		"id": 224,
-		"name": "Enperry Splat Dualies",
-		"size": 8,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2023-12-01"
-	},
-	{
-		"id": 225,
-		"name": "Undercover Sorella Brella",
-		"size": 8,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2023-12-01"
-	},
-	{
-		"id": 226,
-		"name": "REEF-LUX 450 Deco",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2023-12-01"
-	},
-	{
-		"id": 227,
-		"name": "Splatana Stamper Nouveau",
-		"size": 6,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2023-12-01"
-	},
-	{
-		"id": 228,
-		"name": "Snipewriter 5B",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2023-12-01"
-	},
-	{
-		"id": 229,
-		"name": "S-BLAST '91",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2023-12-01"
-	},
-	{
-		"id": 230,
-		"name": "Painbrush Nouveau",
-		"size": 10,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2023-12-01"
-	},
-	{
-		"id": 231,
-		"name": "Triple Splashdown",
-		"size": 12,
-		"spend": 3,
-		"category": "Special weapon",
-		"date": "2023-12-01"
-	},
-	{
-		"id": 232,
-		"name": "Splattercolor Screen",
-		"size": 12,
-		"spend": 3,
-		"category": "Special weapon",
-		"date": "2023-12-01"
-	},
-	{
-		"id": 233,
-		"name": "Order Dualies",
-		"size": 6,
-		"spend": 2,
-		"category": "Weapon",
-		"date": "2024-03-01"
-	},
-	{
-		"id": 234,
-		"name": ".52 Gal Deco",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2024-03-01"
-	},
-	{
-		"id": 235,
-		"name": "Foil Flingza Roller",
-		"size": 10,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2024-03-01"
-	},
-	{
-		"id": 236,
-		"name": "New Squiffer",
-		"size": 8,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2024-03-01"
-	},
-	{
-		"id": 237,
-		"name": "Custom E-liter 4K",
-		"size": 11,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2024-03-01"
-	},
-	{
-		"id": 238,
-		"name": "Custom E-liter 4K Scope",
-		"size": 13,
-		"spend": 5,
-		"category": "Weapon",
-		"date": "2024-03-01"
-	},
-	{
-		"id": 239,
-		"name": "Custom Explosher",
-		"size": 11,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2024-03-01"
-	},
-	{
-		"id": 240,
-		"name": "Dread Wringer D",
-		"size": 12,
-		"spend": 5,
-		"category": "Weapon",
-		"date": "2024-03-01"
-	},
-	{
-		"id": 241,
-		"name": "Nautilus 79",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2024-03-01"
-	},
-	{
-		"id": 242,
-		"name": "Glooga Dualies Deco",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2024-03-01"
-	},
-	{
-		"id": 243,
-		"name": "Douser Dualies FF",
-		"size": 11,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2024-03-01"
-	},
-	{
-		"id": 244,
-		"name": "Recycled Brella 24 Mk I",
-		"size": 10,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2024-03-01"
-	},
-	{
-		"id": 245,
-		"name": "Flow",
-		"size": 14,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2024-03-01"
-	},
-	{
-		"id": 246,
-		"name": "Jelfonzo",
-		"size": 12,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2024-03-01"
-	},
-	{
-		"id": 247,
-		"name": "Bisk",
-		"size": 14,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2024-03-01"
-	},
-	{
-		"id": 248,
-		"name": "Acht",
-		"size": 16,
-		"spend": 6,
-		"category": "NPC",
-		"date": "2024-03-01"
-	},
-	{
-		"id": 249,
-		"name": "Cipher",
-		"size": 14,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2024-03-01"
-	},
-	{
-		"id": 250,
-		"name": "Pearl Drone",
-		"size": 6,
-		"spend": 2,
-		"category": "NPC",
-		"date": "2024-03-01"
-	},
-	{
-		"id": 251,
-		"name": "Pearl",
-		"size": 18,
-		"spend": 6,
-		"category": "NPC",
-		"date": "2024-03-01"
-	},
-	{
-		"id": 252,
-		"name": "Marina",
-		"size": 18,
-		"spend": 6,
-		"category": "NPC",
-		"date": "2024-03-01"
-	},
-	{
-		"id": 253,
-		"name": "Custom Range Blaster",
-		"size": 9,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2024-06-01"
-	},
-	{
-		"id": 254,
-		"name": "Bamboozler 14 Mk II",
-		"size": 7,
-		"spend": 3,
-		"category": "Weapon",
-		"date": "2024-06-01"
-	},
-	{
-		"id": 255,
-		"name": "Custom Hydra Splatling",
-		"size": 13,
-		"spend": 5,
-		"category": "Weapon",
-		"date": "2024-06-01"
-	},
-	{
-		"id": 256,
-		"name": "Heavy Edit Splatling Nouveau",
-		"size": 12,
-		"spend": 5,
-		"category": "Weapon",
-		"date": "2024-06-01"
-	},
-	{
-		"id": 257,
-		"name": "Custom Douser Dualies FF",
-		"size": 11,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2024-06-01"
-	},
-	{
-		"id": 258,
-		"name": "Recycled Brella 24 Mk II",
-		"size": 10,
-		"spend": 4,
-		"category": "Weapon",
-		"date": "2024-06-01"
-	},
-	{
-		"id": 259,
-		"name": "Wellstring V",
-		"size": 13,
-		"spend": 5,
-		"category": "Weapon",
-		"date": "2024-06-01"
-	},
-	{
-		"id": 260,
-		"name": "Custom Wellstring V",
-		"size": 13,
-		"spend": 5,
-		"category": "Weapon",
-		"date": "2024-06-01"
-	},
-	{
-		"id": 261,
-		"name": "Mint Decavitator",
-		"size": 12,
-		"spend": 5,
-		"category": "Weapon",
-		"date": "2024-06-01"
-	},
-	{
-		"id": 262,
-		"name": "Charcoal Decavitator",
-		"size": 12,
-		"spend": 5,
-		"category": "Weapon",
-		"date": "2024-06-01"
-	},
-	{
-		"id": 263,
-		"name": "Crusty Sean",
-		"size": 15,
-		"spend": 5,
-		"category": "NPC",
-		"date": "2024-06-01"
-	},
-	{
-		"id": 264,
-		"name": "The Ursine Anomaly - ＃03",
-		"size": 18,
-		"spend": 6,
-		"category": "NPC",
-		"date": "2024-06-01"
-	},
-	{
-		"id": 265,
-		"name": "Megalodontia",
-		"size": 17,
-		"spend": 6,
-		"category": "Salmonid",
-		"date": "2024-06-01"
-	},
-	{
-		"id": 266,
-		"name": "Overlorder",
-		"size": 17,
-		"spend": 6,
-		"category": "NPC",
-		"date": "2024-06-01"
-	}
+  {
+    "id": 1,
+    "name": "Hero Shot",
+    "size": 12,
+    "spend": 5,
+    "length": 5,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 2,
+    "name": "Sploosh-o-matic",
+    "size": 9,
+    "spend": 4,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 3,
+    "name": "Splattershot Jr.",
+    "size": 4,
+    "spend": 2,
+    "length": 3,
+    "width": 2,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 4,
+    "name": "Splash-o-matic",
+    "size": 7,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 5,
+    "name": "Aerospray MG",
+    "size": 7,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 6,
+    "name": "Splattershot",
+    "size": 8,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 7,
+    "name": ".52 Gal",
+    "size": 7,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 8,
+    "name": "N-ZAP '85",
+    "size": 5,
+    "spend": 2,
+    "length": 4,
+    "width": 2,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 9,
+    "name": "Splattershot Pro",
+    "size": 9,
+    "spend": 4,
+    "length": 6,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 10,
+    "name": ".96 Gal",
+    "size": 10,
+    "spend": 4,
+    "length": 6,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 11,
+    "name": "Jet Squelcher",
+    "size": 10,
+    "spend": 4,
+    "length": 6,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 12,
+    "name": "Luna Blaster",
+    "size": 7,
+    "spend": 3,
+    "length": 4,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 13,
+    "name": "Blaster",
+    "size": 8,
+    "spend": 3,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 14,
+    "name": "Range Blaster",
+    "size": 9,
+    "spend": 4,
+    "length": 6,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 15,
+    "name": "Clash Blaster",
+    "size": 8,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 16,
+    "name": "Rapid Blaster",
+    "size": 8,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 17,
+    "name": "Rapid Blaster Pro",
+    "size": 9,
+    "spend": 4,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 18,
+    "name": "L-3 Nozzlenose",
+    "size": 7,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 19,
+    "name": "H-3 Nozzlenose",
+    "size": 8,
+    "spend": 3,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 20,
+    "name": "Squeezer",
+    "size": 7,
+    "spend": 3,
+    "length": 5,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 21,
+    "name": "Carbon Roller",
+    "size": 7,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 22,
+    "name": "Splat Roller",
+    "size": 9,
+    "spend": 4,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 23,
+    "name": "Dynamo Roller",
+    "size": 13,
+    "spend": 5,
+    "length": 7,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 24,
+    "name": "Flingza Roller",
+    "size": 10,
+    "spend": 4,
+    "length": 5,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 25,
+    "name": "Inkbrush",
+    "size": 7,
+    "spend": 3,
+    "length": 5,
+    "width": 5,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 26,
+    "name": "Octobrush",
+    "size": 9,
+    "spend": 4,
+    "length": 6,
+    "width": 6,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 27,
+    "name": "Classic Squiffer",
+    "size": 8,
+    "spend": 3,
+    "length": 6,
+    "width": 2,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 28,
+    "name": "Splat Charger",
+    "size": 8,
+    "spend": 3,
+    "length": 7,
+    "width": 2,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 29,
+    "name": "Splatterscope",
+    "size": 10,
+    "spend": 4,
+    "length": 7,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 30,
+    "name": "E-liter 4K",
+    "size": 11,
+    "spend": 4,
+    "length": 7,
+    "width": 2,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 31,
+    "name": "E-liter 4K Scope",
+    "size": 13,
+    "spend": 5,
+    "length": 7,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 32,
+    "name": "Bamboozler 14 Mk I",
+    "size": 7,
+    "spend": 3,
+    "length": 5,
+    "width": 2,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 33,
+    "name": "Goo Tuber",
+    "size": 11,
+    "spend": 4,
+    "length": 6,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 34,
+    "name": "Slosher",
+    "size": 6,
+    "spend": 3,
+    "length": 3,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 35,
+    "name": "Tri-Slosher",
+    "size": 5,
+    "spend": 2,
+    "length": 3,
+    "width": 2,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 36,
+    "name": "Sloshing Machine",
+    "size": 7,
+    "spend": 3,
+    "length": 3,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 37,
+    "name": "Bloblobber",
+    "size": 10,
+    "spend": 4,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 38,
+    "name": "Explosher",
+    "size": 11,
+    "spend": 4,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 39,
+    "name": "Mini Splatling",
+    "size": 7,
+    "spend": 3,
+    "length": 5,
+    "width": 2,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 40,
+    "name": "Heavy Splatling",
+    "size": 12,
+    "spend": 5,
+    "length": 6,
+    "width": 5,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 41,
+    "name": "Hydra Splatling",
+    "size": 13,
+    "spend": 5,
+    "length": 6,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 42,
+    "name": "Ballpoint Splatling",
+    "size": 10,
+    "spend": 4,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 43,
+    "name": "Nautilus 47",
+    "size": 9,
+    "spend": 4,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 44,
+    "name": "Dapple Dualies",
+    "size": 7,
+    "spend": 3,
+    "length": 3,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 45,
+    "name": "Splat Dualies",
+    "size": 8,
+    "spend": 3,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 46,
+    "name": "Glooga Dualies",
+    "size": 9,
+    "spend": 4,
+    "length": 4,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 47,
+    "name": "Dualie Squelchers",
+    "size": 10,
+    "spend": 4,
+    "length": 5,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 48,
+    "name": "Dark Tetra Dualies",
+    "size": 8,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 49,
+    "name": "Splat Brella",
+    "size": 11,
+    "spend": 4,
+    "length": 5,
+    "width": 5,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 50,
+    "name": "Tenta Brella",
+    "size": 12,
+    "spend": 5,
+    "length": 5,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 51,
+    "name": "Undercover Brella",
+    "size": 8,
+    "spend": 3,
+    "length": 5,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 52,
+    "name": "Tri-Stringer",
+    "size": 11,
+    "spend": 4,
+    "length": 5,
+    "width": 5,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 53,
+    "name": "REEF-LUX 450",
+    "size": 9,
+    "spend": 4,
+    "length": 4,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 54,
+    "name": "Splatana Stamper",
+    "size": 6,
+    "spend": 3,
+    "length": 6,
+    "width": 1,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 55,
+    "name": "Splatana Wiper",
+    "size": 5,
+    "spend": 2,
+    "length": 5,
+    "width": 1,
+    "category": "Weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 56,
+    "name": "Splat Bomb",
+    "size": 3,
+    "spend": 1,
+    "length": 2,
+    "width": 2,
+    "category": "Sub weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 57,
+    "name": "Suction Bomb",
+    "size": 3,
+    "spend": 1,
+    "length": 3,
+    "width": 1,
+    "category": "Sub weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 58,
+    "name": "Burst Bomb",
+    "size": 1,
+    "spend": 1,
+    "length": 1,
+    "width": 1,
+    "category": "Sub weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 59,
+    "name": "Sprinkler",
+    "size": 3,
+    "spend": 1,
+    "length": 3,
+    "width": 2,
+    "category": "Sub weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 60,
+    "name": "Splash Wall",
+    "size": 5,
+    "spend": 2,
+    "length": 3,
+    "width": 3,
+    "category": "Sub weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 61,
+    "name": "Fizzy Bomb",
+    "size": 3,
+    "spend": 1,
+    "length": 3,
+    "width": 1,
+    "category": "Sub weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 62,
+    "name": "Curling Bomb",
+    "size": 4,
+    "spend": 2,
+    "length": 3,
+    "width": 2,
+    "category": "Sub weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 63,
+    "name": "Autobomb",
+    "size": 6,
+    "spend": 3,
+    "length": 3,
+    "width": 3,
+    "category": "Sub weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 64,
+    "name": "Squid Beakon",
+    "size": 9,
+    "spend": 4,
+    "length": 4,
+    "width": 3,
+    "category": "Sub weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 65,
+    "name": "Point Sensor",
+    "size": 5,
+    "spend": 2,
+    "length": 3,
+    "width": 3,
+    "category": "Sub weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 66,
+    "name": "Ink Mine",
+    "size": 4,
+    "spend": 2,
+    "length": 3,
+    "width": 3,
+    "category": "Sub weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 67,
+    "name": "Toxic Mist",
+    "size": 5,
+    "spend": 2,
+    "length": 3,
+    "width": 3,
+    "category": "Sub weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 68,
+    "name": "Angle Shooter",
+    "size": 5,
+    "spend": 2,
+    "length": 5,
+    "width": 3,
+    "category": "Sub weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 69,
+    "name": "Torpedo",
+    "size": 4,
+    "spend": 2,
+    "length": 3,
+    "width": 3,
+    "category": "Sub weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 70,
+    "name": "Trizooka",
+    "size": 12,
+    "spend": 3,
+    "length": 6,
+    "width": 6,
+    "category": "Special weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 71,
+    "name": "Big Bubbler",
+    "size": 12,
+    "spend": 3,
+    "length": 6,
+    "width": 6,
+    "category": "Special weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 72,
+    "name": "Zipcaster",
+    "size": 12,
+    "spend": 3,
+    "length": 6,
+    "width": 6,
+    "category": "Special weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 73,
+    "name": "Tenta Missiles",
+    "size": 12,
+    "spend": 3,
+    "length": 6,
+    "width": 3,
+    "category": "Special weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 74,
+    "name": "Ink Storm",
+    "size": 12,
+    "spend": 3,
+    "length": 5,
+    "width": 4,
+    "category": "Special weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 75,
+    "name": "Booyah Bomb",
+    "size": 12,
+    "spend": 3,
+    "length": 4,
+    "width": 4,
+    "category": "Special weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 76,
+    "name": "Wave Breaker",
+    "size": 12,
+    "spend": 3,
+    "length": 5,
+    "width": 5,
+    "category": "Special weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 77,
+    "name": "Ink Vac",
+    "size": 12,
+    "spend": 3,
+    "length": 6,
+    "width": 4,
+    "category": "Special weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 78,
+    "name": "Killer Wail 5.1",
+    "size": 12,
+    "spend": 3,
+    "length": 6,
+    "width": 5,
+    "category": "Special weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 79,
+    "name": "Inkjet",
+    "size": 12,
+    "spend": 3,
+    "length": 6,
+    "width": 3,
+    "category": "Special weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 80,
+    "name": "Ultra Stamp",
+    "size": 12,
+    "spend": 3,
+    "length": 6,
+    "width": 3,
+    "category": "Special weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 81,
+    "name": "Crab Tank",
+    "size": 12,
+    "spend": 3,
+    "length": 6,
+    "width": 5,
+    "category": "Special weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 82,
+    "name": "Reefslider",
+    "size": 12,
+    "spend": 3,
+    "length": 6,
+    "width": 4,
+    "category": "Special weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 83,
+    "name": "Triple Inkstrike",
+    "size": 12,
+    "spend": 3,
+    "length": 6,
+    "width": 4,
+    "category": "Special weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 84,
+    "name": "Tacticooler",
+    "size": 12,
+    "spend": 3,
+    "length": 5,
+    "width": 5,
+    "category": "Special weapon",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 85,
+    "name": "Sheldon",
+    "size": 13,
+    "spend": 5,
+    "length": 5,
+    "width": 4,
+    "category": "NPC",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 86,
+    "name": "Gnarly Eddy",
+    "size": 15,
+    "spend": 5,
+    "length": 5,
+    "width": 5,
+    "category": "NPC",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 87,
+    "name": "Jel La Fleur",
+    "size": 12,
+    "spend": 5,
+    "length": 5,
+    "width": 5,
+    "category": "NPC",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 88,
+    "name": "Mr. Coco",
+    "size": 15,
+    "spend": 5,
+    "length": 5,
+    "width": 5,
+    "category": "NPC",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 89,
+    "name": "Harmony",
+    "size": 15,
+    "spend": 5,
+    "length": 6,
+    "width": 6,
+    "category": "NPC",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 90,
+    "name": "Murch",
+    "size": 12,
+    "spend": 5,
+    "length": 5,
+    "width": 5,
+    "category": "NPC",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 91,
+    "name": "Mr. Grizz",
+    "size": 14,
+    "spend": 5,
+    "length": 6,
+    "width": 5,
+    "category": "NPC",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 92,
+    "name": "Marigold",
+    "size": 15,
+    "spend": 5,
+    "length": 5,
+    "width": 5,
+    "category": "NPC",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 93,
+    "name": "Smallfry",
+    "size": 3,
+    "spend": 1,
+    "length": 2,
+    "width": 2,
+    "category": "NPC",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 94,
+    "name": "Cuttlefish",
+    "size": 14,
+    "spend": 5,
+    "length": 6,
+    "width": 5,
+    "category": "NPC",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 95,
+    "name": "Captain",
+    "size": 16,
+    "spend": 6,
+    "length": 7,
+    "width": 6,
+    "category": "NPC",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 96,
+    "name": "Callie",
+    "size": 15,
+    "spend": 5,
+    "length": 6,
+    "width": 5,
+    "category": "NPC",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 97,
+    "name": "Marie",
+    "size": 15,
+    "spend": 5,
+    "length": 6,
+    "width": 5,
+    "category": "NPC",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 98,
+    "name": "Shiver",
+    "size": 17,
+    "spend": 6,
+    "length": 7,
+    "width": 5,
+    "category": "NPC",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 99,
+    "name": "Frye",
+    "size": 17,
+    "spend": 6,
+    "length": 7,
+    "width": 5,
+    "category": "NPC",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 100,
+    "name": "Big Man",
+    "size": 17,
+    "spend": 6,
+    "length": 6,
+    "width": 6,
+    "category": "NPC",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 101,
+    "name": "Judd",
+    "size": 14,
+    "spend": 5,
+    "length": 5,
+    "width": 4,
+    "category": "NPC",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 102,
+    "name": "Li'l Judd",
+    "size": 8,
+    "spend": 3,
+    "length": 3,
+    "width": 3,
+    "category": "NPC",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 103,
+    "name": "SquidForce",
+    "size": 10,
+    "spend": 4,
+    "length": 5,
+    "width": 5,
+    "category": "Brand",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 104,
+    "name": "Zink",
+    "size": 14,
+    "spend": 5,
+    "length": 5,
+    "width": 5,
+    "category": "Brand",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 105,
+    "name": "Krak-On",
+    "size": 14,
+    "spend": 5,
+    "length": 6,
+    "width": 4,
+    "category": "Brand",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 106,
+    "name": "Rockenberg",
+    "size": 9,
+    "spend": 4,
+    "length": 4,
+    "width": 3,
+    "category": "Brand",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 107,
+    "name": "Zekko",
+    "size": 12,
+    "spend": 5,
+    "length": 5,
+    "width": 4,
+    "category": "Brand",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 108,
+    "name": "Forge",
+    "size": 9,
+    "spend": 4,
+    "length": 4,
+    "width": 4,
+    "category": "Brand",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 109,
+    "name": "Firefin",
+    "size": 9,
+    "spend": 4,
+    "length": 4,
+    "width": 4,
+    "category": "Brand",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 110,
+    "name": "Skalop",
+    "size": 14,
+    "spend": 5,
+    "length": 5,
+    "width": 4,
+    "category": "Brand",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 111,
+    "name": "Splash Mob",
+    "size": 10,
+    "spend": 4,
+    "length": 6,
+    "width": 2,
+    "category": "Brand",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 112,
+    "name": "Inkline",
+    "size": 11,
+    "spend": 4,
+    "length": 5,
+    "width": 3,
+    "category": "Brand",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 113,
+    "name": "Tentatek",
+    "size": 2,
+    "spend": 1,
+    "length": 2,
+    "width": 2,
+    "category": "Brand",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 114,
+    "name": "Takoroka",
+    "size": 13,
+    "spend": 5,
+    "length": 6,
+    "width": 3,
+    "category": "Brand",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 115,
+    "name": "Annaki",
+    "size": 12,
+    "spend": 5,
+    "length": 5,
+    "width": 5,
+    "category": "Brand",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 116,
+    "name": "Enperry",
+    "size": 13,
+    "spend": 5,
+    "length": 5,
+    "width": 4,
+    "category": "Brand",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 117,
+    "name": "Toni Kensa",
+    "size": 8,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Brand",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 118,
+    "name": "Barazushi",
+    "size": 9,
+    "spend": 4,
+    "length": 4,
+    "width": 4,
+    "category": "Brand",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 119,
+    "name": "Emberz",
+    "size": 9,
+    "spend": 4,
+    "length": 5,
+    "width": 5,
+    "category": "Brand",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 120,
+    "name": "Octotrooper",
+    "size": 8,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Octarian",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 121,
+    "name": "Shielded Octotrooper",
+    "size": 11,
+    "spend": 4,
+    "length": 4,
+    "width": 4,
+    "category": "Octarian",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 122,
+    "name": "Twintacle Octotrooper",
+    "size": 11,
+    "spend": 4,
+    "length": 5,
+    "width": 4,
+    "category": "Octarian",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 123,
+    "name": "Octohopper",
+    "size": 10,
+    "spend": 4,
+    "length": 6,
+    "width": 3,
+    "category": "Octarian",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 124,
+    "name": "Octocopter",
+    "size": 4,
+    "spend": 2,
+    "length": 3,
+    "width": 3,
+    "category": "Octarian",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 125,
+    "name": "Octobomber",
+    "size": 13,
+    "spend": 5,
+    "length": 6,
+    "width": 4,
+    "category": "Octarian",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 126,
+    "name": "Octodisco",
+    "size": 12,
+    "spend": 5,
+    "length": 5,
+    "width": 5,
+    "category": "Octarian",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 127,
+    "name": "Octopod",
+    "size": 2,
+    "spend": 1,
+    "length": 2,
+    "width": 1,
+    "category": "Octarian",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 128,
+    "name": "Oversized Octopod",
+    "size": 11,
+    "spend": 4,
+    "length": 4,
+    "width": 4,
+    "category": "Octarian",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 129,
+    "name": "Tentakook",
+    "size": 7,
+    "spend": 3,
+    "length": 4,
+    "width": 4,
+    "category": "Octarian",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 130,
+    "name": "Octosniper",
+    "size": 10,
+    "spend": 4,
+    "length": 5,
+    "width": 4,
+    "category": "Octarian",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 131,
+    "name": "Octocommander",
+    "size": 12,
+    "spend": 5,
+    "length": 5,
+    "width": 5,
+    "category": "Octarian",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 132,
+    "name": "Octomissile",
+    "size": 5,
+    "spend": 2,
+    "length": 4,
+    "width": 2,
+    "category": "Octarian",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 133,
+    "name": "Octozeppelin",
+    "size": 9,
+    "spend": 4,
+    "length": 4,
+    "width": 3,
+    "category": "Octarian",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 134,
+    "name": "Squee-G",
+    "size": 8,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Octarian",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 135,
+    "name": "Octostamp",
+    "size": 4,
+    "spend": 2,
+    "length": 2,
+    "width": 2,
+    "category": "Octarian",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 136,
+    "name": "Amped Octostamp",
+    "size": 9,
+    "spend": 4,
+    "length": 5,
+    "width": 5,
+    "category": "Octarian",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 137,
+    "name": "Flooder",
+    "size": 14,
+    "spend": 5,
+    "length": 5,
+    "width": 4,
+    "category": "Octarian",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 138,
+    "name": "Octoballer",
+    "size": 13,
+    "spend": 5,
+    "length": 5,
+    "width": 4,
+    "category": "Octarian",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 139,
+    "name": "Octoling",
+    "size": 11,
+    "spend": 4,
+    "length": 5,
+    "width": 4,
+    "category": "Octarian",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 140,
+    "name": "DJ Octavio",
+    "size": 17,
+    "spend": 6,
+    "length": 6,
+    "width": 6,
+    "category": "Octarian",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 141,
+    "name": "Chum",
+    "size": 5,
+    "spend": 2,
+    "length": 3,
+    "width": 3,
+    "category": "Salmonid",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 142,
+    "name": "Cohock",
+    "size": 9,
+    "spend": 4,
+    "length": 4,
+    "width": 4,
+    "category": "Salmonid",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 143,
+    "name": "Snatcher",
+    "size": 6,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Salmonid",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 144,
+    "name": "Steelhead",
+    "size": 12,
+    "spend": 5,
+    "length": 5,
+    "width": 5,
+    "category": "Salmonid",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 145,
+    "name": "Steel Eel",
+    "size": 10,
+    "spend": 4,
+    "length": 7,
+    "width": 2,
+    "category": "Salmonid",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 146,
+    "name": "Scrapper",
+    "size": 10,
+    "spend": 4,
+    "length": 6,
+    "width": 3,
+    "category": "Salmonid",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 147,
+    "name": "Stinger",
+    "size": 7,
+    "spend": 3,
+    "length": 6,
+    "width": 2,
+    "category": "Salmonid",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 148,
+    "name": "Maws",
+    "size": 12,
+    "spend": 5,
+    "length": 6,
+    "width": 3,
+    "category": "Salmonid",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 149,
+    "name": "Drizzler",
+    "size": 12,
+    "spend": 5,
+    "length": 5,
+    "width": 4,
+    "category": "Salmonid",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 150,
+    "name": "Flyfish",
+    "size": 13,
+    "spend": 5,
+    "length": 5,
+    "width": 3,
+    "category": "Salmonid",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 151,
+    "name": "Fish Stick",
+    "size": 9,
+    "spend": 4,
+    "length": 6,
+    "width": 5,
+    "category": "Salmonid",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 152,
+    "name": "Flipper-Flopper",
+    "size": 12,
+    "spend": 5,
+    "length": 6,
+    "width": 4,
+    "category": "Salmonid",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 153,
+    "name": "Slammin' Lid",
+    "size": 6,
+    "spend": 3,
+    "length": 5,
+    "width": 2,
+    "category": "Salmonid",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 154,
+    "name": "Big Shot",
+    "size": 13,
+    "spend": 5,
+    "length": 6,
+    "width": 4,
+    "category": "Salmonid",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 155,
+    "name": "Goldie",
+    "size": 12,
+    "spend": 5,
+    "length": 5,
+    "width": 5,
+    "category": "Salmonid",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 156,
+    "name": "Griller",
+    "size": 13,
+    "spend": 5,
+    "length": 5,
+    "width": 4,
+    "category": "Salmonid",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 157,
+    "name": "Mothership",
+    "size": 12,
+    "spend": 5,
+    "length": 5,
+    "width": 4,
+    "category": "Salmonid",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 158,
+    "name": "Mudmouth",
+    "size": 13,
+    "spend": 5,
+    "length": 6,
+    "width": 3,
+    "category": "Salmonid",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 159,
+    "name": "Zapfish",
+    "size": 9,
+    "spend": 4,
+    "length": 4,
+    "width": 4,
+    "category": "Mode objective",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 160,
+    "name": "Tower Control Tower",
+    "size": 13,
+    "spend": 5,
+    "length": 5,
+    "width": 5,
+    "category": "Mode objective",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 161,
+    "name": "Rainmaker",
+    "size": 12,
+    "spend": 5,
+    "length": 5,
+    "width": 5,
+    "category": "Mode objective",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 162,
+    "name": "Power Clam",
+    "size": 11,
+    "spend": 4,
+    "length": 5,
+    "width": 3,
+    "category": "Mode objective",
+    "date": "2022-09-02"
+  },
+  {
+    "id": 163,
+    "name": "Custom Splattershot Jr.",
+    "size": 4,
+    "spend": 2,
+    "length": 3,
+    "width": 2,
+    "category": "Weapon",
+    "date": "2022-12-01"
+  },
+  {
+    "id": 164,
+    "name": "Aerospray RG",
+    "size": 7,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-12-01"
+  },
+  {
+    "id": 165,
+    "name": "Tentatek Splatteershot",
+    "size": 8,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-12-01"
+  },
+  {
+    "id": 166,
+    "name": "Forge Splattershot Pro",
+    "size": 9,
+    "spend": 4,
+    "length": 6,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-12-01"
+  },
+  {
+    "id": 167,
+    "name": "Splattershot Nova",
+    "size": 10,
+    "spend": 4,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-12-01"
+  },
+  {
+    "id": 168,
+    "name": "Luna Blaster Neo",
+    "size": 7,
+    "spend": 3,
+    "length": 4,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2022-12-01"
+  },
+  {
+    "id": 169,
+    "name": "Carbon Roller Deco",
+    "size": 7,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-12-01"
+  },
+  {
+    "id": 170,
+    "name": "Big Swig Roller",
+    "size": 9,
+    "spend": 4,
+    "length": 6,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-12-01"
+  },
+  {
+    "id": 171,
+    "name": "Inkbrush Nouveau",
+    "size": 7,
+    "spend": 3,
+    "length": 5,
+    "width": 5,
+    "category": "Weapon",
+    "date": "2022-12-01"
+  },
+  {
+    "id": 172,
+    "name": "Snipewriter 5H",
+    "size": 9,
+    "spend": 4,
+    "length": 7,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-12-01"
+  },
+  {
+    "id": 173,
+    "name": "Slosher Deco",
+    "size": 6,
+    "spend": 3,
+    "length": 3,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-12-01"
+  },
+  {
+    "id": 174,
+    "name": "Zink Mini Splatling",
+    "size": 7,
+    "spend": 3,
+    "length": 5,
+    "width": 2,
+    "category": "Weapon",
+    "date": "2022-12-01"
+  },
+  {
+    "id": 175,
+    "name": "Dapple Dualies Noueveau",
+    "size": 7,
+    "spend": 3,
+    "length": 3,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2022-12-01"
+  },
+  {
+    "id": 176,
+    "name": "Neo Sploosh-o-Matic",
+    "size": 9,
+    "spend": 4,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 177,
+    "name": "Neo Splash-o-Matic",
+    "size": 7,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 178,
+    "name": "N-ZAP '89",
+    "size": 5,
+    "spend": 2,
+    "length": 4,
+    "width": 2,
+    "category": "Weapon",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 179,
+    "name": ".96 Gal Deco",
+    "size": 10,
+    "spend": 4,
+    "length": 6,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 180,
+    "name": "Custom Jet Squelcher",
+    "size": 10,
+    "spend": 4,
+    "length": 6,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 181,
+    "name": "Clash Blaster Neo",
+    "size": 8,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 182,
+    "name": "Rapid Blaster Deco",
+    "size": 8,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 183,
+    "name": "L-3 Nozzlenose D",
+    "size": 7,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 184,
+    "name": "Krak-On Splat Roller",
+    "size": 9,
+    "spend": 4,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 185,
+    "name": "Z+F Splat Charger",
+    "size": 8,
+    "spend": 3,
+    "length": 7,
+    "width": 2,
+    "category": "Weapon",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 186,
+    "name": "Z+F Splatterscope",
+    "size": 10,
+    "spend": 4,
+    "length": 7,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 187,
+    "name": "Tri-Slosher Nouveau",
+    "size": 5,
+    "spend": 2,
+    "length": 3,
+    "width": 2,
+    "category": "Weapon",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 188,
+    "name": "Kraken Royale",
+    "size": 12,
+    "spend": 3,
+    "length": 6,
+    "width": 6,
+    "category": "Special weapon",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 189,
+    "name": "Super Chump",
+    "size": 12,
+    "spend": 3,
+    "length": 5,
+    "width": 5,
+    "category": "Special weapon",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 190,
+    "name": "Shelly & Donny",
+    "size": 12,
+    "spend": 5,
+    "length": 6,
+    "width": 6,
+    "category": "NPC",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 191,
+    "name": "Annie",
+    "size": 13,
+    "spend": 5,
+    "length": 5,
+    "width": 5,
+    "category": "NPC",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 192,
+    "name": "Jelonzo",
+    "size": 12,
+    "spend": 5,
+    "length": 5,
+    "width": 5,
+    "category": "NPC",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 193,
+    "name": "Fred Crumbs",
+    "size": 11,
+    "spend": 4,
+    "length": 5,
+    "width": 5,
+    "category": "NPC",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 194,
+    "name": "Spyke",
+    "size": 13,
+    "spend": 5,
+    "length": 5,
+    "width": 5,
+    "category": "NPC",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 195,
+    "name": "The Eel Deal - Frye",
+    "size": 14,
+    "spend": 5,
+    "length": 6,
+    "width": 4,
+    "category": "NPC",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 196,
+    "name": "The Cold-Blooded Bandit - Shiver",
+    "size": 14,
+    "spend": 5,
+    "length": 7,
+    "width": 4,
+    "category": "NPC",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 197,
+    "name": "The Hype Manta Storm - Big Man",
+    "size": 14,
+    "spend": 5,
+    "length": 6,
+    "width": 6,
+    "category": "NPC",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 198,
+    "name": "Z+F",
+    "size": 11,
+    "spend": 4,
+    "length": 4,
+    "width": 4,
+    "category": "Brand",
+    "date": "2023-03-01"
+  },
+  {
+    "id": 199,
+    "name": "Annaki Splattershot Nova",
+    "size": 10,
+    "spend": 4,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-06-01"
+  },
+  {
+    "id": 200,
+    "name": "Rapid Blaster Pro Deco",
+    "size": 9,
+    "spend": 4,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-06-01"
+  },
+  {
+    "id": 201,
+    "name": "S-BLAST '92",
+    "size": 9,
+    "spend": 4,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-06-01"
+  },
+  {
+    "id": 202,
+    "name": "H-3 Nozzlenose D",
+    "size": 8,
+    "spend": 3,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-06-01"
+  },
+  {
+    "id": 203,
+    "name": "Big Swig Roller Express",
+    "size": 9,
+    "spend": 4,
+    "length": 6,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-06-01"
+  },
+  {
+    "id": 204,
+    "name": "Painbrush",
+    "size": 10,
+    "spend": 4,
+    "length": 6,
+    "width": 6,
+    "category": "Weapon",
+    "date": "2023-06-01"
+  },
+  {
+    "id": 205,
+    "name": "Heavy Splatling Deco",
+    "size": 12,
+    "spend": 5,
+    "length": 6,
+    "width": 5,
+    "category": "Weapon",
+    "date": "2023-06-01"
+  },
+  {
+    "id": 206,
+    "name": "Custom Dualie Squelchers",
+    "size": 10,
+    "spend": 4,
+    "length": 5,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2023-06-01"
+  },
+  {
+    "id": 207,
+    "name": "Light Tetra Dualies",
+    "size": 8,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-06-01"
+  },
+  {
+    "id": 208,
+    "name": "Tenta Sorella Brella",
+    "size": 12,
+    "spend": 5,
+    "length": 5,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2023-06-01"
+  },
+  {
+    "id": 209,
+    "name": "Splatana Wiper Deco",
+    "size": 5,
+    "spend": 2,
+    "length": 5,
+    "width": 1,
+    "category": "Weapon",
+    "date": "2023-06-01"
+  },
+  {
+    "id": 210,
+    "name": "Gold Dynamo Roller",
+    "size": 13,
+    "spend": 5,
+    "length": 7,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2023-09-01"
+  },
+  {
+    "id": 211,
+    "name": "Octobrush Nouveau",
+    "size": 9,
+    "spend": 4,
+    "length": 6,
+    "width": 6,
+    "category": "Weapon",
+    "date": "2023-09-01"
+  },
+  {
+    "id": 212,
+    "name": "Custom Goo Tuber",
+    "size": 11,
+    "spend": 4,
+    "length": 6,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-09-01"
+  },
+  {
+    "id": 213,
+    "name": "Sloshing Machine Neo",
+    "size": 7,
+    "spend": 3,
+    "length": 3,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-09-01"
+  },
+  {
+    "id": 214,
+    "name": "Bloblobber Deco",
+    "size": 10,
+    "spend": 4,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-09-01"
+  },
+  {
+    "id": 215,
+    "name": "Dread Wringer",
+    "size": 12,
+    "spend": 5,
+    "length": 4,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2023-09-01"
+  },
+  {
+    "id": 216,
+    "name": "Ballpoint Splatling Nouveau",
+    "size": 10,
+    "spend": 4,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-09-01"
+  },
+  {
+    "id": 217,
+    "name": "Heavy Edit Splatling",
+    "size": 12,
+    "spend": 5,
+    "length": 6,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-09-01"
+  },
+  {
+    "id": 218,
+    "name": "Sorella Brella",
+    "size": 11,
+    "spend": 4,
+    "length": 5,
+    "width": 5,
+    "category": "Weapon",
+    "date": "2023-09-01"
+  },
+  {
+    "id": 219,
+    "name": "Inkline Tri-Stringer",
+    "size": 11,
+    "spend": 4,
+    "length": 5,
+    "width": 5,
+    "category": "Weapon",
+    "date": "2023-09-01"
+  },
+  {
+    "id": 220,
+    "name": "Cohozuna",
+    "size": 17,
+    "spend": 6,
+    "length": 6,
+    "width": 5,
+    "category": "Salmonid",
+    "date": "2023-09-01"
+  },
+  {
+    "id": 221,
+    "name": "Horrorboros",
+    "size": 17,
+    "spend": 6,
+    "length": 7,
+    "width": 6,
+    "category": "Salmonid",
+    "date": "2023-09-01"
+  },
+  {
+    "id": 222,
+    "name": "Custom Blaster",
+    "size": 8,
+    "spend": 3,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-12-01"
+  },
+  {
+    "id": 223,
+    "name": "Foil Squeezer",
+    "size": 7,
+    "spend": 3,
+    "length": 5,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2023-12-01"
+  },
+  {
+    "id": 224,
+    "name": "Enperry Splat Dualies",
+    "size": 8,
+    "spend": 3,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-12-01"
+  },
+  {
+    "id": 225,
+    "name": "Undercover Sorella Brella",
+    "size": 8,
+    "spend": 3,
+    "length": 5,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2023-12-01"
+  },
+  {
+    "id": 226,
+    "name": "REEF-LUX 450 Deco",
+    "size": 9,
+    "spend": 4,
+    "length": 4,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2023-12-01"
+  },
+  {
+    "id": 227,
+    "name": "Splatana Stamper Nouveau",
+    "size": 6,
+    "spend": 3,
+    "length": 6,
+    "width": 1,
+    "category": "Weapon",
+    "date": "2023-12-01"
+  },
+  {
+    "id": 228,
+    "name": "Snipewriter 5B",
+    "size": 9,
+    "spend": 4,
+    "length": 7,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-12-01"
+  },
+  {
+    "id": 229,
+    "name": "S-BLAST '91",
+    "size": 9,
+    "spend": 4,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2023-12-01"
+  },
+  {
+    "id": 230,
+    "name": "Painbrush Nouveau",
+    "size": 10,
+    "spend": 4,
+    "length": 6,
+    "width": 6,
+    "category": "Weapon",
+    "date": "2023-12-01"
+  },
+  {
+    "id": 231,
+    "name": "Triple Splashdown",
+    "size": 12,
+    "spend": 3,
+    "length": 5,
+    "width": 5,
+    "category": "Special weapon",
+    "date": "2023-12-01"
+  },
+  {
+    "id": 232,
+    "name": "Splattercolor Screen",
+    "size": 12,
+    "spend": 3,
+    "length": 6,
+    "width": 6,
+    "category": "Special weapon",
+    "date": "2023-12-01"
+  },
+  {
+    "id": 233,
+    "name": "Order Dualies",
+    "size": 6,
+    "spend": 2,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2024-03-01"
+  },
+  {
+    "id": 234,
+    "name": ".52 Gal Deco",
+    "size": 7,
+    "spend": 3,
+    "length": 4,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2024-03-01"
+  },
+  {
+    "id": 235,
+    "name": "Foil Flingza Roller",
+    "size": 10,
+    "spend": 4,
+    "length": 5,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2024-03-01"
+  },
+  {
+    "id": 236,
+    "name": "New Squiffer",
+    "size": 8,
+    "spend": 3,
+    "length": 6,
+    "width": 2,
+    "category": "Weapon",
+    "date": "2024-03-01"
+  },
+  {
+    "id": 237,
+    "name": "Custom E-liter 4K",
+    "size": 11,
+    "spend": 4,
+    "length": 7,
+    "width": 2,
+    "category": "Weapon",
+    "date": "2024-03-01"
+  },
+  {
+    "id": 238,
+    "name": "Custom E-liter 4K Scope",
+    "size": 13,
+    "spend": 5,
+    "length": 7,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2024-03-01"
+  },
+  {
+    "id": 239,
+    "name": "Custom Explosher",
+    "size": 11,
+    "spend": 4,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2024-03-01"
+  },
+  {
+    "id": 240,
+    "name": "Dread Wringer D",
+    "size": 12,
+    "spend": 5,
+    "length": 4,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2024-03-01"
+  },
+  {
+    "id": 241,
+    "name": "Nautilus 79",
+    "size": 9,
+    "spend": 4,
+    "length": 5,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2024-03-01"
+  },
+  {
+    "id": 242,
+    "name": "Glooga Dualies Deco",
+    "size": 9,
+    "spend": 4,
+    "length": 4,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2024-03-01"
+  },
+  {
+    "id": 243,
+    "name": "Douser Dualies FF",
+    "size": 11,
+    "spend": 4,
+    "length": 6,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2024-03-01"
+  },
+  {
+    "id": 244,
+    "name": "Recycled Brella 24 Mk I",
+    "size": 10,
+    "spend": 4,
+    "length": 4,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2024-03-01"
+  },
+  {
+    "id": 245,
+    "name": "Flow",
+    "size": 14,
+    "spend": 5,
+    "length": 6,
+    "width": 5,
+    "category": "NPC",
+    "date": "2024-03-01"
+  },
+  {
+    "id": 246,
+    "name": "Jelfonzo",
+    "size": 12,
+    "spend": 5,
+    "length": 5,
+    "width": 5,
+    "category": "NPC",
+    "date": "2024-03-01"
+  },
+  {
+    "id": 247,
+    "name": "Bisk",
+    "size": 14,
+    "spend": 5,
+    "length": 6,
+    "width": 6,
+    "category": "NPC",
+    "date": "2024-03-01"
+  },
+  {
+    "id": 248,
+    "name": "Acht",
+    "size": 16,
+    "spend": 6,
+    "length": 5,
+    "width": 5,
+    "category": "NPC",
+    "date": "2024-03-01"
+  },
+  {
+    "id": 249,
+    "name": "Cipher",
+    "size": 14,
+    "spend": 5,
+    "length": 6,
+    "width": 6,
+    "category": "NPC",
+    "date": "2024-03-01"
+  },
+  {
+    "id": 250,
+    "name": "Pearl Drone",
+    "size": 6,
+    "spend": 2,
+    "length": 4,
+    "width": 4,
+    "category": "NPC",
+    "date": "2024-03-01"
+  },
+  {
+    "id": 251,
+    "name": "Pearl",
+    "size": 18,
+    "spend": 6,
+    "length": 6,
+    "width": 6,
+    "category": "NPC",
+    "date": "2024-03-01"
+  },
+  {
+    "id": 252,
+    "name": "Marina",
+    "size": 18,
+    "spend": 6,
+    "length": 6,
+    "width": 5,
+    "category": "NPC",
+    "date": "2024-03-01"
+  },
+  {
+    "id": 253,
+    "name": "Custom Range Blaster",
+    "size": 9,
+    "spend": 4,
+    "length": 6,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2024-06-01"
+  },
+  {
+    "id": 254,
+    "name": "Bamboozler 14 Mk II",
+    "size": 7,
+    "spend": 3,
+    "length": 5,
+    "width": 2,
+    "category": "Weapon",
+    "date": "2024-06-01"
+  },
+  {
+    "id": 255,
+    "name": "Custom Hydra Splatling",
+    "size": 13,
+    "spend": 5,
+    "length": 6,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2024-06-01"
+  },
+  {
+    "id": 256,
+    "name": "Heavy Edit Splatling Nouveau",
+    "size": 12,
+    "spend": 5,
+    "length": 6,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2024-06-01"
+  },
+  {
+    "id": 257,
+    "name": "Custom Douser Dualies FF",
+    "size": 11,
+    "spend": 4,
+    "length": 6,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2024-06-01"
+  },
+  {
+    "id": 258,
+    "name": "Recycled Brella 24 Mk II",
+    "size": 10,
+    "spend": 4,
+    "length": 4,
+    "width": 4,
+    "category": "Weapon",
+    "date": "2024-06-01"
+  },
+  {
+    "id": 259,
+    "name": "Wellstring V",
+    "size": 13,
+    "spend": 5,
+    "length": 5,
+    "width": 5,
+    "category": "Weapon",
+    "date": "2024-06-01"
+  },
+  {
+    "id": 260,
+    "name": "Custom Wellstring V",
+    "size": 13,
+    "spend": 5,
+    "length": 5,
+    "width": 5,
+    "category": "Weapon",
+    "date": "2024-06-01"
+  },
+  {
+    "id": 261,
+    "name": "Mint Decavitator",
+    "size": 12,
+    "spend": 5,
+    "length": 6,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2024-06-01"
+  },
+  {
+    "id": 262,
+    "name": "Charcoal Decavitator",
+    "size": 12,
+    "spend": 5,
+    "length": 6,
+    "width": 3,
+    "category": "Weapon",
+    "date": "2024-06-01"
+  },
+  {
+    "id": 263,
+    "name": "Crusty Sean",
+    "size": 15,
+    "spend": 5,
+    "length": 6,
+    "width": 6,
+    "category": "NPC",
+    "date": "2024-06-01"
+  },
+  {
+    "id": 264,
+    "name": "The Ursine Anomaly - ＃03",
+    "size": 18,
+    "spend": 6,
+    "length": 7,
+    "width": 5,
+    "category": "NPC",
+    "date": "2024-06-01"
+  },
+  {
+    "id": 265,
+    "name": "Megalodontia",
+    "size": 17,
+    "spend": 6,
+    "length": 7,
+    "width": 5,
+    "category": "Salmonid",
+    "date": "2024-06-01"
+  },
+  {
+    "id": 266,
+    "name": "Overlorder",
+    "size": 17,
+    "spend": 6,
+    "length": 6,
+    "width": 6,
+    "category": "NPC",
+    "date": "2024-06-01"
+  }
 ]
