@@ -443,7 +443,7 @@
 		"id": 56,
 		"name": "Splat Bomb",
 		"size": 3,
-		"spend": 0,
+		"spend": 1,
 		"category": "Sub weapon",
 		"date": "2022-09-02"
 	},
@@ -451,7 +451,7 @@
 		"id": 57,
 		"name": "Suction Bomb",
 		"size": 3,
-		"spend": 0,
+		"spend": 1,
 		"category": "Sub weapon",
 		"date": "2022-09-02"
 	},
@@ -459,7 +459,7 @@
 		"id": 58,
 		"name": "Burst Bomb",
 		"size": 1,
-		"spend": 0,
+		"spend": 1,
 		"category": "Sub weapon",
 		"date": "2022-09-02"
 	},
@@ -467,7 +467,7 @@
 		"id": 59,
 		"name": "Sprinkler",
 		"size": 3,
-		"spend": 0,
+		"spend": 1,
 		"category": "Sub weapon",
 		"date": "2022-09-02"
 	},
@@ -483,7 +483,7 @@
 		"id": 61,
 		"name": "Fizzy Bomb",
 		"size": 3,
-		"spend": 0,
+		"spend": 1,
 		"category": "Sub weapon",
 		"date": "2022-09-02"
 	},
@@ -739,7 +739,7 @@
 		"id": 93,
 		"name": "Smallfry",
 		"size": 3,
-		"spend": 0,
+		"spend": 1,
 		"category": "NPC",
 		"date": "2022-09-02"
 	},
@@ -899,7 +899,7 @@
 		"id": 113,
 		"name": "Tentatek",
 		"size": 2,
-		"spend": 0,
+		"spend": 1,
 		"category": "Brand",
 		"date": "2022-09-02"
 	},
@@ -1011,7 +1011,7 @@
 		"id": 127,
 		"name": "Octopod",
 		"size": 2,
-		"spend": 0,
+		"spend": 1,
 		"category": "Octarian",
 		"date": "2022-09-02"
 	},
