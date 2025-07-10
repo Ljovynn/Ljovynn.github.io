@@ -59,7 +59,7 @@ function RestoreGameHistory(){
 function showDropdown(items) {
     dropdown.innerHTML = '';
 
-    limiteditemsItems.forEach(item => {
+    items.forEach(item => {
         const div = document.createElement('div');
         div.className = 'dropdown-item';
         div.textContent = item;
