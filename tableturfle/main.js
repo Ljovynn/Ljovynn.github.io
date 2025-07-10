@@ -58,9 +58,8 @@ function RestoreGameHistory(){
 
 function showDropdown(items) {
     dropdown.innerHTML = '';
-    const limitedItems = items.slice(0, 5);
 
-    limitedItems.forEach(item => {
+    limiteditemsItems.forEach(item => {
         const div = document.createElement('div');
         div.className = 'dropdown-item';
         div.textContent = item;
@@ -71,15 +70,15 @@ function showDropdown(items) {
         dropdown.appendChild(div);
     });
 
-    dropdown.style.display = limitedItems.length > 0 ? 'block' : 'none';
+    dropdown.style.display = items.length > 0 ? 'block' : 'none';
 }
 
 cardInput.addEventListener('focus', () => {
-    showDropdown(FilterOptions(cardInput.value));
+    showDropdown(FilterInputOptions(cardInput.value));
 });
 
 cardInput.addEventListener('input', () => {
-    showDropdown(FilterOptions(cardInput.value));
+    showDropdown(FilterInputOptions(cardInput.value));
 });
 
 document.addEventListener('click', (e) => {
@@ -294,7 +293,7 @@ function GetCurrentDate(){
     return utcDateString;
 }
 
-function FilterOptions(input, max = 5){
+function FilterInputOptions(input, max = uniqueCards){
     const sanitizedInput = SanitizeString(input);
     let filteredChoices = [];
     if (sanitizedInput == ""){
