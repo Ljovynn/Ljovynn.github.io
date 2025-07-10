@@ -165,7 +165,7 @@ function AddNewGuess(guessedCard){
     if (guessedCard.length == dailyCard.length){
         lengthSection.classList.add('correct-value');
         gameStateHistory[gameStateHistory.length - 1].push(guessConditions.correct);
-    } else if (guessedCard.spend >= dailyCard.length - lengthWidthThreshold && guessedCard.length <= dailyCard.length + lengthWidthThreshold){
+    } else if (guessedCard.length >= dailyCard.length - lengthWidthThreshold && guessedCard.length <= dailyCard.length + lengthWidthThreshold){
         lengthSection.classList.add('close-value');
         gameStateHistory[gameStateHistory.length - 1].push(guessConditions.close);
     } else{
@@ -174,20 +174,20 @@ function AddNewGuess(guessedCard){
     }
     newGuess.appendChild(lengthSection);
 
-    let widhtSection = document.createElement('div');
-    widhtSection.className = 'guess-section';
-    AddTextToGuessSection(widhtSection, guessedCard.width);
+    let widthSection = document.createElement('div');
+    widthSection.className = 'guess-section';
+    AddTextToGuessSection(widthSection, guessedCard.width);
     if (guessedCard.width == dailyCard.width){
-        widhtSection.classList.add('correct-value');
+        widthSection.classList.add('correct-value');
         gameStateHistory[gameStateHistory.length - 1].push(guessConditions.correct);
     } else if (guessedCard.spend >= dailyCard.width - lengthWidthThreshold && guessedCard.width <= dailyCard.width + lengthWidthThreshold){
-        widhtSection.classList.add('close-value');
+        widthSection.classList.add('close-value');
         gameStateHistory[gameStateHistory.length - 1].push(guessConditions.close);
     } else{
-        widhtSection.classList.add('wrong-value');
+        widthSection.classList.add('wrong-value');
         gameStateHistory[gameStateHistory.length - 1].push(guessConditions.wrong);
     }
-    newGuess.appendChild(widhtSection);
+    newGuess.appendChild(widthSection);
 
     let categorySection = document.createElement('div');
     categorySection.className = 'guess-section';
