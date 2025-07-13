@@ -179,7 +179,7 @@ function AddNewGuess(guessedCard){
     if (guessedCard.width == dailyCard.width){
         widthSection.classList.add('correct-value');
         gameStateHistory[gameStateHistory.length - 1].push(guessConditions.correct);
-    } else if (guessedCard.spend >= dailyCard.width - lengthWidthThreshold && guessedCard.width <= dailyCard.width + lengthWidthThreshold){
+    } else if (guessedCard.width >= dailyCard.width - lengthWidthThreshold && guessedCard.width <= dailyCard.width + lengthWidthThreshold){
         widthSection.classList.add('close-value');
         gameStateHistory[gameStateHistory.length - 1].push(guessConditions.close);
     } else{
