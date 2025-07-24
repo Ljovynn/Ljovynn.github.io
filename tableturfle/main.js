@@ -326,79 +326,8 @@ function GetDailyNumber() {
 
 async function SetupCards(){
     const cardsJSON = await LoadJSON();
-    /*const cardsJSON = [{
-    "id": 3,
-    "name": "Splattershot Jr.",
-    "size": 4,
-    "spend": 2,
-    "length": 3,
-    "width": 2,
-    "category": "Weapon",
-    "date": "2022-09-02"
-  },
-  {
-    "id": 4,
-    "name": "Splash-o-matic",
-    "size": 7,
-    "spend": 3,
-    "length": 4,
-    "width": 3,
-    "category": "Weapon",
-    "date": "2022-09-02"
-  },
-  {
-    "id": 5,
-    "name": "Aerospray MG",
-    "size": 7,
-    "spend": 3,
-    "length": 4,
-    "width": 3,
-    "category": "Weapon",
-    "date": "2022-09-02"
-  },
-  {
-    "id": 6,
-    "name": "Splattershot",
-    "size": 8,
-    "spend": 3,
-    "length": 4,
-    "width": 3,
-    "category": "Weapon",
-    "date": "2022-09-02"
-  },
-  {
-    "id": 7,
-    "name": ".52 Gal",
-    "size": 7,
-    "spend": 3,
-    "length": 4,
-    "width": 3,
-    "category": "Weapon",
-    "date": "2022-09-02"
-  },
-  {
-    "id": 8,
-    "name": "N-ZAP '85",
-    "size": 5,
-    "spend": 2,
-    "length": 4,
-    "width": 2,
-    "category": "Weapon",
-    "date": "2022-09-02"
-  },
-  {
-    "id": 9,
-    "name": "Splattershot Pro",
-    "size": 9,
-    "spend": 4,
-    "length": 6,
-    "width": 3,
-    "category": "Weapon",
-    "date": "2022-09-02"
-  }]*/
 
     let i = GetDailyNumber() - 1;
-    //let i = 5;
     dailyCard = cardsJSON[i];
 
     cardsJSON.sort((a, b) => a.name.localeCompare(b.name));
@@ -421,6 +350,7 @@ async function SetupCards(){
 
 async function LoadJSON() {
     const response = await fetch("./cardData.json");
+    //const response = await fetch("https://ljovynn.github.io/tableturfle/cardData.json");
     const json = await response.json();
     return json;
 }
