@@ -1,0 +1,27 @@
+{
+    "en":{
+        "input":{
+            "prompt": "Choose a Tableturf card",
+            "guess": "Guess"
+        },
+        "attributes":{
+            "name": "Name",
+            "ID": "ID",
+            "SPSpend": "Special Point spend",
+            "length": "Length",
+            "width": "Width",
+            "category": "Category",
+            "releaseDate": "Release Date"
+        },
+        "categories":{
+            "weapon": "Weapon",
+            "subWeapon": "Sub weapon",
+            "specialWeapon": "Special weapon",
+            "NPC": "NPC",
+            "brand": "Brand",
+            "octarian": "Octarian",
+            "salmonid": "Salmonid",
+            "modeObjective": "Mode objective"
+        }
+    }
+}

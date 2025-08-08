@@ -34,6 +34,12 @@ const today = GetCurrentDate();
 
 var dailyCard;
 
+var language = localStorage['language'] || 'en';
+document.getElementById('langInput').addEventListener('click', () => {
+    language = (language === 'en') ? 'ja' : 'en';
+    localStorage['language'] = language;
+});
+
 FullSetup();
 
 async function FullSetup(){
@@ -349,8 +355,8 @@ async function SetupCards(){
 }
 
 async function LoadJSON() {
-    const response = await fetch("./cardData.json");
-    //const response = await fetch("https://ljovynn.github.io/tableturfle/cardData.json");
+    //const response = await fetch("./cardData.json");
+    const response = await fetch("https://ljovynn.github.io/tableturfle/cardData.json");
     const json = await response.json();
     return json;
 }
