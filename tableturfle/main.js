@@ -34,16 +34,19 @@ const today = GetCurrentDate();
 
 var dailyCard;
 
-var language = localStorage['language'] || 'en';
+/*ar language = localStorage['language'] || 'en';
 document.getElementById('langInput').addEventListener('click', () => {
     language = (language === 'en') ? 'ja' : 'en';
     localStorage['language'] = language;
-});
+});*/
+
+var langData = {};
 
 FullSetup();
 
 async function FullSetup(){
     await SetupCards();
+    //await SetupLangData();
     RestoreGameHistory();
 }
 
@@ -60,6 +63,19 @@ function RestoreGameHistory(){
         const card = GetCardById(storedGameHistory[i])
         AddNewGuess(card);
     }
+}
+
+async function SetupLangData(){
+    //const langJSON = await fetch("./langData.json");
+    const langJSON = await fetch("https://ljovynn.github.io/tableturfle/langData.json");
+    langData = langJSON;
+    console.log(langData[language].attributes.releaseDate);
+}
+
+function SetLanguage(){
+    console.log(langJSON)
+    //change in first guess-area
+    //for each card in guessedCardHistory, change first in each guess-area
 }
 
 function showDropdown(items) {
@@ -331,7 +347,8 @@ function GetDailyNumber() {
 }
 
 async function SetupCards(){
-    const cardsJSON = await LoadJSON();
+    //const cardsJSON = await fetch("./cardData.json");
+    const cardsJSON = await fetch("https://ljovynn.github.io/tableturfle/cardData.json");
 
     let i = GetDailyNumber() - 1;
     dailyCard = cardsJSON[i];
@@ -352,13 +369,6 @@ async function SetupCards(){
         })
     }
     inputButton.disabled = false;
-}
-
-async function LoadJSON() {
-    //const response = await fetch("./cardData.json");
-    const response = await fetch("https://ljovynn.github.io/tableturfle/cardData.json");
-    const json = await response.json();
-    return json;
 }
 
 function GetCardByName(inputName){
