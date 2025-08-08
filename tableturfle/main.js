@@ -34,7 +34,7 @@ const today = GetCurrentDate();
 
 var dailyCard;
 
-/*ar language = localStorage['language'] || 'en';
+/*var language = localStorage['language'] || 'en';
 document.getElementById('langInput').addEventListener('click', () => {
     language = (language === 'en') ? 'ja' : 'en';
     localStorage['language'] = language;
@@ -66,8 +66,9 @@ function RestoreGameHistory(){
 }
 
 async function SetupLangData(){
-    //const langJSON = await fetch("./langData.json");
-    const langJSON = await fetch("https://ljovynn.github.io/tableturfle/langData.json");
+    //const response = await fetch("./langData.json");
+    const response = await fetch("https://ljovynn.github.io/tableturfle/langData.json");
+    const langJSON = response.json();
     langData = langJSON;
     console.log(langData[language].attributes.releaseDate);
 }
@@ -347,8 +348,9 @@ function GetDailyNumber() {
 }
 
 async function SetupCards(){
-    const cardsJSON = await fetch("./cardData.json");
-    //const cardsJSON = await fetch("https://ljovynn.github.io/tableturfle/cardData.json");
+    const response = await fetch("./cardData.json");
+    //const response = await fetch("https://ljovynn.github.io/tableturfle/cardData.json");
+    const cardsJSON = response.json();
 
     let i = GetDailyNumber() - 1;
     dailyCard = cardsJSON[i];
