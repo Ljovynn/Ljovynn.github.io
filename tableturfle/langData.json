@@ -29,15 +29,17 @@
         },
         "winPopup":{
             "congratulations": "Congratulations!",
-            "wonText1": "You won with ",
-            "wonText2": " guesses!"
+            "winText1": "You won with ",
+            "winText2Singular": " guess!",
+            "winText2Plural": " guesses!"
         },
         "infoPopup":{
 
         },
         "copyText":{
             "triesText1": "Guessed in ",
-            "triesText2": " tries!",
+            "triesText2Singular": " try!",
+            "triesText2Plural": " tries!",
             "playAt": "Play at: "
         }
     },
@@ -71,15 +73,17 @@
         },
         "winPopup":{
             "congratulations": "おめでとう！",
-            "wonText1": "あなたは",
-            "wonText2": "回当てて勝った！"
+            "winText1": "あなたは",
+            "winText2Singular": "回で勝った！",
+            "winText2Plural": "回当てて勝った！"
         },
         "infoPopup":{
 
         },
         "copyText":{
             "triesText1": "",
-            "triesText2": "回で当てられた！",
+            "triesText2Singular": "回でわかった！",
+            "triesText2Plural": "回で当てられた！",
             "playAt": "ここでプレーする"
         }
     }
