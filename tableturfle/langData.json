@@ -84,7 +84,7 @@
         },
         "infoPopup":{
             "aboutTitle": "について",
-            "aboutText": "<span style=\"color: var(--yellow);\">Tableturfle</span>はWordleに似たゲームで、プレイヤーはできるだけ少ない試行回数で日替わりのナワバトラーカードの正解を当てなければなりません。カードを当てるごとに、当てられたカードのいくつかの特性に関する情報が明らかになり、正しいカードにどれだけ近いかによって色分けされます。🟩: 正解🟨： 近い🟥： 不正解</h3>",
+            "aboutText": "<span style=\"color: var(--yellow);\">Tableturfle</span>はWordleに似たゲームで、プレイヤーはできるだけ少ない試行回数で日替わりのナワバトラーカードの正解を当てなければなりません。カードを当てるごとに、当てられたカードのいくつかの特性に関する情報が明らかになり、正しいカードにどれだけ近いかによって色分けされます。<br>🟩: 正解<br>🟨： 近い<br>🟥： 不正解</h3>",
             "infoTitle": "情報",
             "infoText": "<span style=\"color: var(--yellow);\">ID：</span>カードのID。🟨 正しいカードの20の範囲内。<br><span style=\"color: var(--yellow);\">マス数：</span>カードのスペース数。正しいカードの 🟨 範囲が2以内。<br><span style=\"color: var(--yellow);\">スペシャルポイント消費： </span>スペシャルポイント：そのカードを必殺技として使うために必要なスペシャルポイントの数。正しいカードから 🟨 1以内の範囲。<br><span style=\"color: var(--yellow);\">長さ／幅：</span>カードのスペースの長さと幅。常に長さの方が大きい。正しいカードの 🟨 範囲内。<br><span style=\"color: var(--yellow);\">カテゴリー： </span>カードが表すカテゴリー。🟨 は表示されない。<br><span style=\"color: var(--yellow);\">発売日: </span>そのカードが初めて発売された日。🟨 は表示されません。",
             "categoriesTitle": "カテゴリー",
