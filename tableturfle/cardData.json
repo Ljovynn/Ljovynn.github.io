@@ -5,6 +5,8 @@
 		"jpName": "ヒーローシューター",
 		"size": 12,
 		"spend": 5,
+		"length": 5,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -14,6 +16,8 @@
 		"jpName": "ボールドマーカー",
 		"size": 9,
 		"spend": 4,
+		"length": 4,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -23,6 +27,8 @@
 		"jpName": "わかばシューター",
 		"size": 4,
 		"spend": 2,
+		"length": 3,
+		"width": 2,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -32,6 +38,8 @@
 		"jpName": "シャープマーカー",
 		"size": 7,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -41,6 +49,8 @@
 		"jpName": "プロモデラーMG",
 		"size": 7,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -50,6 +60,8 @@
 		"jpName": "スプラシューター",
 		"size": 8,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -59,6 +71,8 @@
 		"jpName": ".52ガロン",
 		"size": 7,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -68,6 +82,8 @@
 		"jpName": "N-ZAP85",
 		"size": 5,
 		"spend": 2,
+		"length": 4,
+		"width": 2,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -77,6 +93,8 @@
 		"jpName": "プライムシューター",
 		"size": 9,
 		"spend": 4,
+		"length": 6,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -86,6 +104,8 @@
 		"jpName": ".96ガロン",
 		"size": 10,
 		"spend": 4,
+		"length": 6,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -95,6 +115,8 @@
 		"jpName": "ジェットスイーパー",
 		"size": 10,
 		"spend": 4,
+		"length": 6,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -104,6 +126,8 @@
 		"jpName": "ノヴァブラスター",
 		"size": 7,
 		"spend": 3,
+		"length": 4,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -113,6 +137,8 @@
 		"jpName": "ホットブラスター",
 		"size": 8,
 		"spend": 3,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -122,6 +148,8 @@
 		"jpName": "ロングブラスター",
 		"size": 9,
 		"spend": 4,
+		"length": 6,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -131,6 +159,8 @@
 		"jpName": "クラッシュブラスター",
 		"size": 8,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -140,6 +170,8 @@
 		"jpName": "ラピッドブラスター",
 		"size": 8,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -149,6 +181,8 @@
 		"jpName": "Rブラスターエリート",
 		"size": 9,
 		"spend": 4,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -158,6 +192,8 @@
 		"jpName": "L3リールガン",
 		"size": 7,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -167,6 +203,8 @@
 		"jpName": "H3リールガン",
 		"size": 8,
 		"spend": 3,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -176,6 +214,8 @@
 		"jpName": "ボトルガイザー",
 		"size": 7,
 		"spend": 3,
+		"length": 5,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -185,6 +225,8 @@
 		"jpName": "カーボンローラー",
 		"size": 7,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -194,6 +236,8 @@
 		"jpName": "スプラローラー",
 		"size": 9,
 		"spend": 4,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -203,6 +247,8 @@
 		"jpName": "ダイナモローラー",
 		"size": 13,
 		"spend": 5,
+		"length": 7,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -212,6 +258,8 @@
 		"jpName": "ヴァリアブルローラー",
 		"size": 10,
 		"spend": 4,
+		"length": 5,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -221,6 +269,8 @@
 		"jpName": "パブロ",
 		"size": 7,
 		"spend": 3,
+		"length": 5,
+		"width": 5,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -230,6 +280,8 @@
 		"jpName": "ホクサイ",
 		"size": 9,
 		"spend": 4,
+		"length": 6,
+		"width": 6,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -239,6 +291,8 @@
 		"jpName": "スクイックリンα",
 		"size": 8,
 		"spend": 3,
+		"length": 6,
+		"width": 2,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -248,6 +302,8 @@
 		"jpName": "スプラチャージャー",
 		"size": 8,
 		"spend": 3,
+		"length": 7,
+		"width": 2,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -257,6 +313,8 @@
 		"jpName": "スプラスコープ",
 		"size": 10,
 		"spend": 4,
+		"length": 7,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -266,6 +324,8 @@
 		"jpName": "リッター4K",
 		"size": 11,
 		"spend": 4,
+		"length": 7,
+		"width": 2,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -275,6 +335,8 @@
 		"jpName": "4Kスコープ",
 		"size": 13,
 		"spend": 5,
+		"length": 7,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -284,6 +346,8 @@
 		"jpName": "14式竹筒銃・甲",
 		"size": 7,
 		"spend": 3,
+		"length": 5,
+		"width": 2,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -293,6 +357,8 @@
 		"jpName": "ソイチューバー",
 		"size": 11,
 		"spend": 4,
+		"length": 6,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -302,6 +368,8 @@
 		"jpName": "バケットスロッシャー",
 		"size": 6,
 		"spend": 3,
+		"length": 3,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -311,6 +379,8 @@
 		"jpName": "ヒッセン",
 		"size": 5,
 		"spend": 2,
+		"length": 3,
+		"width": 2,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -320,6 +390,8 @@
 		"jpName": "スクリュースロッシャー",
 		"size": 7,
 		"spend": 3,
+		"length": 3,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -329,6 +401,8 @@
 		"jpName": "オーバーフロッシャー",
 		"size": 10,
 		"spend": 4,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -338,6 +412,8 @@
 		"jpName": "エクスプロッシャー",
 		"size": 11,
 		"spend": 4,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -347,6 +423,8 @@
 		"jpName": "スプラスピナー",
 		"size": 7,
 		"spend": 3,
+		"length": 5,
+		"width": 2,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -356,6 +434,8 @@
 		"jpName": "バレルスピナー",
 		"size": 12,
 		"spend": 5,
+		"length": 6,
+		"width": 5,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -365,6 +445,8 @@
 		"jpName": "ハイドラント",
 		"size": 13,
 		"spend": 5,
+		"length": 6,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -374,6 +456,8 @@
 		"jpName": "クーゲルシュライバー",
 		"size": 10,
 		"spend": 4,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -383,6 +467,8 @@
 		"jpName": "ノーチラス47",
 		"size": 9,
 		"spend": 4,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -392,6 +478,8 @@
 		"jpName": "スパッタリー",
 		"size": 7,
 		"spend": 3,
+		"length": 3,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -401,6 +489,8 @@
 		"jpName": "スプラマニューバー",
 		"size": 8,
 		"spend": 3,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -410,6 +500,8 @@
 		"jpName": "ケルビン525",
 		"size": 9,
 		"spend": 4,
+		"length": 4,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -419,6 +511,8 @@
 		"jpName": "デュアルスイーパー",
 		"size": 10,
 		"spend": 4,
+		"length": 5,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -428,6 +522,8 @@
 		"jpName": "クアッドホッパーブラック",
 		"size": 8,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -437,6 +533,8 @@
 		"jpName": "パラシェルター",
 		"size": 11,
 		"spend": 4,
+		"length": 5,
+		"width": 5,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -446,6 +544,8 @@
 		"jpName": "キャンピングシェルター",
 		"size": 12,
 		"spend": 5,
+		"length": 5,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -455,6 +555,8 @@
 		"jpName": "スパイガジェット",
 		"size": 8,
 		"spend": 3,
+		"length": 5,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -464,6 +566,8 @@
 		"jpName": "トライストリンガー",
 		"size": 11,
 		"spend": 4,
+		"length": 5,
+		"width": 5,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -473,6 +577,8 @@
 		"jpName": "LACT-450",
 		"size": 9,
 		"spend": 4,
+		"length": 4,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -482,6 +588,8 @@
 		"jpName": "ジムワイパー",
 		"size": 6,
 		"spend": 3,
+		"length": 6,
+		"width": 1,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -491,6 +599,8 @@
 		"jpName": "ドライブワイパー",
 		"size": 5,
 		"spend": 2,
+		"length": 5,
+		"width": 1,
 		"category": "mainWeapon",
 		"date": "2022-09-02"
 	},
@@ -500,6 +610,8 @@
 		"jpName": "スプラッシュボム",
 		"size": 3,
 		"spend": 0,
+		"length": 2,
+		"width": 2,
 		"category": "subWeapon",
 		"date": "2022-09-02"
 	},
@@ -509,6 +621,8 @@
 		"jpName": "キューバンボム",
 		"size": 3,
 		"spend": 0,
+		"length": 3,
+		"width": 1,
 		"category": "subWeapon",
 		"date": "2022-09-02"
 	},
@@ -518,6 +632,8 @@
 		"jpName": "クイックボム",
 		"size": 1,
 		"spend": 0,
+		"length": 1,
+		"width": 1,
 		"category": "subWeapon",
 		"date": "2022-09-02"
 	},
@@ -527,6 +643,8 @@
 		"jpName": "スプリンクラー",
 		"size": 3,
 		"spend": 0,
+		"length": 3,
+		"width": 2,
 		"category": "subWeapon",
 		"date": "2022-09-02"
 	},
@@ -536,6 +654,8 @@
 		"jpName": "スプラッシュシールド",
 		"size": 5,
 		"spend": 2,
+		"length": 3,
+		"width": 3,
 		"category": "subWeapon",
 		"date": "2022-09-02"
 	},
@@ -545,6 +665,8 @@
 		"jpName": "タンサンボム",
 		"size": 3,
 		"spend": 0,
+		"length": 3,
+		"width": 1,
 		"category": "subWeapon",
 		"date": "2022-09-02"
 	},
@@ -554,6 +676,8 @@
 		"jpName": "カーリングボム",
 		"size": 4,
 		"spend": 2,
+		"length": 3,
+		"width": 2,
 		"category": "subWeapon",
 		"date": "2022-09-02"
 	},
@@ -563,6 +687,8 @@
 		"jpName": "ロボットボム",
 		"size": 6,
 		"spend": 3,
+		"length": 3,
+		"width": 3,
 		"category": "subWeapon",
 		"date": "2022-09-02"
 	},
@@ -572,6 +698,8 @@
 		"jpName": "ジャンプビーコン",
 		"size": 9,
 		"spend": 4,
+		"length": 4,
+		"width": 3,
 		"category": "subWeapon",
 		"date": "2022-09-02"
 	},
@@ -581,6 +709,8 @@
 		"jpName": "ポイントセンサー",
 		"size": 5,
 		"spend": 2,
+		"length": 3,
+		"width": 3,
 		"category": "subWeapon",
 		"date": "2022-09-02"
 	},
@@ -590,6 +720,8 @@
 		"jpName": "トラップ",
 		"size": 4,
 		"spend": 2,
+		"length": 3,
+		"width": 3,
 		"category": "subWeapon",
 		"date": "2022-09-02"
 	},
@@ -599,6 +731,8 @@
 		"jpName": "ポイズンミスト",
 		"size": 5,
 		"spend": 2,
+		"length": 3,
+		"width": 3,
 		"category": "subWeapon",
 		"date": "2022-09-02"
 	},
@@ -608,6 +742,8 @@
 		"jpName": "ラインマーカー",
 		"size": 5,
 		"spend": 2,
+		"length": 5,
+		"width": 3,
 		"category": "subWeapon",
 		"date": "2022-09-02"
 	},
@@ -617,6 +753,8 @@
 		"jpName": "トーピード",
 		"size": 4,
 		"spend": 2,
+		"length": 3,
+		"width": 3,
 		"category": "subWeapon",
 		"date": "2022-09-02"
 	},
@@ -626,6 +764,8 @@
 		"jpName": "ウルトラショット",
 		"size": 12,
 		"spend": 3,
+		"length": 6,
+		"width": 6,
 		"category": "specialWeapon",
 		"date": "2022-09-02"
 	},
@@ -635,6 +775,8 @@
 		"jpName": "グレートバリア",
 		"size": 12,
 		"spend": 3,
+		"length": 6,
+		"width": 6,
 		"category": "specialWeapon",
 		"date": "2022-09-02"
 	},
@@ -644,6 +786,8 @@
 		"jpName": "ショクワンダー",
 		"size": 12,
 		"spend": 3,
+		"length": 6,
+		"width": 6,
 		"category": "specialWeapon",
 		"date": "2022-09-02"
 	},
@@ -653,6 +797,8 @@
 		"jpName": "マルチミサイル",
 		"size": 12,
 		"spend": 3,
+		"length": 6,
+		"width": 3,
 		"category": "specialWeapon",
 		"date": "2022-09-02"
 	},
@@ -662,6 +808,8 @@
 		"jpName": "アメフラシ",
 		"size": 12,
 		"spend": 3,
+		"length": 5,
+		"width": 4,
 		"category": "specialWeapon",
 		"date": "2022-09-02"
 	},
@@ -671,6 +819,8 @@
 		"jpName": "ナイスダマ",
 		"size": 12,
 		"spend": 3,
+		"length": 4,
+		"width": 4,
 		"category": "specialWeapon",
 		"date": "2022-09-02"
 	},
@@ -680,6 +830,8 @@
 		"jpName": "ホップソナー",
 		"size": 12,
 		"spend": 3,
+		"length": 5,
+		"width": 5,
 		"category": "specialWeapon",
 		"date": "2022-09-02"
 	},
@@ -689,6 +841,8 @@
 		"jpName": "キューインキ",
 		"size": 12,
 		"spend": 3,
+		"length": 6,
+		"width": 4,
 		"category": "specialWeapon",
 		"date": "2022-09-02"
 	},
@@ -698,6 +852,8 @@
 		"jpName": "メガホンレーザー5.1ch",
 		"size": 12,
 		"spend": 3,
+		"length": 6,
+		"width": 5,
 		"category": "specialWeapon",
 		"date": "2022-09-02"
 	},
@@ -707,6 +863,8 @@
 		"jpName": "ジェットパック",
 		"size": 12,
 		"spend": 3,
+		"length": 6,
+		"width": 3,
 		"category": "specialWeapon",
 		"date": "2022-09-02"
 	},
@@ -716,6 +874,8 @@
 		"jpName": "ウルトラハンコ",
 		"size": 12,
 		"spend": 3,
+		"length": 6,
+		"width": 3,
 		"category": "specialWeapon",
 		"date": "2022-09-02"
 	},
@@ -725,6 +885,8 @@
 		"jpName": "カニタンク",
 		"size": 12,
 		"spend": 3,
+		"length": 6,
+		"width": 5,
 		"category": "specialWeapon",
 		"date": "2022-09-02"
 	},
@@ -734,6 +896,8 @@
 		"jpName": "サメライド",
 		"size": 12,
 		"spend": 3,
+		"length": 6,
+		"width": 4,
 		"category": "specialWeapon",
 		"date": "2022-09-02"
 	},
@@ -743,6 +907,8 @@
 		"jpName": "トリプルトルネード",
 		"size": 12,
 		"spend": 3,
+		"length": 6,
+		"width": 4,
 		"category": "specialWeapon",
 		"date": "2022-09-02"
 	},
@@ -752,6 +918,8 @@
 		"jpName": "エナジースタンド",
 		"size": 12,
 		"spend": 3,
+		"length": 5,
+		"width": 5,
 		"category": "specialWeapon",
 		"date": "2022-09-02"
 	},
@@ -761,6 +929,8 @@
 		"jpName": "ブキチ",
 		"size": 13,
 		"spend": 5,
+		"length": 5,
+		"width": 4,
 		"category": "NPC",
 		"date": "2022-09-02"
 	},
@@ -770,6 +940,8 @@
 		"jpName": "オームラ",
 		"size": 15,
 		"spend": 5,
+		"length": 5,
+		"width": 5,
 		"category": "NPC",
 		"date": "2022-09-02"
 	},
@@ -779,6 +951,8 @@
 		"jpName": "ハナガサ",
 		"size": 12,
 		"spend": 5,
+		"length": 5,
+		"width": 5,
 		"category": "NPC",
 		"date": "2022-09-02"
 	},
@@ -788,6 +962,8 @@
 		"jpName": "ヤシガニさん",
 		"size": 15,
 		"spend": 5,
+		"length": 5,
+		"width": 5,
 		"category": "NPC",
 		"date": "2022-09-02"
 	},
@@ -797,6 +973,8 @@
 		"jpName": "パル子",
 		"size": 15,
 		"spend": 5,
+		"length": 6,
+		"width": 6,
 		"category": "NPC",
 		"date": "2022-09-02"
 	},
@@ -806,6 +984,8 @@
 		"jpName": "スパイキー",
 		"size": 12,
 		"spend": 5,
+		"length": 5,
+		"width": 5,
 		"category": "NPC",
 		"date": "2022-09-02"
 	},
@@ -815,6 +995,8 @@
 		"jpName": "クマサン",
 		"size": 14,
 		"spend": 5,
+		"length": 6,
+		"width": 5,
 		"category": "NPC",
 		"date": "2022-09-02"
 	},
@@ -824,6 +1006,8 @@
 		"jpName": "マザー",
 		"size": 15,
 		"spend": 5,
+		"length": 5,
+		"width": 5,
 		"category": "NPC",
 		"date": "2022-09-02"
 	},
@@ -833,6 +1017,8 @@
 		"jpName": "コジャケ",
 		"size": 3,
 		"spend": 0,
+		"length": 2,
+		"width": 2,
 		"category": "NPC",
 		"date": "2022-09-02"
 	},
@@ -842,6 +1028,8 @@
 		"jpName": "アタリメ",
 		"size": 14,
 		"spend": 5,
+		"length": 6,
+		"width": 5,
 		"category": "NPC",
 		"date": "2022-09-02"
 	},
@@ -851,6 +1039,8 @@
 		"jpName": "司令",
 		"size": 16,
 		"spend": 6,
+		"length": 7,
+		"width": 6,
 		"category": "NPC",
 		"date": "2022-09-02"
 	},
@@ -860,6 +1050,8 @@
 		"jpName": "アオリ",
 		"size": 15,
 		"spend": 5,
+		"length": 6,
+		"width": 5,
 		"category": "NPC",
 		"date": "2022-09-02"
 	},
@@ -869,6 +1061,8 @@
 		"jpName": "ホタル",
 		"size": 15,
 		"spend": 5,
+		"length": 6,
+		"width": 5,
 		"category": "NPC",
 		"date": "2022-09-02"
 	},
@@ -878,6 +1072,8 @@
 		"jpName": "フウカ",
 		"size": 17,
 		"spend": 6,
+		"length": 7,
+		"width": 5,
 		"category": "NPC",
 		"date": "2022-09-02"
 	},
@@ -887,6 +1083,8 @@
 		"jpName": "ウツホ",
 		"size": 17,
 		"spend": 6,
+		"length": 7,
+		"width": 5,
 		"category": "NPC",
 		"date": "2022-09-02"
 	},
@@ -896,6 +1094,8 @@
 		"jpName": "マンタロー",
 		"size": 17,
 		"spend": 6,
+		"length": 6,
+		"width": 6,
 		"category": "NPC",
 		"date": "2022-09-02"
 	},
@@ -905,6 +1105,8 @@
 		"jpName": "ジャッジくん",
 		"size": 14,
 		"spend": 5,
+		"length": 5,
+		"width": 4,
 		"category": "NPC",
 		"date": "2022-09-02"
 	},
@@ -914,6 +1116,8 @@
 		"jpName": "コジャッジくん",
 		"size": 8,
 		"spend": 3,
+		"length": 3,
+		"width": 3,
 		"category": "NPC",
 		"date": "2022-09-02"
 	},
@@ -923,6 +1127,8 @@
 		"jpName": "バトロイカ",
 		"size": 10,
 		"spend": 4,
+		"length": 5,
+		"width": 5,
 		"category": "brand",
 		"date": "2022-09-02"
 	},
@@ -932,6 +1138,8 @@
 		"jpName": "アイロニック",
 		"size": 14,
 		"spend": 5,
+		"length": 5,
+		"width": 5,
 		"category": "brand",
 		"date": "2022-09-02"
 	},
@@ -941,6 +1149,8 @@
 		"jpName": "クラーゲス",
 		"size": 14,
 		"spend": 5,
+		"length": 6,
+		"width": 4,
 		"category": "brand",
 		"date": "2022-09-02"
 	},
@@ -950,6 +1160,8 @@
 		"jpName": "ロッケンベルグ",
 		"size": 9,
 		"spend": 4,
+		"length": 4,
+		"width": 3,
 		"category": "brand",
 		"date": "2022-09-02"
 	},
@@ -959,6 +1171,8 @@
 		"jpName": "エゾッコ",
 		"size": 12,
 		"spend": 5,
+		"length": 5,
+		"width": 4,
 		"category": "brand",
 		"date": "2022-09-02"
 	},
@@ -968,6 +1182,8 @@
 		"jpName": "フォーリマ",
 		"size": 9,
 		"spend": 4,
+		"length": 4,
+		"width": 4,
 		"category": "brand",
 		"date": "2022-09-02"
 	},
@@ -977,6 +1193,8 @@
 		"jpName": "ホッコリー",
 		"size": 9,
 		"spend": 4,
+		"length": 4,
+		"width": 4,
 		"category": "brand",
 		"date": "2022-09-02"
 	},
@@ -986,6 +1204,8 @@
 		"jpName": "ホタックス",
 		"size": 14,
 		"spend": 5,
+		"length": 5,
+		"width": 4,
 		"category": "brand",
 		"date": "2022-09-02"
 	},
@@ -995,6 +1215,8 @@
 		"jpName": "ジモン",
 		"size": 10,
 		"spend": 4,
+		"length": 6,
+		"width": 2,
 		"category": "brand",
 		"date": "2022-09-02"
 	},
@@ -1004,6 +1226,8 @@
 		"jpName": "シグレニ",
 		"size": 11,
 		"spend": 4,
+		"length": 5,
+		"width": 3,
 		"category": "brand",
 		"date": "2022-09-02"
 	},
@@ -1013,6 +1237,8 @@
 		"jpName": "アロメ",
 		"size": 2,
 		"spend": 0,
+		"length": 2,
+		"width": 2,
 		"category": "brand",
 		"date": "2022-09-02"
 	},
@@ -1022,6 +1248,8 @@
 		"jpName": "ヤコ",
 		"size": 13,
 		"spend": 5,
+		"length": 6,
+		"width": 3,
 		"category": "brand",
 		"date": "2022-09-02"
 	},
@@ -1031,6 +1259,8 @@
 		"jpName": "アナアキ",
 		"size": 12,
 		"spend": 5,
+		"length": 5,
+		"width": 5,
 		"category": "brand",
 		"date": "2022-09-02"
 	},
@@ -1040,6 +1270,8 @@
 		"jpName": "エンペリー",
 		"size": 13,
 		"spend": 5,
+		"length": 5,
+		"width": 4,
 		"category": "brand",
 		"date": "2022-09-02"
 	},
@@ -1049,6 +1281,8 @@
 		"jpName": "タタキケンサキ",
 		"size": 8,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "brand",
 		"date": "2022-09-02"
 	},
@@ -1058,6 +1292,8 @@
 		"jpName": "バラズシ",
 		"size": 9,
 		"spend": 4,
+		"length": 4,
+		"width": 4,
 		"category": "brand",
 		"date": "2022-09-02"
 	},
@@ -1067,6 +1303,8 @@
 		"jpName": "シチリン",
 		"size": 9,
 		"spend": 4,
+		"length": 5,
+		"width": 5,
 		"category": "brand",
 		"date": "2022-09-02"
 	},
@@ -1076,6 +1314,8 @@
 		"jpName": "タコトルーパー",
 		"size": 8,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "octarian",
 		"date": "2022-09-02"
 	},
@@ -1085,6 +1325,8 @@
 		"jpName": "タテタコトルーパー",
 		"size": 11,
 		"spend": 4,
+		"length": 4,
+		"width": 4,
 		"category": "octarian",
 		"date": "2022-09-02"
 	},
@@ -1094,6 +1336,8 @@
 		"jpName": "バイタコトルーパー",
 		"size": 11,
 		"spend": 4,
+		"length": 5,
+		"width": 4,
 		"category": "octarian",
 		"date": "2022-09-02"
 	},
@@ -1103,6 +1347,8 @@
 		"jpName": "タコホッパー",
 		"size": 10,
 		"spend": 4,
+		"length": 6,
+		"width": 3,
 		"category": "octarian",
 		"date": "2022-09-02"
 	},
@@ -1112,6 +1358,8 @@
 		"jpName": "タコプター",
 		"size": 4,
 		"spend": 2,
+		"length": 3,
+		"width": 3,
 		"category": "octarian",
 		"date": "2022-09-02"
 	},
@@ -1121,6 +1369,8 @@
 		"jpName": "ボムタコプター",
 		"size": 13,
 		"spend": 5,
+		"length": 6,
+		"width": 4,
 		"category": "octarian",
 		"date": "2022-09-02"
 	},
@@ -1130,6 +1380,8 @@
 		"jpName": "タコミラーボール",
 		"size": 12,
 		"spend": 5,
+		"length": 5,
+		"width": 5,
 		"category": "octarian",
 		"date": "2022-09-02"
 	},
@@ -1139,6 +1391,8 @@
 		"jpName": "タコポッド",
 		"size": 2,
 		"spend": 0,
+		"length": 2,
+		"width": 1,
 		"category": "octarian",
 		"date": "2022-09-02"
 	},
@@ -1148,6 +1402,8 @@
 		"jpName": "大容量タコポッド",
 		"size": 11,
 		"spend": 4,
+		"length": 4,
+		"width": 4,
 		"category": "octarian",
 		"date": "2022-09-02"
 	},
@@ -1157,6 +1413,8 @@
 		"jpName": "スタコラー",
 		"size": 7,
 		"spend": 3,
+		"length": 4,
+		"width": 4,
 		"category": "octarian",
 		"date": "2022-09-02"
 	},
@@ -1166,6 +1424,8 @@
 		"jpName": "タコスナイパー",
 		"size": 10,
 		"spend": 4,
+		"length": 5,
+		"width": 4,
 		"category": "octarian",
 		"date": "2022-09-02"
 	},
@@ -1175,6 +1435,8 @@
 		"jpName": "タココマンダー",
 		"size": 12,
 		"spend": 5,
+		"length": 5,
+		"width": 5,
 		"category": "octarian",
 		"date": "2022-09-02"
 	},
@@ -1184,6 +1446,8 @@
 		"jpName": "タコミサイル",
 		"size": 5,
 		"spend": 2,
+		"length": 4,
+		"width": 2,
 		"category": "octarian",
 		"date": "2022-09-02"
 	},
@@ -1193,6 +1457,8 @@
 		"jpName": "タコッペリン号",
 		"size": 9,
 		"spend": 4,
+		"length": 4,
+		"width": 3,
 		"category": "octarian",
 		"date": "2022-09-02"
 	},
@@ -1202,6 +1468,8 @@
 		"jpName": "インクリーナー",
 		"size": 8,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "octarian",
 		"date": "2022-09-02"
 	},
@@ -1211,6 +1479,8 @@
 		"jpName": "タコスタンプ",
 		"size": 4,
 		"spend": 2,
+		"length": 2,
+		"width": 2,
 		"category": "octarian",
 		"date": "2022-09-02"
 	},
@@ -1220,6 +1490,8 @@
 		"jpName": "ビートタコスタンプ",
 		"size": 9,
 		"spend": 4,
+		"length": 5,
+		"width": 5,
 		"category": "octarian",
 		"date": "2022-09-02"
 	},
@@ -1229,6 +1501,8 @@
 		"jpName": "タコドーザー",
 		"size": 14,
 		"spend": 5,
+		"length": 5,
+		"width": 4,
 		"category": "octarian",
 		"date": "2022-09-02"
 	},
@@ -1238,6 +1512,8 @@
 		"jpName": "タコストライク",
 		"size": 13,
 		"spend": 5,
+		"length": 5,
+		"width": 4,
 		"category": "octarian",
 		"date": "2022-09-02"
 	},
@@ -1247,6 +1523,8 @@
 		"jpName": "タコゾネス",
 		"size": 11,
 		"spend": 4,
+		"length": 5,
+		"width": 4,
 		"category": "octarian",
 		"date": "2022-09-02"
 	},
@@ -1256,6 +1534,8 @@
 		"jpName": "DJタコワサ将軍",
 		"size": 17,
 		"spend": 6,
+		"length": 6,
+		"width": 6,
 		"category": "octarian",
 		"date": "2022-09-02"
 	},
@@ -1265,6 +1545,8 @@
 		"jpName": "シャケ",
 		"size": 5,
 		"spend": 2,
+		"length": 3,
+		"width": 3,
 		"category": "salmonid",
 		"date": "2022-09-02"
 	},
@@ -1274,6 +1556,8 @@
 		"jpName": "ドスコイ",
 		"size": 9,
 		"spend": 4,
+		"length": 4,
+		"width": 4,
 		"category": "salmonid",
 		"date": "2022-09-02"
 	},
@@ -1283,6 +1567,8 @@
 		"jpName": "タマヒロイ",
 		"size": 6,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "salmonid",
 		"date": "2022-09-02"
 	},
@@ -1292,6 +1578,8 @@
 		"jpName": "バクダン",
 		"size": 12,
 		"spend": 5,
+		"length": 5,
+		"width": 5,
 		"category": "salmonid",
 		"date": "2022-09-02"
 	},
@@ -1301,6 +1589,8 @@
 		"jpName": "ヘビ",
 		"size": 10,
 		"spend": 4,
+		"length": 7,
+		"width": 2,
 		"category": "salmonid",
 		"date": "2022-09-02"
 	},
@@ -1310,6 +1600,8 @@
 		"jpName": "テッパン",
 		"size": 10,
 		"spend": 4,
+		"length": 6,
+		"width": 3,
 		"category": "salmonid",
 		"date": "2022-09-02"
 	},
@@ -1319,6 +1611,8 @@
 		"jpName": "タワー",
 		"size": 7,
 		"spend": 3,
+		"length": 6,
+		"width": 2,
 		"category": "salmonid",
 		"date": "2022-09-02"
 	},
@@ -1328,6 +1622,8 @@
 		"jpName": "モグラ",
 		"size": 12,
 		"spend": 5,
+		"length": 6,
+		"width": 3,
 		"category": "salmonid",
 		"date": "2022-09-02"
 	},
@@ -1337,6 +1633,8 @@
 		"jpName": "コウモリ",
 		"size": 12,
 		"spend": 5,
+		"length": 5,
+		"width": 4,
 		"category": "salmonid",
 		"date": "2022-09-02"
 	},
@@ -1346,6 +1644,8 @@
 		"jpName": "カタパッド",
 		"size": 13,
 		"spend": 5,
+		"length": 5,
+		"width": 3,
 		"category": "salmonid",
 		"date": "2022-09-02"
 	},
@@ -1355,6 +1655,8 @@
 		"jpName": "ハシラ",
 		"size": 9,
 		"spend": 4,
+		"length": 6,
+		"width": 5,
 		"category": "salmonid",
 		"date": "2022-09-02"
 	},
@@ -1364,6 +1666,8 @@
 		"jpName": "ダイバー",
 		"size": 12,
 		"spend": 5,
+		"length": 6,
+		"width": 4,
 		"category": "salmonid",
 		"date": "2022-09-02"
 	},
@@ -1373,6 +1677,8 @@
 		"jpName": "ナベブタ",
 		"size": 6,
 		"spend": 3,
+		"length": 5,
+		"width": 2,
 		"category": "salmonid",
 		"date": "2022-09-02"
 	},
@@ -1382,6 +1688,8 @@
 		"jpName": "テッキュウ",
 		"size": 13,
 		"spend": 5,
+		"length": 6,
+		"width": 4,
 		"category": "salmonid",
 		"date": "2022-09-02"
 	},
@@ -1391,6 +1699,8 @@
 		"jpName": "キンシャケ",
 		"size": 12,
 		"spend": 5,
+		"length": 5,
+		"width": 5,
 		"category": "salmonid",
 		"date": "2022-09-02"
 	},
@@ -1400,6 +1710,8 @@
 		"jpName": "グリル",
 		"size": 13,
 		"spend": 5,
+		"length": 5,
+		"width": 4,
 		"category": "salmonid",
 		"date": "2022-09-02"
 	},
@@ -1409,6 +1721,8 @@
 		"jpName": "ハコビヤ",
 		"size": 12,
 		"spend": 5,
+		"length": 5,
+		"width": 4,
 		"category": "salmonid",
 		"date": "2022-09-02"
 	},
@@ -1418,6 +1732,8 @@
 		"jpName": "ドロシャケ",
 		"size": 13,
 		"spend": 5,
+		"length": 6,
+		"width": 3,
 		"category": "salmonid",
 		"date": "2022-09-02"
 	},
@@ -1427,6 +1743,8 @@
 		"jpName": "デンチナマズ",
 		"size": 9,
 		"spend": 4,
+		"length": 4,
+		"width": 4,
 		"category": "modeObjective",
 		"date": "2022-09-02"
 	},
@@ -1436,6 +1754,8 @@
 		"jpName": "ガチヤグラ",
 		"size": 13,
 		"spend": 5,
+		"length": 5,
+		"width": 5,
 		"category": "modeObjective",
 		"date": "2022-09-02"
 	},
@@ -1445,6 +1765,8 @@
 		"jpName": "ガチホコ",
 		"size": 12,
 		"spend": 5,
+		"length": 5,
+		"width": 5,
 		"category": "modeObjective",
 		"date": "2022-09-02"
 	},
@@ -1454,6 +1776,8 @@
 		"jpName": "ガチアサリ",
 		"size": 11,
 		"spend": 4,
+		"length": 5,
+		"width": 3,
 		"category": "modeObjective",
 		"date": "2022-09-02"
 	},
@@ -1463,6 +1787,8 @@
 		"jpName": "もみじシューター",
 		"size": 4,
 		"spend": 2,
+		"length": 3,
+		"width": 2,
 		"category": "mainWeapon",
 		"date": "2022-12-01"
 	},
@@ -1472,6 +1798,8 @@
 		"jpName": "プロモデラーRG",
 		"size": 7,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-12-01"
 	},
@@ -1481,6 +1809,8 @@
 		"jpName": "スプラシューターコラボ",
 		"size": 8,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-12-01"
 	},
@@ -1490,6 +1820,8 @@
 		"jpName": "プライムシューターコラボ",
 		"size": 9,
 		"spend": 4,
+		"length": 6,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-12-01"
 	},
@@ -1499,6 +1831,8 @@
 		"jpName": "スペースシューター",
 		"size": 10,
 		"spend": 4,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-12-01"
 	},
@@ -1508,6 +1842,8 @@
 		"jpName": "ノヴァブラスターネオ",
 		"size": 7,
 		"spend": 3,
+		"length": 4,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2022-12-01"
 	},
@@ -1517,6 +1853,8 @@
 		"jpName": "カーボンローラーデコ",
 		"size": 7,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-12-01"
 	},
@@ -1526,6 +1864,8 @@
 		"jpName": "ワイドローラー",
 		"size": 9,
 		"spend": 4,
+		"length": 6,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-12-01"
 	},
@@ -1535,6 +1875,8 @@
 		"jpName": "パブロ・ヒュー",
 		"size": 7,
 		"spend": 3,
+		"length": 5,
+		"width": 5,
 		"category": "mainWeapon",
 		"date": "2022-12-01"
 	},
@@ -1544,6 +1886,8 @@
 		"jpName": "R-PEN/5H",
 		"size": 9,
 		"spend": 4,
+		"length": 7,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-12-01"
 	},
@@ -1553,6 +1897,8 @@
 		"jpName": "バケットスロッシャーデコ",
 		"size": 6,
 		"spend": 3,
+		"length": 3,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-12-01"
 	},
@@ -1562,6 +1908,8 @@
 		"jpName": "スプラスピナーコラボ",
 		"size": 7,
 		"spend": 3,
+		"length": 5,
+		"width": 2,
 		"category": "mainWeapon",
 		"date": "2022-12-01"
 	},
@@ -1571,6 +1919,8 @@
 		"jpName": "スパッタリー・ヒュー",
 		"size": 7,
 		"spend": 3,
+		"length": 3,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2022-12-01"
 	},
@@ -1580,6 +1930,8 @@
 		"jpName": "ボールドマーカーネオ",
 		"size": 9,
 		"spend": 4,
+		"length": 4,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-03-01"
 	},
@@ -1589,6 +1941,8 @@
 		"jpName": "シャープマーカーネオ",
 		"size": 7,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-03-01"
 	},
@@ -1598,6 +1952,8 @@
 		"jpName": "N-ZAP89",
 		"size": 5,
 		"spend": 2,
+		"length": 4,
+		"width": 2,
 		"category": "mainWeapon",
 		"date": "2023-03-01"
 	},
@@ -1607,6 +1963,8 @@
 		"jpName": ".96ガロンデコ",
 		"size": 10,
 		"spend": 4,
+		"length": 6,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-03-01"
 	},
@@ -1616,6 +1974,8 @@
 		"jpName": "ジェットスイーパーカスタム",
 		"size": 10,
 		"spend": 4,
+		"length": 6,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-03-01"
 	},
@@ -1625,6 +1985,8 @@
 		"jpName": "クラッシュブラスターネオ",
 		"size": 8,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-03-01"
 	},
@@ -1634,6 +1996,8 @@
 		"jpName": "ラピッドブラスターデコ",
 		"size": 8,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-03-01"
 	},
@@ -1643,6 +2007,8 @@
 		"jpName": "L3リールガンD",
 		"size": 7,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-03-01"
 	},
@@ -1652,6 +2018,8 @@
 		"jpName": "スプラローラーコラボ",
 		"size": 9,
 		"spend": 4,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-03-01"
 	},
@@ -1661,6 +2029,8 @@
 		"jpName": "スプラチャージャーコラボ",
 		"size": 8,
 		"spend": 3,
+		"length": 7,
+		"width": 2,
 		"category": "mainWeapon",
 		"date": "2023-03-01"
 	},
@@ -1670,6 +2040,8 @@
 		"jpName": "スプラスコープコラボ",
 		"size": 10,
 		"spend": 4,
+		"length": 7,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-03-01"
 	},
@@ -1679,6 +2051,8 @@
 		"jpName": "ヒッセン・ヒュー",
 		"size": 5,
 		"spend": 2,
+		"length": 3,
+		"width": 2,
 		"category": "mainWeapon",
 		"date": "2023-03-01"
 	},
@@ -1688,6 +2062,8 @@
 		"jpName": "テイオウイカ",
 		"size": 12,
 		"spend": 3,
+		"length": 6,
+		"width": 6,
 		"category": "specialWeapon",
 		"date": "2023-03-01"
 	},
@@ -1697,6 +2073,8 @@
 		"jpName": "デコイチラシ",
 		"size": 12,
 		"spend": 3,
+		"length": 5,
+		"width": 5,
 		"category": "specialWeapon",
 		"date": "2023-03-01"
 	},
@@ -1706,6 +2084,8 @@
 		"jpName": "マメブキチ&ツブブキチ",
 		"size": 12,
 		"spend": 5,
+		"length": 6,
+		"width": 6,
 		"category": "NPC",
 		"date": "2023-03-01"
 	},
@@ -1715,6 +2095,8 @@
 		"jpName": "アネモ",
 		"size": 13,
 		"spend": 5,
+		"length": 5,
+		"width": 5,
 		"category": "NPC",
 		"date": "2023-03-01"
 	},
@@ -1724,6 +2106,8 @@
 		"jpName": "エチゼン",
 		"size": 12,
 		"spend": 5,
+		"length": 5,
+		"width": 5,
 		"category": "NPC",
 		"date": "2023-03-01"
 	},
@@ -1733,6 +2117,8 @@
 		"jpName": "アジオ",
 		"size": 11,
 		"spend": 4,
+		"length": 5,
+		"width": 5,
 		"category": "NPC",
 		"date": "2023-03-01"
 	},
@@ -1742,6 +2128,8 @@
 		"jpName": "ダウニー",
 		"size": 13,
 		"spend": 5,
+		"length": 5,
+		"width": 5,
 		"category": "NPC",
 		"date": "2023-03-01"
 	},
@@ -1751,6 +2139,8 @@
 		"jpName": "踊るギャングスターウツホ",
 		"size": 14,
 		"spend": 5,
+		"length": 6,
+		"width": 4,
 		"category": "NPC",
 		"date": "2023-03-01"
 	},
@@ -1760,6 +2150,8 @@
 		"jpName": "サメ使いのフウカ",
 		"size": 14,
 		"spend": 5,
+		"length": 7,
+		"width": 4,
 		"category": "NPC",
 		"date": "2023-03-01"
 	},
@@ -1769,6 +2161,8 @@
 		"jpName": "ふしぎせいぶつマンタロー",
 		"size": 14,
 		"spend": 5,
+		"length": 6,
+		"width": 6,
 		"category": "NPC",
 		"date": "2023-03-01"
 	},
@@ -1778,6 +2172,8 @@
 		"jpName": "エゾッコリー",
 		"size": 11,
 		"spend": 4,
+		"length": 4,
+		"width": 4,
 		"category": "brand",
 		"date": "2023-03-01"
 	},
@@ -1787,6 +2183,8 @@
 		"jpName": "スペースシューターコラボ",
 		"size": 10,
 		"spend": 4,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-06-01"
 	},
@@ -1796,6 +2194,8 @@
 		"jpName": "Rブラスターエリートデコ",
 		"size": 9,
 		"spend": 4,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-06-01"
 	},
@@ -1805,6 +2205,8 @@
 		"jpName": "S-BLAST92",
 		"size": 9,
 		"spend": 4,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-06-01"
 	},
@@ -1814,6 +2216,8 @@
 		"jpName": "H3リールガンD",
 		"size": 8,
 		"spend": 3,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-06-01"
 	},
@@ -1823,6 +2227,8 @@
 		"jpName": "ワイドローラーコラボ",
 		"size": 9,
 		"spend": 4,
+		"length": 6,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-06-01"
 	},
@@ -1832,6 +2238,8 @@
 		"jpName": "フィンセント",
 		"size": 10,
 		"spend": 4,
+		"length": 6,
+		"width": 6,
 		"category": "mainWeapon",
 		"date": "2023-06-01"
 	},
@@ -1841,6 +2249,8 @@
 		"jpName": "バレルスピナーデコ",
 		"size": 12,
 		"spend": 5,
+		"length": 6,
+		"width": 5,
 		"category": "mainWeapon",
 		"date": "2023-06-01"
 	},
@@ -1850,6 +2260,8 @@
 		"jpName": "デュアルスイーパーカスタム",
 		"size": 10,
 		"spend": 4,
+		"length": 5,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2023-06-01"
 	},
@@ -1859,6 +2271,8 @@
 		"jpName": "クアッドホッパーホワイト",
 		"size": 8,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-06-01"
 	},
@@ -1868,6 +2282,8 @@
 		"jpName": "キャンピングシェルターソレーラ",
 		"size": 12,
 		"spend": 5,
+		"length": 5,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2023-06-01"
 	},
@@ -1877,6 +2293,8 @@
 		"jpName": "ドライブワイパーデコ",
 		"size": 5,
 		"spend": 2,
+		"length": 5,
+		"width": 1,
 		"category": "mainWeapon",
 		"date": "2023-06-01"
 	},
@@ -1886,6 +2304,8 @@
 		"jpName": "ダイナモローラーテスラ",
 		"size": 13,
 		"spend": 5,
+		"length": 7,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2023-09-01"
 	},
@@ -1895,6 +2315,8 @@
 		"jpName": "ホクサイ・ヒュー",
 		"size": 9,
 		"spend": 4,
+		"length": 6,
+		"width": 6,
 		"category": "mainWeapon",
 		"date": "2023-09-01"
 	},
@@ -1904,6 +2326,8 @@
 		"jpName": "ソイチューバーカスタム",
 		"size": 11,
 		"spend": 4,
+		"length": 6,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-09-01"
 	},
@@ -1913,6 +2337,8 @@
 		"jpName": "スクリュースロッシャーネオ",
 		"size": 7,
 		"spend": 3,
+		"length": 3,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-09-01"
 	},
@@ -1922,6 +2348,8 @@
 		"jpName": "オーバーフロッシャーデコ",
 		"size": 10,
 		"spend": 4,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-09-01"
 	},
@@ -1931,6 +2359,8 @@
 		"jpName": "モップリン",
 		"size": 12,
 		"spend": 5,
+		"length": 4,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2023-09-01"
 	},
@@ -1940,6 +2370,8 @@
 		"jpName": "クーゲルシュライバー・ヒュー",
 		"size": 10,
 		"spend": 4,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-09-01"
 	},
@@ -1949,6 +2381,8 @@
 		"jpName": "イグザミナー",
 		"size": 12,
 		"spend": 5,
+		"length": 6,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-09-01"
 	},
@@ -1958,6 +2392,8 @@
 		"jpName": "パラシェルターソレーラ",
 		"size": 11,
 		"spend": 4,
+		"length": 5,
+		"width": 5,
 		"category": "mainWeapon",
 		"date": "2023-09-01"
 	},
@@ -1967,6 +2403,8 @@
 		"jpName": "トライストリンガーコラボ",
 		"size": 11,
 		"spend": 4,
+		"length": 5,
+		"width": 5,
 		"category": "mainWeapon",
 		"date": "2023-09-01"
 	},
@@ -1976,6 +2414,8 @@
 		"jpName": "ヨコヅナ",
 		"size": 17,
 		"spend": 6,
+		"length": 6,
+		"width": 5,
 		"category": "salmonid",
 		"date": "2023-09-01"
 	},
@@ -1985,6 +2425,8 @@
 		"jpName": "タツ",
 		"size": 17,
 		"spend": 6,
+		"length": 7,
+		"width": 6,
 		"category": "salmonid",
 		"date": "2023-09-01"
 	},
@@ -1994,6 +2436,8 @@
 		"jpName": "ホットブラスターカスタム",
 		"size": 8,
 		"spend": 3,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-12-01"
 	},
@@ -2003,6 +2447,8 @@
 		"jpName": "ボトルガイザーフォイル",
 		"size": 7,
 		"spend": 3,
+		"length": 5,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2023-12-01"
 	},
@@ -2012,6 +2458,8 @@
 		"jpName": "スプラマニューバーコラボ",
 		"size": 8,
 		"spend": 3,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-12-01"
 	},
@@ -2021,6 +2469,8 @@
 		"jpName": "スパイガジェットソレーラ",
 		"size": 8,
 		"spend": 3,
+		"length": 5,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2023-12-01"
 	},
@@ -2030,6 +2480,8 @@
 		"jpName": "LACT-450デコ",
 		"size": 9,
 		"spend": 4,
+		"length": 4,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2023-12-01"
 	},
@@ -2039,6 +2491,8 @@
 		"jpName": "ジムワイパー・ヒュー",
 		"size": 6,
 		"spend": 3,
+		"length": 6,
+		"width": 1,
 		"category": "mainWeapon",
 		"date": "2023-12-01"
 	},
@@ -2048,6 +2502,8 @@
 		"jpName": "R-PEN/5B",
 		"size": 9,
 		"spend": 4,
+		"length": 7,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-12-01"
 	},
@@ -2057,6 +2513,8 @@
 		"jpName": "S-BLAST91",
 		"size": 9,
 		"spend": 4,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2023-12-01"
 	},
@@ -2066,6 +2524,8 @@
 		"jpName": "フィンセント・ヒュー",
 		"size": 10,
 		"spend": 4,
+		"length": 6,
+		"width": 6,
 		"category": "mainWeapon",
 		"date": "2023-12-01"
 	},
@@ -2075,6 +2535,8 @@
 		"jpName": "ウルトラチャクチ",
 		"size": 12,
 		"spend": 3,
+		"length": 5,
+		"width": 5,
 		"category": "specialWeapon",
 		"date": "2023-12-01"
 	},
@@ -2084,6 +2546,8 @@
 		"jpName": "スミナガシート",
 		"size": 12,
 		"spend": 3,
+		"length": 6,
+		"width": 6,
 		"category": "specialWeapon",
 		"date": "2023-12-01"
 	},
@@ -2093,6 +2557,8 @@
 		"jpName": "オーダーマニューバー",
 		"size": 6,
 		"spend": 2,
+		"length": 4,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2024-03-01"
 	},
@@ -2102,6 +2568,8 @@
 		"jpName": ".52ガロンデコ",
 		"size": 7,
 		"spend": 3,
+		"length": 4,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2024-03-01"
 	},
@@ -2111,6 +2579,8 @@
 		"jpName": "ヴァリアブルローラーフォイル",
 		"size": 10,
 		"spend": 4,
+		"length": 5,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2024-03-01"
 	},
@@ -2120,6 +2590,8 @@
 		"jpName": "スクイックリンβ",
 		"size": 8,
 		"spend": 3,
+		"length": 6,
+		"width": 2,
 		"category": "mainWeapon",
 		"date": "2024-03-01"
 	},
@@ -2129,6 +2601,8 @@
 		"jpName": "リッター4Kカスタム",
 		"size": 11,
 		"spend": 4,
+		"length": 7,
+		"width": 2,
 		"category": "mainWeapon",
 		"date": "2024-03-01"
 	},
@@ -2138,6 +2612,8 @@
 		"jpName": "4Kスコープカスタム",
 		"size": 13,
 		"spend": 5,
+		"length": 7,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2024-03-01"
 	},
@@ -2147,6 +2623,8 @@
 		"jpName": "エクスプロッシャーカスタム",
 		"size": 11,
 		"spend": 4,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2024-03-01"
 	},
@@ -2156,6 +2634,8 @@
 		"jpName": "モップリンD",
 		"size": 12,
 		"spend": 5,
+		"length": 4,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2024-03-01"
 	},
@@ -2165,6 +2645,8 @@
 		"jpName": "ノーチラス79",
 		"size": 9,
 		"spend": 4,
+		"length": 5,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2024-03-01"
 	},
@@ -2174,6 +2656,8 @@
 		"jpName": "ケルビン525デコ",
 		"size": 9,
 		"spend": 4,
+		"length": 4,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2024-03-01"
 	},
@@ -2183,6 +2667,8 @@
 		"jpName": "ガエンFF",
 		"size": 11,
 		"spend": 4,
+		"length": 6,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2024-03-01"
 	},
@@ -2192,6 +2678,8 @@
 		"jpName": "24式張替傘・甲",
 		"size": 10,
 		"spend": 4,
+		"length": 4,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2024-03-01"
 	},
@@ -2201,6 +2689,8 @@
 		"jpName": "ミウラ",
 		"size": 14,
 		"spend": 5,
+		"length": 6,
+		"width": 5,
 		"category": "NPC",
 		"date": "2024-03-01"
 	},
@@ -2210,6 +2700,8 @@
 		"jpName": "ビゼン",
 		"size": 12,
 		"spend": 5,
+		"length": 5,
+		"width": 5,
 		"category": "NPC",
 		"date": "2024-03-01"
 	},
@@ -2219,6 +2711,8 @@
 		"jpName": "シガニー",
 		"size": 14,
 		"spend": 5,
+		"length": 6,
+		"width": 6,
 		"category": "NPC",
 		"date": "2024-03-01"
 	},
@@ -2228,6 +2722,8 @@
 		"jpName": "ミズタ",
 		"size": 16,
 		"spend": 6,
+		"length": 5,
+		"width": 5,
 		"category": "NPC",
 		"date": "2024-03-01"
 	},
@@ -2237,6 +2733,8 @@
 		"jpName": "ユメエビ",
 		"size": 14,
 		"spend": 5,
+		"length": 6,
+		"width": 6,
 		"category": "NPC",
 		"date": "2024-03-01"
 	},
@@ -2246,6 +2744,8 @@
 		"jpName": "ヒメドローン",
 		"size": 6,
 		"spend": 2,
+		"length": 4,
+		"width": 4,
 		"category": "NPC",
 		"date": "2024-03-01"
 	},
@@ -2255,6 +2755,8 @@
 		"jpName": "ヒメ",
 		"size": 18,
 		"spend": 6,
+		"length": 6,
+		"width": 6,
 		"category": "NPC",
 		"date": "2024-03-01"
 	},
@@ -2264,6 +2766,8 @@
 		"jpName": "イイダ",
 		"size": 18,
 		"spend": 6,
+		"length": 6,
+		"width": 5,
 		"category": "NPC",
 		"date": "2024-03-01"
 	},
@@ -2273,6 +2777,8 @@
 		"jpName": "ロングブラスターカスタム",
 		"size": 9,
 		"spend": 4,
+		"length": 6,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2024-06-01"
 	},
@@ -2282,6 +2788,8 @@
 		"jpName": "14式竹筒銃・乙",
 		"size": 7,
 		"spend": 3,
+		"length": 5,
+		"width": 2,
 		"category": "mainWeapon",
 		"date": "2024-06-01"
 	},
@@ -2291,6 +2799,8 @@
 		"jpName": "ハイドラントカスタム",
 		"size": 13,
 		"spend": 5,
+		"length": 6,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2024-06-01"
 	},
@@ -2300,6 +2810,8 @@
 		"jpName": "イグザミナー・ヒュー",
 		"size": 12,
 		"spend": 5,
+		"length": 6,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2024-06-01"
 	},
@@ -2309,6 +2821,8 @@
 		"jpName": "ガエンFFカスタム",
 		"size": 11,
 		"spend": 4,
+		"length": 6,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2024-06-01"
 	},
@@ -2318,6 +2832,8 @@
 		"jpName": "24式張替傘・乙",
 		"size": 10,
 		"spend": 4,
+		"length": 4,
+		"width": 4,
 		"category": "mainWeapon",
 		"date": "2024-06-01"
 	},
@@ -2327,6 +2843,8 @@
 		"jpName": "フルイドV",
 		"size": 13,
 		"spend": 5,
+		"length": 5,
+		"width": 5,
 		"category": "mainWeapon",
 		"date": "2024-06-01"
 	},
@@ -2336,6 +2854,8 @@
 		"jpName": "フルイドVカスタム",
 		"size": 13,
 		"spend": 5,
+		"length": 5,
+		"width": 5,
 		"category": "mainWeapon",
 		"date": "2024-06-01"
 	},
@@ -2345,6 +2865,8 @@
 		"jpName": "デンタルワイパーミント",
 		"size": 12,
 		"spend": 5,
+		"length": 6,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2024-06-01"
 	},
@@ -2354,6 +2876,8 @@
 		"jpName": "デンタルワイパースミ",
 		"size": 12,
 		"spend": 5,
+		"length": 6,
+		"width": 3,
 		"category": "mainWeapon",
 		"date": "2024-06-01"
 	},
@@ -2363,6 +2887,8 @@
 		"jpName": "ロブ",
 		"size": 15,
 		"spend": 5,
+		"length": 6,
+		"width": 6,
 		"category": "NPC",
 		"date": "2024-06-01"
 	},
@@ -2372,6 +2898,8 @@
 		"jpName": "実験体熊三号",
 		"size": 18,
 		"spend": 6,
+		"length": 7,
+		"width": 5,
 		"category": "NPC",
 		"date": "2024-06-01"
 	},
@@ -2381,6 +2909,8 @@
 		"jpName": "ジョー",
 		"size": 17,
 		"spend": 6,
+		"length": 7,
+		"width": 5,
 		"category": "salmonid",
 		"date": "2024-06-01"
 	},
@@ -2390,6 +2920,8 @@
 		"jpName": "オーダコ",
 		"size": 17,
 		"spend": 6,
+		"length": 6,
+		"width": 6,
 		"category": "NPC",
 		"date": "2024-06-01"
 	}
