@@ -8,6 +8,12 @@ const infoPopup = document.querySelector('.info-popup');
 const cornerShareButton = document.getElementById('cornerShareButton');
 const infoButton = document.getElementById('infoButton');
 const closePopupButtons = document.getElementsByClassName('close-popup-button');
+const aboutTitle = document.getElementById('aboutTitle');
+const aboutText = document.getElementById('aboutText');
+const infoTitle = document.getElementById('infoTitle');
+const infoText = document.getElementById('infoText');
+const categoriesTitle = document.getElementById('categoriesTitle');
+const categoriesText = document.getElementById('categoriesText');
 
 var won = false;
 
@@ -101,6 +107,12 @@ function ApplyLanguage(){
     for (let i = 0; i < closePopupButtons.length; i++){
         closePopupButtons[i].innerText = langData[language].input.close;
     }
+    aboutTitle.innerText = langData[language].infoPopup.aboutTitle;
+    aboutText.innerHTML = langData[language].infoPopup.aboutText;
+    infoTitle.innerText = langData[language].infoPopup.infoTitle;
+    infoText.innerHTML = langData[language].infoPopup.infoText;
+    categoriesTitle.innerText = langData[language].infoPopup.categoriesTitle;
+    categoriesText.innerHTML = langData[language].infoPopup.categoriesText;
     //change in first guess-area
     guessArea.children[0].children[cardAttributeOrder.name].childNodes[0].innerText = langData[language].attributes.name;
     guessArea.children[0].children[cardAttributeOrder.ID].childNodes[0].innerText = langData[language].attributes.ID;
@@ -133,8 +145,6 @@ function ApplyLanguage(){
     }
     if (won){
         UpdateWinPopup();
-    } else{
-        //ShowDropdown(FilterInputOptions(cardInput.value));
     }
 }
 
