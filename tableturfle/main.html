@@ -170,6 +170,14 @@
       visibility: visible;
       display: inline;
     }
+    .lang-icon {
+      position: absolute;
+      min-width: 50px;
+      width: 4vw;
+      height: auto;
+      top: 5%;
+      left: 10%;
+    }
   </style>
 </head>
 <body>
@@ -201,7 +209,7 @@
 <div class="popup win-popup">
   <div class="popup-content">
     <div style="margin: 2vh 0 4vh 0;">
-      <h1>Congratulations!</h1>
+      <h1 id="winCongratsText">Congratulations!</h1>
     </div>
     <div style="margin: 1vh 0 3vh 0;">
       <h3 id="guessTotalText">You won in X guesses</h3>
@@ -242,7 +250,7 @@
       <h1>Categories</h1>
     </div>
     <div style="margin: 1vh 3% 2vh 3%; text-align: left;">
-      <h3>All the different categories are: Weapon, Sub weapon, Special weapon, NPC, Brand, Octarian, Salmonid, Mode objective.
+      <h3>All the different categories are: Main weapon, Sub weapon, Special weapon, NPC, Brand, Octarian, Salmonid, Mode objective.
       <br>
       <br>The categories are grouped by the ID order of the cards. Here are a few cards that might not be obvious:
       <br>Squee-G, Flooder, DJ Octavio are octarians. Smallfry is an NPC. Rainmaker is a Mode objective.
@@ -255,6 +263,7 @@
 </div>
 <button type="button" id="cornerShareButton" class="corner-share-button">Share!</button>
 <button type="button" id="infoButton" class="info-button">Info</button>
+<input type="image" src="../images/LanguageIcon.jpg" id="langInput" class="lang-icon">
 
 <script src="main.js"></script>
 

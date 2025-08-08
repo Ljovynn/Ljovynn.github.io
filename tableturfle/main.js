@@ -20,6 +20,17 @@ const guessConditions = {
     correct: 2,
 }
 
+const cardAttributeOrder = {
+    name: 0,
+    ID: 1,
+    size: 2,
+    SPSpend: 3,
+    length: 4,
+    width: 5,
+    category: 6,
+    releaseDate: 7
+}
+
 const idCloseThreshold = 20;
 const sizeCloseThreshold = 2;
 const spendCloseThreshold = 1;
@@ -27,18 +38,25 @@ const lengthWidthThreshold = 1;
 
 const uniqueCards = 266;
 
-//alphabetically sorted
+//id sorted
 var cards = [];
 
+//alphabetically sorted
+var enCardList = [];
+var jpCardList = [];
+var currentCardList;
+
 const today = GetCurrentDate();
+document.getElementById('dateText').innerText = today;
 
 var dailyCard;
 
-/*var language = localStorage['language'] || 'en';
+var language = localStorage['language'] || 'en';
 document.getElementById('langInput').addEventListener('click', () => {
     language = (language === 'en') ? 'ja' : 'en';
     localStorage['language'] = language;
-});*/
+    ApplyLanguage();
+});
 
 var langData = {};
 
@@ -46,7 +64,7 @@ FullSetup();
 
 async function FullSetup(){
     await SetupCards();
-    //await SetupLangData();
+    await SetupLangData();
     RestoreGameHistory();
 }
 
@@ -68,18 +86,58 @@ function RestoreGameHistory(){
 async function SetupLangData(){
     //const response = await fetch("./langData.json");
     const response = await fetch("https://ljovynn.github.io/tableturfle/langData.json");
-    const langJSON = response.json();
+    const langJSON = await response.json();
     langData = langJSON;
-    console.log(langData[language].attributes.releaseDate);
+    ApplyLanguage();
 }
 
-function SetLanguage(){
-    console.log(langJSON)
+function ApplyLanguage(){
+    //buttons and popups and input
+    cardInput.placeholder = langData[language].input.prompt;
+    inputButton.innerText = langData[language].input.guess;
+    infoButton.innerText = langData[language].input.info;
+    shareButton.innerText = langData[language].input.share;
+    for (let i = 0; i < closePopupButtons.length; i++){
+        closePopupButtons[i].innerText = langData[language].input.close;
+    }
     //change in first guess-area
+    guessArea.children[0].children[cardAttributeOrder.name].childNodes[0].innerText = langData[language].attributes.name;
+    guessArea.children[0].children[cardAttributeOrder.ID].childNodes[0].innerText = langData[language].attributes.ID;
+    guessArea.children[0].children[cardAttributeOrder.size].childNodes[0].innerText = langData[language].attributes.size;
+    guessArea.children[0].children[cardAttributeOrder.SPSpend].childNodes[0].innerText = langData[language].attributes.SPSpend;
+    guessArea.children[0].children[cardAttributeOrder.length].childNodes[0].innerText = langData[language].attributes.length;
+    guessArea.children[0].children[cardAttributeOrder.width].childNodes[0].innerText = langData[language].attributes.width;
+    guessArea.children[0].children[cardAttributeOrder.category].childNodes[0].innerText = langData[language].attributes.category;
+    guessArea.children[0].children[cardAttributeOrder.releaseDate].childNodes[0].innerText = langData[language].attributes.releaseDate;
     //for each card in guessedCardHistory, change first in each guess-area
+    for (let i = 1; i < guessArea.children.length; ++i){
+        let card = GetCardById(guessedCardHistory[i - 1]);
+        switch (language){
+            case 'ja':
+                guessArea.children[i].children[cardAttributeOrder.name].childNodes[0].innerText = card.jpName;
+                break;
+            default:
+                guessArea.children[i].children[cardAttributeOrder.name].childNodes[0].innerText = card.name;
+                break;
+        }
+        guessArea.children[i].children[cardAttributeOrder.category].childNodes[0].innerText = langData[language].categories[card.category];
+    }
+    switch (language){
+        case 'ja':
+            currentCardList = jpCardList.slice();
+            break;
+        default:
+            currentCardList = enCardList.slice();
+            break;
+    }
+    if (won){
+        UpdateWinPopup();
+    } else{
+        //ShowDropdown(FilterInputOptions(cardInput.value));
+    }
 }
 
-function showDropdown(items) {
+function ShowDropdown(items) {
     dropdown.innerHTML = '';
 
     items.forEach(item => {
@@ -97,11 +155,11 @@ function showDropdown(items) {
 }
 
 cardInput.addEventListener('focus', () => {
-    showDropdown(FilterInputOptions(cardInput.value));
+    ShowDropdown(FilterInputOptions(cardInput.value));
 });
 
 cardInput.addEventListener('input', () => {
-    showDropdown(FilterInputOptions(cardInput.value));
+    ShowDropdown(FilterInputOptions(cardInput.value));
 });
 
 document.addEventListener('click', (e) => {
@@ -132,7 +190,14 @@ function AddNewGuess(guessedCard){
     //add all unique sections
     let nameSection = document.createElement('div');
     nameSection.className = 'guess-section';
-    AddTextToGuessSection(nameSection, guessedCard.name);
+    switch (language){
+        case 'ja':
+            AddTextToGuessSection(nameSection, guessedCard.jpName);
+            break;
+        default:
+            AddTextToGuessSection(nameSection, guessedCard.name);
+            break;
+    }
     newGuess.appendChild(nameSection);
 
     let idSection = document.createElement('div');
@@ -213,7 +278,7 @@ function AddNewGuess(guessedCard){
 
     let categorySection = document.createElement('div');
     categorySection.className = 'guess-section';
-    AddTextToGuessSection(categorySection, guessedCard.category);
+    AddTextToGuessSection(categorySection, langData[language].categories[guessedCard.category]);
     if (guessedCard.category == dailyCard.category){
         categorySection.classList.add('correct-value');
         gameStateHistory[gameStateHistory.length - 1].push(guessConditions.correct);
@@ -249,29 +314,30 @@ cornerShareButton.addEventListener('click', () => {
 });
 
 function CopyGameToClipboard(){
-    let copyValue = "🟨 TABLETURFLE 🟦\nGuessed in " + gameStateHistory.length;
+    let copyValue = "🟨 TABLETURFLE 🟦\n" + langData[language].copyText.triesText1 + gameStateHistory.length;
     if (gameStateHistory.length == 1){
-        copyValue += " try!\n";
+        copyValue += langData[language].copyText.triesText2Singular;
     } else{
-        copyValue += " tries!\n";
+        copyValue += langData[language].copyText.triesText2Plural;
     }
+    copyValue += "\n";
     for (let i = 0; i < gameStateHistory.length; i++){
-        copyValue += '\n'
+        copyValue += '\n';
         for (let j = 0; j < gameStateHistory[i].length; j++){
             switch (gameStateHistory[i][j]){
                 case guessConditions.correct:
-                    copyValue += "🟩"
+                    copyValue += "🟩";
                     break;
                 case guessConditions.close:
-                    copyValue += "🟨"
+                    copyValue += "🟨";
                     break;
                 default:
-                    copyValue += "🟥"
+                    copyValue += "🟥";
                     break;
             }
         }
     }
-    copyValue += "\n\n(" + today + ")\nPlay at: https://ljovynn.github.io/tableturfle/main.html"
+    copyValue += "\n\n(" + today + ")\n" + langData[language].copyText.playAt + "https://ljovynn.github.io/tableturfle/main.html";
     navigator.clipboard.writeText(copyValue);
     //confirm("Copied!");
 }
@@ -297,16 +363,18 @@ function WinGame(){
     cornerShareButton.classList.add('open-popup');
     winPopup.classList.add('open-popup');
     infoButton.disabled = true;
-    let guessText = "You won with " + gameStateHistory.length;
-    document.getElementById('guessTotalText').innerText = "You won with " + gameStateHistory.length;
-    if (gameStateHistory.length == 1){
-        guessText += " guess! Nice!";
+    UpdateWinPopup();
+}
+
+function UpdateWinPopup(){
+    document.getElementById('winCongratsText').innerText = langData[language].winPopup.congratulations;
+    let guessText = langData[language].winPopup.winText1 + gameStateHistory.length;
+     if (gameStateHistory.length == 1){
+        guessText += langData[language].winPopup.winText2Singular;
     } else{
-        guessText += " guesses!";
+        guessText += langData[language].winPopup.winText2Plural;
     }
     document.getElementById('guessTotalText').innerText = guessText;
-
-    document.getElementById('dateText').innerText = today;
 }
 
 // "YYYY-MM-DD"
@@ -321,14 +389,14 @@ function FilterInputOptions(input, max = uniqueCards){
     let filteredChoices = [];
     if (sanitizedInput == ""){
         for (let i = 0; i < max; i++){
-            filteredChoices.push(cards[i].name);
+            filteredChoices.push(currentCardList[i].name);
         }
         return filteredChoices;
     }
 
-    for (let i = 0; i < cards.length; i++){
-        if (cards[i].sanitizedName.includes(sanitizedInput)){
-            filteredChoices.push(cards[i].name);
+    for (let i = 0; i < currentCardList.length; i++){
+        if (currentCardList[i].sanitizedName.includes(sanitizedInput)){
+            filteredChoices.push(currentCardList[i].name);
         }
     }
     filteredChoices = filteredChoices.slice(0, max);
@@ -346,53 +414,57 @@ function GetDailyNumber() {
     const number = (hash % uniqueCards) + 1;
     return number;
 }
-
+//TODO: one ID sorted list, other language lists with just name and id
 async function SetupCards(){
-    const cardsJSON = await LoadJSON();
+    //const response = await fetch("./cardData.json");
+    const response = await fetch("https://ljovynn.github.io/tableturfle/cardData.json");
+    const cardsJSON = await response.json();
 
     let i = GetDailyNumber() - 1;
     dailyCard = cardsJSON[i];
 
-    cardsJSON.sort((a, b) => a.name.localeCompare(b.name));
-
     for (let i = 0; i < cardsJSON.length; i++){
         cards.push({
-            id: parseInt(cardsJSON[i].id),
+            id: i + 1,
             name: cardsJSON[i].name,
+            jpName: cardsJSON[i].jpName,
             sanitizedName: SanitizeString(cardsJSON[i].name),
+            sanitizedJpName: SanitizeString(cardsJSON[i].jpName),
             size: cardsJSON[i].size,
             spend: cardsJSON[i].spend,
             length: cardsJSON[i].length,
             width: cardsJSON[i].width,
             category: cardsJSON[i].category,
             date: cardsJSON[i].date,
-        })
+        });
+        enCardList.push({
+            id: i + 1,
+            name: cardsJSON[i].name,
+            sanitizedName: SanitizeString(cardsJSON[i].name),
+        });
+        jpCardList.push({
+            id: i + 1,
+            name: cardsJSON[i].jpName,
+            sanitizedName: SanitizeString(cardsJSON[i].jpName),
+        });
     }
-    inputButton.disabled = false;
-}
 
-async function LoadJSON() {
-    //const response = await fetch("./cardData.json");
-    const response = await fetch("https://ljovynn.github.io/tableturfle/cardData.json");
-    const json = await response.json();
-    return json;
+    enCardList.sort((a, b) => a.name.localeCompare(b.name));
+    jpCardList.sort((a, b) => a.name.localeCompare(b.name, 'ja'));
+    inputButton.disabled = false;
 }
 
 function GetCardByName(inputName){
     let sanitizedInput = SanitizeString(inputName);
-    for (let i = 0; i < cards.length; i++){
-        if (cards[i].sanitizedName === sanitizedInput){
-            return cards[i];
+    for (let i = 0; i < currentCardList.length; i++){
+        if (currentCardList[i].sanitizedName === sanitizedInput){
+            return GetCardById(currentCardList[i].id);
         }
     }
 }
 
 function GetCardById(id){
-    for (let i = 0; i < cards.length; i++){
-        if (cards[i].id === id){
-            return cards[i];
-        }
-    }
+    return cards[id - 1];
 }
 
 //lowercase, remove special characters
