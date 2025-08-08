@@ -55,7 +55,7 @@
             "name": "名称",
             "ID": "ID",
             "size": "マス数",
-            "SPSpend": "スペシャル\nポイント消費",
+            "SPSpend": "スペシャルポイント消費",
             "length": "長さ",
             "width": "幅",
             "category": "カテゴリー",
