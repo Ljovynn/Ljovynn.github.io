@@ -2,11 +2,15 @@
     "en":{
         "input":{
             "prompt": "Choose a Tableturf card",
-            "guess": "Guess"
+            "guess": "Guess",
+            "share": "Share!",
+            "info": "info",
+            "close": "Close"
         },
         "attributes":{
             "name": "Name",
             "ID": "ID",
+            "size": "Size",
             "SPSpend": "Special Point spend",
             "length": "Length",
             "width": "Width",
@@ -14,7 +18,7 @@
             "releaseDate": "Release Date"
         },
         "categories":{
-            "weapon": "Weapon",
+            "mainWeapon": "Main weapon",
             "subWeapon": "Sub weapon",
             "specialWeapon": "Special weapon",
             "NPC": "NPC",
@@ -22,6 +26,61 @@
             "octarian": "Octarian",
             "salmonid": "Salmonid",
             "modeObjective": "Mode objective"
+        },
+        "winPopup":{
+            "congratulations": "Congratulations!",
+            "wonText1": "You won with ",
+            "wonText2": " guesses!"
+        },
+        "infoPopup":{
+
+        },
+        "copyText":{
+            "triesText1": "Guessed in ",
+            "triesText2": " tries!",
+            "playAt": "Play at: "
+        }
+    },
+    "ja":{
+        "input":{
+            "prompt": "ナワバトラーカードを選ぶ",
+            "guess": "推測",
+            "share": "シェアする",
+            "info": "情報",
+            "close": "閉じる"
+        },
+        "attributes":{
+            "name": "名称",
+            "ID": "ID",
+            "size": "マス数",
+            "SPSpend": "スペシャルポイント\n消費",
+            "length": "長さ",
+            "width": "幅",
+            "category": "カテゴリー",
+            "releaseDate": "発売日"
+        },
+        "categories":{
+            "mainWeapon": "メインウェポン",
+            "subWeapon": "サブウェポン",
+            "specialWeapon": "スペシャルウェポン",
+            "NPC": "NPC",
+            "brand": "ブランド",
+            "octarian": "オクタリアン",
+            "salmonid": "シャケ",
+            "modeObjective": "ルール目標"
+        },
+        "winPopup":{
+            "congratulations": "おめでとう！",
+            "wonText1": "あなたは",
+            "wonText2": "回当てて勝った！"
+        },
+        "infoPopup":{
+
+        },
+        "copyText":{
+            "triesText1": "",
+            "triesText2": "回で当てられた！",
+            "playAt": "ここでプレーする"
         }
     }
 }
