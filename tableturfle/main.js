@@ -97,6 +97,7 @@ function ApplyLanguage(){
     inputButton.innerText = langData[language].input.guess;
     infoButton.innerText = langData[language].input.info;
     shareButton.innerText = langData[language].input.share;
+    cornerShareButton.innerText = langData[language].input.share;
     for (let i = 0; i < closePopupButtons.length; i++){
         closePopupButtons[i].innerText = langData[language].input.close;
     }
