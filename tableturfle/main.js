@@ -347,8 +347,8 @@ function GetDailyNumber() {
 }
 
 async function SetupCards(){
-    //const cardsJSON = await fetch("./cardData.json");
-    const cardsJSON = await fetch("https://ljovynn.github.io/tableturfle/cardData.json");
+    const cardsJSON = await fetch("./cardData.json");
+    //const cardsJSON = await fetch("https://ljovynn.github.io/tableturfle/cardData.json");
 
     let i = GetDailyNumber() - 1;
     dailyCard = cardsJSON[i];
