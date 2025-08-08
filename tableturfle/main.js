@@ -348,9 +348,7 @@ function GetDailyNumber() {
 }
 
 async function SetupCards(){
-    const response = await fetch("./cardData.json");
-    //const response = await fetch("https://ljovynn.github.io/tableturfle/cardData.json");
-    const cardsJSON = response.json();
+    const cardsJSON = await LoadJSON();
 
     let i = GetDailyNumber() - 1;
     dailyCard = cardsJSON[i];
@@ -371,6 +369,13 @@ async function SetupCards(){
         })
     }
     inputButton.disabled = false;
+}
+
+async function LoadJSON() {
+    //const response = await fetch("./cardData.json");
+    const response = await fetch("https://ljovynn.github.io/tableturfle/cardData.json");
+    const json = await response.json();
+    return json;
 }
 
 function GetCardByName(inputName){
