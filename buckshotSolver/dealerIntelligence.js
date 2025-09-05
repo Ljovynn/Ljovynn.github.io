@@ -6,10 +6,12 @@ function DealerMakeDecision(gamestate){
     for (let i = 0; i < gamestate.dealerItems.length; i++){
         //todo use items
     }
+    //already knows phone and knows 
 
     if (gamestate.dealerTarget == 'player' ||
         (gameState.dealerKnownShells[shellIndex] === 'live' && !gamestate.inverterUsed) || (gamestate.dealerKnownShells[shellIndex] === 'blank' && gamestate.inverterUsed)){
         //todo check saw
+        //add two actions for shoot player
         treeNodes.push(new TreeNode(structuredClone(gamestate), ActionDealerShootPlayer, false));
         return;
     }
@@ -33,7 +35,7 @@ function DealerMakeDecision(gamestate){
     return treeNodes;
 }
 
-//todo: a lot
+//todo: turn actions into 4 different ones
 function ActionDealerShootPlayer(node){
     let shellIndex = 8 - node.gameState.remainingLives - node.gameState.remainingBlanks;
     if (node.gameState.playerKnownShells[shellIndex] !== 'blank' && node.gameState.dealerKnownShells[shellIndex] !== 'blank' && node.gameState.remainingLives > 0){

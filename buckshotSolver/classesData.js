@@ -42,8 +42,10 @@ var items = [
 ]
 
 //make sure to order item arrays by spawn order
-//todo: dealer knows shell chance
-function Gamestate(playersTurn, remainingLives, remainingBlanks, playerHealth, dealerHealth, playerKnownShells, dealerKnownShells, playerItems, dealerItems, sawUsed, cuffsUsed, inverterUsed, dealerMedsUsed,
+//dealersFirstAction???
+function Gamestate(playersTurn, remainingLives, remainingBlanks, playerHealth, dealerHealth,
+    playerKnownShells, dealerKnowsShellChance, dealerKnowsLoadoutChance,
+    playerItems, dealerItems, sawUsed, cuffsUsed, inverterUsed, dealerMedsUsed,
     dealerTarget, dealersFirstAction){
     this.playersTurn = playersTurn;
     this.remainingLives = remainingLives;
@@ -51,7 +53,8 @@ function Gamestate(playersTurn, remainingLives, remainingBlanks, playerHealth, d
     this.playerHealth = Math.max(playerHealth, 0);
     this.dealerHealth = Math.max(dealerHealth, 0);
     this.playerKnownShells = playerKnownShells;
-    this.dealerKnownShells = dealerKnownShells;
+    this.dealerKnowsShellChance = dealerKnowsShellChance;
+    this.dealerKnowsLoadoutChance = dealerKnowsLoadoutChance;
     this.playerItems = playerItems;
     this.dealerItems = dealerItems;
     this.sawUsed = sawUsed;

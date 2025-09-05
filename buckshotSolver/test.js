@@ -1,10 +1,10 @@
-var liveCount = 3;
-var blankCount = 3;
+var liveCount = 1;
+var blankCount = 2;
 var phoneCount = 1;
 var shellCountWhenPhoneUsed = 7;
 let startingKnowsShellChance = 1 - Math.pow((shellCountWhenPhoneUsed - 2) / (shellCountWhenPhoneUsed - 1), phoneCount);
 
-let futureShellChance = Calculate(startingKnowsShellChance);
+//let futureShellChance = Calculate(startingKnowsShellChance);
 
 blankCount--;
 
@@ -29,4 +29,44 @@ function Calculate(knowsShellChance){
     let knowsFutureShellChance = sumOfShellChancesAfterShoot / (blankCount + liveCount - 1);
     console.log("Chance he knows a future shot: " + knowsFutureShellChance);
     return knowsFutureShellChance;
+}
+
+function CalculateKnowsLoadoutChance(knowsShellChance){
+    console.log("Chance of knowing random shell: " + knowsShellChance);
+
+}
+
+//nuxify("I Am grohk yeah I reall. GROOT I AM  |  I wanna kissiy ou - no i dont. i am grateful");
+
+function nuxify(oldTitle){
+    let sentences = oldTitle.split(/([\.]|[\b-]|[\b\|])+/g);
+    for (let i = 0; i < sentences.length; ++i){
+        console.log(sentences[i]);
+        const uppercase = (!sentences[i].match(/[a-z]/));
+        if (uppercase){
+            sentences[i] = sentences[i].replace(/\bI\b/g, 'WE');
+        } else{
+            //if first word of the sentence
+            let firstWordPos = sentences[i].search(/[a-zA-Z]/)
+            console.log(sentences[i][firstWordPos + 1]);
+            if (firstWordPos !== -1 && sentences[i][firstWordPos + 1] != /\w/){
+                if (sentences[i][firstWordPos] == 'I'){
+                    if (firstWordPos != 0) sentences[i] = sentences[i].slice(0, firstWordPos - 1);
+                    sentences[i] = 'We' + sentences[i].slice(firstWordPos + 1, sentences[i].length)
+                    console.log("Hej");
+                } else if (sentences[i][firstWordPos] == 'i'){
+                    if (firstWordPos != 0) sentences[i] = sentences[i].slice(0, firstWordPos - 1);
+                    sentences[i] = 'we' + sentences[i].slice(firstWordPos + 1, sentences[i].length);
+                }
+                console.log(sentences[i]);
+            }
+        }
+    }
+    let newTitle = "";
+    for (let i = 0; i < sentences.length; ++i){
+        newTitle += sentences[i];
+    }
+    //newTitle = newTitle.replace(/\bi\b/gi, "we");
+
+    console.log(newTitle);
 }
