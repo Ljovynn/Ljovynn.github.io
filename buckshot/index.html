@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Buckshot Roulette Helper</title>
+        <meta name="title" property="og:title" content="Buckshot Roulette Helper"/>
+		<meta name="description" property="og:description" content="Keep track of the shells and items!"/>
+    <style>
+        body
+        {
+            text-align: center;
+            background-color: #3A3A3A;
+            font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        h1
+        {
+            color: white;
+            text-align: center;
+            font-size: 2vw;
+        }
+        h3
+        {
+            color: lightcyan;
+            font-size: 1.3vw;
+        }
+        .shellRow
+        {
+            image-rendering: pixelated;
+            background-color: black;
+            text-align: center;
+            display:inline-flex;
+        }
+        .shell
+        {
+            width: 4vw;
+            min-width: 40px;
+            height: auto;
+            margin: 1.2vw;
+            border-top: 4px solid;
+            border-right: 4px solid;
+            border-left: 4px solid;
+            border-bottom: 4px solid;
+        }
+        .currentRoundShell
+        {
+            border-color: lightcyan;
+        }
+        .shellSelector
+        {
+            width: 5vw;
+            min-width: 40px;
+            height: auto;
+            margin: 1vw 3vw;
+        }
+        .burnerPhoneSelector
+        {
+            user-select: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            width: 3vw;
+            min-width: 28px;
+            height: auto;
+            margin: 1vw;
+            border-top: 3px dotted;
+            border-right: 3px dotted;
+            border-left: 3px dotted;
+            border-bottom: 3px dotted;
+        }
+        .secondaryDiv
+        {
+            image-rendering: pixelated;
+            display:block;
+        }
+        .resetButton
+        {
+            width: 8vw;
+            max-width: 130px;
+            min-width: 80px;
+            height: 4vw;
+            max-height: 70px;
+            min-height: 40px;
+            margin: 0.5vw;
+        }
+        .mouseOverElement
+        {
+            opacity: 0.7;
+        }
+        .unselectable
+        {
+            opacity: 0.3;
+        }
+        .hideElement{
+            visibility: hidden;
+            position: absolute;
+        }
+        .itemTrackerMainDiv{
+            background-color: #3f3f3f;
+            width: 31vw;
+        }
+        .shellTrackerMainDiv{
+            width: 68vw;
+        }
+        .gridContainer{
+            display: grid;
+            gap: 5px 5px;
+            grid-template-columns: 22% 22% 7% 22% 22%;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+            height: 10;
+        }
+        .gridItem{
+            border-style: solid;
+            border: black;
+            border-top: 2px;
+            border-right: 2px;
+            border-left: 2px;
+            border-bottom: 2px;
+            background-color: #565656;
+            width: 100%;
+            height: 0;
+            padding-bottom: 100%;
+        }
+        .gridMiddleSpace{
+            width: 100%;
+            height: 0;
+            padding-bottom: 100%;
+        }
+        .dealerGroupSelectionContainer{
+            display: grid;
+            column-gap: 0.5vw;
+            row-gap: 2vw;
+            grid-template-columns: auto 20% 15% 20%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 1vw;
+            margin-bottom: -1vw;
+            width: 40%;
+            height: 100%;
+        }
+
+        @media screen and (max-width: 750px) {
+            h3
+            {
+                visibility: hidden;
+                position: absolute;
+            }
+            h1
+            {
+                font-size: 3vw;
+            }
+        }
+
+        @media screen and (max-height: 520px) {
+            h3
+            {
+                visibility: hidden;
+                position: absolute;
+            }
+            .resetButton
+            {
+                margin: auto auto 0px auto;
+            }
+        }
+    </style>
+    </head>
+    <h3 style="position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; margin-top: 5px; width: 100%;">Buckshot Roulette Helper</h3>
+    <body>
+        <span style="display: inline-flex; text-align: center;">
+            <div class = "shellTrackerMainDiv" id="shellTrackerMainDiv">
+                <div class="mainTextDiv">
+                    <h1 id="mainText" style="margin-top: 2vw; margin-bottom: 0.5vw;">How many shells?</h1>
+                    <button id="modeSwitchButton" style="position: absolute; left: -80vw; top: 1vw; right: 0; margin-left: auto; margin-right: auto; margin-top: 5px; width: 7vw; height: 2vw;">Multiplayer mode</button>
+                    <button id="openItemTrackerButton" style="position: absolute; left: 80vw; top: 1vw; right: 0; margin-left: auto; margin-right: auto; margin-top: 5px; width: 7vw; height: 2vw;">Item tracker</button>
+                </div>
+                <div class="shellRow" id="shellRow">
+                    <img src="images/undefined.png" draggable="false" class="shell">
+                    <img src="images/undefined.png" draggable="false" class="shell">
+                    <img src="images/undefined.png" draggable="false" class="shell">
+                    <img src="images/undefined.png" draggable="false" class="shell">
+                    <img src="images/undefined.png" draggable="false" class="shell">
+                    <img src="images/undefined.png" draggable="false" class="shell">
+                    <img src="images/undefined.png" draggable="false" class="shell">
+                    <img src="images/undefined.png" draggable="false" class="shell">
+                    <img src="images/undefined.png" draggable="false" class="shell">
+                    <img src="images/undefined.png" draggable="false" class="shell">
+                </div>
+                <div>
+                    <div id="secondarySelectors">
+                        <div class="secondaryDiv" id="secondaryDiv">
+                            <img src="images/burnerPhone.png" draggable="true" class="burnerPhoneSelector" id="liveBurnerPhoneSelector" style="border-color: darkred;">
+                            <img src="images/live.png" draggable="false" class="shellSelector" id="liveSelector">
+                            <img src="images/blank.png" draggable="false" class="shellSelector" id="blankSelector">
+                            <img src="images/burnerPhone.png" draggable="true" class="burnerPhoneSelector" id="blankBurnerPhoneSelector" style="border-color: grey;">
+                        </div>
+                        <div>
+                            <button id="resetButton" class="resetButton">Reset</button>
+                        </div>
+                    </div>
+                    <h1 id="secondaryText"></h1>
+                </div>
+            </div>
+            <div class = "itemTrackerMainDiv" id="itemTrackerMainDiv">
+                <div style="background-color: #3A3A3A;"><br></div>
+                <div style="display: inline-flex; text-align: center; width: 100%; height: 4vw;">
+                    <button id="resetItemsButton" style="margin: auto auto auto 10px; height: 60%; width: 10%;">Reset</button>
+                    <h1 style="margin: 2% 0% 2% 00%;">Dealer's items 
+                    <abbr title="Dealer's AI considers spawn order when using items. The player's items spawn order matters when he uses adrenaline.">&#65110</abbr></h1>
+                    <button id="closeItemTracker" style="margin: auto 10px auto auto; height: 60%; width: 10%;">Close</button>
+                </div>
+                <div class = "gridContainer" id="dealerGridContainer">
+                    <div class = "gridItem"><h1 style="color: black; margin: 27% 0 29% 0;"></h1></div>
+                    <div class = "gridItem"><h1 style="color: black; margin: 27% 0 29% 0;"></h1></div>
+                    <div class = "gridMiddleSpace"></div>
+                    <div class = "gridItem"><h1 style="color: black; margin: 27% 0 29% 0;"></h1></div>
+                    <div class = "gridItem"><h1 style="color: black; margin: 27% 0 29% 0;"></h1></div>
+                    <div class = "gridItem"><h1 style="color: black; margin: 27% 0 29% 0;"></h1></div>
+                    <div class = "gridItem"><h1 style="color: black; margin: 27% 0 29% 0;"></h1></div>
+                    <div class = "gridMiddleSpace"></div>
+                    <div class = "gridItem"><h1 style="color: black; margin: 27% 0 29% 0;"></h1></div>
+                    <div class = "gridItem"><h1 style="color: black; margin: 27% 0 29% 0;"></h1></div>
+                </div>
+                <div>
+                    <div class="dealerGroupSelectionContainer">
+                        <button id="nextGroup" disabled style="height: 120%;">Next group</button>
+                        <div id="dealerGroupCurrentColor" style="border: 3px solid lightcyan;"></div>
+                        <img src="images/arrow.png" alt="" style="width: 100%; height: auto; margin: auto; image-rendering: pixelated;">
+                        <div id="dealerGroupNextColor"></div>
+                    </div>
+                </div>
+                <h1>Player's items</h1>
+                <div class = "gridContainer" id="playerGridContainer">
+                    <div class = "gridItem"><h1 style="color: black; margin: 27% 0 29% 0;"></h1></div>
+                    <div class = "gridItem"><h1 style="color: black; margin: 27% 0 29% 0;"></h1></div>
+                    <div class = "gridMiddleSpace"></div>
+                    <div class = "gridItem"><h1 style="color: black; margin: 27% 0 29% 0;"></h1></div>
+                    <div class = "gridItem"><h1 style="color: black; margin: 27% 0 29% 0;"></h1></div>
+                    <div class = "gridItem"><h1 style="color: black; margin: 27% 0 29% 0;"></h1></div>
+                    <div class = "gridItem"><h1 style="color: black; margin: 27% 0 29% 0;"></h1></div>
+                    <div class = "gridMiddleSpace"></div>
+                    <div class = "gridItem"><h1 style="color: black; margin: 27% 0 29% 0;"></h1></div>
+                    <div class = "gridItem"><h1 style="color: black; margin: 27% 0 29% 0;"></h1></div>
+                </div>
+                <br>
+            </div>
+        </span>
+    <script src="main.js"></script>
+    <script src="itemTracker.js"></script>
+    <script id="DragDropTouch" src="https://bernardo-castilho.github.io/DragDropTouch/DragDropTouch.js"></script>
+    </body>
+</html>

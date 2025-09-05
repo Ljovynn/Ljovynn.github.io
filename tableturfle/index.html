@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tableturfle</title>
+    <meta name="title" property="og:title" content="Tableturfle"/>
+		<meta name="description" property="og:description" content="Guess the Tableturf card of the day!"/>
+    <style>
+    :root {
+      --blue: #432b86;
+      --yellow: #cbce2a;
+      --background: #3A3A3A;
+      --popupbackground: #3a3a3aef;
+    }
+    body {
+      text-align: center;
+      background-color: var(--background);
+      font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    h1
+    {
+      color: var(--yellow);
+      text-align: center;
+      font-size: max(2vw, 15px);
+    }
+    h3
+    {
+      color: lightcyan;
+      font-size: max(1.3vw, 12px);
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 8px;
+      border-radius: 0.3vw;
+      box-sizing: border-box;
+      display: inline-flex;
+    }
+    .main-area{
+      width: 85vw;
+      min-width: 450px;
+      text-align: center;
+      display: inline-block;
+    }
+    .search-area{
+      width: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      margin: 1vw 0 4vw 0;
+    }
+    .dropdown-list {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      border: 1px solid #ccc;
+      background: #fff;
+      max-height: 160px; /* 5 items * ~32px per item */
+      overflow-y: auto;
+      display: none;
+      z-index: 10;
+    }
+    .dropdown-container {
+      position: relative;
+      text-align: left;
+      width: 300px;
+      display: inline-flex;
+    }
+    .dropdown-item {
+      padding: 8px;
+      cursor: pointer;
+    }
+    .dropdown-item:hover {
+      display: inline-flex;
+      background-color: #f0f0f0;
+    }
+    .guess-area {
+      width: 90%;
+      display: grid;
+      margin: auto;
+    }
+    .guess {
+      width: 100%;
+      height: 7vw;
+      min-height: 60px;
+      border: 1px var(--yellow);
+      border-style: none none solid none;
+      grid-template-columns: 2.5fr 0.8fr 0.8fr 1.2fr 0.8fr 0.8fr 2fr 1.5fr;
+      display: grid;
+      text-align: center;
+    }
+    .top-guess{
+      background-color: var(--blue);
+      border-radius: 1.5vw;
+      border: 2px var(--yellow);
+      border-style: none solid none solid;
+    }
+    .guess-section {
+      border-radius: 1.5vw;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: 5%;
+      margin-right: 5%;
+      padding: 1%;
+      display: inline;
+    }
+    .correct-value {
+      background-color: green;
+    }
+    .close-value {
+      background-color: var(--yellow);
+    }
+    .wrong-value {
+      background-color: red;
+    }
+    .popup {
+      position: absolute;
+      background-color: var(--popupbackground);
+      height: auto;
+      max-height: 80vh;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 1.5vw;
+      border: 1px solid var(--yellow);
+      text-align: center;
+      visibility: hidden;
+      display: none;
+      overflow: hidden;
+    }
+    .popup-content {
+      max-height: 72vh; /* same as popup */
+      overflow-y: auto;
+    }
+    .popup-content::-webkit-scrollbar {
+      width: 10px;
+      height: 80%;
+    }
+    .popup-content::-webkit-scrollbar-track {
+      background: #3a3a3aef;
+      border-radius: 10px;
+    }
+    .popup-content::-webkit-scrollbar-thumb {
+      background-color: var(--yellow);
+      border-radius: 10px;
+      border: 2px solid var(--popupbackground);
+    }
+    .popup-content::-webkit-scrollbar-thumb:hover {
+      background-color: var(--yellow);
+    }
+    .corner-share-button {
+      visibility: hidden;
+      display: none;
+      position: absolute;
+      top: 5%;
+      left: 89%;
+    }
+    .info-button {
+      position: absolute;
+      top: 5%;
+      left: 80%;
+    }
+    .win-popup {
+      width: 35vw;
+    }
+    .info-popup {
+      width: 60vw;
+    }
+    .open-popup {
+      visibility: visible;
+      display: inline;
+    }
+    .lang-icon {
+      position: absolute;
+      min-width: 50px;
+      width: 4vw;
+      height: auto;
+      top: 5%;
+      left: 10%;
+    }
+  </style>
+</head>
+<body>
+<div class="main-area">
+  <div style="margin: auto;">
+    <h1>Tableturfle</h1>
+  </div>
+  <div class="search-area">
+    <div class="dropdown-container">
+      <input type="text" id="cardInput" placeholder="Choose a Tableturf card">
+      <div id="dropdownList" class="dropdown-list">
+      </div>
+      <button type="button" id="inputButton" style="margin-left: 10px;" disabled="true">Guess</button>
+    </div>
+  </div>
+  <div class="guess-area">
+    <div class="guess top-guess">
+      <div class="guess-section"><h3>Name</h3></div>
+      <div class="guess-section"><h3>ID</h3></div>
+      <div class="guess-section"><h3>Size</h3></div>
+      <div class="guess-section"><h3>Special Point spend</h3></div>
+      <div class="guess-section"><h3>Length</h3></div>
+      <div class="guess-section"><h3>Width</h3></div>
+      <div class="guess-section"><h3>Category</h3></div>
+      <div class="guess-section"><h3>Release date</h3></div>
+    </div>
+  </div>
+</div>
+<div class="popup win-popup">
+  <div class="popup-content">
+    <div style="margin: 2vh 0 4vh 0;">
+      <h1 id="winCongratsText">Congratulations!</h1>
+    </div>
+    <div style="margin: 1vh 0 3vh 0;">
+      <h3 id="guessTotalText">You won in X guesses</h3>
+    </div>
+    <div style="margin: 1vh 0 3vh 0;">
+      <h3 id="dateText">Date</h3>
+    </div>
+    <div style="margin: 1vh 0 1vh 0;">
+      <button type="button" id="shareButton" style="margin-right: 5vw;">Share!</button>
+      <button type="button" class="close-popup-button" style="margin-left: 5vw;">Close</button>
+    </div>
+  </div>
+</div>
+<div class="popup info-popup">
+  <div class="popup-content">
+    <div style="margin: 1vh 0 2vh 0;">
+      <h1 id="aboutTitle">About</h1>
+    </div>
+    <div style="margin: 1vh 3% 2vh 3%; text-align: left;">
+      <h3 id="aboutText"><span style="color: var(--yellow);">Tableturfle</span> is a game similar to Wordle where the player has to guess the correct daily Tableturf Battle card in as few tries as possible.
+        <br>After each guess, information on several properties of the guessed card is revealed, color coded based on how close it is to the correct card.
+        <br>🟩: Correct
+        <br>🟨: Close
+        <br>🟥: Incorrect</h3>
+    </div>
+    <div style="margin: 1vh 0 2vh 0;">
+      <h1 id="infoTitle">Info</h1>
+    </div>
+    <div style="margin: 1vh 3% 2vh 3%; text-align: left;">
+      <h3 id="infoText"><span style="color: var(--yellow);">ID:</span> The ID of the card. 🟨 within 20 range of the correct card.
+      <br><span style="color: var(--yellow);">Size:</span> How many spaces the card has. 🟨 within 2 range of the correct card.
+      <br><span style="color: var(--yellow);">Special Point spend:</span> How many special points it takes to use the card as a special attack. 🟨 within 1 range of the correct card.
+      <br><span style="color: var(--yellow);">Length / width:</span> The length and width of the card's spaces. The length is always the bigger number. 🟨 within 1 range of the correct card.
+      <br><span style="color: var(--yellow);">Category:</span> The category of what the card represents. 🟨 doesn't appear.
+      <br><span style="color: var(--yellow);">Release date:</span> When the card first got available. 🟨 doesn't appear.</h3>
+    </div>
+    <div style="margin: 1vh 0 2vh 0;">
+      <h1 id="categoriesTitle">Categories</h1>
+    </div>
+    <div style="margin: 1vh 3% 2vh 3%; text-align: left;">
+      <h3 id="categoriesText">All the different categories are: Main weapon, Sub weapon, Special weapon, NPC, Brand, Octarian, Salmonid, Mode objective.
+      <br>
+      <br>The categories are grouped by the ID order of the cards. Here are a few cards that might not be obvious:
+      <br>Squee-G, Flooder, DJ Octavio are octarians. Smallfry is an NPC. Rainmaker is a Mode objective.
+      <br>For full data of every card, <a href="/tableturfle/cardData.json">click here.</a></h3>
+    </div>
+  </div>
+  <div style="margin: 1vh 0 1vh 0;">
+    <button type="button" class="close-popup-button">Close</button>
+  </div>
+</div>
+<button type="button" id="cornerShareButton" class="corner-share-button">Share!</button>
+<button type="button" id="infoButton" class="info-button">Info</button>
+<input type="image" src="../images/LanguageIcon.jpg" id="langInput" class="lang-icon">
+
+<script src="main.js"></script>
+
+</body>
+</html>

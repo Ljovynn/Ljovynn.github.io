@@ -348,7 +348,7 @@ function CopyGameToClipboard(){
             }
         }
     }
-    copyValue += "\n\n(" + today + ")\n" + langData[language].copyText.playAt + "https://ljovynn.github.io/tableturfle/main.html";
+    copyValue += "\n\n(" + today + ")\n" + langData[language].copyText.playAt + "https://ljovynn.github.io/tableturfle";
     navigator.clipboard.writeText(copyValue);
     //confirm("Copied!");
 }
